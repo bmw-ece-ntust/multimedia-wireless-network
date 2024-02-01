@@ -20,23 +20,24 @@
 3. Youtube [Playlist](https://www.youtube.com/playlist?list=PLNxlEcQdkOt_qHBq-W7T_eMtIJe3Ebryz) of course recordings.
 4. [WebEx Link for Online Course](https://ctld.webex.com/meet/crg).
 5. [Q&A Google Form](https://forms.gle/FCPydtpv225nNDhz6).
-    
-    > [!NOTE]  
-    > 1. You can only use NTUST gapps account to input ([NTUST gapps application instruction](https://forms.gle/WLK8a5GDFpjT9AKLA)).
-    > 2. This form is only opened during the course session (automatically closed outside the course session).
+  
+  > [!IMPORTANT]  
+  > 1. You can only use NTUST gapps account to input ([NTUST gapps application instruction](https://forms.gle/WLK8a5GDFpjT9AKLA)).
+  > 2. This form is only opened during the course session (automatically closed outside the course session).
 
-    > [!TIP]
-    > Submit your Q&A **immediately**.
+  > [!TIP]
+  > Submit your Q&A **immediately**.
 
-    > [!CAUTION]
-    > We won't count your Q&A outside the course session.
+  > [!CAUTION]
+  > We won't count your Q&A outside the course session.
 
 
 ## 1.3 Initial ToDo
 1. Read the [GitHub markdown features](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) information.
 2. Download [Visual Studio Code](https://code.visualstudio.com/download) (for study notes editing).
-    > [!TIP]
-    Read how to generate automatic [Table of Content (ToC)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents) using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension.
+  
+  > [!TIP]
+  Read how to generate automatic [Table of Content (ToC)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents) using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension.
 3. Create your own [GitHub account](https://github.com/join).
 4. Create your own branch in this repository using this format: `[year]-[student ID]-[English Name]`.
     
@@ -57,16 +58,17 @@ Ray -->
     3. QoS Mechanisms 
     4. Selected Standards
 
-    > [!NOTE]
-    >We give an overview of the multimedia application. The fundamentals of Quality of Service (QoS) is then introduced. Some commonly used QoS Mechanisms will be given. Finally, we will use some popular wireless standards as examples to illustrate the usage of the QoS mechanisms. (The assessment for this part is through **Midterm Exam**).
-3. **Interpersonal** & **teamwork** skills practice through 5 assignments.
+  > [!NOTE]
+  >We give an overview of the multimedia application. The fundamentals of Quality of Service (QoS) is then introduced. Some commonly used QoS Mechanisms will be given. Finally, we will use some popular wireless standards as examples to illustrate the usage of the QoS mechanisms. (The assessment for this part is through **Midterm Exam**).
 
-    > [!TIP] Readme First
-    [The jobs of the future – and two skills you need to get them](https://www.weforum.org/agenda/2016/09/jobs-of-future-and-skills-you-need)
+2. **Interpersonal** & **teamwork** skills practice through 5 assignments.
 
-    > [!NOTE] Conclussion:
-    The study shows that workers who successfully combine mathematical and interpersonal skills in the knowledge-based economies of the future should find many rewarding and lucrative opportunities.
+  > [!TIP]
+  > Readme First: [The jobs of the future – and two skills you need to get them](https://www.weforum.org/agenda/2016/09/jobs-of-future-and-skills-you-need)
 
+  > [!NOTE]
+  > Conclussion:
+  > The study shows that workers who successfully combine mathematical and interpersonal skills in the knowledge-based economies of the future should find many rewarding and lucrative opportunities.
 
 ## 2.2. Schedule
 TBD

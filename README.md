@@ -115,10 +115,11 @@ Ray -->
 | Juniper eLearning - II | [Getting Started with Wi-Fi](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                                                                                                                                                                                                                                            |                                                                                                  |
 
 ## 2.3. Evaluation
-- **Q&A/Presentation: 15%**
+- Q&A/Presentation: **15%**
     - Weekly: up to **15 pts** (1 pt/week)
-- **[Assignments](#24-assignments): 45%**
-- **Final Exam: 30%**. Materials:
+- [Assignments](#24-assignments): **30%**
+- Top 3 Students: **15%**
+- Final Exam: **30%**. Materials:
   - QoS Fundamentals
   - QoS Mechanisms
   - Assignments
@@ -140,26 +141,28 @@ Ray -->
     3. [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/how-to-write-a-report/)
     4. [10 Tips for Better Teamwork](https://www.thebalancecareers.com/tips-for-better-teamwork-1919225)
 - Score (15%):
-    - Study note: 2 pt/item * 4 = **7 pt**;
-    - Video (4~5 mins): 1 pt/item * 4 = **6 pt**;
+    - Study note: 2 pt/item * 1 = **4 pt**;
+    - Video (4~5 mins): 1 pt/item * 4 = **4 pt**;
     - Experience sharing (3~5 mins): **2 pt**
 
 ### A2 (Deadline: 4/9, 08.00 A.M.)
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- Paper: [Modeling and Estimation of One-Shot Random Access for Finite-User Multichannel Slotted ALOHA Systems](https://ieeexplore.ieee.org/abstract/document/6211364)
+- Topics: Joint Communication and Sensing with WiFi
+- References: TBD
 - Score (15%):
-    - Study note: **3 pt**
-    - Flowchart + source code for simulation and analysis: **5 pt**
-    - Numercial Results (should be identical as the paper): **5 pt**
+    - Study note: **2 pt**
+    - Flowchart + source code for simulation and analysis: **3 pt**
+    - Numercial Results (should be identical as the paper): **3 pt**
     - Oral presentation: **2 pt**
 
 ### A3 (Deadline: 5/14, 08.00 A.M.)
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- Paper: [ALOHA Packet System With and Without Slots and Capture](https://www.researchgate.net/publication/234802142_ALOHA_Packet_System_With_and_Without_Slots_and_Capture)
+- Topics: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
+- References: TBD
 - Score (15%):
-    - Study note: **3 pt**
-    - Flowchart + source code for analysis: **5 pt**
-    - Numercial Results (should be identical as the paper): **5 pt**
+    - Study note: **2 pt**
+    - Flowchart + source code for analysis: **3 pt**
+    - Numercial Results (should be identical as the paper): **3 pt**
     - Oral presentation: **2 pt**
 
 <!-- # 3. Paper Studies

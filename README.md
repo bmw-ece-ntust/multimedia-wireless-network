@@ -149,7 +149,10 @@ Ray -->
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
 - Topics: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
 - References:
+    - [Events and Simulator](https://www.nsnam.org/docs/manual/html/events.html)
     - [Wifi Models](https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)
+    - [Mac Layer Specific TXOP for EDCA in Ns-3 802.11e](https://copyprogramming.com/howto/ns-3-802-11e-edca-txop-specific-mac-layer)
+    - [IEEE-802.11ah-ns-3](https://github.com/imec-idlab/IEEE-802.11ah-ns-3/blob/master/src/wifi/doc/source/wifi-design.rst)
 - Score (15%):
     - Study note: **2 pt**
     - Flowchart + source code for analysis: **3 pt**

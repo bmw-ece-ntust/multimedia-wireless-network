@@ -147,21 +147,22 @@ Ray -->
 
 ### A2 (Deadline: 4/9, 08.00 A.M.)
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- Topics: Joint Communication and Sensing with WiFi
-- References: TBD
+- Topics: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
+- References:
+    - [Wifi Models](https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)
 - Score (15%):
     - Study note: **2 pt**
-    - Flowchart + source code for simulation and analysis: **3 pt**
+    - Flowchart + source code for analysis: **3 pt**
     - Numercial Results (should be identical as the paper): **3 pt**
     - Oral presentation: **2 pt**
 
 ### A3 (Deadline: 5/14, 08.00 A.M.)
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- Topics: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
+- Topics: Joint Communication and Sensing with WiFi
 - References: TBD
 - Score (15%):
     - Study note: **2 pt**
-    - Flowchart + source code for analysis: **3 pt**
+    - Flowchart + source code for simulation and analysis: **3 pt**
     - Numercial Results (should be identical as the paper): **3 pt**
     - Oral presentation: **2 pt**
 

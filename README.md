@@ -118,7 +118,7 @@ Ray -->
 - Q&A/Presentation: **15%**
     - Weekly: up to **15 pts** (1 pt/week)
 - [Assignments](#24-assignments): **30%**
-- Top 3 Students: **15%**
+    - Top 3 Students: **15%**
 - Final Exam: **30%**. Materials:
   - QoS Fundamentals
   - QoS Mechanisms
@@ -142,6 +142,7 @@ Ray -->
     - Study note: 2 pt/item * 1 = **4 pt**;
     - Video (4~5 mins): 1 pt/item * 4 = **4 pt**;
     - Experience sharing (3~5 mins): **2 pt**
+    - Top 3 Students: **5 pt**
 
 ### A2 (Deadline: 4/9, 08.00 A.M.)
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
@@ -156,6 +157,7 @@ Ray -->
     - Flowchart + source code for analysis: **3 pt**
     - Numercial Results (should be identical as the paper): **3 pt**
     - Oral presentation: **2 pt**
+    - Top 3 Students: **5 pt**
 
 ### A3 (Deadline: 5/14, 08.00 A.M.)
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
@@ -166,6 +168,7 @@ Ray -->
     - Flowchart + source code for simulation and analysis: **3 pt**
     - Numercial Results (should be identical as the paper): **3 pt**
     - Oral presentation: **2 pt**
+    - Top 3 Students: **5 pt**
 
 <!-- # 3. Paper Studies
 

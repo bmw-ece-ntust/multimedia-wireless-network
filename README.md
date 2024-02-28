@@ -126,9 +126,7 @@ Ray -->
 
 >[!NOTE] 
 > The final score of this course can be adjusted to meet the requirements from our department:
-> 
-> 研究所   標準平均：3.1 ~3.8    (百分數：77 ~ 85.67)
->
+> 研究所   GPA: 3.1 ~3.8 (Grades in percentage：77 ~ 85.67)
 > Extra work for score adjustment will be given **after the Final Score is released**.
 
 

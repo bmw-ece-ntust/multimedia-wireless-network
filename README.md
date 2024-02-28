@@ -188,9 +188,7 @@ Reference:
 - [GitHub Markdown Features](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Ultralearning by Scott Young](https://www.scotthyoung.com/blog/ultralearning/)
 - [Time Management by Randy Pausch](https://www.youtube.com/watch?v=JKBFwR1HIFU)
-- Leaky bucket algorithm
--   [1](https://www.geeksforgeeks.org/leaky-bucket-algorithm/)
--   [2](https://fsmk-vtu-cs-department-lab-manual-for-c-programming.readthedocs.io/en/latest/VTU/Sem7/Networks_Lab/12LeakyBucket/LeakyBucket/)
+- Leaky bucket algorithm ([1](https://www.geeksforgeeks.org/leaky-bucket-algorithm/),[2](https://fsmk-vtu-cs-department-lab-manual-for-c-programming.readthedocs.io/en/latest/VTU/Sem7/Networks_Lab/12LeakyBucket/LeakyBucket/)]
 
 # Samples
 - [2019](https://hackmd.io/PT5GnfcETu-eMZWV_DHWPQ?view&fbclid=IwAR3cCQZOzJSczTz4s53SW3EXwmHf_aFAmeC0ClxvgH5bB5KVIvMuCvh3nuk#Proposal-of-final-project)

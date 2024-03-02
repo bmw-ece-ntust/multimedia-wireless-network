@@ -1,5 +1,9 @@
 **Outline**
-[TOC]
+
+- [5 Minute Presentation](#5-minute-presentation)
+- [How to Read a Paper](#how-to-read-a-paper)
+- [How to Write a Report](#how-to-write-a-report)
+- [10 Tips for Better Teamwork](#10-tips-for-better-teamwork)
 
 ###### tags: `Multimedia Wireless Network`
 

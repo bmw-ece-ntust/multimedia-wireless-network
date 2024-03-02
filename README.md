@@ -132,21 +132,30 @@ Ray -->
 
 ## 2.4. Assignments
 ### A1 (Deadline: 3/5, 08.00 A.M.)
-- Purpose: Learn the background knowledge of interpersonal skills and apply it in the following assignments.
+- **Purpose**: Learn the background knowledge of interpersonal skills and apply it in the following assignments.
 - Interpersonal Skills:
     1. 5-Minute Presentation ([[1]](https://www.thebalancesmb.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))
     2. [How to Read a Paper](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
     3. [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/how-to-write-a-report/)
     4. [10 Tips for Better Teamwork](https://www.thebalancecareers.com/tips-for-better-teamwork-1919225)
 - Score (15%):
-    - Study note: 2 pt/item * 1 = **4 pt**;
-    - Video (4~5 mins): 1 pt/item * 4 = **4 pt**;
-    - Experience sharing (3~5 mins): **2 pt**
-    - Top 3 Students: **5 pt**
+    - **Create a study note** (1 pt/item, **Total = 4 pt**);
+      > [!NOTE]
+      > Create your study note in a markdown file, then upload it to your own branch - [Instruction](#13-initial-todo)
+    - **Presentation Video 4~5 mins** (**4 pt**);
+      > [!NOTE]
+      > Record a video to explain your study note, then upload it to your Youtube.
+    - **Submit the [peer review form](https://forms.gle/83ApPvGkm1Q9FgUU7)** (**2 pt**)
+      > [!NOTE]
+      > After the deadline, the Google Form will be opened for 1 week.
+    - **Top 3 Students** (**Up to 5 pt**):
+      - Student 1 (5 pt): [Name]
+      - Student 2 (3 pt): [Name]
+      - Student 3 (1 pt): [Name]
 
 ### A2 (Deadline: 4/9, 08.00 A.M.)
-- Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- Topics: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
+- **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results.
+- **Topics**: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
 - References:
     - [Events and Simulator](https://www.nsnam.org/docs/manual/html/events.html)
     - [Wifi Models](https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)
@@ -160,9 +169,9 @@ Ray -->
     - Top 3 Students: **5 pt**
 
 ### A3 (Deadline: 5/14, 08.00 A.M.)
-- Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- Topics: Joint Communication and Sensing with WiFi
-- References: TBD
+- **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results.
+- **Topics**: Joint Communication and Sensing with WiFi
+- References: TBD.
 - Score (15%):
     - Study note: **2 pt**
     - Flowchart + source code for simulation and analysis: **3 pt**

@@ -142,34 +142,43 @@ In the real life, certain work groups demonstrate effective teamwork, while othe
    
 When the team is clear about the goals and is committed to attaining them, there will be a clear direction and agreement on mission and purpose which is essential for effective teamwork.
 
-3. Environment Encourages Reasonable Risks
+2. Environment Encourages Reasonable Risks
+   
 Creating a team environment in which members of the group feel comfortable for taking reasonable risks while taking actions, advocating positions and communicating ensures trust among the team members. In team work, disagreement is common and members are not punished for disagreeing.  
 
-4. Respectful Communication Is the Norm
+3. Respectful Communication Is the Norm
+ 
 Open, honest and respectful communication is one of the top 10 tips of creating a better teamwork. The team members are expected to express their thoughts, views and solutions to problems freely.
  
-5. Strong Sense of Group Commitment
+4. Strong Sense of Group Commitment
+
 Strong sense of group ownership is characteristics of the team members having a deep commitment to the group’s decisions and actions. This sense of belonging is enhanced and reinforced when the team spends the time to develop team norms or relationship guidelines together.
 
-6. Viewed As Unique People
+5. Viewed As Unique People
+
 The team is formed in order to take advantage of the differences in distinct backgrounds, perspectives, expertise, and insights that are invaluable contributions. Thus, the members are seen as unique people with irreplaceable experiences, points of view, knowledge, and opinions to contribute. 
 
-7. Creativity and Innovation Are the Norms
+6. Creativity and Innovation Are the Norms
 In team, diverse creativity, innovation, and different insights are highly expected and encouraged. The team recognizes that having team members that brings diversified problem solving solutions, enhance a process, achieve goal, innovate and create new and exciting things. 
 
-8. Engages in Continuous Improvement
+7. Engages in Continuous Improvement
+
 The team member consistently evaluates itself and continuously to enhance its processes, practice and collaborates among the members. They openly discuss team norms and identify any obstacles that may hinder their progress in areas of effort, talent, and strategy.
 
-9. Solves Teamwork Problems and Conflicts
+8. Solves Teamwork Problems and Conflicts
+
 The members are able work towards the mutual resolution of problems and disagreements. They must agree-upon the steps for diagnosing, analyzing, and resolving teamwork problems and conflicts. On the other hand, personality conflict and clashes between members are not supported by the team. 
 
-10. Practices Participative Leadership
+9. Practices Participative Leadership
+
 In order to get successful outcomes and contributions in the team work, each participant is required to actively participate and contribute to leading the team. This is achieved by leading meetings, assigning tasks, documenting decisions and commitments, monitoring progress, ensuring accountable and providing direction for the team.
 
-11. Makes High-Quality Decisions As a Team
+10. Makes High-Quality Decisions As a Team
+
 Members of the team collaborate to make high-quality decisions collectively, receiving support and commitment of the group to carry out the decisions made. They also receive the support and commitment of the people they report to in order to achieve and communicate the team's progress and achievements.
 
 # E. References:
+
 1. 5-Minute Presentation ([[1]](https://www.thebalancesmb.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))
 2. [How to Read a Paper]( https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
 3. [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/how-to-write-a-report/)

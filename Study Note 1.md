@@ -57,13 +57,13 @@ The three pass approach strategy introduces three passes, instead of starting at
 This step involves gaining a general understanding of the entire paper, which aids in planning what areas to focus on for deeper study. It also helps in formulating questions that will assist in comprehending the content thoroughly. It involves 
 </div>
     
-:::success
+
 * A rapid reviewing a paper within 5~10 minutes
 * Focusing on reading the abstract, introduction
 * Focusing on reading all titles and headings
 * Formulating questions about the paper, and 
 * Ignoring the actual body of the work.
-:::
+
 After the first pass strategy, the reader should be able to answer the five Cs：
 1. Categroy：type of the paper?
 2. Content：related papers and theoretical bases that was used to analyze the problem?
@@ -105,17 +105,17 @@ Step 3 Go to the website for these top conference and look through their recent 
 Reports typically present or summarize information on a particular topic or issue, offering recommendations and proposals. A well-written report should provide all the necessary details for individuals unfamiliar with the subject. It is essential to meticulously plan the execution of your paper, determining the required background information, references, and data. When writing a report it important to use clear, concise and accurate, and use a recognizable structure. All the reports are expected to have a similar structure and can include:
   </div>
   
-• Title page 
-• Executive summary, 
-• Contents page, 
-• Introduction, 
-• Terms of reference, 
-• Procedure,
-• Findings, 
-• Conclusions, 
-• Recommendations, 
-• References/bibliography and 
-• Appendices. 
+* Title page
+* Executive summary,
+* Contents page,
+* Introduction,
+* Terms of reference,
+* Procedure,
+* Findings,
+* Conclusions,
+* Recommendations,
+* References/bibliography and
+* Appendices. 
 
 
 Considering different types of reports, some details may differ. The step that can be followed while writing a report are 
@@ -139,33 +139,34 @@ In the real life, certain work groups demonstrate effective teamwork, while othe
  </div>
  
 1. Clear About Its Mission and Goals
+   
 When the team is clear about the goals and is committed to attaining them, there will be a clear direction and agreement on mission and purpose which is essential for effective teamwork.
 
-2. Environment Encourages Reasonable Risks
+3. Environment Encourages Reasonable Risks
 Creating a team environment in which members of the group feel comfortable for taking reasonable risks while taking actions, advocating positions and communicating ensures trust among the team members. In team work, disagreement is common and members are not punished for disagreeing.  
 
-3. Respectful Communication Is the Norm
+4. Respectful Communication Is the Norm
 Open, honest and respectful communication is one of the top 10 tips of creating a better teamwork. The team members are expected to express their thoughts, views and solutions to problems freely.
  
-4. Strong Sense of Group Commitment
+5. Strong Sense of Group Commitment
 Strong sense of group ownership is characteristics of the team members having a deep commitment to the group’s decisions and actions. This sense of belonging is enhanced and reinforced when the team spends the time to develop team norms or relationship guidelines together.
 
-5. Viewed As Unique People
+6. Viewed As Unique People
 The team is formed in order to take advantage of the differences in distinct backgrounds, perspectives, expertise, and insights that are invaluable contributions. Thus, the members are seen as unique people with irreplaceable experiences, points of view, knowledge, and opinions to contribute. 
 
-6. Creativity and Innovation Are the Norms
+7. Creativity and Innovation Are the Norms
 In team, diverse creativity, innovation, and different insights are highly expected and encouraged. The team recognizes that having team members that brings diversified problem solving solutions, enhance a process, achieve goal, innovate and create new and exciting things. 
 
-7. Engages in Continuous Improvement
+8. Engages in Continuous Improvement
 The team member consistently evaluates itself and continuously to enhance its processes, practice and collaborates among the members. They openly discuss team norms and identify any obstacles that may hinder their progress in areas of effort, talent, and strategy.
 
-8. Solves Teamwork Problems and Conflicts
+9. Solves Teamwork Problems and Conflicts
 The members are able work towards the mutual resolution of problems and disagreements. They must agree-upon the steps for diagnosing, analyzing, and resolving teamwork problems and conflicts. On the other hand, personality conflict and clashes between members are not supported by the team. 
 
-9. Practices Participative Leadership
+10. Practices Participative Leadership
 In order to get successful outcomes and contributions in the team work, each participant is required to actively participate and contribute to leading the team. This is achieved by leading meetings, assigning tasks, documenting decisions and commitments, monitoring progress, ensuring accountable and providing direction for the team.
 
-10. Makes High-Quality Decisions As a Team
+11. Makes High-Quality Decisions As a Team
 Members of the team collaborate to make high-quality decisions collectively, receiving support and commitment of the group to carry out the decisions made. They also receive the support and commitment of the people they report to in order to achieve and communicate the team's progress and achievements.
 
 # E. References:

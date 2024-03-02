@@ -20,10 +20,10 @@
 4. Create `.md` files for your study notes.
 
 ## 1. Profile
-1. Name: 
-2. Student ID: 
-3. Department: 
-4. Student status: (NTUST Student/Exchange student)
+1. Name: Paul Weiler
+2. Student ID: E11202011 
+3. Department: Department of Electronic and Computer Engineering
+4. Student status: Exchange student
 
 ## 2. Assignments:
 

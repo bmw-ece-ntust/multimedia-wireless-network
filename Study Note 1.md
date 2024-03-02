@@ -5,9 +5,10 @@
 
 # A. Five-Minute Presentation
 ## Introduction
-<div style="text-align: justify"> 
+
+<p align="justify">
 Creating and delivering five-minute presentation is more challenging of all presentations though it is less boring and more engaging than a 60 minutes presentation. The primary objective of a five-minute presentation is to deliver a concise and impactful message focusing on a single key point. Thus, in five minutes, you can accomplish beautiful and effective presentation slides in the following manner.
-</div>
+</p>
 
 ## A.1. Creating a successful five minute presentation
 The most common practices for making a memorable method of engaging your audience are 
@@ -24,9 +25,9 @@ In five minute presentation, you need to captivate the audience’s attention fo
 You need to use statistics and numbers only if they are relevant to the point you are making. It is worth mentioning that it is important to consider your audience's demographics and your presentation subject.
 
 ##  A.2. Tips in Five Minutes presentation 
-<div style="text-align: justify"> 
+<p align="justify">
 In the following section, we are going to present the five tips for creating beautiful and effective presentation slides that captivates the audience’s attention.
-</div>
+</p>
 
 * Keep it simple
 Try to use simple slides and templates. 
@@ -42,20 +43,20 @@ You should use the same font and color consistently throughout the slides.
 # B. How to Read a Paper 
 ## Introduction
 
-<div style="text-align: justify">
+<p align="justify">
 This report discusses the challenge researchers face when reading multiple papers for reviewing, staying updated, and conducting literature reviews in new fields. The author, S. Keshav, in the paper "How to Read a Paper," outlines strategies to read information faster and retain important details while skipping irrelevant parts. He introduced a simple three pass approach to effectively read research papers and its usage in literature survey.
-</div>
+</p>
 
 ## B.1. The three pass approach 
 
-<div style="text-align: justify">
+<p align="justify">
 The three pass approach strategy introduces three passes, instead of starting at the beginning and reading the whole paper. It breaks reading the paper into multiple times allows you to have a lesser focus on certain parts of the paper. 
-</div>
+</p>
 
 ### First pass:
-<div style="text-align: justify">
+<p align="justify">
 This step involves gaining a general understanding of the entire paper, which aids in planning what areas to focus on for deeper study. It also helps in formulating questions that will assist in comprehending the content thoroughly. It involves 
-</div>
+</p>
     
 
 * A rapid reviewing a paper within 5~10 minutes
@@ -71,9 +72,9 @@ After the first pass strategy, the reader should be able to answer the five Cs�
 4.	Contributions：main contributions
 5.	Clarity： well written?
 ### Second pass: 
-<div style="text-align: justify">
+<p align="justify">
 Comparing to the first pass strategy, this step involves reviewing a paper within 1 hour if you're familiar with the content and 4-5 hours if you're new to reading research papers. However, don’t focus on detailed proofs. 
-</div>
+</p>
     
 :::success
 * Carefully look at the graphs, data and figures.
@@ -84,11 +85,11 @@ Comparing to the first pass strategy, this step involves reviewing a paper withi
 After the second pass, the reader should summarize the main content.
 ### Third pass:
 
-<div style="text-align: justify">
+<p align="justify">
 In this phase, attempting to virtually re-implement a research paper with the same assumptions as the authors is a crucial step in understanding the work thoroughly. By recreating the study, you can uncover any hidden flaws or assumptions that might not have been apparent initially. This process helps in validating the findings and allows for a deeper understanding of the research methodology and results.
     
 At the end of third pass, you need to reconstruct the structure of the paper and able to identify its strong and weak points.
-    </div>
+    </p>
     
 ## B.2. Doing a literature survey:
 
@@ -101,9 +102,10 @@ Step 3 Go to the website for these top conference and look through their recent 
 # C. How to Write a Report
 
 ## Introduction 
-<div style="text-align: justify">
+
+<p align="justify">
 Reports typically present or summarize information on a particular topic or issue, offering recommendations and proposals. A well-written report should provide all the necessary details for individuals unfamiliar with the subject. It is essential to meticulously plan the execution of your paper, determining the required background information, references, and data. When writing a report it important to use clear, concise and accurate, and use a recognizable structure. All the reports are expected to have a similar structure and can include:
-  </div>
+  </p>
   
 * Title page
 * Executive summary,
@@ -134,9 +136,9 @@ Considering different types of reports, some details may differ. The step that c
 
 # D. 10 Tips for Better Teamwork
 
-<div style="text-align: justify">
+<p align="justify">
 In the real life, certain work groups demonstrate effective teamwork, while others struggle with dysfunction throughout their existence. Effective teamwork is a concept that is both fundamentally simple and challenging simultaneously, and the achievement of a team is closely linked to the organizational culture they operate within. Some organizational cultures foster teamwork, while others do not. Ten factors play a crucial role in determining the success of work teams within your organization.
- </div>
+ </p>
  
 1. Clear About Its Mission and Goals
    

@@ -1,8 +1,3 @@
----
-title: Study note 1
-
----
-
 **Outline**
 [TOC]
 ###### tags: `Multimedia Wireless Network`

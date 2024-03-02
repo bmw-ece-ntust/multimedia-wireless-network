@@ -159,6 +159,7 @@ Strong sense of group ownership is characteristics of the team members having a 
 The team is formed in order to take advantage of the differences in distinct backgrounds, perspectives, expertise, and insights that are invaluable contributions. Thus, the members are seen as unique people with irreplaceable experiences, points of view, knowledge, and opinions to contribute. 
 
 6. Creativity and Innovation Are the Norms
+
 In team, diverse creativity, innovation, and different insights are highly expected and encouraged. The team recognizes that having team members that brings diversified problem solving solutions, enhance a process, achieve goal, innovate and create new and exciting things. 
 
 7. Engages in Continuous Improvement

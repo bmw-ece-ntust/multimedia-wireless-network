@@ -105,7 +105,6 @@ Step 3 Go to the website for these top conference and look through their recent 
 Reports typically present or summarize information on a particular topic or issue, offering recommendations and proposals. A well-written report should provide all the necessary details for individuals unfamiliar with the subject. It is essential to meticulously plan the execution of your paper, determining the required background information, references, and data. When writing a report it important to use clear, concise and accurate, and use a recognizable structure. All the reports are expected to have a similar structure and can include:
   </div>
   
-:::success
 • Title page 
 • Executive summary, 
 • Contents page, 
@@ -117,7 +116,7 @@ Reports typically present or summarize information on a particular topic or issu
 • Recommendations, 
 • References/bibliography and 
 • Appendices. 
-:::
+
 
 Considering different types of reports, some details may differ. The step that can be followed while writing a report are 
 

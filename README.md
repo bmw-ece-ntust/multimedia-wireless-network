@@ -28,6 +28,7 @@
 <div style="text-align: justify"> 
 Hello everyone, I am Dawit Hadush Hailu, currently admitted to PhD program under department of computer science and Information Engineering. I am currently working under the supervision of Distinguished Professor Huei-Wen Ferng in the area of wireless communication and network Engineering. The reason why I chose this course is that it will seamlessly help me to my research area.
 </div>
+
 ## 2. Assignments:
 
 ### A1 (DL: 2024/03/05, 08.00 A.M.)

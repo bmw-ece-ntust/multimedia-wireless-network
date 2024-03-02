@@ -13,15 +13,19 @@ Creating and delivering five-minute presentation is more challenging of all pres
 ## A.1. Creating a successful five minute presentation
 The most common practices for making a memorable method of engaging your audience are 
 * Research -
+  
 Examine into your research topic extensively and pinpoint the important key points. 
 * Chose one important concept -
+  
 Focus on conveying a singular point related to the topic you are discussing.
 * Practice -
+  
 Prior to the presentation, it is essential to rehearse your tone, intonation, and body language in front of a mirror. To captivate your audience's attention, you should aim to be polished, composed, and informative.
- 
 * Introduce the concept with flair, immediately-
+  
 In five minute presentation, you need to captivate the audience’s attention form the first sentences and lead them with a compelling or controversial position. 
 * Telling story –
+  
 You need to use statistics and numbers only if they are relevant to the point you are making. It is worth mentioning that it is important to consider your audience's demographics and your presentation subject.
 
 ##  A.2. Tips in Five Minutes presentation 
@@ -30,17 +34,24 @@ In the following section, we are going to present the five tips for creating bea
 </p>
 
 * Keep it simple
+  
 Try to use simple slides and templates. 
 * Never read from slides
+
 Since human brain is not good at processing texts and audio at the same time, reading sliding and presenting will distract audiences. 
 * Use beautiful photos
-The images you are going to use in your slid must add meaning to what you’re saying.  It is advisable that the image quality should be at least 1920 X 1280 (pixels). 
-* Keep data simple 
+  
+The images you are going to use in your slid must add meaning to what you’re saying.  It is advisable that the image quality should be at least 1920 X 1280 (pixels).
+ 
+* Keep data simple
+  
 Put only one point in each slide and the persuasive data must be as simple as possible.
 * Repetition
+  
 You should use the same font and color consistently throughout the slides. 
 
 # B. How to Read a Paper 
+
 ## Introduction
 
 <p align="justify">
@@ -57,7 +68,6 @@ The three pass approach strategy introduces three passes, instead of starting at
 <p align="justify">
 This step involves gaining a general understanding of the entire paper, which aids in planning what areas to focus on for deeper study. It also helps in formulating questions that will assist in comprehending the content thoroughly. It involves 
 </p>
-    
 
 * A rapid reviewing a paper within 5~10 minutes
 * Focusing on reading the abstract, introduction
@@ -71,17 +81,18 @@ After the first pass strategy, the reader should be able to answer the five Cs�
 3.	Correctness： assumptions are appear to be valid
 4.	Contributions：main contributions
 5.	Clarity： well written?
+   
 ### Second pass: 
 <p align="justify">
 Comparing to the first pass strategy, this step involves reviewing a paper within 1 hour if you're familiar with the content and 4-5 hours if you're new to reading research papers. However, don’t focus on detailed proofs. 
 </p>
     
-:::success
+
 * Carefully look at the graphs, data and figures.
 * Point out the most relevant references for later review 
 * make comments in the margins
 * jot down the key points
-:::
+
 After the second pass, the reader should summarize the main content.
 ### Third pass:
 
@@ -96,7 +107,9 @@ At the end of third pass, you need to reconstruct the structure of the paper and
 During literature survey, the three pass approach can be employed in the following steps:
 
 Step 1: Use an academic search engine such as Google Scholar or CiteSeer and some well-chosen keywords to find three to five recent papers in the area.
+
 Step 2: Find shared citations and repeated author names in the bibliograohy.
+
 Step 3 Go to the website for these top conference and look through their recent proceedings.
             
 # C. How to Write a Report

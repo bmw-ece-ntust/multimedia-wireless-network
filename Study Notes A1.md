@@ -8,7 +8,7 @@
 
 # Introduction
 
-These study notes try to capture the most important information of the given sources for the first assignment. The different topics are divided into chapters that can be read independently of each other. Depending on the topic the style of the study notes can change depending on the complexity and interdependency of the different points.
+These study notes try to capture the most important information of the given sources for the first assignment. The different topics are divided into chapters that can be read independently of each other. Depending on the topic, the style of the study notes can change depending on the complexity and interdependency of the different points.
 
 # 5 Minute Presentation
 
@@ -50,11 +50,11 @@ Reading a paper should be an active process that takes a lot of time. The reader
 
 Key questions to ask yourself are
 * :
-    - What question or problem does the paper wants to answer or to solve?
+    - What question or problem does the paper want to answer or to solve?
     - What is the method, approach or technique chosen to achieve this goal?
     - Can the initial answer be sufficiently answered?
     - Can this answer be sufficiently by the presented reasoning and data?
-    - May there be any bias present in the paper? Maybe some metrics that are given in other papers are suspiciously absent or other solutions are shown in worse light than in other papers from different authors.
+    - May there be any bias present in the paper? Maybe some metrics that are given in other papers are suspiciously absent or other solutions are shown in a worse light than in other papers from different authors.
 
 In general, you should read critically and creatively. So, you should question each statement made and think about the implications of the statement. You should also always check other papers from different authors about the same topic to verify given information and to find potential omissions or biases.
 
@@ -87,7 +87,7 @@ Depending on the type and length of the report several of these points can be sh
 
 # 10 Tips for Better Teamwork
 
-Work culture in organization has a great influence on the teamwork capabilities a group. Different viewpoints and experiences must come together in a productive, respectful and effective process when working as a team on a shared project. To achieve this certain norms in communication form by them self or are consciously formed. To achieve this, it is important to set clear expectations and responsibilities.
+Work culture in an organization has a great influence on the teamwork capabilities a group. Different viewpoints and experiences must come together in a productive, respectful and effective process when working as a team on a shared project. To achieve this, certain norms in communication form by them self or are consciously formed. For this, it is important to set clear expectations and responsibilities.
 
 * Creating an environment for good and productive teamwork is based on:
 

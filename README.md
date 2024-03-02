@@ -140,14 +140,17 @@ Ray -->
     4. [10 Tips for Better Teamwork](https://www.thebalancecareers.com/tips-for-better-teamwork-1919225)
 - Score (15%):
     - **Create a study note** (1 pt/item, **Total = 4 pt**);
-      > [!NOTE]
-      > Create your study note in a markdown file, then upload it to your own branch - [Instruction](#13-initial-todo)
-    - **Presentation Video 4~5 mins** (**4 pt**);
-      > [!NOTE]
-      > Record a video to explain your study note, then upload it to your Youtube.
+
+      > **Note**: Create your study note in a markdown file, then upload it to your own branch - [Instruction](#13-initial-todo)
+    
+    - **Presentation Video in 4~5 mins** (**4 pt**);
+
+      > **Note**: Record a video to explain your study note, then upload it to your Youtube.
+    
     - **Submit the [peer review form](https://forms.gle/83ApPvGkm1Q9FgUU7)** (**2 pt**)
-      > [!NOTE]
-      > After the deadline, the Google Form will be opened for 1 week.
+
+      > **Note**: After the deadline, the Google Form will be opened for 1 week.
+    
     - **Top 3 Students** (**Up to 5 pt**):
       - Student 1 (5 pt): [Name]
       - Student 2 (3 pt): [Name]

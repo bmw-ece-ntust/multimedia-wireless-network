@@ -1,8 +1,12 @@
 **Outline**
-[Headers](A. Five-Minute Presentation)  
-[Emphasis](#emphasis)  
 
+[A. Five-Minute Presentation](#headers) 
+[B. How to Read a Paper ](#headers)  
+[C. How to Write a Report](#headers)  
+[D. 10 Tips for Better Teamwork](#headers)  
+[Emphasis](#emphasis)  
 <a name="headers"/>
+
 ###### tags: `Multimedia Wireless Network`
 
 # A. Five-Minute Presentation

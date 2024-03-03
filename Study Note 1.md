@@ -1,19 +1,21 @@
 **Outline**
-- [A. Five-Minute Presentation](#five-minute-presentation)
-- [B. How to Read a Paper](#how-to-read-a-paper)
+
+- [Five-Minute Presentation](#five-minute-presentation)
+- [How to Read a Paper](#how-to-read-a-paper)
 - [How to Write a Report](#how-to-write-a-report)
-- [D. 10 Tips for Better Teamwork](#10-tips-for-better-teamwork)
+- [10 Tips for Better Teamwork](#10-tips-for-better-teamwork)
+- [References](#references)
 
 ###### tags: `Multimedia Wireless Network`
 
-# A. Five-Minute Presentation
+# Five-Minute Presentation
 ## Introduction
 
 <p align="justify">
 Creating and delivering five-minute presentation is more challenging of all presentations though it is less boring and more engaging than a 60 minutes presentation. The primary objective of a five-minute presentation is to deliver a concise and impactful message focusing on a single key point. Thus, in five minutes, you can accomplish beautiful and effective presentation slides in the following manner.
 </p>
 
-## A.1. Creating a successful five minute presentation
+## Creating a successful five minute presentation
 The most common practices for making a memorable method of engaging your audience are 
 * Research -
   
@@ -31,7 +33,7 @@ In five minute presentation, you need to captivate the audience’s attention fo
   
 You need to use statistics and numbers only if they are relevant to the point you are making. It is worth mentioning that it is important to consider your audience's demographics and your presentation subject.
 
-##  A.2. Tips in Five Minutes presentation 
+##  Tips in Five Minutes presentation 
 <p align="justify">
 In the following section, we are going to present the five tips for creating beautiful and effective presentation slides that captivates the audience’s attention.
 </p>
@@ -53,7 +55,7 @@ Put only one point in each slide and the persuasive data must be as simple as po
   
 You should use the same font and color consistently throughout the slides. 
 
-# B. How to Read a Paper 
+# How to Read a Paper 
 
 ## Introduction
 
@@ -61,7 +63,7 @@ You should use the same font and color consistently throughout the slides.
 This report discusses the challenge researchers face when reading multiple papers for reviewing, staying updated, and conducting literature reviews in new fields. The author, S. Keshav, in the paper "How to Read a Paper," outlines strategies to read information faster and retain important details while skipping irrelevant parts. He introduced a simple three pass approach to effectively read research papers and its usage in literature survey.
 </p>
 
-## B.1. The three pass approach 
+## The three pass approach 
 
 <p align="justify">
 The three pass approach strategy introduces three passes, instead of starting at the beginning and reading the whole paper. It breaks reading the paper into multiple times allows you to have a lesser focus on certain parts of the paper. 
@@ -105,7 +107,7 @@ In this phase, attempting to virtually re-implement a research paper with the sa
 At the end of third pass, you need to reconstruct the structure of the paper and able to identify its strong and weak points.
     </p>
     
-## B.2. Doing a literature survey:
+## Doing a literature survey:
 
 During literature survey, the three pass approach can be employed in the following steps:
 
@@ -150,7 +152,7 @@ Considering different types of reports, some details may differ. The step that c
 * Step 10：Revise your draft report
 
 
-# D. 10 Tips for Better Teamwork
+# Tips for Better Teamwork
 
 <p align="justify">
 In the real life, certain work groups demonstrate effective teamwork, while others struggle with dysfunction throughout their existence. Effective teamwork is a concept that is both fundamentally simple and challenging simultaneously, and the achievement of a team is closely linked to the organizational culture they operate within. Some organizational cultures foster teamwork, while others do not. Ten factors play a crucial role in determining the success of work teams within your organization.
@@ -196,7 +198,7 @@ In order to get successful outcomes and contributions in the team work, each par
 
 Members of the team collaborate to make high-quality decisions collectively, receiving support and commitment of the group to carry out the decisions made. They also receive the support and commitment of the people they report to in order to achieve and communicate the team's progress and achievements.
 
-# E. References:
+# References
 
 1. 5-Minute Presentation ([[1]](https://www.thebalancesmb.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))
 2. [How to Read a Paper]( https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)

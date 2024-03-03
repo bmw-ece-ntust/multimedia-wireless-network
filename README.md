@@ -21,9 +21,9 @@
 
 ## 1. Profile
 1. Name: Jerry
-2. Student ID: 
-3. Department: 
-4. Student status: (NTUST Student/Exchange student)
+2. Student ID: M11202259
+3. Department: Department of Electronic and Computer Engineering
+4. Student status: NTUST Student
 
 ## 2. Assignments:
 

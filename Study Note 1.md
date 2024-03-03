@@ -3,7 +3,7 @@
 - [Five-Minute Presentation](#five-minute-presentation)
 - [How to Read a Paper](#how-to-read-a-paper)
 - [How to Write a Report](#how-to-write-a-report)
-- [10 Tips for Better Teamwork](#10-tips-for-better-teamwork)
+- [10 Tips for Better Teamwork](#tips-for-better-teamwork)
 - [References](#references)
 
 ###### tags: `Multimedia Wireless Network`

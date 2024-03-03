@@ -20,10 +20,10 @@
 4. Create `.md` files for your study notes.
 
 ## 1. Profile
-1. Name: Yosafat Marselino Agus 
-2. Student ID: M11202819
-3. Department: Electrical and Computer Engineering 
-4. Student status: NTUST Student
+1. Name: **Yosafat Marselino Agus**
+2. Student ID: **M11202819**
+3. Department: **Electrical and Computer Engineering**
+4. Student status: **NTUST Student**
 
 ## 2. Assignments:
 

@@ -20,7 +20,7 @@
 4. Create `.md` files for your study notes.
 
 ## 1. Profile
-1. Name: 
+1. Name: Jerry
 2. Student ID: 
 3. Department: 
 4. Student status: (NTUST Student/Exchange student)

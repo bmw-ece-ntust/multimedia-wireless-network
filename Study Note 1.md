@@ -115,7 +115,7 @@ Step 2: Find shared citations and repeated author names in the bibliograohy.
 
 Step 3 Go to the website for these top conference and look through their recent proceedings.
             
-# C. How to Write a Report
+# How to Write a Report
 
 ## Introduction 
 

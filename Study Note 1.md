@@ -1,7 +1,7 @@
 **Outline**
 - [A. Five-Minute Presentation](#five-minute-presentation)
 - [B. How to Read a Paper](#how-to-read-a-paper)
-- [C. How to Write a Report](#how-to-write-a-report)
+- [How to Write a Report](#how-to-write-a-report)
 - [D. 10 Tips for Better Teamwork](#10-tips-for-better-teamwork)
 
 ###### tags: `Multimedia Wireless Network`

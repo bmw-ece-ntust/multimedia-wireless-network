@@ -14,7 +14,7 @@
 ## 1. Profile
 1. Name: Ravi Shankar Prasad
 2. Student ID: M11202816
-3. Department: Electronics and Communication Engineering
+3. Department: Electronics and Computer Science
 4. Student status:NTUST Student
 
 ## 2. Assignments:

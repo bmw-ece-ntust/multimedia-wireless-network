@@ -1,4 +1,16 @@
-# 1. How to Read a Paper
+# 1. 5-minute Presentation Tips
+The 5 minute presentations are harder than other kinds of presentations because they require processing and presenting the information in such a way that it doesn't overwhelm the audience and it also provides and engaging experience during that limited timeframe
+#### Tips
+- *Research:* Make sure to understand your topic deeply and select the most important concepts.
+- *Practice:* Practicing is a very important step when talking about public speech, it can make the difference between a smooth and informative talk and a slow and boring one.
+- *Introduce the point:* The point of the presentation should be clear instantly from the beginning. Using images and illustrations can help.
+- *Story:* The best presentations out there are capable of telling a memorable story.
+
+
+---
+
+
+# 2. How to Read a Paper
 **The goal when reading a paper is to understand the scientific contributions the authors are making.
 To read a paper correctly we need to learn how to read both critically and creatively.**
 #### Critical reading
@@ -17,41 +29,8 @@ To create a proper paper review you should use the points previously stated to w
 ---
 
 
-# 2. How to Write a Report and more
-### Essays
-**An essay is a piece of writing on a specific subject, topic or issue.**
-##### Parts of a an Essay:
-- **Introduction**: states what you will be talking about, how you will talk about it, and what you will show in the essay.
-- **Body**: you introduce your main points, explain them and give supporting evidence about each point and how it relates to your essay
-- **Conclusion**: here you need to restate the topic discussed and summarize the main points. You may also end with your recommendations if necessary. No new content should be added in the conclusion.
+# 3. How to Write a Report
 
-### Presentations
-This is where you need to present key ideas from a piece of work. 
-This generally means creating a slide presentation, for example, a power point presentation.
-
-##### Parts of a Presentation:
-- Introduction
-- Body
-- Conclusion
-
-##### Ways to Present Information In a Presentation:
-- bullet points
-- quotes
-- pictures
-- charts
-- diagrams
-
-### Quizzes
-Quizzes are designed to test the knowledge on a specific topic, it usually includes a range of questions.
-
-##### Different Types of Questions: 
-- multiple choice
-- short answer
-- fill in the blanks
-- extended response 
-- essay style
-
-### Reports
 A report is where you present your investigation and analysis of information or an issue. 
 When writing a report you should always the reader in mind. And the information should be presented in a clear, concise and accurate way. It is also important to organize the report in a organize and recognizable structure.
 
@@ -69,24 +48,21 @@ When writing a report you should always the reader in mind. And the information 
 - Appendices.
 
 
-### Other assessments types
-##### Annotated Bibliography:
-List of resources (books, articles, documents, interviews).
-
-##### Case Study:
-Describes real situations and events over a given length of time. Case studies present very detailed information about a person, group or situation. In the case study you try to understand what has happened over the length of time and why, or you try to analyze the situation to solve a problem.
-
-##### Reflective Writing:
-In reflective writing you think and write about your learning experience.
-
-##### Review:
-A review focuses on the purpose of something, and whether the purpose has been achieved.
-
-
 ---
-
 
 
 # 3. Ten tips for better teamwork
 
-
+In life you'll find yourself in situations where you'll need to work with a group of people to procceed, and as such it is important to know how best to approach this kind of situations.
+In all kinds of teams there are going to be a wide range of different people with different expriences, success and ways of thinking. It's important to learn how to best overcome the differences and grow as a team.
+#### Tips
+1. Having a clear goal is an important step in teamwork, helping everyone to move in the same direction.
+2. The team environment should encourage reasonable risks as a way to discuss the best options for the mission.
+3. Communication is very imporant, and as such it should be done with respect and honesty.
+4. The team should have a strong sense of commitment and belonging.
+5. Each team member should be seen as what it is: a unique human with unique life experiences, points of view and opinions.
+6. Creativity and Innovation are important focus points for a team and should always be taking into account when making important decisions.
+7. A good team should always engage in auto-examination and improvement.
+8. The team has to have agreed-upon procedures for diagnosing and resolving internal problems and conflicts.
+9. Participative Leadership should be practiced in leading meetings, when assigning tasks, recoriding decisions and commitments and more, as a way to ensure every team member constantly contributes to the cause.
+10. To ensure high-quality decisions the team should conside every single member's opinion and proposal on the matter and reach a global agreement.

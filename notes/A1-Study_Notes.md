@@ -3,6 +3,7 @@
 
 ![Task](https://img.shields.io/badge/Task-A1-teal?labelColor=gray&style=plastic&logo=readme&logoColor=white)
 
+
 <!-- vim-markdown-toc GFM -->
 
 * [I. Tasks 1: 5-Minute Presentation](#i-tasks-1-5-minute-presentation)
@@ -23,8 +24,6 @@
 * [IV. Tasks 4: 10 Tips for Better Teamwork](#iv-tasks-4-10-tips-for-better-teamwork)
 
 <!-- vim-markdown-toc -->
-
----
 
 ## I. Tasks 1: 5-Minute Presentation 
 
@@ -87,6 +86,12 @@
 - Maintain consistent design on each slides.
 
 ## II. Tasks 2: How to Read a Paper
+
+> [!IMPORTANT]
+> **Study Material:**
+>   - *[How To Read A Paper](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)*
+> 
+
 - Read critically
     - Never assume that the writer produces something flawless. Always look for areas where there is room for improvement.
 - Read Creatively
@@ -99,6 +104,12 @@
     - Compare the paper with another piece of literature to determine if it offers a unique contribution. Identify whether the paper brings something different to the table.
 
 ## III. Tasks 3: How to Write a Report
+
+> [!IMPORTANT]
+> **Study Material:**
+>   - *[Assessment Types](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/assignment-types/)*
+> 
+
  - Essays
     - Essays are written pieces focusing on a particular subject. They typically include an introduction, which outlines the topic and approach, a body where ideas are explained with supporting evidence, and a conclusion where the argument is summarized.
  - Presentations
@@ -110,43 +121,48 @@
 
 ## IV. Tasks 4: 10 Tips for Better Teamwork
 
-1. The team is clear about its mission and goals:
+> [!IMPORTANT]
+> **Study Material:**
+>   - *[10 Tips for Better Teamwork](https://www.liveabout.com/tips-for-better-teamwork-1919225#toc-you-can-help-your-teams-succeed)*
+> 
+
+1. **The team is clear about its mission and goals**
 
     A clear mission and purpose unite even the most diverse team.
 
-2. The team environment encourages reasonable risks:
+2. **The team environment encourages reasonable risks**
 
     Providing room for individuals to take reasonable initiatives fosters collective improvement.
 
-3. Respectful communication is the norm:
+3. **Respectful communication is the norm**
 
     Healthy communication maintains each team member's sanity and enhances productivity.
 
-4. Strong sense of group commitment:
+4. **Strong sense of group commitment**
 
     A sense of belonging fosters responsibility and dedication within the group.
 
-5. Team members are viewed as unique individuals:
+5. **Team members are viewed as unique individuals**
 
     Each member offers something different that contributes to the team's success.
 
-6. Creativity and innovation are the norms:
+6. **Creativity and innovation are the norms**
 
     Embracing individual viewpoints allows for creativity and innovation to flourish.
 
-7. Engages in continuous improvement:
+7. **Engages in continuous improvement**
 
     Valuing and addressing each other's input fosters ongoing growth and improvement.
 
-8. Solves teamwork problems and conflicts:
+8. **Solves teamwork problems and conflicts**
 
     Viewing conflicts as opportunities for growth and learning helps maintain effective teamwork.
 
-9. Practices participative leadership:
+9. **Practices participative leadership**
 
     Acknowledging and valuing each team member's contribution ensures active participation for the collective benefit.
 
-10. Makes high-quality decisions as a team:
+10. **Makes high-quality decisions as a team**
 
     Critical decisions should involve the input and agreement of the entire team.
     

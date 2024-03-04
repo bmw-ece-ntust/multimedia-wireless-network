@@ -127,46 +127,61 @@ Ray -->
 
 >[!NOTE] 
 > The final score of this course can be adjusted to meet the requirements from our department:
-> 
-> 研究所   標準平均：3.1 ~3.8    (百分數：77 ~ 85.67)
->
+> 研究所   GPA: 3.1 ~3.8 (Grades in percentage：77 ~ 85.67)
 > Extra work for score adjustment will be given **after the Final Score is released**.
 
 
 ## 2.4. Assignments
 ### A1 (Deadline: 3/5, 08.00 A.M.)
-- Purpose: Learn the background knowledge of interpersonal skills and apply it in the following assignments.
+- **Purpose**: Learn the background knowledge of interpersonal skills and apply it in the following assignments.
 - Interpersonal Skills:
     1. 5-Minute Presentation ([[1]](https://www.thebalancesmb.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))
-    2. [How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
+    2. [How to Read a Paper](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
     3. [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/how-to-write-a-report/)
     4. [10 Tips for Better Teamwork](https://www.thebalancecareers.com/tips-for-better-teamwork-1919225)
-- Score (7%):
-    - [ ] Study note of materials above: 2 pt/item * 1 = **3 pt**;
-    - [ ] Study note presentation Video (4~5 mins): 1 pt/item * 4 = **2 pt**;
-    - [ ] Peer Review Form (3~5 mins): **2 pt**
+- Score (15%):
+    - **Create a study note** (1 pt/item, **Total = 4 pt**);
+
+      > **Note**: Create your study note in a markdown file, then upload it to your own branch - [Instruction](#13-initial-todo)
+    
+    - **Presentation Video in 4~5 mins** (**4 pt**);
+
+      > **Note**: Record a video to explain your study note, then upload it to your Youtube.
+    
+    - **Submit the [peer review form](https://forms.gle/83ApPvGkm1Q9FgUU7)** (**2 pt**)
+
+      > **Note**: After the deadline, the Google Form will be opened for 1 week.
+    
+    - **Top 3 Students** (**Up to 5 pt**):
+      - Student 1 (5 pt): [Name]
+      - Student 2 (3 pt): [Name]
+      - Student 3 (1 pt): [Name]
 
 ### A2 (Deadline: 4/9, 08.00 A.M.)
-- Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- Topics: Joint Communication and Sensing with WiFi
-- References: TBD
-- Score (12%):
-    - [ ] Study note: **2 pt**
-    - [ ] Flowchart + source code for simulation and analysis: **3 pt**
-    - [ ] Numercial Results (should be identical as the paper): **3 pt**
-    - [ ] Oral Presentation: **2 pt**
-    - [ ] Peer Review Form: **2 pt**
+- **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results.
+- **Topics**: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
+- References:
+    - [Events and Simulator](https://www.nsnam.org/docs/manual/html/events.html)
+    - [Wifi Models](https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)
+    - [Mac Layer Specific TXOP for EDCA in Ns-3 802.11e](https://copyprogramming.com/howto/ns-3-802-11e-edca-txop-specific-mac-layer)
+    - [IEEE-802.11ah-ns-3](https://github.com/imec-idlab/IEEE-802.11ah-ns-3/blob/master/src/wifi/doc/source/wifi-design.rst)
+- Score (15%):
+    - Study note: **2 pt**
+    - Flowchart + source code for analysis: **3 pt**
+    - Numercial Results (should be identical as the paper): **3 pt**
+    - Oral presentation: **2 pt**
+    - Top 3 Students: **5 pt**
 
 ### A3 (Deadline: 5/14, 08.00 A.M.)
-- Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- Topics: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
-- References: TBD
+- **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results.
+- **Topics**: Joint Communication and Sensing with WiFi
+- References: TBD.
 - Score (15%):
-    - [ ] Study note: **2 pt**
-    - [ ] Flowchart + source code for analysis: **3 pt**
-    - [ ] Numercial Results (should be identical as the paper): **3 pt**
-    - [ ] Oral Presentation **2 pt**
-    - [ ] Peer Review Form: **2 pt**
+    - Study note: **2 pt**
+    - Flowchart + source code for analysis: **3 pt**
+    - Numerical Results (should be identical as the paper): **3 pt**
+    - Oral Presentation **2 pt**
+    - Peer Review Form: **2 pt**
 
 <!-- # 3. Paper Studies
 
@@ -191,6 +206,7 @@ Reference:
 - [GitHub Markdown Features](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Ultralearning by Scott Young](https://www.scotthyoung.com/blog/ultralearning/)
 - [Time Management by Randy Pausch](https://www.youtube.com/watch?v=JKBFwR1HIFU)
+- Leaky bucket algorithm ([1](https://www.geeksforgeeks.org/leaky-bucket-algorithm/),[2](https://fsmk-vtu-cs-department-lab-manual-for-c-programming.readthedocs.io/en/latest/VTU/Sem7/Networks_Lab/12LeakyBucket/LeakyBucket/))
 
 # Samples
 - [2019](https://hackmd.io/PT5GnfcETu-eMZWV_DHWPQ?view&fbclid=IwAR3cCQZOzJSczTz4s53SW3EXwmHf_aFAmeC0ClxvgH5bB5KVIvMuCvh3nuk#Proposal-of-final-project)

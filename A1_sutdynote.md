@@ -9,15 +9,6 @@ It must be the single most important point you have to make for the subject you 
 ### C. Keep slides simple
 To make the audience focus on what you said, your slide should be really simple. Start from scratch rather than using a boring and noisy template. Design should be consistent by using the same font and color palette of 2-3 colors.
 
-### D. Practice
-Rehearsal is critical for such a short presentation. You have no time to pause or collect your thoughts. 
-
-While you are rehearsing, don't simply go over the material. Practice your tone, inflections, and body language in front of the mirror. Record yourself and see how you sound.
-
-> [!TIP]
-> Never read from your slides
-
-
 ### D. Introduce the point with flair, immediately
 Grab your audience's interest from the first sentence and don't let go. During a five-minute presentation, you have little time to build a case or draw them in.  
 
@@ -30,6 +21,14 @@ For slides, photo is great visaul to use in presentation. Make sure
 A memorable presentation tells a memorable story. You should forgo all the statistics and numbers unless it is relevant to the point you are making. 
 
 Keep the statistics portion as short as possible, and move on to how the audience will benefit from your information.
+
+### F. Practice
+Rehearsal is critical for such a short presentation. You have no time to pause or collect your thoughts. 
+
+While you are rehearsing, don't simply go over the material. Practice your tone, inflections, and body language in front of the mirror. Record yourself and see how you sound.
+
+> [!TIP]
+> Never read from your slides
 
 ### Reference
 - [Mastering the Art of the Five-Minute Presentation](https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697)

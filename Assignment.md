@@ -208,15 +208,15 @@ Reading a paper is art, try to be critical about the work, ask your question put
 
 ## :beginner: Choose the type of Paper
 
-:::info
-There are various ways to write your assessment. So choose wisely.
-:::
 
-1.:small_blue_diamond:Essay:  
-2.:small_blue_diamond:Presentation:  
-3.:small_blue_diamond:Quizes:  
-4.:small_blue_diamond:Report:  
-5.:small_blue_diamond:Other assesment types:  
+    There are various ways to write your assessment. So choose wisely.
+
+
+1. Essay:  
+2. Presentation:  
+3. Quizes:  
+4. Report:  
+5. Other assesment types:  
 
 ---
 
@@ -230,9 +230,9 @@ Body should have all the main points.
 Conclusion should conclude the topic and should have some final remarks.
 
 ## 2. Presentation:
-:::info
-Slide is powerful tool to convey your messege more precisely.
-:::
+
+    Slide is powerful tool to convey your messege more precisely.
+
 
 Include 3 things;
 ##### A) Introduction. 
@@ -245,9 +245,9 @@ Summerise your point.
 
 ## 3. Quizes :question: 
 
-:::info
-It's the more engaging tool. If you want your audiance to engage more use thi tool.
-:::
+
+    It's the more engaging tool. If you want your audiance to engage more use thi tool.
+
 
 It's include questions can be of following type:
 * Multiple choice
@@ -258,9 +258,9 @@ It's include questions can be of following type:
 
 ## 4. Reports:
 
-:::info
-Its the most elaborative form of writing a paper. Here you can publish your investigations, mode of inestigation, data and analysis.
-:::
+
+    Its the most elaborative form of writing a paper. Here you can publish your investigations, mode of inestigation, data and analysis.
+
 
 While writing a paper be clear, concise and accurate.  
 Report should include: a title page,an executive summary, a contents page, an introduction of reference, procedure, findings,conclusions, recommendations, references/bibliography, appendices.

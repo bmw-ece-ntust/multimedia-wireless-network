@@ -7,12 +7,13 @@
 - [1. Introduction](#1-introduction)
   - [1.1. Submitted By](#11-submitted-by)
 - [2. Assignment I Report on Interpersonal Skills](#2-assignment-i-report-on-interpersonal-skills)
-  - [2.1 Study Note Report](#21-study-note-report)
-    - [2.1.1. The art of 5-minute presentation](#211-the-art-of-5-minute-presentation)
-    - [2.1.2. How to read a paper](#212-how-to-read-a-paper)
-    - [2.1.3. How to write a report](#213-how-to-write-a-report)
-    - [2.1.4. Ten tips for better teamwork](#214-ten-tips-for-better-teamwork)
-  - [2.2. Study Note Presentation Video](#22-study-note-presentation-video)
+  - [2.1. Study Note Presentation Video](#22-study-note-presentation-video)
+  - [2.2 Study Note Report](#21-study-note-report)
+    - [2.2.1. The art of 5-minute presentation](#211-the-art-of-5-minute-presentation)
+    - [2.2.2. How to read a paper](#212-how-to-read-a-paper)
+    - [2.2.3. How to write a report](#213-how-to-write-a-report)
+    - [2.2.4. Ten tips for better teamwork](#214-ten-tips-for-better-teamwork)
+  
 - [References](#references)
 
 

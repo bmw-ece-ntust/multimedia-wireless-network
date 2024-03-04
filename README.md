@@ -143,7 +143,7 @@ Ray -->
     3. [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/how-to-write-a-report/)
     4. [10 Tips for Better Teamwork](https://www.thebalancecareers.com/tips-for-better-teamwork-1919225)
 - Score (15%):
-    - **Create a study note** (1 pt/item, **Total = 4 pt**);
+    - **[Create a study note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202215-Joe/Assignment%201.md)** (1 pt/item, **Total = 4 pt**);
 
       > **Note**: Create your study note in a markdown file, then upload it to your own branch - [Instruction](#13-initial-todo)
     

@@ -281,8 +281,6 @@ While writing a paper one should be clear in which way and how effectively messe
 # 10 Tips for Better Teamwork
 
 
-## 10 Tips for better team work
-
 
     How to make a team excel in their work.
 

@@ -1,4 +1,4 @@
-![](./assets/lab-logo.jpg)
+![](./assets/lab-logo.jpeg)
 
 # <center> 2024 Multimedia Wireless Networks (ET5907701) </center>
 
@@ -59,7 +59,8 @@
 4. Download [Visual Studio Code](https://code.visualstudio.com/download) (for study notes writing).
   
   > [!TIP]
-  Read how to generate automatic [Table of Content (ToC)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents) using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension.
+  > 1. Read how to generate automatic [Table of Content (ToC)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents) using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension.
+  > 2. Turn off [VScode Word Wrap](https://code.visualstudio.com/docs/editor/codebasics#_how-do-i-turn-on-word-wrap) feature when you edit a table.
 
 5. Create your own branch in this repository using this format: `[year]-[student ID]-[English Name]`.
     
@@ -93,32 +94,32 @@ Ray -->
   > The study shows that workers who successfully combine mathematical and interpersonal skills in the knowledge-based economies of the future should find many rewarding and lucrative opportunities.
 
 ## 2.2. Schedule
-| Date (Recording)                   | Topic/Slide                                                                                                                                                                                                                                                                                                                                              | Presentations                                                                                    |
-| :--------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [**Week 1**: 2/20](https://youtu.be/dirtl2bJXoc)       | [Opening]()                                                                                                                                                                                                                                                                                                                                              |                                                                                                  |
-| **Week 2**: 2/27       | Part-I: Multimedia Applications - [slide](https://drive.google.com/file/d/1NZCWjhpVOj7gXR-qcndSmJ8gbmjClnZP/view?usp=drive_link)                                                                                                                                                                                                                                                                                                                          |                                                                                                  |
-| **Week 3**: 3/5        | Part-I: Multimedia Applications                                                                                                                                                                                                                                                                                                                      | Assignment 1                                                                                     |
-| **Week 4**: 3/14       | QoS Fundamentals                                                                                                                                                                                                                                                                                                                                         |                                                                                                  |
-| **Week 5**: 3/19       | QoS Fundamentals                                                                                                                                                                                                                                                                                                    |                                                                                                  |
-| **Week 6**: 3/26       | QoS Mechanisms                                                                                                                                                                                                                                                                                                                                           | [Time Management](https://hackmd.io/YfiaqPIqSLO2Cj76zcUrrA)                                      |
-| **Week 7**: 4/2        | QoS Mechanisms                                                                                                                                                                                                                                                                                                                                         |                                                                                                  |
-| **Week 8**: 4/9        | QoS Mechanisms                                                                                                                                                                                                                                                                                                                                           | [Assignment 2]                                                                                   |
-| **Week 9**: 4/16       | QoS Mechanisms                                                                                                                                                                                                                                                                                                                                           |                                                                                                  |
-| **Week 10**: 4/23      | Part-II: [Wireless Local Area Networks (WLANs)](), [Overview of 802.11 Networks](), [802.11 MAC]() | [Introduction to 802.11ax]()      |
-| **Week 11**: 4/30      | [802.11 MAC]()                                                                                                                                                                                                                                                                                                                                              |                                                                                                  |
-| **Week 12**: 5/7       | 802.11 MAC                                                                                                                                                          |                                    |
-| **Week 13**: 5/14      | [802.11e](https://drive.google.com/file/d/1ik94M5TC_-1_C-LKtcRgO24c5oR-YDFq/view?usp=sharing)                                                                                                                                                                                                                                                            | [Assignment 3]                                                                                   |
-| **Week 14**: 5/21      | 802.11e                                                                                                                                                                                                                                                                                                                               |                                                                                                  |
-| **Week 15**: 5/28      | 802.11e                                                                                                                                                                                                                                                                                                                                                  |                                                                                                  |
-| **Week 16**: 6/4       | **Final Exam**                                                                                                                                                                                                                                                                                                                                                   | |
-| Juniper eLearning - I  | [Getting Started with Networking](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                                                                                                                                                                                                                                       |                                                                                                  |
-| Juniper eLearning - II | [Getting Started with Wi-Fi](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                                                                                                                                                                                                                                            |                                                                                                  |
+| Date (Recording)                                 | Topic/Slide                                                                                                                      | Presentations                                               |
+|:-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [**Week 1**: 2/20](https://youtu.be/dirtl2bJXoc) | [Opening]()                                                                                                                      |                                                             |
+| [**Week 2**: 2/27](https://youtu.be/rt6_7CFiscs) | Part-I: Multimedia Applications - [slide](https://drive.google.com/file/d/1NZCWjhpVOj7gXR-qcndSmJ8gbmjClnZP/view?usp=drive_≈link) |                                                             |
+| **Week 3**: 3/5                                  | Part-I: Multimedia Applications                                                                                                  | Assignment 1                                                |
+| **Week 4**: 3/14                                 | QoS Fundamentals                                                                                                                 |                                                             |
+| **Week 5**: 3/19                                 | QoS Fundamentals                                                                                                                 |                                                             |
+| **Week 6**: 3/26                                 | QoS Mechanisms                                                                                                                   | [Time Management](https://hackmd.io/YfiaqPIqSLO2Cj76zcUrrA) |
+| **Week 7**: 4/2                                  | QoS Mechanisms                                                                                                                   |                                                             |
+| **Week 8**: 4/9                                  | QoS Mechanisms                                                                                                                   | [Assignment 2]                                              |
+| **Week 9**: 4/16                                 | QoS Mechanisms                                                                                                                   |                                                             |
+| **Week 10**: 4/23                                | Part-II: [Wireless Local Area Networks (WLANs)](), [Overview of 802.11 Networks](), [802.11 MAC]()                               | [Introduction to 802.11ax]()                                |
+| **Week 11**: 4/30                                | [802.11 MAC]()                                                                                                                   |                                                             |
+| **Week 12**: 5/7                                 | 802.11 MAC                                                                                                                       |                                                             |
+| **Week 13**: 5/14                                | [802.11e](https://drive.google.com/file/d/1ik94M5TC_-1_C-LKtcRgO24c5oR-YDFq/view?usp=sharing)                                    | [Assignment 3]                                              |
+| **Week 14**: 5/21                                | 802.11e                                                                                                                          |                                                             |
+| **Week 15**: 5/28                                | 802.11e                                                                                                                          |                                                             |
+| **Week 16**: 6/4                                 | **Final Exam**                                                                                                                   |                                                             |
+| Juniper eLearning - I                            | [Getting Started with Networking](https://learningportal.juniper.net/juniper/user_transcript.aspx)                               |                                                             |
+| Juniper eLearning - II                           | [Getting Started with Wi-Fi](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                    |                                                             |
 
 ## 2.3. Evaluation
 - Q&A/Presentation: **15%**
     - Weekly: up to **15 pts** (1 pt/week)
 - [Assignments](#24-assignments): **30%**
-- Top 3 Students: **15%**
+- Top 3 Students from Peer Review: (Up to) **15%**
 - Final Exam: **30%**. Materials:
   - QoS Fundamentals
   - QoS Mechanisms
@@ -140,30 +141,32 @@ Ray -->
     2. [How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
     3. [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/how-to-write-a-report/)
     4. [10 Tips for Better Teamwork](https://www.thebalancecareers.com/tips-for-better-teamwork-1919225)
-- Score (15%):
-    - Study note: 2 pt/item * 1 = **4 pt**;
-    - Video (4~5 mins): 1 pt/item * 4 = **4 pt**;
-    - Experience sharing (3~5 mins): **2 pt**
+- Score (7%):
+    - [ ] Study note of materials above: 2 pt/item * 1 = **3 pt**;
+    - [ ] Study note presentation Video (4~5 mins): 1 pt/item * 4 = **2 pt**;
+    - [ ] Peer Review Form (3~5 mins): **2 pt**
 
 ### A2 (Deadline: 4/9, 08.00 A.M.)
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
 - Topics: Joint Communication and Sensing with WiFi
 - References: TBD
-- Score (15%):
-    - Study note: **2 pt**
-    - Flowchart + source code for simulation and analysis: **3 pt**
-    - Numercial Results (should be identical as the paper): **3 pt**
-    - Oral presentation: **2 pt**
+- Score (12%):
+    - [ ] Study note: **2 pt**
+    - [ ] Flowchart + source code for simulation and analysis: **3 pt**
+    - [ ] Numercial Results (should be identical as the paper): **3 pt**
+    - [ ] Oral Presentation: **2 pt**
+    - [ ] Peer Review Form: **2 pt**
 
 ### A3 (Deadline: 5/14, 08.00 A.M.)
 - Purpose: Learn to identify the problem and verify the concepts using simulation and analytical results.
 - Topics: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
 - References: TBD
 - Score (15%):
-    - Study note: **2 pt**
-    - Flowchart + source code for analysis: **3 pt**
-    - Numercial Results (should be identical as the paper): **3 pt**
-    - Oral presentation: **2 pt**
+    - [ ] Study note: **2 pt**
+    - [ ] Flowchart + source code for analysis: **3 pt**
+    - [ ] Numercial Results (should be identical as the paper): **3 pt**
+    - [ ] Oral Presentation **2 pt**
+    - [ ] Peer Review Form: **2 pt**
 
 <!-- # 3. Paper Studies
 

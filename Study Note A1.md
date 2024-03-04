@@ -5,7 +5,7 @@
   - [5 Tips in 5 Minutes - Presentations](#1-2-5-tips-in-5-minutes---presentations)
 - [How to Read a Paper?](#2-how-to-read-a-paper)
 - [How to Write a Report?](#3-how-to-write-a-report)
-- [10 Tips for Better Teamwork]()
+- [10 Tips for Better Teamwork](#4-10-tips-for-better-teamwork)
 ## 1. 5-Minute Presentation
 ### 1-1. Mastering the Art of the Five-Minute Presentation
 This article discusses five methods for successfully crafting a five-minute presentation:

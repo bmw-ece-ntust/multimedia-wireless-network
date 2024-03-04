@@ -1,4 +1,4 @@
-![](./assets/lab-logo.jpg)
+![](./assets/lab-logo.jpeg)
 
 # <center> 2024 Multimedia Wireless Networks (ET5907701) </center>
 

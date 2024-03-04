@@ -1,8 +1,8 @@
 - [Introduction](#Introduction)
-- [Five Minute Presentation](#Five-minute-presentation)
-- [How to Read a Paper](#how-to-read-a-paper)
-- [How to Write a Report](#how-to-write-a-report)
-- [Ten Tips for Better Teamwork](#Ten-tips-for-better-teamwork)
+- [Five minute presentation](#Five-minute-presentation)
+- [How to read a paper](#how-to-read-a-paper)
+- [How to write a report](#how-to-write-a-report)
+- [Ten tips for better teamwork](#Ten-tips-for-better-teamwork)
 
 
 # Introduction
@@ -10,7 +10,7 @@
 This study note is organized into four main topics, each of which is carefully divided into its various parts for ease of recall. A clear and remember comprehension of each important point within the topics covered is ensured by the structured framework.
 
 
-# Five Minute Presentation
+# Five minute presentation
 
 **Five ways to create a successful five-minute presentation**
 1. Research: Limited time doesn't excuse inadequate research.
@@ -27,7 +27,7 @@ As a consideration for presentation subject, align language and content with the
 4. Simplify data representation: When presenting data, prioritize simplicity for better audience comprehension.
 5. Consistent Design elements: maintain cohesion and professionalism by repeating design elements throughout the presentation.
    
-# How to Read a Paper
+# How to read a paper
 
 1. Read critically:  Critical reading involves asking appropriate questions.
 2. Read creatively: Question the paper with a positive thinking.
@@ -36,7 +36,7 @@ As a consideration for presentation subject, align language and content with the
 5. Comparative analysis: Assess the scientific contribution by comparing the paper to others in the field.
 
 
-# How to Write a Report
+# How to write a report
 
 **What is a report?**
 A report is where you present your investigation and analysis of information or an issue, recommending actions and making proposals.
@@ -46,7 +46,7 @@ Keep the reader in mind. Has to be clear, concise and accurate, and uses a recog
 Structure can include: a title page, an executive summary, a contents page, an introduction, terms of reference, procedure, findings, conclusions, recommendations, references/bibliography, appendices. 
 
 
-# Ten Tips for Better Teamwork
+# Ten tips for better teamwork
 
 1. Clear about mission and goals: Teams need a shared understanding of their mission and goals.
 2. Encourage reasonable risks: Foster an environment where the team members feel comfortable taking risks.

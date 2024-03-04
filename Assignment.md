@@ -13,12 +13,11 @@ It gives details explanation interpersonal skills that will help to learn the co
 
 # 5 minutes Presentation 
 
-:::info
-:bulb: How to deliver an effective 5 minutes presentation.
+     How to deliver an effective 5 minutes presentation.
 
 ---
 
-:::
+
 
 ## :dart: Importance of five minutes
 
@@ -45,7 +44,7 @@ Crafting a compelling five-minute presentation requires clarity, focus, and impa
 
 ## 1. Research :mag_right:
     “Research is to make what is invisible visible.” 
-> [name=Ernest Boyer]
+>           -*Ernest Boyer*
 
 Although your material is limited for your five-minute presentation, you will still need to do enough research to understand your topic and extract the most important concepts.
 
@@ -102,7 +101,7 @@ While presentation you should be careful that even the average audience getting 
 ---
 
 
-###  Thank you! 
+
 
 ## :book:Reference
 
@@ -111,18 +110,20 @@ While presentation you should be careful that even the average audience getting 
 
 
 
-# How to Read a Paper :Book:
 
-:::info
-:bulb: Tells about the effective and concise reading a reserch paper.
+
+# How to Read a Paper 
+
+
+    Tells about the effective and concise reading a reserch paper.
 
 ---
 
-:::
+
 
 #### :dart: When you read a research paper, your goal is to understand the scientific contributions the authors are making.
 
-> “Research is seeing what everybody else has seen and thinking what nobody else has thought.” [name=Szent-Györgyi]
+> “Research is seeing what everybody else has seen and thinking what nobody else has thought.” *Szent-Györgyi*
 
 ---
 ## :scroll: Guidelines to read a paper:
@@ -195,7 +196,112 @@ Reading a paper is art, try to be critical about the work, ask your question put
 
 
 
-[Reference](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
+[Reference] (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
 
 
-# 
+
+
+# How to Write a Report
+
+     This tells about measures we should take while writing a paper to make it effective and grasping. 
+
+
+## :beginner: Choose the type of Paper
+
+:::info
+There are various ways to write your assessment. So choose wisely.
+:::
+
+1.:small_blue_diamond:Essay:  
+2.:small_blue_diamond:Presentation:  
+3.:small_blue_diamond:Quizes:  
+4.:small_blue_diamond:Report:  
+5.:small_blue_diamond:Other assesment types:  
+
+---
+
+## 1. Essay: 
+
+Should have made with 3 things:
+##### A) Introduction. B) Body. C) Conclusion.
+
+Introctions should include the topic.  
+Body should have all the main points.  
+Conclusion should conclude the topic and should have some final remarks.
+
+## 2. Presentation:
+:::info
+Slide is powerful tool to convey your messege more precisely.
+:::
+
+Include 3 things;
+##### A) Introduction. 
+Introduce the topic that you will present.
+##### B) Body.
+Have main parts of your work with pictures, statics, charts, graphs  and data.
+##### C) Conclusion.
+Summerise your point.
+
+
+## 3. Quizes :question: 
+
+:::info
+It's the more engaging tool. If you want your audiance to engage more use thi tool.
+:::
+
+It's include questions can be of following type:
+* Multiple choice
+* Short Answer
+* Fill in the blanks
+* Extended response
+
+
+## 4. Reports:
+
+:::info
+Its the most elaborative form of writing a paper. Here you can publish your investigations, mode of inestigation, data and analysis.
+:::
+
+While writing a paper be clear, concise and accurate.  
+Report should include: a title page,an executive summary, a contents page, an introduction of reference, procedure, findings,conclusions, recommendations, references/bibliography, appendices.
+
+## 5. Other assesment types:
+##### A) Case Study B) Reflective writing C) Review
+Reflective writing - You listen or observe some and write there as instant.
+
+
+##  Conclusion:
+While writing a paper one should be clear in which way and how effectively messeges should convey. Choose any form according but be assure you messege should be clear, concise and accurate.
+
+
+[Reference](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/assignment-types/)
+
+
+
+# 10 Tips for Better Teamwork
+
+
+## 10 Tips for better team work
+
+
+    How to make a team excel in their work.
+
+> "Talent win games but teamwork and intelligence can win championships"   - *Michel Jordon*
+
+---
+Teamwork can deal with bigger problem in shorter time, and sometime work and knowlegde sharing grow exponentially.
+
+### 10 Norms can improve a team work:
+1. People Are the Joy and the Problem in Better Teamwork. While building a team choose the joyish people.
+2. You Can Help Your Teams Succeed.
+3. The Team Is Clear About Its Mission and Goals.
+4. The Team Environment Encourages Reasonable Risks.
+5. Respectful Communication Is the Norm.
+6. Strong Sense of Group Commitment.
+7. Team Members Are Viewed As Unique People.
+8. Creativity and Innovation Are the Norms.
+9. Engages in Continuous Improvement.
+10. Solves Teamwork Problems and Conflicts.
+
+
+#### By following these norms a normal team can do wonders.

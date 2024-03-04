@@ -287,7 +287,10 @@ Teamwork can deal with bigger problem in shorter time, and sometime work and kno
 
 ## References
 [5_Minutes_Presentation] (https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697)
+
 [How to read a paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
+
 [How to write a paper](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/assignment-types/)
+
 [Tips for building a team](https://www.liveabout.com/tips-for-better-teamwork-1919225)
 

@@ -41,7 +41,7 @@ When writing a report, always keep the reader in mind. Be clear, concise and acc
    - Appendices: Includes additional supplementary information, such as raw data or charts.
 4. **Types of Reports**: Reports can vary based on their purpose, such as research reports, building reports, or laboratory reports. Always refer to the specific instructions provided for your report to ensure you include all necessary details and meet the requirements.
 
-## IV. 10 Tips for Better Teamwork
+**IV. 10 Tips for Better Teamwork**
 
 # The "10 Tips for Better Teamwork" 
 1. **Communication**: Effective communication is essential for successful teamwork. Encourage open and honest communication among team members to foster collaboration and understanding.

@@ -147,7 +147,7 @@ Ray -->
 
       > **Note**: Create your study note in a markdown file, then upload it to your own branch - [Instruction](#13-initial-todo)
     
-    - **Presentation Video in 4~5 mins** (**4 pt**);
+    - **[Presentation Video in 4~5 mins](https://youtu.be/3iomU5Ju99g)** (**4 pt**);
 
       > **Note**: Record a video to explain your study note, then upload it to your Youtube.
     

@@ -43,7 +43,7 @@ When writing a report, always keep the reader in mind. Be clear, concise and acc
 
 ## IV. 10 Tips for Better Teamwork
 
-Certainly! Here's a summary of the "10 Tips for Better Teamwork" from the provided source:
+# The "10 Tips for Better Teamwork" 
 1. **Communication**: Effective communication is essential for successful teamwork. Encourage open and honest communication among team members to foster collaboration and understanding.
 2. **Clear Goals**: Establish clear and achievable goals for the team to work towards. Clearly defined objectives help keep everyone focused and motivated.
 3. **Roles and Responsibilities**: Clearly define each team member's roles and responsibilities within the team. This ensures accountability and helps avoid confusion or overlap of tasks.

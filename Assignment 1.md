@@ -20,7 +20,7 @@ abstract
 1. **Keep your slides simple**. Use **one font** style, and try to put only **a few words** on each slide to share the main ideas. 
 2. Pick presentation templates with **2-3 colors in basic color blocks**. 
 3. Use **beautiful pictures** and **simple data**. Put pictures in focal point to highlight key points, and make sure any data is easy to read and shows the main ideas.
-![MWN-a1-p1](https://hackmd.io/_uploads/HyycYDza6.jpg =80%x)
+![](assets/MWN-a1-p1.png)
 
 ### III. Practice over and over again
 1. Practice multiple times before your talk, and **<font color="red">don't</font> just read from your slides**. 
@@ -74,7 +74,7 @@ abstract
 ---
 ## 4. For Better Teamwork
 abstract
->Good teamwork requires the collective effort of all team members, and I believe that in a good team, both work efficiency and the working atmosphere can be significantly enhanced. In the article "10 Tips for Better Teamwork," 10 techniques are mentioned for improving team dynamics. I have summarized these tips into the following five important aspects:
+>Good teamwork requires the collective effort of all team members, and I believe that in a good team, both work efficiency and the working atmosphere can be significantly enhanced. In the article "[10 Tips for Better Teamwork](https://www.liveabout.com/tips-for-better-teamwork-1919225)," 10 techniques are mentioned for improving team dynamics. I have summarized these tips into the following five important aspects:
 
 ### I. Clear Mission and Goals
 - The team understands and is committed to its mission and goals.
@@ -94,4 +94,4 @@ abstract
 - It practices participative leadership, with agreed-upon procedures for diagnosing and resolving teamwork problems.
 - Regular review meetings assess the team's progress and alignment with its mission.
 
-![MWN-a1-p2](https://hackmd.io/_uploads/HJGB8jQa6.png =80%x)
+![](assets/MWN-a1-p2.png)

@@ -1,4 +1,4 @@
-# <p class="text-center">Study Note for Interpersonal Skills </p>
+# Study Note for Interpersonal Skills
 reference:
 - 5-Minute Presentation ([[1]](https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))
 - [How to Read a Paper](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)

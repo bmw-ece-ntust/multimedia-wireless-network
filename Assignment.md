@@ -4,11 +4,11 @@
 
 # Outline :triangular_flag_on_post:	
 - [Introduction](#Introduction)
-- How to Read a Paper
-- How to Write a Report
-- 10 Tips for Better Teamwork
-- 5 Minutes Presentation
-- Reference Material
+- [How to Read a Paper](#HowtoReadaPaper)
+- [How to Write a Report](#HowtoWriteaReport)
+- [10 Tips for Better Teamwork](#10TipsforBetterTeamwork)
+- [5 Minutes Presentation](#5MinutesPresentation)
+- [Reference Material](#ReferenceMaterial)
 
 # Introduction :exclamation:	
 The following notes are the main ideas extracted from the reference material, which can help whenever

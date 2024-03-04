@@ -7,60 +7,108 @@
 - [10 Tips for Better Teamwork](#10-tips-for-better-teamwork)
 
 
-# Intoduction
+# Introduction
 
 It gives details explanation interpersonal skills that will help to learn the courses ia better way. Also these skills can be used in future.
 
-# 5 Minutes Presentation
+# 5 minutes Presentation 
 
-- *  How to deliver an effective 5 minutes presentation.
+:::info
+:bulb: How to deliver an effective 5 minutes presentation.
 
-## [ Importance of five minutes ]
-    Indira Gandhi, Prime minister of India had a 5 minutes call with then general Sham Manek Shah that result into a whole new Country.
+---
 
-## [ Motive : ]
-    Crafting a compelling five-minute presentation requires clarity, focus, and impact. Ensure your message is concise, engaging, and memorable.
+:::
 
-Five ways to create a five minutes presentation:
-1.  Research
-2.  Choose an Impatant concept
-3.  Practice
-4.  Introduce with flair and Immediately
-5.  Tell a story
+## :dart: Importance of five minutes
 
-1. Research 
+Indira Gandhi, Prime minister of India had a 5 minutes call with then general Sham Manek Shah that result into a whole new Country.
+
+---
+
+
+##  Motive :
+Crafting a compelling five-minute presentation requires clarity, focus, and impact. Ensure your message is concise, engaging, and memorable.
+
+---
+
+## Five ways to create a five minutes presentation:
+
+1.    :mag_right: Research
+2.    :page_with_curl: Choose an Impatant concept
+3.    :pencil: Practice
+4.    :handshake: Introduce with flair and Immediately
+5.    :book: Tell a story
+
+---
+
+
+## 1. Research :mag_right:
     “Research is to make what is invisible visible.” 
-        -*Ernest Boyer*
+> [name=Ernest Boyer]
 
-    Although your material is limited for your five-minute presentation, you will still need to do enough research to understand your topic and extract the most important concepts.
-
-2. Concept Choice: 
-    One idea, concept, or point will be more than enough to make an impression and win an audience over.
-
-3. Practice:
-    * **"Practice makes human perfect"**
-
-    You have no time to pause or collect your thoughts. To engage your listeners, you will need to be smooth, steady and factual.
-
-    While you are rehearsing, don't simply go over the material. Practice your tone, inflections, and body language in front of the mirror.
-
-4. Introduce with flair and Immediately: 
-    During a five-minute presentation, you have little time to build a case or draw your audience in. Lead with a compelling or controversial position. Grab their interest from the first sentence, and don't let go.
-
-5. Tell a story :
-    A memorable presentation tells a memorable story.
+Although your material is limited for your five-minute presentation, you will still need to do enough research to understand your topic and extract the most important concepts.
 
 
-* Conclusion 
-    A presentation should be on relevant topic, precise, well researched, well practiced to deliver.
+---
 
-    So keep your slides simple.
 
-    You should know your audience, their language, their demographic.
+## 2. Concept Choice: :page_with_curl:
+One idea, concept, or point will be more than enough to make an impression and win an audience over. 
 
-    While presentation you should be careful that even the average audience getting engaged.
 
-* [References] (https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697)
+---
+
+
+## 3. Practice: :pencil:
+> "Practice makes human perfect"
+
+You have no time to pause or collect your thoughts. To engage your listeners, you will need to be smooth, steady and factual.
+
+While you are rehearsing, don't simply go over the material. Practice your tone, inflections, and body language in front of the mirror.
+
+
+---
+
+
+## 4. Introduce with flair and Immediately: :handshake:
+
+During a five-minute presentation, you have little time to build a case or draw your audience in. Lead with a compelling or controversial position. Grab their interest from the first sentence, and don't let go.
+
+---
+
+
+## 5.   Tell a story :book:
+
+A memorable presentation tells a memorable story.
+
+
+
+---
+
+
+# Conclusion :arrow_double_up: 
+
+A presentation should be on relevant topic, precise, well researched, well practiced to deliver.
+
+So keep your slides simple.
+
+You should know your audience, their language, their demographic.
+
+While presentation you should be careful that even the average audience getting engaged.
+
+
+
+---
+
+
+###  Thank you! 
+
+## :book:Reference
+
+
+[Reference](https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697)
+
 
 
 # How to Read a Paper :Book:
@@ -146,13 +194,8 @@ Reading a paper is art, try to be critical about the work, ask your question put
 
 
 
----
 
-## :book:Reference
-
-:::success
-[How to read a paper.](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
-:::
+[Reference](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
 
 
 # 

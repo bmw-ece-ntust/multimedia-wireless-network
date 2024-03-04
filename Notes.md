@@ -66,3 +66,8 @@ In all kinds of teams there are going to be a wide range of different people wit
 8. The team has to have agreed-upon procedures for diagnosing and resolving internal problems and conflicts.
 9. Participative Leadership should be practiced in leading meetings, when assigning tasks, recoriding decisions and commitments and more, as a way to ensure every team member constantly contributes to the cause.
 10. To ensure high-quality decisions the team should conside every single member's opinion and proposal on the matter and reach a global agreement.
+
+
+# Video:
+Link: [https://youtu.be/1Zq0tARZIUE]
+

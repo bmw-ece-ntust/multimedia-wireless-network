@@ -9,7 +9,7 @@
 
 # Introduction
 
-It gives details explanation interpersonal skills that will help to learn the courses ia better way. Also these skills can be used in future.
+It gives details explanation interpersonal skills that will help to learn the courses in a better way. Also these skills can be used in prsonal development.
 
 # 5 minutes Presentation 
 

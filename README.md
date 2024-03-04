@@ -19,10 +19,14 @@
 - [References](#references)
 - [Samples](#samples)
 
+# 1. Profile
+## Name: Joe 張瀚鴻
+## Student ID: M11202215
+## Department: Department of Electronic and Computer Engineering
+##  Student status: NTUST Student
+# 2. Introduction
 
-# 1. Introduction
-
-## 1.1. Person in Charge
+## 2.1. Person in Charge
 
 - **Instructor**: Prof. Ray-Guang Cheng (crg@gapps.ntust.edu.tw)
 - **Teaching Assistants**:
@@ -30,7 +34,7 @@
   2.  YenTing (m11102202@mail.ntust.edu.tw)
 
 
-## 1.2. Course Detail
+## 2.2. Course Detail
 
 1. [LINE group](https://line.me/ti/g/ykdO07UluN):
 
@@ -52,7 +56,7 @@
   > We won't count your Q&A outside the course session.
 
 
-## 1.3 Initial ToDo
+## 2.3 Initial ToDo
 1. Create a [GitHub account](https://github.com/join).
 2. Provide your information & gmail to be used in this course in this [Google form](https://forms.gle/szQXJkVMSAYxoKrD6).
 3. Read the [GitHub markdown features](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) information.
@@ -71,8 +75,8 @@ Dear all,
 The slides for opening and Part-I are uploaded. Please refer to [Schedule](#Schedule).
 Ray -->
 
-# 2. Course Outline
-## 2.1. Objectives
+# 3. Course Outline
+## 3.1. Objectives
 
 1. This course introduces the **basic knowledge of Quality-of-Service (QoS)**. Four main issues will be addressed:
     1. Multimedia Applications 
@@ -92,7 +96,7 @@ Ray -->
   > Conclussion:
   > The study shows that workers who successfully combine mathematical and interpersonal skills in the knowledge-based economies of the future should find many rewarding and lucrative opportunities.
 
-## 2.2. Schedule
+## 3.2. Schedule
 | Date (Recording)                   | Topic/Slide                                                                                                                                                                                                                                                                                                                                              | Presentations                                                                                    |
 | :--------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | [**Week 1**: 2/20](https://youtu.be/dirtl2bJXoc)       | [Opening]()                                                                                                                                                                                                                                                                                                                                              |                                                                                                  |
@@ -114,7 +118,7 @@ Ray -->
 | Juniper eLearning - I  | [Getting Started with Networking](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                                                                                                                                                                                                                                       |                                                                                                  |
 | Juniper eLearning - II | [Getting Started with Wi-Fi](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                                                                                                                                                                                                                                            |                                                                                                  |
 
-## 2.3. Evaluation
+## 3.3. Evaluation
 - Q&A/Presentation: **15%**
     - Weekly: up to **15 pts** (1 pt/week)
 - [Assignments](#24-assignments): **30%**
@@ -130,7 +134,7 @@ Ray -->
 > Extra work for score adjustment will be given **after the Final Score is released**.
 
 
-## 2.4. Assignments
+## 3.4. Assignments
 ### A1 (Deadline: 3/5, 08.00 A.M.)
 - **Purpose**: Learn the background knowledge of interpersonal skills and apply it in the following assignments.
 - Interpersonal Skills:
@@ -192,7 +196,7 @@ Reference:
 1. [Learning the 802.11 Standard](https://blogs.arubanetworks.com/solutions/learning-the-802-11-standard/)
 2. [RTI DDS Document](https://community.rti.com/static/documentation/connext-dds/5.2.0/doc/manuals/connext_dds/html_files/RTI_ConnextDDS_CoreLibraries_UsersManual/index.htm#UsersManual/AvailableDocs.htm%3FTocPath%3D_____2) -->
 
-## 2.5. Evaluation Criteria
+## 3.5. Evaluation Criteria
 ![Evaluation Criteria](<assets/Evaluation Criteria.jpg>)
 
 # References

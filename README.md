@@ -10,20 +10,12 @@
     - [A2 (DL: 2024/04/09, 08.00 A.M.)](#a2-dl-20240409-0800-am)
     - [A3 (DL: 2024/05/14, 08.00 A.M.)](#a3-dl-20240514-0800-am)
 
-## Introduction
-> [! WARNING]
-> You can remove the Introduction section in your personal branch
-
-1. Create a branch & name it: `[year]-[Student ID]-[Name]`. Example: `2020-d11202805-Ian Joseph Chandra`.
-2. Update this README.md to fill in your profile.
-3. Organize your study notes by creating folders.
-4. Create `.md` files for your study notes.
 
 ## 1. Profile
-1. Name: 
-2. Student ID: 
-3. Department: 
-4. Student status: (NTUST Student/Exchange student)
+1. Name: HITAYEZU ANTOINE
+2. Student ID: D11202811
+3. Department: DEPARTMENT OF ELECTRONIC AND COMPUTER ENGINEERING
+4. Student status: NTUST Student
 
 ## 2. Assignments:
 

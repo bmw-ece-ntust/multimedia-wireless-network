@@ -31,7 +31,7 @@
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a1-deadline-35-0800-am)
 - Submissions:
   - [X] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202259-Jerry/Study%20Note%20A1.md)
-  - [X] [Video Presentation](https://youtu.be/ybB9Z5eKMvU) of your assignment explanation.
+  - [X] [Video Presentation](https://youtu.be/ybB9Z5eKMvU)
   - [ ] [Peer Review](https://forms.gle/tPVAdfAc4hBiUtg88)
 
 ### A2 (DL: 2024/04/09, 08.00 A.M.)

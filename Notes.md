@@ -1,3 +1,5 @@
+
+# How to Write a Report
 ## Essays
 ---
 **An essay is a piece of writing on a specific subject, topic or issue.**

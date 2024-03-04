@@ -1,9 +1,10 @@
 # Study Note for Interpersonal Skills
-reference:
-- 5-Minute Presentation ([[1]](https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))
-- [How to Read a Paper](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
-- [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/assignment-types/)
-- [10 Tips for Better Teamwork](https://www.liveabout.com/tips-for-better-teamwork-1919225)
+- My [study notes](https://hackmd.io/ZztXs8raSC-i946McMLCXg?view) on hackMD.
+- reference:
+	- 5-Minute Presentation ([[1]](https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))
+	- [How to Read a Paper](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
+	- [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/assignment-types/)
+	- [10 Tips for Better Teamwork](https://www.liveabout.com/tips-for-better-teamwork-1919225)
 
 ## 1. For 5-Minute Presentation
 

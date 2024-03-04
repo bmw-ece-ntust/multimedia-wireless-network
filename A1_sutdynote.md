@@ -14,9 +14,9 @@ Rehearsal is critical for such a short presentation. You have no time to pause o
 
 While you are rehearsing, don't simply go over the material. Practice your tone, inflections, and body language in front of the mirror. Record yourself and see how you sound.
 
-:::danger
-Never read from your slides
-:::
+> [!TIP]
+> Never read from your slides
+
 
 ### D. Introduce the point with flair, immediately
 Grab your audience's interest from the first sentence and don't let go. During a five-minute presentation, you have little time to build a case or draw them in.  
@@ -120,9 +120,9 @@ Different structures may combine these sections or break them down using additio
 
 Be sure to check your assessment instructions and learning outcomes.
 
-:::info
-If you’re still not sure, check with your course leader.
-:::
+>[!NOTE]
+>If you’re still not sure, check with your course leader.
+
 
 ### Reference
 - [Assignments-Basic-structure-of-a-report.pdf](https://www.openpolytechnic.ac.nz/assets/Uploads/Assignments-Basic-structure-of-a-report.pdf)

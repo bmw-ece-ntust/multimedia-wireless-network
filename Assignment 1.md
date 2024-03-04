@@ -20,6 +20,7 @@ abstract
 1. **Keep your slides simple**. Use **one font** style, and try to put only **a few words** on each slide to share the main ideas. 
 2. Pick presentation templates with **2-3 colors in basic color blocks**. 
 3. Use **beautiful pictures** and **simple data**. Put pictures in focal point to highlight key points, and make sure any data is easy to read and shows the main ideas.
+
 ![](assets/MWN-a1-p1.png)
 
 ### III. Practice over and over again

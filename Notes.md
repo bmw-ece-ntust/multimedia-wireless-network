@@ -1,5 +1,23 @@
+# 1. How to Read a Paper
+**The goal when reading a paper is to understand the scientific contributions the authors are making.
+To read a paper correctly we need to learn how to read both critically and creatively.**
+#### Critical reading
+Critical reading involves trying to break down or question the paper you are reading without assuming the authors are always correct.
+This process might involve questioning the methods, limitations, assumptions, etc made by the authors and trying to get answers to those questions.
+Questioning the paper ensures your understanding of the underlying material in a deeper level.
+#### Creative reading
+Creative reading involves trying to expand on what the paper does correctly, trying to find the best ideas and thinking of new implementations that could be done, or maybe getting some ideas on how to improve the paper itself to make it more generalized and understandable without losing the important details it provides.
+#### Make notes and Summaries
+Another important step involves your interaction with the material, if you take notes of the different points in the paper as you read you can develop a deeper understanding and memorization of the information in a more personal form. And in the end you can use the information you compiled to create a summary of all the content into a few sentences as a way to find the focus of the paper. 
+It's also a good idea to compare the paper to other works.
+#### Review guidelines
+To create a proper paper review you should use the points previously stated to write a summary containing a one or two sentence summary, an extensive outline of the main points of the paper, a section dedicated to suggestions you'd make for the paper and finally a section providing your own opinion on the matter.
 
-# How to Write a Report
+
+---
+
+
+# 2. How to Write a Report and more
 ## Essays
 ---
 **An essay is a piece of writing on a specific subject, topic or issue.**
@@ -69,5 +87,12 @@ In reflective writing you think and write about your learning experience.
 
 #### Review:
 A review focuses on the purpose of something, and whether the purpose has been achieved.
+
+
+---
+
+
+
+# 3. Ten tips for better teamwork
 
 

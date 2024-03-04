@@ -1,8 +1,8 @@
 # <center>Study Note A1</center>
 **<center>Table of Content</center>**
 - [5-Minute Presentation](#1-5-minute-presentation)
-  - [Mastering the Art of the Five-Minute Presentationn](#1-2-5-tips-in-5-minutes---presentations)
-  - [5 Tips in 5 Minutes - Presentations]()
+  - [Mastering the Art of the Five-Minute Presentationn](#1-1-mastering-the-art-of-the-five-minute-presentation)
+  - [5 Tips in 5 Minutes - Presentations](#1-2-5-tips-in-5-minutes---presentations)
 - [How to Read a Paper?]()
 - [How to Write a Report?]()
 - [10 Tips for Better Teamwork]()

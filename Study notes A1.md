@@ -42,7 +42,7 @@ As a consideration for presentation subject, align language and content with the
 A report is where you present your investigation and analysis of information or an issue, recommending actions and making proposals.
 
 **How to writte a report?**
-Keep the reader in mind. Has to be clear, concise and accurate, and uses a recognisable structure. 
+Keep the reader in mind. Has to be clear, concise and accurate, and uses a recognizable structure. 
 Structure can include: a title page, an executive summary, a contents page, an introduction, terms of reference, procedure, findings, conclusions, recommendations, references/bibliography, appendices. 
 
 

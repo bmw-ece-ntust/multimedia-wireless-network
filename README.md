@@ -6,7 +6,6 @@
 - [ Assignment I Report](#-assignment-i-report)
 - [1. Introduction](#1-introduction)
   - [1.1. Submitted By](#11-submitted-by)
-  - [1.2. Other Detail](#12-other-detail)
 - [2. Assignment I Report on Interpersonal Skills](#2-assignment-i-report-on-interpersonal-skills)
   - [2.1 Study Note Report](#21-study-note-report)
     - [2.1.1. The art of 5-minute presentation](#211-the-art-of-5-minute-presentation)

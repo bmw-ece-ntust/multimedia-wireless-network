@@ -85,7 +85,7 @@ A memorable presentation tells a memorable story.
 ---
 
 
-# Conclusion :arrow_double_up: 
+## Conclusion :arrow_double_up: 
 
 A presentation should be on relevant topic, precise, well researched, well practiced to deliver.
 
@@ -188,7 +188,7 @@ It is worth mentioning that scientific contributions can take on many forms. Som
 * Metioning your opinion about work help you to summerize the paper.
 
 
-# Conclusion:
+## Conclusion:
 
 Reading a paper is art, try to be critical about the work, ask your question put your creativity theere to skim the reseach work, note dowm important points, ideas and data as you read along. And summerizing the paper and having your own opion about work will help to gain more knowledge about the topic.
 

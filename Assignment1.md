@@ -100,17 +100,6 @@ While presentation you should be careful that even the average audience getting 
 ---
 
 
-
-
-## :book:Reference
-
-
-[Reference](https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697)
-
-
-
-
-
 # How to Read a Paper 
 
 
@@ -194,12 +183,6 @@ Reading a paper is art, try to be critical about the work, ask your question put
 
 
 
-
-[Reference] (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
-
-
-
-
 # How to Write a Report
 
      This tells about measures we should take while writing a paper to make it effective and grasping. 
@@ -273,9 +256,6 @@ Reflective writing - You listen or observe some and write there as instant.
 While writing a paper one should be clear in which way and how effectively messeges should convey. Choose any form according but be assure you messege should be clear, concise and accurate.
 
 
-[Reference](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/assignment-types/)
-
-
 
 # 10 Tips for Better Teamwork
 
@@ -302,3 +282,12 @@ Teamwork can deal with bigger problem in shorter time, and sometime work and kno
 
 
 #### By following these norms a normal team can do wonders.
+
+
+
+## References
+[5_Minutes_Presentation] (https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697)
+[How to read a paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
+[How to write a paper](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/assignment-types/)
+[Tips for building a team](https://www.liveabout.com/tips-for-better-teamwork-1919225)
+

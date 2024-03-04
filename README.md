@@ -1,4 +1,4 @@
-![](./lab-logo.jpg)
+![](./assets/lab-logo.jpg)
 # <center> 2024 Multimedia Wireless Networks (ET5907701) </center>
 # <center> Assignment I Report</center>
 

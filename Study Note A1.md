@@ -1,7 +1,11 @@
 # <center>Study Note A1</center>
 **<center>Table of Content</center>**
-[TOC]
-
+- [5-Minute Presentation]()
+  - [Mastering the Art of the Five-Minute Presentationn]()
+  - [5 Tips in 5 Minutes - Presentations]()
+- [How to Read a Paper?]()
+- [How to Write a Report?]()
+- [10 Tips for Better Teamwork]()
 ## 1. 5-Minute Presentation
 ### 1-1. Mastering the Art of the Five-Minute Presentation
 This article discusses five methods for successfully crafting a five-minute presentation:

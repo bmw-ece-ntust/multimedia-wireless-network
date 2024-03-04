@@ -44,7 +44,7 @@ Crafting a compelling five-minute presentation requires clarity, focus, and impa
 
 ## 1. Research :mag_right:
     “Research is to make what is invisible visible.” 
->           -*Ernest Boyer*
+       * Ernest Boyer*
 
 Although your material is limited for your five-minute presentation, you will still need to do enough research to understand your topic and extract the most important concepts.
 

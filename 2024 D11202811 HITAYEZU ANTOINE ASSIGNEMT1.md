@@ -1,11 +1,11 @@
 ## I. Mastering the Art of the Five-Minute Presentation
 
 Crafting a succinct yet impactful five-minute presentation presents a distinct opportunity for engagement despite its brevity. However, it also poses considerable challenges in effectively conveying a compelling message within such a short timeframe. Nonetheless, strategic practices can aid in overcoming these hurdles:
-1. **Research**: Despite time constraints, thorough research is essential to grasp the topic and extract key concepts effectively.
-2. **Focus on One Key Concept**: Choosing a singular, pivotal idea ensures clarity and resonance with the audience.
-3. **Practice**: Rehearsal is vital for seamless delivery, emphasizing smooth articulation, timing, and an engaging presentation style.
-4. **Immediate Introduction with Flair**: Grabbing the audience's attention from the start is crucial, beginning with a compelling or controversial statement to sustain interest.
-5. **Storytelling**: Incorporating narrative elements into the presentation enhances memorability, prioritizing relevance and audience benefit over overwhelming statistics.
+
+1. **Focus on One Key Concept**: Choosing a singular, pivotal idea ensures clarity and resonance with the audience.
+2. **Practice**: Rehearsal is vital for seamless delivery, emphasizing smooth articulation, timing, and an engaging presentation style.
+3. **Immediate Introduction with Flair**: Grabbing the audience's attention from the start is crucial, beginning with a compelling or controversial statement to sustain interest.
+4. **Storytelling**: Incorporating narrative elements into the presentation enhances memorability, prioritizing relevance and audience benefit over overwhelming statistics.
 Considering the audience's demographics remains imperative to ensure comprehension and connection, thereby preventing disengagement within the brief timeframe.
 
 ## II. How to read a research paper.

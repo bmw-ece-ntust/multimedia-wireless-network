@@ -8,8 +8,7 @@ reference:
 ## 1. For 5-Minute Presentation
 
 abstract
-> I believe the key to a 5-minute short presentation lies in how to ==grab the audience's attention and keep them focused in a short amount of time.== Therefore, the content of the presentation must highlight the most essential points. The speaker needs to articulate the content coherently, exhibit personal charisma with composure on stage, and attract the audience's gaze. I believe that by achieving these aspects, you can keep the audience attentively listening to your presentation. 
-
+> I believe the key to a 5-minute short presentation lies in how to ==grab the audience's attention and keep them focused in a short amount of time.== Therefore, the content of the presentation must highlight the most essential points. The speaker needs to articulate the content coherently, exhibit personal charisma with composure on stage and attract the audience's gaze. I believe that by achieving these aspects, you can keep the audience attentively listening to your presentation. 
 >Thus, based on the article "[Mastering the Art of the Five-Minute Presentation](https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697)" and the video "[5 Tips in 5 Minutes - Presentations](https://www.youtube.com/watch?v=YVgS_opYacQ)," I have divided the key points into the following **three parts**:
 
 ### I. Choose one important concept
@@ -34,7 +33,6 @@ abstract
 ## 2. For Read a Paper
 abstract
 >When deciding whether to delve into a research paper, it's essential to quickly *skim* through it and attempt to summarize its key points in one or two sentences. This helps determine if the paper is relevant to your research field or report. 
-
 >If a more in-depth reading is required, the article "[How to Read a Research Paper](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)" offers methods and suggestions, summarized in the following **three key points**:
 
 

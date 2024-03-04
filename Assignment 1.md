@@ -1,7 +1,3 @@
-**Outline**
-[TOC]
-
-
 # <p class="text-center">Study Note for Interpersonal Skills </p>
 reference:
 - 5-Minute Presentation ([[1]](https://www.liveabout.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))

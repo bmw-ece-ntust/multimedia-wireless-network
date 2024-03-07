@@ -120,7 +120,7 @@ Ray -->
     - Weekly: up to **15 pts** (1 pt/week)
 - [Assignments](#24-assignments): **30%**
 - Top 3 Students from Peer Review: (Up to) **15%**
-- Final Exam: **30%**. Materials:
+- Final Exam: **40%**. Materials:
   - QoS Fundamentals
   - QoS Mechanisms
   - Assignments
@@ -148,7 +148,7 @@ Ray -->
 
       > **Note**: Record a video to explain your study note, then upload it to your Youtube.
     
-    - **Submit the [peer review form](https://forms.gle/83ApPvGkm1Q9FgUU7)** (**2 pt**)
+    - **Submit the [peer review form](https://forms.gle/qnnYeZF8zcZLZ26p6)** (**2 pt**)
 
       > **Note**: After the deadline, the Google Form will be opened for 1 week.
     
@@ -165,23 +165,34 @@ Ray -->
     - [Wifi Models](https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)
     - [Mac Layer Specific TXOP for EDCA in Ns-3 802.11e](https://copyprogramming.com/howto/ns-3-802-11e-edca-txop-specific-mac-layer)
     - [IEEE-802.11ah-ns-3](https://github.com/imec-idlab/IEEE-802.11ah-ns-3/blob/master/src/wifi/doc/source/wifi-design.rst)
+    - [Simmulation using Nvidia Sionna](https://colab.research.google.com/github/NVlabs/diff-rt/blob/master/Learning_Materials.ipynb#scrollTo=011479da)
 - Score (15%):
-    - Study note: **2 pt**
-    - Flowchart + source code for analysis: **3 pt**
-    - Numercial Results (should be identical as the paper): **3 pt**
-    - Oral presentation: **2 pt**
-    - Top 3 Students: **5 pt**
+    - Study note: (**Up to 6 pt**):
+      - Description & Explanation about the topic (**2pt**)
+      - Flowchart + source code for analysis: (**2 pt**)
+      - Numercial Results (should be identical as the paper): (**2 pt**)
+    - Oral presentation: (**2 pt**)
+    - Peer Review Form: (**2 pt**)
+    - Top 3 Students: (**Up to 5 pt**):
+      - Student 1 (5 pt): [Name]
+      - Student 2 (3 pt): [Name]
+      - Student 3 (1 pt): [Name]
 
 ### A3 (Deadline: 5/14, 08.00 A.M.)
 - **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results.
 - **Topics**: Joint Communication and Sensing with WiFi
 - References: TBD.
 - Score (15%):
-    - Study note: **2 pt**
-    - Flowchart + source code for analysis: **3 pt**
-    - Numerical Results (should be identical as the paper): **3 pt**
-    - Oral Presentation **2 pt**
-    - Peer Review Form: **2 pt**
+    - Study note: (**Up to 6 pt**):
+      - Description & Explanation the topic (**2pt**)
+      - Flowchart + source code for analysis: (**2 pt**)
+      - Numercial Results (should be identical as the paper): (**2 pt**)
+    - Oral presentation: (**2 pt**)
+    - Peer Review Form: (**2 pt**)
+    - Top 3 Students: (**Up to 5 pt**):
+      - Student 1 (5 pt): [Name]
+      - Student 2 (3 pt): [Name]
+      - Student 3 (1 pt): [Name]
 
 <!-- # 3. Paper Studies
 

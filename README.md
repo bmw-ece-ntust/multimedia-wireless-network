@@ -22,7 +22,7 @@
 - Submissions:
   - [x] [Study Note](notes/A1-Study_Notes.md)
   - [x] [Video Presentation](https://www.youtube.com/watch?v=2aPsDFDll8U&feature=youtu.be)
-  - [ ] [Peer Review](https://forms.gle/tPVAdfAc4hBiUtg88)
+  - [x] [Peer Review](https://forms.gle/tPVAdfAc4hBiUtg88)
 
 ### A2 (DL: 2024/04/09, 08.00 A.M.)
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)

@@ -158,15 +158,16 @@ Ray -->
       - Student 3 (1 pt): [Name]
 
 ### A2 (Deadline: 4/9, 08.00 A.M.)
-- **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results.
+- **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results. - [Prof. Ray's Explanation](https://youtu.be/atdoOPE1iYM?feature=shared&t=3053)
 - **Topics**: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
 - References:
-    - [Events and Simulator](https://www.nsnam.org/docs/manual/html/events.html)
-    - [Wifi Models](https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)
+    - [NS-3 Events and Simulator](https://www.nsnam.org/docs/manual/html/events.html)
+    - [NS-3 Wifi Models](https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)
     - [Mac Layer Specific TXOP for EDCA in Ns-3 802.11e](https://copyprogramming.com/howto/ns-3-802-11e-edca-txop-specific-mac-layer)
     - [IEEE-802.11ah-ns-3](https://github.com/imec-idlab/IEEE-802.11ah-ns-3/blob/master/src/wifi/doc/source/wifi-design.rst)
     - [Simmulation using Nvidia Sionna](https://colab.research.google.com/github/NVlabs/diff-rt/blob/master/Learning_Materials.ipynb#scrollTo=011479da)
 - Study Notes golden sample:
+    - [NS-3 for O-RAN (by: zhiyang yung)](https://hackmd.io/@2xIzdkQiS9K3Pfrv6tVEtA/S1LpzA51p)
     - [Nvidia Sionna (by: Lauren Christy Tanudjaja TEEP 2024 intern)](https://github.com/bmw-ece-ntust/internship/blob/2024-TEEP-11-Lauren/Study%20notes/RSSI_Heatmap(SionnaRT).md)
 - Score (15%):
     - Study note: (**Up to 6 pt**):

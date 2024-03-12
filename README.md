@@ -166,6 +166,8 @@ Ray -->
     - [Mac Layer Specific TXOP for EDCA in Ns-3 802.11e](https://copyprogramming.com/howto/ns-3-802-11e-edca-txop-specific-mac-layer)
     - [IEEE-802.11ah-ns-3](https://github.com/imec-idlab/IEEE-802.11ah-ns-3/blob/master/src/wifi/doc/source/wifi-design.rst)
     - [Simmulation using Nvidia Sionna](https://colab.research.google.com/github/NVlabs/diff-rt/blob/master/Learning_Materials.ipynb#scrollTo=011479da)
+- Study Notes golden sample:
+    - [Nvidia Sionna (by: Lauren Christy Tanudjaja TEEP 2024 intern)](https://github.com/bmw-ece-ntust/internship/blob/2024-TEEP-11-Lauren/Study%20notes/RSSI_Heatmap(SionnaRT).md)
 - Score (15%):
     - Study note: (**Up to 6 pt**):
       - Description & Explanation about the topic (**2pt**)

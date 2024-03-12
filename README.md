@@ -11,8 +11,8 @@
     - [A3 (DL: 2024/05/14, 08.00 A.M.)](#a3-dl-20240514-0800-am)
 
 ## 1. Profile
-1. Name: Sylvia
-2. Student ID: M1120225
+1. Name: **Sylvia**
+2. Student ID: **M1120225**
 3. Department: Electric and Computer Engineering
 4. Student status: NTUST Student
 

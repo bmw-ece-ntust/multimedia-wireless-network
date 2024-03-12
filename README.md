@@ -116,7 +116,7 @@ Ray -->
 | Juniper eLearning - II                           | [Getting Started with Wi-Fi](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                    |                                                             |
 
 ## 2.3. Evaluation
-- Q&A/Presentation: **15%**
+- [Q&A](https://docs.google.com/spreadsheets/d/19QD7OPIZt-WaJJqOvvg3FQqFFKGrCpG3i3ix52Oy15s/edit?resourcekey#gid=1487959505)/Presentation: **15%**
     - Weekly: up to **15 pts** (1 pt/week)
 - [Assignments](#24-assignments): **30%**
 - Top 3 Students from Peer Review: (Up to) **15%**
@@ -152,7 +152,7 @@ Ray -->
 
       > **Note**: After the deadline, the Google Form will be opened for 1 week.
     
-    - **Top 3 Students** (**Up to 5 pt**):
+    - [**Top 3 Students**](https://docs.google.com/spreadsheets/d/1m7cMXGDb8YXC7xM3XkL11q_UQTEIzLojoYQmL6zZi5k/edit?usp=sharing) (**Up to 5 pt**):
       - Student 1 (5 pt): [Name]
       - Student 2 (3 pt): [Name]
       - Student 3 (1 pt): [Name]

@@ -158,7 +158,8 @@ Ray -->
       - Student 3 (1 pt): [Name]
 
 ### A2 (Deadline: 4/9, 08.00 A.M.)
-- **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results. - [Prof. Ray's Explanation](https://youtu.be/atdoOPE1iYM?feature=shared&t=3053)
+- **Purpose**: Learn to identify the problem and verify the concepts & analytical results of a research paper through simulation. Duplicate the [research paper](https://ieeexplore.ieee.org/document/1265851) result in the NS-3 simmulator - [Prof. Ray's Explanation](https://youtu.be/atdoOPE1iYM?feature=shared&t=3053)
+
 - **Topics**: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
 - References:
     - [NS-3 Events and Simulator](https://www.nsnam.org/docs/manual/html/events.html)

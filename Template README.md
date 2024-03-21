@@ -20,10 +20,10 @@
 4. Create `.md` files for your study notes.
 
 ## 1. Profile
-1. Name: 
-2. Student ID: 
-3. Department: 
-4. Student status: (NTUST Student/Exchange student)
+1. Name: Desalegn Aweke Wako
+2. Student ID: D11215806
+3. Department: Computer Science and Information Engineering
+4. Student status: NTUST Student
 
 ## 2. Assignments:
 

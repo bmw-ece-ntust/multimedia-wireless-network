@@ -172,7 +172,8 @@ Ray -->
     - [Nvidia Sionna (by: Lauren Christy Tanudjaja TEEP 2024 intern)](https://github.com/bmw-ece-ntust/internship/blob/2024-TEEP-11-Lauren/Study%20notes/RSSI_Heatmap(SionnaRT).md)
 - Score (15%):
     - Study note: (**Up to 6 pt**):
-      - Description & Explanation about the topic (**2pt**)
+      - Topic & Plan Presentation - **DL: 2024/03/26 (1pt)**
+      - Midterm Progress Report Presentation - **DL: 2024/04/02 (1pt)**
       - Flowchart + source code for analysis: (**2 pt**)
       - Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)

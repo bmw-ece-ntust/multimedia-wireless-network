@@ -2,20 +2,19 @@
 # <center> 2024 Multimedia Wireless Networks (ET5907701) </center>
 # <center> Assignment I Report</center>
 
-- [ 2024 Multimedia Wireless Networks (ET5907701) ](#-2024-multimedia-wireless-networks-et5907701-)
-- [ Assignment I Report](#-assignment-i-report)
 
-  - [ Study Note on Interpersonal Skills](##study-note-on-interpersonal-skills)
-    - [1. The art of 5-minute presentation](###the-art-of-5-minute-presentation)
-    - [2. How to read a paper](###212-how-to-read-a-paper)
-    - [3. How to write a report](###213-how-to-write-a-report)
-    - [4. Ten tips for better teamwork](###214-ten-tips-for-better-teamwork)
+  - [Study Note on Interpersonal Skills](#study-note-on-interpersonal-skills)
+    - [1.The art of 5-minute presentation](#1-the-art-of-5-minute-presentation)
+    - [2. How to read a paper](#2-how-to-read-a-paper)
+    - [3. How to write a report](#3-how-to-write-a-report)
+    - [4. Ten tips for better teamwork](#4-ten-tips-for-better-teamwork)
 - [References](#references)
 
 
-## Study Note on Interpersonal Skills
-- The following interpersonal skills are addressed in this report. These are :the art of 5-Minute Presentation, How to read a paper, How to write a report and 10 Tips for Better Teamwork
- ### 1. The art of 5-minute presentation
+
+#  Study Note On Interpersonal Skills
+ - The following interpersonal skills are addressed in this report. These are : The art of 5-Minute Presentation, How to read a paper, How to write a report and 10 Tips for Better Teamwork
+ ## 1. The art of 5-minute presentation
  - From an audience perspective, five-minute presentation is more engaging and less boring than a typical 60-minute talk. But it is the most challenging of all presentations to create and deliver.
 - The ultimate goal of five-minute presentation is creating a compelling, focused speech with a single message. 
 - The five important ways to create a successful 5-minute presentation for a memorable method of engaging your audience.
@@ -30,7 +29,7 @@
 
   - **Tell a story** : A memorable presentation tells a memorable story. Keep data as simple as possible, and never read from slides
 
-### 2. How to read a paper
+## 2. How to read a paper
 
 - Reading a paper can be a frustrating experience, especially for the one who has not mastered the art of reading scientific literature.  You need to carefully read a paper to review it, or if it’s relevant to your own research.
 - When you read a research paper, your goal is to understand the scientific contributions the authors are making. This is not an easy task. It may require going over the paper several times. Expect to spend several hours to read a paper.
@@ -52,7 +51,7 @@
   - any limitations or extensions you see for the ideas in the paper.
   - your opinion of the paper; primarily, the quality of the ideas and its potential impact
 
-### 3. How to write a report
+## 3. How to write a report
 
  - A report is where you present your investigation and analysis of information or an issue, recommending actions and making proposals. It  is a communication of information, from a person who has collected and studied the facts.
  -  When writing a report, always keep the reader in mind. Be clear, concise and accurate, and use a recognisable structure.<br>
@@ -70,7 +69,7 @@
    <ul>* <b>References/bibliography</b> : list of all the sources you consulted. </ul><br>
    <ul>* <b>Appendices</b> : additional information that is relevant to the report, but would interrupt the flow of the text if included in the body of the report </ul><br>
 
-### 4. Ten tips for better teamwork
+## 4. Ten tips for better teamwork
 
 Diverse people who bring different life experiences, uncommon work experiences, and varying degrees of success working with former teams and the accomplishment of prior team missions, come together. 
 - You can significantly increase the chances of the teams that you join or oversee to make needed contributions. 
@@ -103,3 +102,4 @@ Diverse people who bring different life experiences, uncommon work experiences, 
   2.  [How to Read a Paper](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
   3. [How to Write a Report](https://www.openpolytechnic.ac.nz/current-students/study-tips-and-techniques/assignments/how-to-write-a-report/)
   4. [10 Tips for Better Teamwork](https://www.thebalancecareers.com/tips-for-better-teamwork-1919225)
+

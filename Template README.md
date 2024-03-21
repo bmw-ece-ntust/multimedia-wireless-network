@@ -3,7 +3,6 @@
 # <center> 2024 Multimedia Wireless Networks (ET5907701) </center>
 
 - [ 2024 Multimedia Wireless Networks (ET5907701) ](#-2024-multimedia-wireless-networks-et5907701-)
-  - [Introduction](#introduction)
   - [1. Profile](#1-profile)
   - [2. Assignments:](#2-assignments)
     - [A1 (DL: 2024/03/05, 08.00 A.M.)](#a1-dl-20240305-0800-am)

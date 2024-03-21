@@ -5,11 +5,11 @@
 - [ 2024 Multimedia Wireless Networks (ET5907701) ](#-2024-multimedia-wireless-networks-et5907701-)
 - [ Assignment I Report](#-assignment-i-report)
 
-  - [ Study Note on Interpersonal Skills](#21-study-note-report)
-    - [1. The art of 5-minute presentation](#211-the-art-of-5-minute-presentation)
-    - [2. How to read a paper](#212-how-to-read-a-paper)
-    - [3. How to write a report](#213-how-to-write-a-report)
-    - [4. Ten tips for better teamwork](#214-ten-tips-for-better-teamwork)
+  - [ Study Note on Interpersonal Skills](##21-study-note-report)
+    - [1. The art of 5-minute presentation](###211-the-art-of-5-minute-presentation)
+    - [2. How to read a paper](###212-how-to-read-a-paper)
+    - [3. How to write a report](###213-how-to-write-a-report)
+    - [4. Ten tips for better teamwork](###214-ten-tips-for-better-teamwork)
 - [References](#references)
 
 

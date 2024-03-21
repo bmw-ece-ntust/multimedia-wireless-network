@@ -161,7 +161,6 @@ Ray -->
 ### A2
 - $\color{red}DL: 4/9, 08.00 A.M.$
 - **Purpose**: Learn to identify the problem and verify the concepts & analytical results of a research paper through simulation. Duplicate the [research paper](https://ieeexplore.ieee.org/document/1265851) result in the NS-3 simmulator - [Prof. Ray's Explanation](https://youtu.be/atdoOPE1iYM?feature=shared&t=3053)
-
 - **Topics**: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
 - References:
     - [NS-3 Events and Simulator](https://www.nsnam.org/docs/manual/html/events.html)
@@ -201,7 +200,7 @@ Ray -->
     - Study note: (**Up to 6 pt**):
       - Topic & Plan Presentation - **$\color{red}DL: 2024/04/16$ (1pt)**
         <details><summary>Slide Presentation format:</summary>  
-          
+
           - Slide 0: Name
           - Slide 1: List their weekly plan (deliverable/week)
           - Slide 2: Briefly summarize the reference they have studied

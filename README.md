@@ -56,11 +56,11 @@
 1. Create a [GitHub account](https://github.com/join).
 2. Provide your information & gmail to be used in this course in this [Google form](https://forms.gle/szQXJkVMSAYxoKrD6).
 3. Read the [GitHub markdown features](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) information.
-4. Download [Visual Studio Code](https://span.visualstudio.com/download) (for study notes writing).
+4. Download [Visual Studio Code](https://code.visualstudio.com/download) (for study notes writing).
   
   > [!TIP]
   > 1. Read how to generate automatic [Table of Content (ToC)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents) using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension.
-  > 2. Turn off [VScode Word Wrap](https://span.visualstudio.com/docs/editor/spanbasics#_how-do-i-turn-on-word-wrap) feature when you edit a table.
+  > 2. Turn off [VScode Word Wrap](https://code.visualstudio.com/docs/editor/codebasics#_how-do-i-turn-on-word-wrap) feature when you edit a table.
 
 5. Create your own branch in this repository using this format: `[year]-[student ID]-[English Name]`.
     
@@ -132,7 +132,7 @@ Ray -->
 
 
 ## 2.4. Assignments
-### A1 (<span style="color:red">DL: 3/5, 08.00 A.M.</span>)
+### A1 (<code style="color:red">DL: 3/5, 08.00 A.M.</code>)
 - **Purpose**: Learn the background knowledge of interpersonal skills and apply it in the following assignments.
 - Interpersonal Skills:
     1. 5-Minute Presentation ([[1]](https://www.thebalancesmb.com/mastering-the-art-of-the-5-minute-presentation-2951697),[[2]](https://www.youtube.com/watch?v=YVgS_opYacQ))
@@ -157,7 +157,7 @@ Ray -->
       - Student 2 (3 pt): [Name]
       - Student 3 (1 pt): [Name]
 
-### A2 (<span style="color:red">DL: 4/9, 08.00 A.M.</span>)
+### A2 (<code style="color:red">DL: 4/9, 08.00 A.M.</code>)
 - **Purpose**: Learn to identify the problem and verify the concepts & analytical results of a research paper through simulation. Duplicate the [research paper](https://ieeexplore.ieee.org/document/1265851) result in the NS-3 simmulator - [Prof. Ray's Explanation](https://youtu.be/atdoOPE1iYM?feature=shared&t=3053)
 
 - **Topics**: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
@@ -172,7 +172,7 @@ Ray -->
     - [Nvidia Sionna (by: Lauren Christy Tanudjaja TEEP 2024 intern)](https://github.com/bmw-ece-ntust/internship/blob/2024-TEEP-11-Lauren/Study%20notes/RSSI_Heatmap(SionnaRT).md)
 - Score (15%):
     - Study note: (**Up to 6 pt**):
-      - Topic & Plan Presentation - **<span style="color:red">DL: 2024/03/26</span> (1pt)**
+      - Topic & Plan Presentation - **<code style="color:red">DL: 2024/03/26</code> (1pt)**
         <details><summary>Slide Presentation format:</summary>  
           
           - Slide 0: Name
@@ -180,7 +180,7 @@ Ray -->
           - Slide 2: Briefly summarize the reference they have studied
           - Slide 3: List the pending issues and possible solutions
         </details>
-      - Midterm Progress Report Presentation - **<span style="color:red">DL: 2024/04/02</span> (1pt)**
+      - Midterm Progress Report Presentation - **<code style="color:red">DL: 2024/04/02</code> (1pt)**
       - Flowchart + source code for analysis: (**2 pt**)
       - Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)
@@ -190,13 +190,13 @@ Ray -->
       - Student 2 (3 pt): [Name]
       - Student 3 (1 pt): [Name]
 
-### A3 (<span style="color:red">DL: 5/14, 08.00 A.M.</span>)
+### A3 (<code style="color:red">DL: 5/14, 08.00 A.M.</code>)
 - **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results.
 - **Topics**: Joint Communication and Sensing with WiFi
 - References: TBD.
 - Score (15%):
     - Study note: (**Up to 6 pt**):
-      - Topic & Plan Presentation - **<span style="color:red">DL: 2024/04/16</span> (1pt)**
+      - Topic & Plan Presentation - **<code style="color:red">DL: 2024/04/16</code> (1pt)**
         <details><summary>Slide Presentation format:</summary>  
           
           - Slide 0: Name
@@ -204,7 +204,7 @@ Ray -->
           - Slide 2: Briefly summarize the reference they have studied
           - Slide 3: List the pending issues and possible solutions
         </details>
-      - Midterm Progress Report Presentation - **<span style="color:red">DL: 2024/04/23</span> (1pt)**
+      - Midterm Progress Report Presentation - **<code style="color:red">DL: 2024/04/23</code> (1pt)**
       - Flowchart + source code for analysis: (**2 pt**)
       - Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)

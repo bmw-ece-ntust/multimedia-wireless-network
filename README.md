@@ -1,9 +1,8 @@
-![](./lab-logo.jpg)
-# <center> 2024 Multimedia Wireless Networks (ET5907701) </center>
-# <center> Assignment I Report</center>
+
+# <center> Study Note On Interpersonal Skills</center>
 
 
-  - [Study Note on Interpersonal Skills](#study-note-on-interpersonal-skills)
+  - [Introduction](#introduction)
     - [1.The art of 5-minute presentation](#1-the-art-of-5-minute-presentation)
     - [2. How to read a paper](#2-how-to-read-a-paper)
     - [3. How to write a report](#3-how-to-write-a-report)
@@ -12,7 +11,7 @@
 
 
 
-#  Study Note On Interpersonal Skills
+#  Introduction
  - The following interpersonal skills are addressed in this report. These are : The art of 5-Minute Presentation, How to read a paper, How to write a report and 10 Tips for Better Teamwork
  ## 1. The art of 5-minute presentation
  - From an audience perspective, five-minute presentation is more engaging and less boring than a typical 60-minute talk. But it is the most challenging of all presentations to create and deliver.

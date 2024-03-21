@@ -173,6 +173,13 @@ Ray -->
 - Score (15%):
     - Study note: (**Up to 6 pt**):
       - Topic & Plan Presentation - **<span style="color:red">DL: 2024/03/26</span> (1pt)**
+        <details><summary>Slide Presentation format:</summary>  
+          
+          - Slide 0: Name
+          - Slide 1: List their weekly plan (deliverable/week)
+          - Slide 2: Briefly summarize the reference they have studied
+          - Slide 3: List the pending issues and possible solutions
+        </details>
       - Midterm Progress Report Presentation - **<span style="color:red">DL: 2024/04/02</span> (1pt)**
       - Flowchart + source code for analysis: (**2 pt**)
       - Numercial Results (should be identical as the paper): (**2 pt**)
@@ -190,6 +197,13 @@ Ray -->
 - Score (15%):
     - Study note: (**Up to 6 pt**):
       - Topic & Plan Presentation - **<span style="color:red">DL: 2024/04/16</span> (1pt)**
+        <details><summary>Slide Presentation format:</summary>  
+          
+          - Slide 0: Name
+          - Slide 1: List their weekly plan (deliverable/week)
+          - Slide 2: Briefly summarize the reference they have studied
+          - Slide 3: List the pending issues and possible solutions
+        </details>
       - Midterm Progress Report Presentation - **<span style="color:red">DL: 2024/04/23</span> (1pt)**
       - Flowchart + source code for analysis: (**2 pt**)
       - Numercial Results (should be identical as the paper): (**2 pt**)

@@ -1,5 +1,5 @@
 
-# <center> Study Note On Interpersonal Skills</center>
+# <center> Study Note on Interpersonal Skills</center>
 
 
   - [Introduction](#introduction)

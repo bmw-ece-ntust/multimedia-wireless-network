@@ -35,7 +35,7 @@
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A2
-- $\color{red}DL: 4/9, 08.00 A.M. NEW UPDATED$ 
+- $\color{red}DL: 4/9, 08.00 A.M. NEW-UPDATED$ 
 - **Purpose**: Learn to identify the problem and verify the concepts & analytical results of a research paper through simulation. Duplicate the [research paper](https://ieeexplore.ieee.org/document/1265851) result in the NS-3 simmulator - [Prof. Ray's Explanation](https://youtu.be/atdoOPE1iYM?feature=shared&t=3053)
 - **Topics**: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
 - References:

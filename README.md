@@ -51,7 +51,7 @@
     - Study note: (**Up to 6 pt**):
       - Topic & Plan Presentation - **$\color{red}DL: 2024/03/26$ (1pt)**
         <details><summary>Slide Presentation format:</summary>  
-          
+          [Presentaion for 25 march](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2.pptx)
           - Slide 0: Name
           - Slide 1: List their weekly plan (deliverable/week)
           - Slide 2: Briefly summarize the reference they have studied

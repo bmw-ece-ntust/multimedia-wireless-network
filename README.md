@@ -21,13 +21,14 @@
 ### A1 (DL: 2024/03/05, 08.00 A.M.)
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a1-deadline-35-0800-am)
 - Submissions:
-  - [ ] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%201%20-%20Study%20Notes.md)
-  - [ ] [Video Presentation](https://youtu.be/2vMR3yyIfaM) of your assignment explanation.
-  - [ ] [Peer Review](https://forms.gle/tPVAdfAc4hBiUtg88)
+  - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%201%20-%20Study%20Notes.md)
+  - [x] [Video Presentation](https://youtu.be/2vMR3yyIfaM) of your assignment explanation.
+  - [x] [Peer Review](https://forms.gle/tPVAdfAc4hBiUtg88)
 
 ### A2 (DL: 2024/04/09, 08.00 A.M.)
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
+  - [x] [Plan Presentation](https://drive.google.com/file/d/1oKC7kIKc6s5lEo-WPHsYCQ8Pnvtgffha/view?usp=sharing)
   - [ ] [Study Note](path to another .md file for your assignment)
   - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
   - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)

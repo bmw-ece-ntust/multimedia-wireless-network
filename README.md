@@ -154,9 +154,11 @@ Ray -->
       > **Note**: After the deadline, the Google Form will be opened for 1 week.
     
     - [**Top 3 Students**](https://docs.google.com/spreadsheets/d/1m7cMXGDb8YXC7xM3XkL11q_UQTEIzLojoYQmL6zZi5k/edit?usp=sharing) (**Up to 5 pt**):
-      - Student 1 (5 pt): [Name]
-      - Student 2 (3 pt): [Name]
-      - Student 3 (1 pt): [Name]
+      - Student 1 (**5 pt**): F11215120 - Emiliano Nazareno Rojas Marcelli
+      - Student 2 (3 pt): D11215805 - Dawit Hadush Hailu
+      - Student 3 (1 pt): 
+        - M11202215 - Joe
+        - M11202816 - RAVI SHANKAR PRASAD
 
 ### A2
 - $\color{red}DL: 4/9, 08.00 A.M.$

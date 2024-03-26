@@ -31,7 +31,7 @@ Hello everyone, I am Dawit Hadush Hailu, currently admitted to PhD program under
   - [ ] [Peer Review](https://forms.gle/tPVAdfAc4hBiUtg88)
 
 ### A2 (DL: 2024/04/09, 08.00 A.M.)
-- [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
+- [Assignment Information]([https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am](https://docs.google.com/presentation/d/1uqHR4iGw9zDzT5OVC8Nvimf9xAGJoOfn/edit?usp=drive_web&ouid=106105615252431045873&rtpof=true))
 - Submissions:
   - [ ] [Study Note]([path to another .md file for your assignment](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/Assignment%202%20ppt.pptx))
   - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)

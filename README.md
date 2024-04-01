@@ -35,7 +35,7 @@ Hello everyone, I am Dawit Hadush Hailu, currently admitted to PhD program under
 - Submissions:
   - [ ] [Study Note] (path to another .md file for your assignment)
     - [x] [Weekly Plan Presenation](https://docs.google.com/presentation/d/1uqHR4iGw9zDzT5OVC8Nvimf9xAGJoOfn/edit#slide=id.p1)
-    - [x] [Midterm Progress Report Presentation]()
+    - [x] [Midterm Progress Report Presentation](https://docs.google.com/presentation/d/1J29mIIdCZQvx39B0_nOIHOLM8DXq_2im/edit)
   - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
   - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)

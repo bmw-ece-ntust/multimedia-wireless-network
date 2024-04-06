@@ -56,18 +56,18 @@
           - Slide 1: List their weekly plan (deliverable/week)
           - Slide 2: Briefly summarize the reference they have studied
           - Slide 3: List the pending issues and possible solutions
-            </detail><summary> -[Presentaion for 26 march](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2%20updated.pptx) </summary></detail>       
-      
+          -[Presentaion for 26 march](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2%20updated.pptx)       
+      </detail></summary>
       - Midterm Progress Report Presentation  - **$\color{red}DL: 2024/04/02$ (1pt)**
       - Flowchart + source code for analysis: (**2 pt**)
-      - Numercial Results (should be identical as the paper): (**2 pt**)
+      - Numercial Results (should be identical as the paper): (**2 pt**) </detail></summary>
     - Oral presentation: (**2 pt**)
     - Peer Review Form: (**2 pt**)
     - Top 3 Students: (**Up to 5 pt**):
       - Student 1 (5 pt): [Name]
       - Student 2 (3 pt): [Name]
       - Student 3 (1 pt): [Name]
-</detail>
+
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)

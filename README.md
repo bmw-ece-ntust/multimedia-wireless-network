@@ -22,9 +22,9 @@
 ### A1 (DL: 2024/03/05, 08.00 A.M.)
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a1-deadline-35-0800-am)
 - Submissions:
-  - [OK] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/2024%20D11202811%20HITAYEZU%20ANTOINE%20ASSIGNEMT1.md)
-  - [ ] [Video Presentation](https://youtu.be/jULd4Gjr9oU) of my assignment explanation.
-  - [ ] [Peer Review](https://forms.gle/tPVAdfAc4hBiUtg88)
+  - [X] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/2024%20D11202811%20HITAYEZU%20ANTOINE%20ASSIGNEMT1.md)
+  - [X] [Video Presentation](https://youtu.be/jULd4Gjr9oU) of my assignment explanation.
+  - [X] [Peer Review](https://forms.gle/tPVAdfAc4hBiUtg88)
 
 ### A2 (DL: 2024/04/09, 08.00 A.M.)
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
@@ -49,7 +49,7 @@
     - [Nvidia Sionna (by: Lauren Christy Tanudjaja TEEP 2024 intern)](https://github.com/bmw-ece-ntust/internship/blob/2024-TEEP-11-Lauren/Study%20notes/RSSI_Heatmap(SionnaRT).md)
 - Score (15%):
     - Study note: (**Up to 6 pt**):
-      - Topic & Plan Presentation - **$\color{red}DL: 2024/03/26$ (1pt)**
+      [X] Topic & Plan Presentation - **$\color{red}DL: 2024/03/26$ (1pt)**
         <details><summary>Slide Presentation format:</summary>  
           
           - Slide 0: Name
@@ -58,7 +58,7 @@
           - Slide 3: List the pending issues and possible solutions
             </detail><summary>[Presentaion for 26 march](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2%20updated.pptx)</summary></detail>       
         </details>
-      - Midterm Progress Report Presentation - **$\color{red}DL: 2024/04/02$ (1pt)**
+      [X] Midterm Progress Report Presentation - **$\color{red}DL: 2024/04/02$ (1pt)**
       - Flowchart + source code for analysis: (**2 pt**)
       - Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)

@@ -58,9 +58,9 @@
           - Slide 3: List the pending issues and possible solutions
           -[Presentaion for 26 march](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2%20updated.pptx)</detail>  
   
-    [ ] Midterm Progress Report Presentation  - **$\color{red}DL: 2024/04/02$ (1pt)**
-    [ ] Flowchart + source code for analysis: (**2 pt**)
-    [ ] Numercial Results (should be identical as the paper): (**2 pt**)
+    + Midterm Progress Report Presentation  - **$\color{red}DL: 2024/04/02$ (1pt)**
+    + Flowchart + source code for analysis: (**2 pt**)
+    + Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)
     - Peer Review Form: (**2 pt**)
     - Top 3 Students: (**Up to 5 pt**):

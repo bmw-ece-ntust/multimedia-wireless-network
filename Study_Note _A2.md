@@ -17,9 +17,9 @@
 
 
 # Part I: Learning basic concept of ns3
-<div style="text-align: justify"> 
+<p align="justify">
 Ns-3 simulator is a discrete-event network simulator primarily designed for research and educational purposes, usually operated from the command line. It's coded in C++ and created to offer an open, customizable network simulation platform for both networking research and education. Essentially, ns-3 provides models depicting the functionality and performance of packet data networks, along with a simulation engine empowering users to conduct diverse simulation experiments. Its evolution hinges on the continuous contributions from the community, encompassing the development of novel models, debugging and upkeep of existing ones, and the dissemination of findings and outcomes.
- </div>
+ </p>
  
 
 To install ns-3 (Network Simulator version 3) using virtual box in windows, you typically follow these steps:
@@ -55,10 +55,10 @@ To install ns-3 (Network Simulator version 3) using virtual box in windows, you 
 # Part II: Simulated Wi-Fi network using ns3 
 
  ## Introduction
- 
+ <p align="justify">
 IEEE 802.11 is the official IEEE term for wireless networking, encompassing various specifications. Several wireless networking specifications such as 802.11a, 802.11b, 802.11g, and 802.11n exist under the 802.11 banner. These standards employ the Ethernet protocol and utilize the CSMA/CA access method.
 The most recent wireless standard listed in the Network+ objectives is 802.11n. This standard aims to notably enhance throughput in both the 2.4GHz and 5GHz frequency bands.  The baseline goal is initially targeting speeds of 100Mbps, under optimal conditions, it's projected that 802.11n could achieve speeds as high as 600Mbps. However, In practical operation, actual 802.11n speeds are likely to be considerably lower.
-
+</p>
 
 | IEEE Standard |Frequency/Medium   | Speed | Topology | Transmission Range | Access Method |
 | -------- | -------- | -------- | -------- | -------- | -------- |
@@ -88,8 +88,9 @@ The topology I implement to simulate the IEEE 802.11 Wi-Fi throughput and is sho
 ![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/topo.PNG)
 
 ## Simulation code
-
+ <p align="justify">
 This is simulation code that shows how to configure an IEEE 802.11n Wi-Fi network. It outputs the average throughput and average delay, which depends on the number of stations.  The user can select the distance between the stations, the AP and can enable/disable the RTS/CTS mechanism, the HT MCS value (0 to 7), the channel width (20 or 40 MHz) and the guard interval (long or short). The user can also specify whether RTS/CTS is used or not.
+</p>
 
 ```
 ./ns3 run "wifi-network --numStations=5 --distance=10 --mcs=7 --useRts=false --simulationTime=20 --channelwidth=20 - useShortGuardInterval=false"
@@ -275,8 +276,9 @@ int main(int argc, char *argv[]) {
 ```
 
 ### Output of the simulation code
+ <p align="justify">
 The simulation code outputs Throughput_vs_stations.txt and delay_vs_stations.txt into the ns3.41 folder and I took this file into matlab to plot the relationship between throughput and delay with number of stations. Below is a screenshot of a sample output. 
-
+ </p>
 ![flow](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/flow.PNG)
 
 ## Results
@@ -285,14 +287,16 @@ For a simulation varying the stations from 1 to 30 and a simulation time of 10 s
 
 ![Throughputvsstation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/Throughputvsstation.png)
 
-
+ <p align="justify">
 When the number of stations are increased, the average throughput gets lower, and the output shows how it affects the throughput for the network. When the distance between wifi stations and access point is augmented, the throughput for the wifi-network is more affected. 
+ </p>
 ### Number of stations versus Delay 
 Similary, varying the stations  from 1 to 30,a simulation time of 10 seconds, we obtain the following result. 
 ![DelayVStation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/DelayVStation.png)
-
+ <p align="justify">
 When the number of stations are increased, the average delay gets higher, and the output shows how it affects the delay for the network. When the distance between wifi stations and access point is augmented, the delay for the wifi-network is more affected. 
-
+ </p>
+ 
 # References:
 1. ns-3([[1]](https://www.nsnam.org/),[[2]](https://www.nsnam.org/documentation/))
 2. [NS-3 Events and Simulator]( https://www.nsnam.org/docs/manual/html/events.html)

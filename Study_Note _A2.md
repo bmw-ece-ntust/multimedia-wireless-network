@@ -1,6 +1,6 @@
 # <center> Study Note on Wi-Fi Network simulation </center>
 
-- [Objective of the Assignment](#Objective-of-the-Assignment:)
+- [Objective of the Assignment:](#Objective-of-the-Assignment:)
 - [Five minute presentation](#Five-minute-presentation)
 - [How to read a paper](#how-to-read-a-paper)
 - [How to write a report](#how-to-write-a-report)

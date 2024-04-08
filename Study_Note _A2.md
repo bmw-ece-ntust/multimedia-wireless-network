@@ -12,7 +12,7 @@
 		- [Output of the simulation code](#Output-of-the-simulation-code)
 	- [Results](#Results)
 		- [Number of stations versus Throughput](#Number-of-stations-versus-Throughput)
-  		- [Number of stations versus Throughput](#Number-of-stations-versus-Throughput)
+  		- [Number of stations versus Average Delay](#Number-of-stations-versus-Average-Delay)
 - [References](#References)
   
 # Objective of the Assignment: 

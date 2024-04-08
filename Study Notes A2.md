@@ -1,5 +1,7 @@
 - [Introduction](#Introduction)
 - [Install ns-3](#Install-ns-3)
+- [Paper analysis](#Paper-analysis)
+- [Simulation](#Simulation)
 
 
 # Introduction
@@ -42,3 +44,5 @@ $ ./ns3 run hello-simulator``
 In your screen you should see
 
 Hello Simulator
+
+#Paper analysis

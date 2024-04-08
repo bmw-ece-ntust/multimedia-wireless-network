@@ -14,8 +14,6 @@
     * Study 2:
         * Mean delays 
         * Number of station: ranging from 1 to 14
-
-
 # Part I: Learning basic concept of ns3
 <p align="justify">
 Ns-3 simulator is a discrete-event network simulator primarily designed for research and educational purposes, usually operated from the command line. It's coded in C++ and created to offer an open, customizable network simulation platform for both networking research and education. Essentially, ns-3 provides models depicting the functionality and performance of packet data networks, along with a simulation engine empowering users to conduct diverse simulation experiments. Its evolution hinges on the continuous contributions from the community, encompassing the development of novel models, debugging and upkeep of existing ones, and the dissemination of findings and outcomes.
@@ -93,7 +91,7 @@ This is simulation code that shows how to configure an IEEE 802.11n Wi-Fi networ
 </p>
 
 ```c++
-./ns3 run "wifi-network --numStations=5 --distance=10 --mcs=7 --useRts=false --simulationTime=20 --channelwidth=20 - useShortGuardInterval=false"
+./ns3 run "wifi-network --numStations=5 --distance=5 --mcs=7 --useRts=false --simulationTime=10 --channelwidth=40 - useShortGuardInterval=false"
 ```
 
 Below is the source code of the simulation. 

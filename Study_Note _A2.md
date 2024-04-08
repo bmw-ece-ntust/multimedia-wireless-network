@@ -97,7 +97,7 @@ This is simulation code that shows how to configure an IEEE 802.11n Wi-Fi networ
 ```
 
 Below is the source code of the simulation. 
-```
+```c++
 #include "ns3/core-module.h"
 #include "ns3/mobility-module.h"
 #include "ns3/wifi-module.h"

@@ -284,9 +284,10 @@ Using the flow monitor module I obtain and print certain statistics related to t
 This simulation uses an approximate distance of 5 meters between the Access Point and each Station
 
 #### Result
-![[Pasted image 20240409071115.png]]
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/137210756/bd39fa70-f888-4ce6-904b-870944be934a)
 
 #### Code Flowchart
-![[Pasted image 20240409071801.png]]
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/137210756/37097892-ef64-4521-809a-9a0f52e436e0)
+
 ### Conclusion
 The results show a rather interesting number for both the speed and delay, and my expectations are that by implementing the 802.11e QoS services I'll see an upgrade in terms of speed and delay, reducing the time it takes to send the most important packages and providing further stability to the transfer.

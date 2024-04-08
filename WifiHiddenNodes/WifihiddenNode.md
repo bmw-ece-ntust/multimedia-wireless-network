@@ -34,23 +34,7 @@ A----/--->C
    - IP flow monitor
  
 ### Codes
-#include "ns3/boolean.h"
-#include "ns3/command-line.h"
-#include "ns3/config.h"
-#include "ns3/constant-position-mobility-model.h"
-#include "ns3/flow-monitor-helper.h"
-#include "ns3/internet-stack-helper.h"
-#include "ns3/ipv4-address-helper.h"
-#include "ns3/ipv4-flow-classifier.h"
-#include "ns3/on-off-helper.h"
-#include "ns3/propagation-delay-model.h"
-#include "ns3/propagation-loss-model.h"
-#include "ns3/string.h"
-#include "ns3/udp-echo-helper.h"
-#include "ns3/uinteger.h"
-#include "ns3/yans-wifi-channel.h"
-#include "ns3/yans-wifi-helper.h"
-#include "ns3/netanim-module.h"
+
 
 using namespace ns3;
 

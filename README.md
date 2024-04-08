@@ -30,7 +30,7 @@
 - Submissions:
   - [wifi Simulation Study Note](https://hackmd.io/@Desalegn/r1LU0MCJ0)
      -  [ ] [progress Note](https://docs.google.com/presentation/d/1TH8xMZELlaDTp8Ow3blm1vR8eehpLdTp/edit#slide=id.p1)
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
+  - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/WifiSimulation.cc)
   - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 

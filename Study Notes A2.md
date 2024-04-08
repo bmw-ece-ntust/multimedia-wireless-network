@@ -45,4 +45,13 @@ In your screen you should see
 
 Hello Simulator
 
-#Paper analysis
+# Paper analysis
+
+The paper provides an ovierw and analysis of the IEEE 802.11e standard, which introduces quality of service (QoS) support for wireless local area networks (WLANs)
+Some points are:
+Background on the legacy 802.11 protocol and its limitations in providing QoS support for different types of traffic (voice, video, best-effort, background).
+Description of the new mechanisms introduced in 802.11e for QoS support: a. Enhanced Distributed Channel Access (EDCA) - Contention-based channel access with prioritized access categories and adjustable parameters. b. Hybrid Coordination Function Controlled Channel Access (HCCA) - Controlled channel access with polling by a centralized coordinator.
+Explanation of the new concepts in 802.11e, such as: a. Transmission Opportunities (TXOPs) - Time periods during which a station can transmit multiple data frames without contention. b. Access Categories (ACs) - Different prioritized queues for different traffic types within a station. c. EDCA parameter sets - Adjustable parameters like arbitrary interframe spaces (AIFSs), contention window sizes, and TXOP limits for each AC.
+Analysis of the performance of 802.11e through simulations, evaluating: a. Throughput achieved by different ACs under varying traffic loads and number of stations. b. MSDU delivery delays for different ACs and HCCA, in isolated and overlapping QBSSs (QoS Basic Service Sets).
+Discussion of additional efficiency improvements in 802.11e, such as block acknowledgments and direct link protocol.
+Identification of remaining open issues, like the overlapping QBSS problem where uncoordinated resource sharing can degrade QoS.

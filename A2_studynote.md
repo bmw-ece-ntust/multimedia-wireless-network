@@ -19,7 +19,7 @@ I referred to the scenario described in the paper "ANALYSIS OF IEEE 802.11E FOR 
 
 
 ## Flowchart
-<img src='flowchart.png' width='200'>
+<img src='flowchart.png' width='400'>
 
 ## Code
 This code is based on `ns3-3.39/examples/wireless/wifi-simple-ht-hidden-stations.cc`, which add function to increase STA, generate plot, and somd other modify.
@@ -305,26 +305,26 @@ main(int argc, char* argv[])
 ```
 
 ## Result
-:::info
-- CTS/RTS:
-```cc=68
-    bool enableRts = 1;
-```
-- Hidden Node:
-```cc=125
-//I easily set maximum wireless range to a huge number 
-Config::SetDefault("ns3::RangePropagationLossModel::MaxRange", DoubleValue(999));
-```
-:::
+>[!NOTE]
+>CTS/RTS:
+>```cc=68
+>    bool enableRts = 1;
+>```
+> Hidden Node:
+>```cc=125
+>//I easily set maximum wireless range to a huge number 
+>Config::SetDefault("ns3::RangePropagationLossModel::MaxRange", DoubleValue(999));
+>```
+
 
 ### No Hidden Node and CTS/RTS
-<img src='X H X CR.png' width='200'>
+<img src='X H X CR.png' width='400'>
 From above figure can observe the throughput keep reduceing once the number of stations becomes larger since collision.
 
 ### No Hidden Node, has CTS/RTS
-<img src='X H O CR.png' width='200'>
+<img src='X H O CR.png' width='400'>
 The figure is more similar to the one in paper. With the STA increse, AP throughput can up to a point and reduce since collision still happen. But not that dramatically since for now there is only AC_BE in use.
 
-<img src='paper result.png' width='200'>
+<img src='paper result.png' width='400'>
 
 

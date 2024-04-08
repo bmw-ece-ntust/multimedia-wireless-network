@@ -1,19 +1,6 @@
 ## Working wih second.cc
 
-/*
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License version 2 as
- * published by the Free Software Foundation;
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- */
+## Point to Point and csma node connection.
 
 #include "ns3/applications-module.h"
 #include "ns3/core-module.h"
@@ -30,6 +17,9 @@
 //    point-to-point  |    |    |    |
 //                    ================
 //                      LAN 172.16.2.0
+
+Note- n1 act as AP
+2- n1, n2, n3 and n4 are connected in a bus topology.
 
 using namespace ns3;
 
@@ -55,17 +45,23 @@ main(int argc, char* argv[])
 
     nCsma = nCsma == 0 ? 1 : nCsma;
 
+    ### Declaring p2p Nodes
+
     NodeContainer p2pNodes;
     p2pNodes.Create(2);
-
+    
+    ### Declare csma Nodes
     NodeContainer csmaNodes;
     csmaNodes.Add(p2pNodes.Get(1));
     csmaNodes.Create(nCsma);
+
+    ### Iniatializing p2p nodes configuration
 
     PointToPointHelper pointToPoint;
     pointToPoint.SetDeviceAttribute("DataRate", StringValue("5Mbps"));
     pointToPoint.SetChannelAttribute("Delay", StringValue("2ms"));
 
+    ### Installing p2p net cards
     NetDeviceContainer p2pDevices;
     p2pDevices = pointToPoint.Install(p2pNodes);
 

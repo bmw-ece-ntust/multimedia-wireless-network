@@ -278,7 +278,7 @@ int main(int argc, char *argv[]) {
 ### Output of the simulation code
 The simulation code outputs Throughput_vs_stations.txt and delay_vs_stations.txt into the ns3.41 folder and I took this file into matlab to plot the relationship between throughput and delay with number of stations. Below is a screenshot of a sample output. 
 
-![flow](https://hackmd.io/_uploads/HyuW6_WxC.png)
+![flow](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/flow.PNG)
 
 ## Results
 ### Number of stations versus Throughput 
@@ -290,7 +290,7 @@ For a simulation varying the stations from 1 to 30 and a simulation time of 10 s
 When the number of stations are increased, the average throughput gets lower, and the output shows how it affects the throughput for the network. When the distance between wifi stations and access point is augmented, the throughput for the wifi-network is more affected. 
 ### Number of stations versus Delay 
 Similary, varying the stations  from 1 to 30,a simulation time of 10 seconds, we obtain the following result. 
-![DelayVStation]([https://hackmd.io/_uploads/B1ePhiOWeA.png](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/DelayVStation.png))
+![DelayVStation]((https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/DelayVStation.png))
 
 When the number of stations are increased, the average delay gets higher, and the output shows how it affects the delay for the network. When the distance between wifi stations and access point is augmented, the delay for the wifi-network is more 
 

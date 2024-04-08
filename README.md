@@ -29,9 +29,9 @@
 ### A2 (DL: 2024/04/09, 08.00 A.M.)
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
-  - [ ] [Study Note](https://drive.google.com/file/d/1FCV4Gz6KQbgvgmBLwlYK-4IPU8phlSqr/view?usp=drive_link)
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
+  - [ ] [Study Note](https://drive.google.com/file/d/1Mns6zjOmNjNzg1qCu62RV4okvQLyQEr9/view?usp=drive_link)
+  - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202816-Ravi-Shankar/WifiHiddenNodes/WifihiddenNode.md)
+  - [ ] [Numercial Results](https://drive.google.com/file/d/1fiqYVnd8k_ZDw5_d2rTmAHv16rJ3Wg6v/view?usp=sharing)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)

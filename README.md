@@ -33,7 +33,7 @@ Hello everyone, I am Dawit Hadush Hailu, currently admitted to PhD program under
 ### A2 (DL: 2024/04/09, 08.00 A.M.)
 - [Assignment Information](https://docs.google.com/presentation/d/1uqHR4iGw9zDzT5OVC8Nvimf9xAGJoOfn/edit#slide=id.p1)
 - Submissions:
-  - [x] [Study Note] (https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Study_Note%20_A2.md)
+  - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Study_Note%20_A2.md)
     - [x] [Weekly Plan Presenation](https://docs.google.com/presentation/d/1uqHR4iGw9zDzT5OVC8Nvimf9xAGJoOfn/edit#slide=id.p1)
     - [x] [Midterm Progress Report Presentation](https://docs.google.com/presentation/d/1J29mIIdCZQvx39B0_nOIHOLM8DXq_2im/edit)
   - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Study_Note%20_A2.md#simulation-code)

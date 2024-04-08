@@ -55,8 +55,7 @@
           - Slide 0: Name
           - Slide 1: List their weekly plan (deliverable/week)
           - Slide 2: Briefly summarize the reference they have studied
-          - Slide 3: List the pending issues and possible solutions
-          - Presentaion for 26 march()</detail>  
+          - Slide 3: List the pending issues and possible solutions  
   
     + [Midterm Progress Report Presentation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md)- **$\color{red}DL: 2024/04/02$ (1pt)**
     + [Flowchart + source code for analysis:](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**2 pt**)

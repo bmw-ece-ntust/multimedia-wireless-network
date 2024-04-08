@@ -86,7 +86,7 @@ The most recent wireless standard listed in the Network+ objectives is 802.11n. 
 ## Experimental setup
 The topology I implement to simulate the IEEE 802.11 Wi-Fi throughput and is shown below, consisting of one access point and N stations.
 
-![image](https://hackmd.io/_uploads/BkGLerZxC.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/topo.PNG)
 
 ## Simulation code
 

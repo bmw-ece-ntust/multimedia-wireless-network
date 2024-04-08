@@ -48,7 +48,7 @@
     - [NS-3 for O-RAN (by: zhiyang yung)](https://hackmd.io/@2xIzdkQiS9K3Pfrv6tVEtA/S1LpzA51p)
     - [Nvidia Sionna (by: Lauren Christy Tanudjaja TEEP 2024 intern)](https://github.com/bmw-ece-ntust/internship/blob/2024-TEEP-11-Lauren/Study%20notes/RSSI_Heatmap(SionnaRT).md)
 - Score (15%):
-    - Study note: (**Up to 6 pt**):
+    - [Study note:](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**Up to 6 pt**):
       -Topic & Plan Presentation - **$\color{red}DL: 2024/03/26$ (1pt)**
         <details><summary>Slide Presentation format:</summary>  
           
@@ -58,9 +58,9 @@
           - Slide 3: List the pending issues and possible solutions
           - Presentaion for 26 march()</detail>  
   
-    + Midterm Progress Report Presentation  - **$\color{red}DL: 2024/04/02$ (1pt)**
-    + Flowchart + source code for analysis: (**2 pt**)
-    + Numercial Results (should be identical as the paper): (**2 pt**)
+    + [Midterm Progress Report Presentation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md)- **$\color{red}DL: 2024/04/02$ (1pt)**
+    + [Flowchart + source code for analysis:](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**2 pt**)
+    + [Numercial Results (should be identical as the paper):](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**2 pt**)
     - Oral presentation: (**2 pt**)
     - Peer Review Form: (**2 pt**)
     - Top 3 Students: (**Up to 5 pt**):

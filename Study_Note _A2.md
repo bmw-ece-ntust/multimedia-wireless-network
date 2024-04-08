@@ -92,7 +92,7 @@ The topology I implement to simulate the IEEE 802.11 Wi-Fi throughput and is sho
 This is simulation code that shows how to configure an IEEE 802.11n Wi-Fi network. It outputs the average throughput and average delay, which depends on the number of stations.  The user can select the distance between the stations, the AP and can enable/disable the RTS/CTS mechanism, the HT MCS value (0 to 7), the channel width (20 or 40 MHz) and the guard interval (long or short). The user can also specify whether RTS/CTS is used or not.
 </p>
 
-```
+```c++
 ./ns3 run "wifi-network --numStations=5 --distance=10 --mcs=7 --useRts=false --simulationTime=20 --channelwidth=20 - useShortGuardInterval=false"
 ```
 

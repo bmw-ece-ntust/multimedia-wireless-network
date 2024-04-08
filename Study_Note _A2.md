@@ -1,13 +1,6 @@
 
 
 # <center> Study Note on Wi-Fi Network simulation </center>
-**Outline**
-  - [Objective of the Assignment:](#objective-of-the-assignment:)
-    - [Part I: Learning basic concept of ns3](#Part-I:-learning-basic-concept-of-ns3)
-
-- [References](#references)
-[TOC]
-###### tags: `Multimedia Wireless Network`
 
 # Objective of the Assignment: 
 * Execute an example for Wi-Fi network

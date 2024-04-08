@@ -35,7 +35,7 @@
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A2
-- $\color{red}DL: 4/9, 08.00 A.M. NEW-UPDATED$ </detail><summary>[Presentaion for 26 march](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2%20updated.pptx)</summary></detail>
+- $\color{red}DL: 4/9, 08.00 A.M. NEW-UPDATED$ </detail><summary>[Presentaion for 26 march](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2.pptx)</summary></detail>
 - **Purpose**: Learn to identify the problem and verify the concepts & analytical results of a research paper through simulation. Duplicate the [research paper](https://ieeexplore.ieee.org/document/1265851) result in the NS-3 simmulator - [Prof. Ray's Explanation](https://youtu.be/atdoOPE1iYM?feature=shared&t=3053)
 - **Topics**: WiFi Simmulation using [NS-3](https://www.nsnam.org/docs/models/html/wifi.html)
 - References:
@@ -48,8 +48,8 @@
     - [NS-3 for O-RAN (by: zhiyang yung)](https://hackmd.io/@2xIzdkQiS9K3Pfrv6tVEtA/S1LpzA51p)
     - [Nvidia Sionna (by: Lauren Christy Tanudjaja TEEP 2024 intern)](https://github.com/bmw-ece-ntust/internship/blob/2024-TEEP-11-Lauren/Study%20notes/RSSI_Heatmap(SionnaRT).md)
 - Score (15%):
-    - [Study note:](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**Up to 6 pt**):
-      -Topic & Plan Presentation - **$\color{red}DL: 2024/03/26$ (1pt)**
+    - [Study note:](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**Up to 6 pt**)
+    -Topic & Plan Presentation - **$\color{red}DL: 2024/03/26$ (1pt)**
         <details><summary>Slide Presentation format:</summary>  
           
           - Slide 0: Name
@@ -57,7 +57,7 @@
           - Slide 2: Briefly summarize the reference they have studied
           - Slide 3: List the pending issues and possible solutions  
   
-    + [Midterm Progress Report Presentation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md)- **$\color{red}DL: 2024/04/02$ (1pt)**
+    + [Midterm Progress Report Presentation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2.pptx) **$\color{red}DL: 2024/04/02$ (1pt)**
     + [Flowchart + source code for analysis:](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**2 pt**)
     + [Numercial Results (should be identical as the paper):](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**2 pt**)
     - Oral presentation: (**2 pt**)

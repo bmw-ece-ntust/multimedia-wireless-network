@@ -5,7 +5,7 @@
 # Introduction
 ## Ns-3
 ns-3 is a discrete-event simulator typically run from the command line. It is written directly in C++, not in a high-level modeling language; simulation events are simply C++ function calls, organized by a scheduler.
-#Install ns-3
+# Install ns-3
 ## Installation of NS3 (ns-3.36.1)
 **References:** [Installing ns-3 in Ubuntu 22.04](https://www.nsnam.com/2022/06/ns3-installation-in-ubuntu-2204.html)
 Tools used in this simulation:

@@ -1,5 +1,3 @@
-Евгений Малков, [08.04.2024 21:22]
-
 # <center> Assignment 2 </center>
 
 - [ Assignment 2 ](#-assignment-2-)

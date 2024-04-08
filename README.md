@@ -30,7 +30,7 @@
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
   - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md)
-  - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md)
+  - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/Wifisimilationcode.cc)
   - [x] [Numercial Results (should be identical as the paper)](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
@@ -58,7 +58,7 @@
           - Slide 3: List the pending issues and possible solutions  
   
     + [Midterm Progress Report Presentation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A2.pptx) **$\color{red}DL: 2024/04/02$ (1pt)**
-    + [Flowchart + source code for analysis:](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**2 pt**)
+    + [Flowchart + source code for analysis:](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/Wifisimilationcode.cc) (**2 pt**)
     + [Numercial Results (should be identical as the paper):](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ASSIGNMENT2A%20STUDY%20NOTE.md) (**2 pt**)
     - Oral presentation: (**2 pt**)
     - Peer Review Form: (**2 pt**)

@@ -1,11 +1,20 @@
 # <center> Study Note on Wi-Fi Network simulation </center>
 
 - [Objective of the Assignment](#Objective-of-the-Assignment)
-- [Five minute presentation](#Five-minute-presentation)
-- [How to read a paper](#how-to-read-a-paper)
-- [How to write a report](#how-to-write-a-report)
-- [Ten tips for better teamwork](#Ten-tips-for-better-teamwork)
-- 
+- [Part I Learning basic concept of ns3](#Part-I-Learning-basic-concept-of-ns3)
+	- [Environment requirements for ns3 installation](#Environment-requirements-for-ns3-installation)
+- [Part II Simulated Wi-Fi network using ns3](#Part-II-Simulated-Wi-Fi-network-using-ns3)
+	- [Introduction](#Introduction)
+ 		- [Assumptions and models used in the simulation](#Assumptions-and-models-used-in-the-simulation)
+  		- [Steps to create Wi-Fi network in NS-3](#Steps-to-create-Wi-Fi-network-in-NS-3)
+    	- [Experimental setup](#Experimental-setup)
+      	- [Simulation code](#Simulation-code)
+		- [Output of the simulation code](#Output-of-the-simulation-code)
+	- [Results](#Results)
+		- [Number of stations versus Throughput](#Number-of-stations-versus-Throughput)
+  		- [Number of stations versus Throughput](#Number-of-stations-versus-Throughput)
+- [References](#References)
+  
 # Objective of the Assignment: 
 * Execute an example for Wi-Fi network
 * Configure an IEEE 802.11n Wi-Fi network.

@@ -38,9 +38,8 @@
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
   - [x] [Assignment 2 Plan.pptx](https://docs.google.com/presentation/d/16L5DSWrqWOW-rzxKZLsVQHECt6AHqQIOFKNmN1CpTZ8/edit?usp=sharing)
-  - [ ] [Assignment 2 Study Note](https://hackmd.io/@Jerry0714/H1B8ELdyC)
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
+  - [x] [Flowchart + source code for simulation and analysis](https://hackmd.io/@Jerry0714/H1B8ELdyC#4-Simulate-wifi-hidden-terminalcc)
+  - [x] [Numercial Results (should be identical as the paper)](https://hackmd.io/@Jerry0714/H1B8ELdyC#4-3-Simulate-the-result)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)

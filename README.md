@@ -29,7 +29,7 @@
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
   - [x] [Plan Presentation](https://drive.google.com/file/d/1oKC7kIKc6s5lEo-WPHsYCQ8Pnvtgffha/view?usp=sharing)
-  - [x] [Study Note]([path to another .md file for your assignment](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md))
+  - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md)
   - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md#code-analysis)
   - [x] [Numercial Results](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md#code-analysis)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)

@@ -284,7 +284,7 @@ The simulation code outputs Throughput_vs_stations.txt and delay_vs_stations.txt
 
 ## Results
 ### Number of stations versus Throughput 
-For a simulation varying the stations from 1 to 30 and a simulation time of 10 seconds, I obtained the following result.
+For a simulation varying the stations from 1 to 14 and a simulation time of 10 seconds, I obtained the following result.
 
 ![Throughputvsstation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/Throughputvsstation.png)
 
@@ -293,7 +293,7 @@ When the number of stations are increased, the average throughput gets lower, an
  </p>
 ### Number of stations versus Delay 
 
-Similary, varying the stations  from 1 to 30,a simulation time of 10 seconds, we obtain the following result. 
+Similary, varying the stations  from 1 to 14,a simulation time of 10 seconds, we obtain the following result. 
 
 ![DelayVStation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/DelayVStation.png)
 

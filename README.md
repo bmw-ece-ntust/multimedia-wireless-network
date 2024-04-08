@@ -31,7 +31,7 @@
   - [x] [Plan Presentation](https://drive.google.com/file/d/1oKC7kIKc6s5lEo-WPHsYCQ8Pnvtgffha/view?usp=sharing)
   - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md)
   - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md#code-analysis)
-  - [x] [Numercial Results](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md#code-analysis)
+  - [x] [Numerical Results](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md#result)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)

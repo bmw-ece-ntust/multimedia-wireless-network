@@ -63,7 +63,80 @@ Output will be
 # Paper analysis
 
 The paper provides an ovierw and analysis of the IEEE 802.11e standard, which introduces quality of service (QoS) support for wireless local area networks (WLANs)
+
 Some points are:
+
 Background on the legacy 802.11 protocol and its limitations in providing QoS support for different types of traffic (voice, video, best-effort, background).
 Description of the new mechanisms introduced in 802.11e for QoS support: a. Enhanced Distributed Channel Access (EDCA) - Contention-based channel access with prioritized access categories and adjustable parameters. b. Hybrid Coordination Function Controlled Channel Access (HCCA) - Controlled channel access with polling by a centralized coordinator.
 
+# Simulation
+
+The simulations are part of the examples already set for ns-3. This simulation focuses on modeling and evaluating the performance of a wireless network adhering to the IEEE 802.11 standard. By examining the example files, we aim to gain a deeper understanding of how to configure, execute, and analyze network simulations within the ns-3 framework.
+
+As shown below the list of examples provided by ns-3 simulator
+
+<p align="center">
+<img src=/assets/Screenshot-2.png>
+
+</p>
+
+In which example wifi-80211e-txop is used for study purpose.
+
+Through the exploration of these example files, we delve into various aspects of wireless networking, including:
+
+Network Topology Definition: Understanding how to define and create network topologies comprising access points and stations.
+
+```
+// Network topology description
+NodeContainer wifiStaNodes;
+wifiStaNodes.Create(4);
+NodeContainer wifiApNodes;
+wifiApNodes.Create(4);
+Quality of Service (QoS) Configuration: Configuring QoS parameters such as Transmission Opportunity (TXOP) limits for different Access Categories (AC).
+cpp
+Copy code
+// EDCA Configuration
+// Modify EDCA configuration (TXOP limit) for AC_BE
+Ptr<NetDevice> dev = wifiApNodes.Get(1)->GetDevice(0);
+Ptr<WifiNetDevice> wifi_dev = DynamicCast<WifiNetDevice>(dev);
+Ptr<WifiMac> wifi_mac = wifi_dev->GetMac();
+PointerValue ptr;
+Ptr<QosTxop> edca;
+wifi_mac->GetAttribute("BE_Txop", ptr);
+edca = ptr.Get<QosTxop>();
+edca->SetTxopLimit(txopLimit);
+```
+
+```
+Application Setup: Configuring applications for generating traffic and evaluating network performance.
+// Application Configuration
+// Configure UDP client application for STA A
+InetSocketAddress destA(ApInterfaceA.GetAddress(0), port);
+OnOffHelper clientA("ns3::UdpSocketFactory", destA);
+clientA.SetAttribute("OnTime", StringValue("ns3::ConstantRandomVariable[Constant=1]"));
+clientA.SetAttribute("OffTime", StringValue("ns3::ConstantRandomVariable[Constant=0]"));
+clientA.SetAttribute("DataRate", StringValue("100000kb/s"));
+clientA.SetAttribute("PacketSize", UintegerValue(payloadSize));
+clientA.SetAttribute("Tos", UintegerValue(0x70)); // AC_BE
+````
+Simulation Execution: Running the simulation and collecting data to analyze network behavior.
+
+```
+// Simulation Execution
+// Start the applications and run the simulation
+ApplicationContainer clientAppA = clientA.Install(wifiStaNodes.Get(0));
+clientAppA.Start(Seconds(1.0));
+clientAppA.Stop(Seconds(simulationTime + 1));
+Simulator::Stop(Seconds(simulationTime + 1));
+Simulator::Run();
+```
+Result Analysis: Assessing throughput and other performance metrics to gain insights into network performance.
+```
+// Results
+// Measure throughput for each network and output results
+uint64_t totalPacketsThroughA = DynamicCast<UdpServer>(serverAppA.Get(0))->GetReceived();
+double throughput = totalPacketsThroughA * payloadSize * 8 / (simulationTime * 1000000.0);
+std::cout << "AC_BE with default TXOP limit (0ms): " << '\n'
+          << "  Throughput = " << throughput << " Mbit/s" << '\n';
+```
+By leveraging these example files, we aim to enhance our understanding of network simulation methodologies and techniques, ultimately enabling us to design and evaluate more complex network scenarios effectively.

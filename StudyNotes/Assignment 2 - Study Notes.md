@@ -1,8 +1,4 @@
-%%
-[[UPTP - Taiwan Tech]]
-#studies/uptp-taiwantech/year3/multimedia-wireless-networks 
-%%
-
+# Assignment 2
 by Victor Cano
 
 ## Background And Introduction

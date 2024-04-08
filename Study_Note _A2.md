@@ -1,5 +1,5 @@
 # <center> Study Note on Wi-Fi Network simulation </center>
-
+**Outline**
 - [Objective of the Assignment](#Objective-of-the-Assignment)
 - [Part I Learning basic concept of ns3](#Part-I-Learning-basic-concept-of-ns3)
 	- [Environment requirements for ns3 installation](#Environment-requirements-for-ns3-installation)

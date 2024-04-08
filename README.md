@@ -32,8 +32,11 @@
   - [ ] [Plan & Study Note](https://drive.google.com/file/d/1Mns6zjOmNjNzg1qCu62RV4okvQLyQEr9/view?usp=drive_link)
   - [ ] [Flowchart + source code for simulation and analysis]
     - [Work with first.cc](https://github.com/bmw-ece-ntust/multimedia-wireless-network/tree/2024-M11202816-Ravi-Shankar/First.cc)
+      - [Refer HackMd](https://hackmd.io/@ravishankar/SkhsNHakA)
     - [Work with second.cc](https://github.com/bmw-ece-ntust/multimedia-wireless-network/tree/2024-M11202816-Ravi-Shankar/Second.cc)
+      - [Refer HackMd](https://hackmd.io/@ravishankar/SkYgbIAy0)
     - [Wifi Hidden terminal](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202816-Ravi-Shankar/WifiHiddenNodes/WifihiddenNode.md)
+      - [Refer HackMd](https://hackmd.io/@ravishankar/HJuSdNbgC)
   - [ ] [Numercial Results](https://drive.google.com/file/d/1fiqYVnd8k_ZDw5_d2rTmAHv16rJ3Wg6v/view?usp=sharing)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 

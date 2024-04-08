@@ -54,17 +54,17 @@ To install ns-3 (Network Simulator version 3) using virtual box in windows, you 
 * NS-3.41
 
 # Part II: Simulated Wi-Fi network using ns3 
+
  ## Introduction
-<div style="text-align: justify"> 
+ 
 IEEE 802.11 is the official IEEE term for wireless networking, encompassing various specifications. Several wireless networking specifications such as 802.11a, 802.11b, 802.11g, and 802.11n exist under the 802.11 banner. These standards employ the Ethernet protocol and utilize the CSMA/CA access method.
 The most recent wireless standard listed in the Network+ objectives is 802.11n. This standard aims to notably enhance throughput in both the 2.4GHz and 5GHz frequency bands.  The baseline goal is initially targeting speeds of 100Mbps, under optimal conditions, it's projected that 802.11n could achieve speeds as high as 600Mbps. However, In practical operation, actual 802.11n speeds are likely to be considerably lower.
-
-</div>
 
 
 | IEEE Standard |Frequency/Medium   | Speed | Topology | Transmission Range | Access Method |
 | -------- | -------- | -------- | -------- | -------- | -------- |
 |    802.11n  |2.4GHz/5GHz    |  Up to 600Mbps    | Ad hoc/infrastructure      | 175+ feet indoors;  affected by building materials      | CSMA/CA      |
+
 ### Assumptions and models used in the simulation 
 * LogDistancePropagationLossModel is employed to illustrate the channel is not error free. 
 * No hidden terminal was considered
@@ -282,7 +282,7 @@ The simulation code outputs Throughput_vs_stations.txt and delay_vs_stations.txt
 
 ## Results
 ### Number of stations versus Throughput 
-For a simulation varying the stations from 1 to 30 and a simulation time of 10 seconds, we obtain the following result.
+For a simulation varying the stations from 1 to 30 and a simulation time of 10 seconds, I obtained the following result.
 
 ![Throughputvsstation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/Throughputvsstation.png)
 
@@ -292,7 +292,7 @@ When the number of stations are increased, the average throughput gets lower, an
 Similary, varying the stations  from 1 to 30,a simulation time of 10 seconds, we obtain the following result. 
 ![DelayVStation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/DelayVStation.png)
 
-When the number of stations are increased, the average delay gets higher, and the output shows how it affects the delay for the network. When the distance between wifi stations and access point is augmented, the delay for the wifi-network is more 
+When the number of stations are increased, the average delay gets higher, and the output shows how it affects the delay for the network. When the distance between wifi stations and access point is augmented, the delay for the wifi-network is more affected. 
 
 # References:
 1. ns-3([[1]](https://www.nsnam.org/),[[2]](https://www.nsnam.org/documentation/))

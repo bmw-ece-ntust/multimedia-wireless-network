@@ -30,7 +30,7 @@
 - Submissions:
   - [ ] [Topic & Plan Presentation](https://docs.google.com/presentation/d/1SwACEGBQqbC-3deGir2FMBVQett9OIGmw7HxyJqC7oM/edit?usp=sharing) 
   - [ ] [Study Note](A2_sutdynote.md)
-  - [ ] [Flowchart + source code for simulation and analysis]([path to specific section in your study note]([https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202209-Sheryl/A2_studynote.md#flowchart](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202209-Sheryl/A2_studynote.md#flowchart--code)))
+  - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202209-Sheryl/A2_studynote.md#flowchart--code)
   - [ ] [Numercial Results (should be identical as the paper)]([path to specific section in your study note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202209-Sheryl/A2_studynote.md#result))
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 

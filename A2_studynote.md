@@ -2,7 +2,7 @@
 I referred to the scenario described in the paper "ANALYSIS OF IEEE 802.11E FOR QOS SUPPORT IN WIRELESS LANS" to observe the relationship between the number of stations and the throughput of AC. However, unlike the paper, I only have the AC_BE (Best Effort) and not an isolated QBSS. Also, due to hardware and time limititation, I reduce the number of STA to 6.
 
 
-![image](https://hackmd.io/_uploads/rk2hTUbe0.png)
+<img src='reference scenerio.png' width='200'>
  ▲ reference scenerio
 
 
@@ -19,7 +19,7 @@ I referred to the scenario described in the paper "ANALYSIS OF IEEE 802.11E FOR 
 
 
 ## Flowchart
-![image](https://hackmd.io/_uploads/Hyugo8beR.png =70%x)
+<img src='flowchart.png' width='200'>
 
 ## Code
 This code is based on `ns3-3.39/examples/wireless/wifi-simple-ht-hidden-stations.cc`, which add function to increase STA, generate plot, and somd other modify.
@@ -318,14 +318,13 @@ Config::SetDefault("ns3::RangePropagationLossModel::MaxRange", DoubleValue(999))
 :::
 
 ### No Hidden Node and CTS/RTS
-![plot](https://hackmd.io/_uploads/SkAOlubxR.png)
+<img src='X H X CR.png' width='200'>
 From above figure can observe the throughput keep reduceing once the number of stations becomes larger since collision.
 
 ### No Hidden Node, has CTS/RTS
-![plot (1)](https://hackmd.io/_uploads/BkPBoOZlA.png)
-
+<img src='X H O CR.png' width='200'>
 The figure is more similar to the one in paper. With the STA increse, AP throughput can up to a point and reduce since collision still happen. But not that dramatically since for now there is only AC_BE in use.
 
-![image](https://hackmd.io/_uploads/ByEijOblR.png)
+<img src='paper result.png' width='200'>
 
 

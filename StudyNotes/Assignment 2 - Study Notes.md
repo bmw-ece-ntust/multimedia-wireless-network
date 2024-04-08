@@ -6,8 +6,10 @@ by Victor Cano
 NS3 is a framework for network simulations that can be used to test different kinds of environments and applications in such a way that allows for experimentation with performance, QoS, distance, WiFi Standard, etc.
 
 The focus of this assignment is to simulate the 802.11 standard with no QoS implementation. In this case I selected the 802.11a generation of the standard and didn't implement the QoS seen in 802.11e.
-## Using NS3
 
+In this simulation we set up the assumptions that the distance between the nodes is not very large and that there are no hidden nodes, as the paper mentions.
+
+## Using NS3.
 ### Problems
 When Starting to use NS3 I faced some issues, specifically related to the installation process and the pre-requisites.
 
@@ -275,7 +277,9 @@ This code is based on one of the example files included with the NS3 environment
 
 In this case I defined a network composed of 3 stations and 1 access point, using the 802.11a Wifi standard and without implementing any QoS features such as the ones included in 802.11e.
 
-Using the flow monitor module I obtain and print certain statistics related to the simulation, such as the average delay, jitter and thoughput.
+The configuration and parameters for the simulation are set at the beginning of the main function, and they are implemented by different means, such as installing the different internet devices, creating the wifi and mac helpers to change the WiFi and MAC configurations, setting up the applications, etc.
+
+After the simulation starts I collect the statistics of the simulation using the flow monitor module and print them to the console, such as the average delay, jitter and thoughput.
 
 This simulation uses an approximate distance of 5 meters between the Access Point and each Station
 

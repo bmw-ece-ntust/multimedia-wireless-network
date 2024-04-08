@@ -279,6 +279,7 @@ int main(int argc, char *argv[]) {
  <p align="justify">
 The simulation code outputs Throughput_vs_stations.txt and delay_vs_stations.txt into the ns3.41 folder and I took this file into matlab to plot the relationship between throughput and delay with number of stations. Below is a screenshot of a sample output. 
  </p>
+ 
 ![flow](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/flow.PNG)
 
 ## Results

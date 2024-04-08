@@ -2,7 +2,7 @@
 **Outline**
 # <center> Study Note on Wi-Fi Network simulation </center>
 
-  - [Objective of the Assignment: ](#1-Objective-of-the-Assignment:)
+  - [1. Objective of the Assignment: ](#1-Objective-of-the-Assignment:)
     - [Part I: Learning basic concept of ns3](#2-Part-I:-Learning-basic-concept-of-ns3)
     - [2. How to read a paper](#2-how-to-read-a-paper)
     - [3. How to write a report](#3-how-to-write-a-report)

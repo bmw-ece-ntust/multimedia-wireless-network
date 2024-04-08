@@ -1,12 +1,29 @@
 # Assignment2 Studynote
+## About ns-3
+ns-3 is a discrete-event network simulator for Internet systems, targeted primarily for research and educational use. It is free, open-source software, licensed under the GNU GPLv2 license.
+### Simulation workflow
+1. Topology definition: To ease the creation of basic facilities and define their interrelationships, ns-3 has a system of containers and helpers that facilitates this process.
+2. Model development: Models are added to simulation (for example, UDP, IPv4, point-to-point devices and links, applications); most of the time this is done using helpers.
+3. Node and link configuration: models set their default values (for example, the size of packets sent by an application or MTU of a point-to-point link); most of the time this is done using the attribute system.
+4. Execution: Simulation facilities generate events, data requested by the user is logged.
+5. Performance analysis: After the simulation is finished and data is available as a time-stamped event trace. This data can then be statistically analysed with tools like R to draw conclusions.
+6. Graphical Visualization: Raw or processed data collected in a simulation can be graphed using tools like Gnuplot, matplotlib or XGRAPH.
+
+reference: https://www.nsnam.org/wiki/Main_Page
+
+## Install 
+reference: https://hackmd.io/@2xIzdkQiS9K3Pfrv6tVEtA/S1LpzA51p#-3-Installation
 ## Scenerio
-I referred to the scenario described in the paper "ANALYSIS OF IEEE 802.11E FOR QOS SUPPORT IN WIRELESS LANS" to observe the relationship between the number of stations and the throughput of AC. However, unlike the paper, I only have the AC_BE (Best Effort) and not an isolated QBSS. Also, due to hardware and time limititation, I reduce the number of STA to 6.
+I referred to the scenario described in the paper "ANALYSIS OF IEEE 802.11E FOR QOS SUPPORT IN WIRELESS LANS" to observe the relationship between the number of stations and the throughput of AC. However, unlike the paper, I only have the AC_BE (Best Effort) and not an isolated QBSS. Additionally, due to hardware and time limitations, I reduced the number of STAs to 6.
+
+###  Hybrid Coordinator (HC)
+The station that operates as the central coordinator for all other stations within the same QoS supporting BSS (QBSS) is called the hybrid coordinator (HC). Similar to the PC, the HC resides within an 802.11e AP. A BSS that includes an 802.11e-compliant HC is referred to as a QBSS.
 
 
 <img src='reference scenerio.png' width='200'>
  ▲ reference scenerio
 
-
+### Parameter
 | NAME | VALUE | 
 | -------- | -------- | 
 | WIFI     | 802.11n     |
@@ -16,14 +33,15 @@ I referred to the scenario described in the paper "ANALYSIS OF IEEE 802.11E FOR 
 |Application Protocol|UDP|
 |Number of AP|1|
 |Max Number of STA|6|
-|Hidden Node|No|
+|Hidden Node|X|
 
 
 ## Flowchart & Code
 <img src='flowchart.png' width='400'>
 
-This code is based on `ns3-3.39/examples/wireless/wifi-simple-ht-hidden-stations.cc`, which add function to increase STA, generate plot, and somd other modify.
-```cc=
+This code is based on ns3-3.39/examples/wireless/wifi-simple-ht-hidden-stations.cc. It includes the addition of a new feature to increase the number of stations (STAs), draw plots, and make some detailed modifications.
+
+```c++ linenos
 /*
  * Copyright (c) 2015 Sébastien Deronne
  *
@@ -84,19 +102,17 @@ using namespace ns3;
 
 NS_LOG_COMPONENT_DEFINE("SimplesHtHiddenStations");
 
-int
-main(int argc, char* argv[])
-{
+int main(int argc, char* argv[]) {
     uint32_t payloadSize = 1472; // bytes
     double simulationTime = 30;  // seconds
     uint32_t nMpdus = 1;
     uint32_t maxAmpduSize = 0;
-    bool enableRts = 1;
+    bool enableRts = 0;
     double minExpectedThroughput = 0;
     double maxExpectedThroughput = 0;
     uint32_t numStations=6;
     
-    //Plot Setting
+    // Plot Setting
     std::string fileNameWithNoExtension = "plot";
     std::string graphicsFileName = fileNameWithNoExtension + ".png";
     std::string plotFileName = fileNameWithNoExtension + ".plt";
@@ -151,23 +167,24 @@ main(int argc, char* argv[])
 
     // Set the maximum wireless range to 5 meters in order to reproduce a hidden nodes scenario,
     // i.e. the distance between hidden stations is larger than 5 meters
-    Config::SetDefault("ns3::RangePropagationLossModel::MaxRange", DoubleValue(100));
+    Config::SetDefault("ns3::RangePropagationLossModel::MaxRange", DoubleValue(5));
 
-    for (uint32_t i = 1; i < numStations+1; ++i){
+    for (uint32_t i = 1; i < numStations+1; ++i) {
         NodeContainer wifiStaNodes;
         wifiStaNodes.Create(i);
         NodeContainer wifiApNode;
         wifiApNode.Create(1);
 
+        // Setting up wireless channel and physical layer
         YansWifiChannelHelper channel = YansWifiChannelHelper::Default();
-        channel.AddPropagationLoss(
-            "ns3::RangePropagationLossModel"); // wireless range limited to 5 meters!
+        channel.AddPropagationLoss("ns3::RangePropagationLossModel"); // wireless range limited to 5 meters!
 
         YansWifiPhyHelper phy;
         phy.SetPcapDataLinkType(WifiPhyHelper::DLT_IEEE802_11_RADIO);
         phy.SetChannel(channel.Create());
         phy.Set("ChannelSettings", StringValue("{0, 40, BAND_5GHZ, 0}"));
 
+        // Setting up MAC layer
         WifiHelper wifi;
         wifi.SetStandard(WIFI_STANDARD_80211n);
         wifi.SetRemoteStationManager("ns3::ConstantRateWifiManager",
@@ -193,44 +210,38 @@ main(int argc, char* argv[])
         Config::Set("/NodeList/*/DeviceList/*/$ns3::WifiNetDevice/Mac/BE_MaxAmpduSize",
                     UintegerValue(maxAmpduSize));
 
-        // Setting mobility model
+        // Setting up mobility model
         MobilityHelper mobility;
         Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator>();
 
         // AP is between the two stations, each station being located at 5 meters from the AP.
         // The distance between the two stations is thus equal to 10 meters.
         // Since the wireless range is limited to 5 meters, the two stations are hidden from each other.
-        double AP_x=10.0;
-        double AP_y=10.0;
-        double radius=4;
-        positionAlloc->Add(Vector(AP_x, AP_y, 0.01234)); //AP position
-        
-       //set random STA position
-        //create random 
+        double AP_x = 10.0;
+        double AP_y = 10.0;
+        double radius = 4.99;
+        positionAlloc->Add(Vector(AP_x, AP_y, 0.01234)); // AP position
+
+        // Set random STA positions
         uint32_t seed = 1;
-        RngSeedManager::SetSeed (seed);  
-        Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable> ();
-         //range
+        RngSeedManager::SetSeed(seed);
+        Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
         uint32_t min = 0;
-        double max = 2*M_PI; 
+        double max = 2 * M_PI;
         std::set<uint32_t> generatedNumbers;
-        for (uint32_t j = 0; j < i; ++j){
-           double angle;
-           do {
-                angle = rand->GetValue (min, max);
+        for (uint32_t j = 0; j < i; ++j) {
+            double angle;
+            do {
+                angle = rand->GetValue(min, max);
             } while (generatedNumbers.count(angle) > 0);
             
-           generatedNumbers.insert(angle);
-           std::cout << "Random angle " << j+1 << ": " << angle << std::endl;
-          //set position
-           double STA_x = AP_x  + radius * std::cos(angle);
-           double STA_y = AP_y + radius * std::sin(angle);
+            generatedNumbers.insert(angle);
 
-           std::cout << "Random x " << j+1 << ": " << STA_x << std::endl;
-           std::cout << "Random y " << j+1 << ": " << STA_y << std::endl;
-           
-           positionAlloc->Add(Vector(STA_x, STA_y, 0.0));
-           //std::cout << "positionAlloc OK" <<  std::endl;
+            // Set position
+            double STA_x = AP_x + radius * std::cos(angle);
+            double STA_y = AP_y + radius * std::sin(angle);
+
+            positionAlloc->Add(Vector(STA_x, STA_y, 0.0));
         }
      
         mobility.SetPositionAllocator(positionAlloc);
@@ -239,7 +250,7 @@ main(int argc, char* argv[])
         mobility.Install(wifiApNode);
         mobility.Install(wifiStaNodes);
         
-        // Internet stack
+        // Setting up internet stack
         InternetStackHelper stack;
         stack.Install(wifiApNode);
         stack.Install(wifiStaNodes);
@@ -251,7 +262,7 @@ main(int argc, char* argv[])
         Ipv4InterfaceContainer ApInterface;
         ApInterface = address.Assign(apDevice);
 
-        // Setting applications
+        // Setting up applications
         uint16_t port = 9;
         UdpServerHelper server(port);
         ApplicationContainer serverApp = server.Install(wifiApNode);
@@ -269,7 +280,7 @@ main(int argc, char* argv[])
         clientApp1.Stop(Seconds(simulationTime + 1));
 
         // Enable packet capture for AP
-        phy.EnablePcap("SimpleHtHiddenStations_Ap"+std::__cxx11::to_string(i), apDevice.Get(0));
+        phy.EnablePcap("SimpleHtHiddenStations_Ap" + std::__cxx11::to_string(i), apDevice.Get(0));
 
         // Run the simulation
         Simulator::Stop(Seconds(simulationTime + 1));
@@ -283,7 +294,7 @@ main(int argc, char* argv[])
 
         // Calculate the throughput at AP
         double throughput = totalPacketsThrough * payloadSize * 8 / (simulationTime * 1000000.0);
-        std::cout << "Throughput at AP: " << throughput << " Mbit/s" << '\n'<<'\n';
+        std::cout << "Throughput at AP: " << throughput << " Mbit/s" << '\n' << '\n';
         dataset.Add(i, throughput);
     }
 
@@ -302,26 +313,36 @@ main(int argc, char* argv[])
     return 0;
 }
 
+
 ```
+### Compile
+```bash
+cd workspace/ns-3-allinone/ns-3.39/
+./ns3 run [filename]
+
+//after finish compile
+//create plot.png from .plt
+gnuplot plot.plt
+```
+
 
 ## Result
 >[!NOTE]
 >CTS/RTS:
->```cc=68
+>```c++{.line-numbers start=68}
 >    bool enableRts = 1;
 >```
 > Hidden Node:
->```cc=125
->//I easily set maximum wireless range to a huge number 
+>```c++{.line-numbers start=125}
 >Config::SetDefault("ns3::RangePropagationLossModel::MaxRange", DoubleValue(999));
 >```
 
 
-### No Hidden Node and CTS/RTS
+### No CTS/RTS
 <img src='X H X CR.png' width='400'>
 From above figure can observe the throughput keep reduceing once the number of stations becomes larger since collision.
 
-### No Hidden Node, has CTS/RTS
+### Use CTS/RTS
 <img src='X H O CR.png' width='400'>
 The figure is more similar to the one in paper. With the STA increse, AP throughput can up to a point and reduce since collision still happen. But not that dramatically since for now there is only AC_BE in use.
 

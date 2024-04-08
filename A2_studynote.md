@@ -18,10 +18,9 @@ I referred to the scenario described in the paper "ANALYSIS OF IEEE 802.11E FOR 
 |Hidden Node|No|
 
 
-## Flowchart
+## Flowchart & Code
 <img src='flowchart.png' width='400'>
 
-## Code
 This code is based on `ns3-3.39/examples/wireless/wifi-simple-ht-hidden-stations.cc`, which add function to increase STA, generate plot, and somd other modify.
 ```cc=
 /*

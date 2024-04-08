@@ -30,8 +30,8 @@
 - Submissions:
   - [X] [Presentations](https://drive.google.com/drive/folders/17fVFtDaijZkDHFQiZUYmNFMOxfvh1ljf?usp=sharing)
   - [X] [Study Note](https://hackmd.io/@o8TSfWXrTZG7k_WjS14mqw/Ns3-StudyNotes)
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
+  - [ ] [Flowchart + source code for simulation and analysis](https://hackmd.io/@o8TSfWXrTZG7k_WjS14mqw/Ns3-StudyNotes)
+  - [ ] [Numercial Results (should be identical as the paper)](https://hackmd.io/@o8TSfWXrTZG7k_WjS14mqw/Ns3-StudyNotes)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)

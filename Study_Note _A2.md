@@ -284,7 +284,7 @@ The simulation code outputs Throughput_vs_stations.txt and delay_vs_stations.txt
 ### Number of stations versus Throughput 
 For a simulation varying the stations from 1 to 30 and a simulation time of 10 seconds, we obtain the following result.
 
-![Throughputvsstation](https://hackmd.io/_uploads/S1DojOblC.png)
+![Throughputvsstation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/tree/2024-D11215805-Dawit-Hadush-Hailu/assets)
 
 
 When the number of stations are increased, the average throughput gets lower, and the output shows how it affects the throughput for the network. When the distance between wifi stations and access point is augmented, the throughput for the wifi-network is more affected. 

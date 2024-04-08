@@ -302,6 +302,7 @@ For a simulation varying the stations from 1 to 14 and a simulation time of 10 s
  <p align="justify">
 When the number of stations are increased, the average throughput gets lower, and the output shows how it affects the throughput for the network. When the distance between wifi stations and access point is augmented, the throughput for the wifi-network is more affected. 
  </p>
+ 
 ### Number of stations versus Delay 
 
 Similary, varying the stations  from 1 to 14,a simulation time of 10 seconds, we obtain the following result. 
@@ -309,6 +310,7 @@ Similary, varying the stations  from 1 to 14,a simulation time of 10 seconds, we
 ![DelayVStation](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/assets/DelayVStation.png)
 
  <p align="justify">
+	 
 When the number of stations are increased, the average delay gets higher, and the output shows how it affects the delay for the network. When the distance between wifi stations and access point is augmented, the delay for the wifi-network is more affected. 
  </p>
  

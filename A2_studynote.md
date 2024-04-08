@@ -1,3 +1,4 @@
+# Assignment2 Studynote
 ## Scenerio
 I referred to the scenario described in the paper "ANALYSIS OF IEEE 802.11E FOR QOS SUPPORT IN WIRELESS LANS" to observe the relationship between the number of stations and the throughput of AC. However, unlike the paper, I only have the AC_BE (Best Effort) and not an isolated QBSS. Also, due to hardware and time limititation, I reduce the number of STA to 6.
 

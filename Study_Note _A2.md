@@ -2,11 +2,9 @@
 
 # <center> Study Note on Wi-Fi Network simulation </center>
 **Outline**
-  - [Objective of the Assignment: ](#objective-of-the-assignment:)
+  - [Objective of the Assignment:](#objective-of-the-assignment:)
     - [Part I: Learning basic concept of ns3](#Part-I:-learning-basic-concept-of-ns3)
-    - [2. How to read a paper](#2-how-to-read-a-paper)
-    - [3. How to write a report](#3-how-to-write-a-report)
-    - [4. Ten tips for better teamwork](#4-ten-tips-for-better-teamwork)
+
 - [References](#references)
 [TOC]
 ###### tags: `Multimedia Wireless Network`

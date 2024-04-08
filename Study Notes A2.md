@@ -34,6 +34,7 @@ Otherwise you can use the command
 ### Step 4: 
 `` $ cd ns-allinone-3.36.1/ 
 $ ./build.py --enable-examples --enable-tests``
+
 Once the installation is done. You can run the example as shown
 ``$ cd ns-3.36.1/
 $ ./ns3 run hello-simulator``

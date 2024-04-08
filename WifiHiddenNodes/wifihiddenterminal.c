@@ -1,31 +1,3 @@
-/*
- * Copyright (c) 2010 IITP RAS
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License version 2 as
- * published by the Free Software Foundation;
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- *
- * Author: Pavel Boyko <boyko@iitp.ru>
- *
- * Classical hidden terminal problem and its RTS/CTS solution.
- *
- * Topology: [node 0] <-- -50 dB --> [node 1] <-- -50 dB --> [node 2]
- *
- * This example illustrates the use of
- *  - Wifi in ad-hoc mode
- *  - Matrix propagation loss model
- *  - Use of OnOffApplication to generate CBR stream
- *  - IP flow monitor
- */
 
 #include "ns3/boolean.h"
 #include "ns3/command-line.h"

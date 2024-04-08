@@ -1,4 +1,4 @@
-## Wifi Hidden Node
+#Wifi Hidden Node
 
 ### Network Topology--
 
@@ -9,37 +9,31 @@ A------->B
 B------->C
 A----/--->C
 
+## RTS and CTS
 
+    1- The RTS/CTS procedure consumes a fair amount of capacity. It is used only in highcapacity environments and environments with significant contention on transmission.
+    2- For lower-capacity environments, it is not
+    necessary.
+    3- RTS threshold: The RTS/CTS exchange is
+    performed for frames larger than the
+    threshold. If your device driver allows you
+    to adjust it
+
+## Tool used
+    1- ns-3
+    2- Wireshark
+    
+  Classical hidden terminal problem and its RTS/CTS solution.
+ 
+  Topology: [node 0] <-- -50 dB --> [node 1] <-- -50 dB --> [node 2]
+ 
+  This example illustrates the use of
+   - Wifi in ad-hoc mode
+   - Matrix propagation loss model
+   - Use of OnOffApplication to generate CBR stream
+   - IP flow monitor
+ 
 ### Codes
-/*
- * Copyright (c) 2010 IITP RAS
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License version 2 as
- * published by the Free Software Foundation;
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- *
- * Author: Pavel Boyko <boyko@iitp.ru>
- *
- * Classical hidden terminal problem and its RTS/CTS solution.
- *
- * Topology: [node 0] <-- -50 dB --> [node 1] <-- -50 dB --> [node 2]
- *
- * This example illustrates the use of
- *  - Wifi in ad-hoc mode
- *  - Matrix propagation loss model
- *  - Use of OnOffApplication to generate CBR stream
- *  - IP flow monitor
- */
-
 #include "ns3/boolean.h"
 #include "ns3/command-line.h"
 #include "ns3/config.h"
@@ -94,6 +88,7 @@ experiment(bool enableCtsRts, std::string wifiManager)
                        50); // set symmetric loss 2 <-> 1 to 50 dB
 
     // 4. Create & setup wifi channel
+
     Ptr<YansWifiChannel> wifiChannel = CreateObject<YansWifiChannel>();
     wifiChannel->SetPropagationLossModel(lossModel);
     wifiChannel->SetPropagationDelayModel(CreateObject<ConstantSpeedPropagationDelayModel>());
@@ -172,6 +167,7 @@ experiment(bool enableCtsRts, std::string wifiManager)
     // 9. Run simulation for 10 seconds
     Simulator::Stop(Seconds(10));
     
+    // Pcap file
     wifiPhy.EnablePcap ("SimpleHtHiddenStations_Ap", devices.Get (0));
 	wifiPhy.EnablePcap ("SimpleHtHiddenStations_st1", devices.Get (0));
 	wifiPhy.EnablePcap ("SimpleHtHiddenStations_Ap", devices.Get (1));

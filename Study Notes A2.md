@@ -8,10 +8,12 @@ ns-3 is a discrete-event simulator typically run from the command line. It is wr
 # Install ns-3
 ## Installation of NS3 (ns-3.36.1)
 **References:** [Installing ns-3 in Ubuntu 22.04](https://www.nsnam.com/2022/06/ns3-installation-in-ubuntu-2204.html)
+
 Tools used in this simulation:
 NS3 version ns-3.36.1 
 OS Used: Ubuntu 22.04 LTS
 Open terminal and follow the steps
+
 ### Step 1: Prerequisites
 
 ``$ sudo apt update``

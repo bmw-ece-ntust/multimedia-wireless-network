@@ -55,7 +55,7 @@ $ ./ns3 run hello-simulator
 ```
 Output will be
 <p align="center">
-![Screenshot 2024-04-09 020324](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/115171854/37cf86b7-feb5-4b90-afc8-cc9ec1752b92)
+<img src=(https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/115171854/37cf86b7-feb5-4b90-afc8-cc9ec1752b92)>
 </p>
 
 

@@ -86,15 +86,13 @@ Through the exploration of these example files, we delve into various aspects of
 
 Network Topology Definition: Understanding how to define and create network topologies comprising access points and stations.
 
-```
+```cpp
 // Network topology description
 NodeContainer wifiStaNodes;
 wifiStaNodes.Create(4);
 NodeContainer wifiApNodes;
 wifiApNodes.Create(4);
 Quality of Service (QoS) Configuration: Configuring QoS parameters such as Transmission Opportunity (TXOP) limits for different Access Categories (AC).
-cpp
-Copy code
 // EDCA Configuration
 // Modify EDCA configuration (TXOP limit) for AC_BE
 Ptr<NetDevice> dev = wifiApNodes.Get(1)->GetDevice(0);
@@ -107,7 +105,7 @@ edca = ptr.Get<QosTxop>();
 edca->SetTxopLimit(txopLimit);
 ```
 
-```
+```cpp
 Application Setup: Configuring applications for generating traffic and evaluating network performance.
 // Application Configuration
 // Configure UDP client application for STA A
@@ -121,7 +119,7 @@ clientA.SetAttribute("Tos", UintegerValue(0x70)); // AC_BE
 ````
 Simulation Execution: Running the simulation and collecting data to analyze network behavior.
 
-```
+```cpp
 // Simulation Execution
 // Start the applications and run the simulation
 ApplicationContainer clientAppA = clientA.Install(wifiStaNodes.Get(0));
@@ -131,7 +129,7 @@ Simulator::Stop(Seconds(simulationTime + 1));
 Simulator::Run();
 ```
 Result Analysis: Assessing throughput and other performance metrics to gain insights into network performance.
-```
+```cpp
 // Results
 // Measure throughput for each network and output results
 uint64_t totalPacketsThroughA = DynamicCast<UdpServer>(serverAppA.Get(0))->GetReceived();

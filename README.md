@@ -30,7 +30,7 @@
 - Submissions:
   - [ ] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-B10902106-Cecilia-Ruiz-Diaz/Study%20Notes%20A2.md)
   - [ ] [Presentation 1](https://www.canva.com/design/DAGAiAiclj8/-vMMJY9m3nIxpgqnknAJ3Q/edit?utm_content=DAGAiAiclj8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-  - [ ] [Presentation 2]
+  - [ ] [Presentation 2](https://www.canva.com/design/DAGB4Bu5SJQ/dJrjJca36lVg9iJB_tQYuw/edit?utm_content=DAGB4Bu5SJQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
   - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-B10902106-Cecilia-Ruiz-Diaz/Study%20Notes%20A2.md)
   - [ ] [Numercial Results (should be identical as the paper)](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-B10902106-Cecilia-Ruiz-Diaz/Study%20Notes%20A2.md)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)

@@ -30,9 +30,9 @@
 - Submissions:
   - [x] [Slides](https://www.canva.com/design/DAGAjVzE2V8/U8j2yaqrbK_E2RRNBXkLug/edit?utm_content=DAGAjVzE2V8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
   - [x] [Study Note](https://hackmd.io/@scQT-8pWTJuIuHcmV3DivA/rJfIIdRk0)
-  - [x] [Flowchart](https://hackmd.io/hIr-gLZaSDOpTNJ7deLOwQ?both=#Possible-Solution-RTSCTS-Mechanism)
-  - [x] [Sourcecode](https://hackmd.io/hIr-gLZaSDOpTNJ7deLOwQ?both=#Simulation-Program)
-  - [x] [Numerical Results](https://hackmd.io/hIr-gLZaSDOpTNJ7deLOwQ?both=#Simulation-Results)
+  - [x] [Flowchart](https://hackmd.io/@scQT-8pWTJuIuHcmV3DivA/rJfIIdRk0#Possible-Solution-RTSCTS-Mechanism)
+  - [x] [Sourcecode](https://hackmd.io/@scQT-8pWTJuIuHcmV3DivA/rJfIIdRk0#32-Simulation-Program)
+  - [x] [Numerical Results](https://hackmd.io/@scQT-8pWTJuIuHcmV3DivA/rJfIIdRk0#Simulation-Results)
   - [x] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)

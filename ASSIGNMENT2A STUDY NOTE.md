@@ -138,7 +138,7 @@ make
 ### 3.1 Move the example model to  scratch directory
 
 cd ~/workspace/ns-3-allinone/ns-3.39/examples/wireless/   #You can use pwd to find the scratch path
-cp wifi-ap.cc /home/joe/workspace/ns-3-allinone/ns-3.39/scratch/   #Copy file to scratch directory
+cp wifi-ap.cc /home/dieta/workspace/ns-3-allinone/ns-3.39/scratch/   #Copy file to scratch directory
 cd ~/workspace/ns-3-allinone/ns-3.39/scratch/
 
 
@@ -168,7 +168,7 @@ cd ~/workspace/ns-3-allinone/ns-3.39/
 
 ### 4.2 Move the example model to  scratch directory
 cd ~/ns-3-allinone/ns-3.39/examples/wireless/   #You can use pwd to find the scratch path
-cp wifi-ap.cc /home/dita/ns-3-allinone/ns-3.39/scratch/   #Copy file to scratch directory
+cp wifi-ap.cc /home/dieta/ns-3-allinone/ns-3.39/scratch/   #Copy file to scratch directory
 cd ~/workspace/ns-3-allinone/ns-3.39/scratch/
 
 ### 4.3 Run wifi-80211e-txop.cc

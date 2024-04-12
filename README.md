@@ -28,9 +28,9 @@
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
   - [x] [Study Note](reports/A2-Presentation.pdf)
-  - [x] [Flowchart + source code for simulation and analysis](https://hackmd.io/@ninoagus/Sy0jsN_kR)
-  - [x] [802.11a Simulation Report)](notes/A2-Study_notes.md)
-  - [ ] [802.11e Simulation Report)](https://hackmd.io/@ninoagus/Sy0jsN_kR#NS3-WiFi-80211a-Simulation)
+  - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202819-Yosafat-Marselino-Agus/notes/A2-Study_notes.md#1-prerequsites)
+  - [x] [802.11 Simulation Report](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202819-Yosafat-Marselino-Agus/notes/A2-Study_notes.md#ns3-wifi-80211a-simulation)
+  - [ ] [802.11e Simulation Report](https://hackmd.io/@ninoagus/Sy0jsN_kR#NS3-WiFi-80211a-Simulation)
 
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 

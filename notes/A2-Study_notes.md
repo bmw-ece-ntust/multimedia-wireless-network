@@ -1,6 +1,6 @@
 # A2 Study Notes
 
-
+:
 <!-- vim-markdown-toc Redcarpet -->
 
 * [MWN: NS3 WiFi Simulation](#mwn-ns3-wifi-simulation)
@@ -55,7 +55,7 @@ The reference of this simulation will be taken from **Analysis of IEEE 802.11e f
 
 To simulate NS3 on a Podman container, you simply need NS3 version 3.38 and a Podman environment set up on your system. By running NS3 within the Podman container, you can efficiently execute powerful network simulations without unnecessary complications.
 
-> [!IMPORTANT] 
+> [!WARNING] 
 > *I used podman on my machine your might be docker. Its equivalent, don't get confused.*
 
 #### 1.2.1 NS3 Docker Build & Installation
@@ -196,13 +196,15 @@ To simulate NS3 on a Podman container, you simply need NS3 version 3.38 and a Po
 
   ![image](https://hackmd.io/_uploads/r1nukw_10.png)
 
-:::warning
+> [!NOTE]
+>
+> **To Dos**
+>
+> - [ ] Add AC_VO, AC_BE, and AC_BK into the simulation code.
+> - [ ] Adjust the simulation 
 
-**To Dos**
+---
 
-- [ ] Add AC_VO, AC_BE, and AC_BK into the simulation code.
-- [ ] Adjust the simulation 
-:::
 
 
 ## NS3 WiFi 802.11a Simulation
@@ -214,7 +216,7 @@ The NS3 simulation conducted to emulate legacy WiFi networks has demonstrated su
 
 ### Simulation Setup
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_31c311e5f183dd837bcf9c879698ecc6.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1712917885&Signature=DSLEyoYbM9BWSF7xk9O%2BIx7dyE4%3D)
+![image](../assets/A2_code_run.png)
 
 **Features**
 
@@ -234,20 +236,20 @@ The NS3 simulation conducted to emulate legacy WiFi networks has demonstrated su
 in this simulation i attempted to create 3 set of network 
 
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_529b3b65aaec683facf550b48242dd04.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1712917898&Signature=OyXdNhRqwX3pPQLhR3nFQ7H4tYg%3D)
+![image](../assets/A2_sim_result.png)
 
 1. Connection between adhoc with it's client is not succed, even if the adhoc network is already broadcasting beacon
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_29fd126cc21358403193643df3fd1323.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1712917920&Signature=0PoTe75AlfkH8iMpDgcqtodSaVc%3D)
+![image](../assets/A2_con_01.png)
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_1e385b10efdbb7ef10a84717bd74e435.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1712917946&Signature=NAWiN1q9vO9eNFQYESet9qxOEns%3D)
+![image](../assets/A2_con_02.png)
 
 2. Bridge connection between AP A and AP C is not established.  Broadcast without any association.
 
 
 3. Connection between AP A and STA A is normal
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_0cd53a1fb390018cfb77bf32345578dc.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1712917973&Signature=fOyT0lkN1LKhctTkxmsvymGYczA%3D)
+![image](../assets/A2_con_03.png)
 
 4. Connection between AP B and STA B is normal
 
@@ -256,19 +258,19 @@ in this simulation i attempted to create 3 set of network
 
 1. Broadcast 802.11a
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_3c7e4e7f64007985a46ed3bc33270619.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1712917987&Signature=2CEKdaXhHAlfsajyBLiepRmh0Kk%3D)
+![image](../assets/A2_analysis_01.png)
 
 2. Hidden node scenario. 
 
     a. RTS and CTS Sequence detected by wireshark
 
-    ![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_82514c50070835c4e5538a5c32ffc08d.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1712917995&Signature=eNfMgBT7LBHCA7Hg9SDh%2Bt%2FHm9E%3D)
+    ![image](../assets/A2_analysis_02.png)
     
     b. RTS Payload
     
-    ![image](https://hackmd.io/_uploads/Hy3_OqWgR.png)
+    ![image](../assets/A2_analysis_03.png)
 
     c. CTS Payload
     
-    ![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_ec59f5100da44f0f4f0db490ec595f5f.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1712918012&Signature=sxTRGj%2B3uvAGxbyyFY7qA2MQhcY%3D)
+    ![image](../assets/A2_analysis_04.png)
 

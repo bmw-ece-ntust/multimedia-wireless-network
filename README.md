@@ -39,7 +39,7 @@
 - Submissions:
   - [x] [Assignment 2 Plan.pptx](https://docs.google.com/presentation/d/16L5DSWrqWOW-rzxKZLsVQHECt6AHqQIOFKNmN1CpTZ8/edit?usp=sharing)
   - [x] [Flowchart + source code for simulation and analysis](./Assignment%202.md#4-simulate-wifi-hidden-terminalcc)
-  - [x] [Numercial Results (should be identical as the paper)](./Assignment%202.md#submission-time)
+  - [x] [Numercial Results (should be identical as the paper)](./Assignment%202.md#4-2-statistics-of-the-simulation)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)

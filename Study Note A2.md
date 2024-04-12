@@ -128,7 +128,8 @@
 ## 3. Simulation Execution
 - Simulator::Run() is called to start the simulation.
 - it simulates WiFi network with 1 AP and 2 stations, sets up the channel and mobility models, assigns IP addresses to the nodes, and simulates UDP traffic from the stations to the AP. It also collects and prints the statistics of the simulation, such as the number of transmitted and received bytes and the throughput.
-The  simulation is configured and dispaly the result as illustrated in the following image. 
+The  simulation is configured and dispaly the result as illustrated in the following image.
+![](./assets/execution.png)
 
 The statistics of four different flows in the network simulation is generated. A flow in this context refers to the stream of packets from a source node to a destination node.
 After the simulation run, we observe the mobility of the node by using ./NetAnim feature.

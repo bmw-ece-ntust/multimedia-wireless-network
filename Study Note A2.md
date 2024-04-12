@@ -134,16 +134,16 @@ The  simulation is configured and dispaly the result as illustrated in the follo
 The statistics of four different flows in the network simulation is generated. A flow in this context refers to the stream of packets from a source node to a destination node.
 After the simulation run, we observe the mobility of the node by using ./NetAnim feature.
 
-![image](https://hackmd.io/_uploads/B1JEcpZeA.png)
+![](./assets/run_anim.png)
 
 - open XML tracer file and check the movement of nodes
 
-![image](https://hackmd.io/_uploads/ByFTipbxR.png)
+![](./assets/load_anim.png)
 
-![image](https://hackmd.io/_uploads/By2onpbgR.png)
+![](./assets/play_anim.png)
 
 - open flow monitor to check the statistics
-
+![](./assets/flow_monitor.png)
 
 
 
@@ -158,12 +158,12 @@ Based on the result of our simulation, the breakdown of each flow is stated as f
 - Lost packets are checked in the flow monitor to assess network performance.
 - Flow statistics are analyzed to determine throughput and delay for each flow. Results are written to a CSV file for further examination and comparison.
 
-![image](https://hackmd.io/_uploads/BJbgvaWxA.png)
+![](./assets/generate_csv.png)
 
 The results stored in csv file  is checked in barchart graph to observe throughput versus delay
 
 
-![image](https://hackmd.io/_uploads/r1xkvY-gA.png)
+![](./assets/barchart.jpeg)
 
 
 

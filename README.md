@@ -29,7 +29,7 @@
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
   - [ ] [Presentation](https://docs.google.com/presentation/d/1cE8tA-nfETkykqxWGILHKOPCjhzoT1MphHg8vQpbTYQ/edit?usp=sharing)
-  - [ ] [Study Note]([https://hackmd.io/@PauloWg/SJvxo4-eA](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215125-Paulo-Nicolas-Waimberg-Peña/Study_Notes/Assignment2_StudyNotes.md))
+  - [ ] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215125-Paulo-Nicolas-Waimberg-Peña/Study_Notes/Assignment2_StudyNotes.md)
   - [ ] [Flowchart + source code for simulation and analysis](https://hackmd.io/@PauloWg/SJvxo4-eA#Flowchart-of-simulation)
   - [ ] [Numercial Results (should be identical as the paper)](https://hackmd.io/@PauloWg/SJvxo4-eA#Output)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)

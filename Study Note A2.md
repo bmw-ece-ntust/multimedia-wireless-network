@@ -1,6 +1,5 @@
 # Study Note: Simulation of Wireless Networks (802.11) in NS3 
 
- Desalegn Aweke Wako
  - [1. Introduction](#1-introduction)
  - [2. Configuration Parameters](#2-configuration-parameters)
  - [3. Simulation Execution](#3-simulation-execution)

@@ -557,3 +557,4 @@ I have found that NS3 simulator is an incredibly valuable tool for understanding
 1. [Installation NS-3 Simulator.](https://www.youtube.com/watch?v=crIXDeRL3tE)
 1. [Wifi Models](https://https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)
 2. [Analysis of IEEE 802.11e for QoS support in wireless LANs](https://https://ieeexplore.ieee.org/document/1265851)
+3. [HackMD Study Note](https://hackmd.io/@o8TSfWXrTZG7k_WjS14mqw/Ns3-StudyNotes)

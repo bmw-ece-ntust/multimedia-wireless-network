@@ -3,14 +3,14 @@
 ### :question: Purpose
 💡
 > The following Study Note has the goal in share my learnings about NS-3 Simulator and show some development made it.
- 
+
 --------------------------------------------
-## Outline
-**Part 1: Study**
-1. [About NS-3 Simulator]
+## Outline :triangular_flag_on_post:	
+:pirate_flag:	**Part 1: Study**
+1. About NS-3 Simulator
 1. Installation Guide
 
-**Part 2: Simulation**
+:pirate_flag:	**Part 2: Simulation**
 1. Goal
 1. Code 
     * Code 1: Simulation with Hidden Nodes 
@@ -18,11 +18,10 @@
 1. Flow Chart
 1. Learning 
 
-
-**References**
+:pirate_flag:	**References**
 
 --------------------------------------------
-## Part 1: Study 
+##	Part 1: Study 
  
 ### :book:About NS-3 Simulator
 Ns-3 is like a computer program that pretends to be a network. It keeps a list of things that need to happen at certain times. 

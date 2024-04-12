@@ -29,7 +29,7 @@
 - Submissions:
   - [x] [Study Note](reports/A2-Presentation.pdf)
   - [x] [Flowchart + source code for simulation and analysis](https://hackmd.io/@ninoagus/Sy0jsN_kR)
-  - [x] [802.11a Simulation Report)](https://hackmd.io/@ninoagus/Sy0jsN_kR#NS3-WiFi-80211a-Simulation)
+  - [x] [802.11a Simulation Report)](notes/A2-Study_notes.md)
   - [ ] [802.11e Simulation Report)](https://hackmd.io/@ninoagus/Sy0jsN_kR#NS3-WiFi-80211a-Simulation)
 
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)

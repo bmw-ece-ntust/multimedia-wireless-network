@@ -1,14 +1,13 @@
  # NS-3 Simulator -  Study Notes
 
 ### :question: Purpose
-:::success
-The following Study Note has the goal in share my learnings about NS-3 Simulator and show some development made it.
-::: 
-
-:::info
+💡
+> The following Study Note has the goal in share my learnings about NS-3 Simulator and show some development made it.
+ 
+--------------------------------------------
 ## Outline
 **Part 1: Study**
-1. About NS-3 Simulator
+1. [About NS-3 Simulator]
 1. Installation Guide
 
 **Part 2: Simulation**
@@ -19,9 +18,10 @@ The following Study Note has the goal in share my learnings about NS-3 Simulator
 1. Flow Chart
 1. Learning 
 
-**References**
-:::
 
+**References**
+
+--------------------------------------------
 ## Part 1: Study 
  
 ### :book:About NS-3 Simulator
@@ -31,9 +31,9 @@ Ns-3 is like a computer program that pretends to be a network. It keeps a list o
 - ***Simulator version***: NS3-3.41
 - ***Operating System***: Linux Ubuntu kernel version 6.5.0-26-generic 
  
-:::success
-**Step 1:** Run the commands into the terminal
-:::
+
+:red_circle:	**Step 1:** Run the commands into the terminal
+
 ```
 sudo apt update.
 ```
@@ -44,35 +44,33 @@ sudo apt install build-essential autoconf automake libxmu-dev.
 sudo apt install g++ python3 cmake ninja-build git.
 ```
 
-:::danger
-**Step 2:** Run the command for the following additional packages
-:::
+:red_circle:	**Step 2:** Run the command for the following additional packages
+
 
 :bulb: In order to avoid some bugs during runnig time, we install the following packages.
 
 `$ sudo apt install g++ python3 cmake ninja-build git gir1.2-goocanvas-2.0 python3-gi python3-gi-cairo python3-pygraphviz gir1.2-gtk-3.0 ipython3 tcpdump wireshark sqlite sqlite3 libsqlite3-dev qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools openmpi-bin openmpi-common openmpi-doc libopenmpi-dev doxygen graphviz imagemagick python3-sphinx dia imagemagick texlive dvipng latexmk texlive-extra-utils texlive-latex-extra texlive-font-utils libeigen3-dev gsl-bin libgsl-dev libgslcblas0 libxml2 libxml2-dev libgtk-3-dev lxc-utils lxc-templates vtun uml-utilities ebtables bridge-utils libxml2 libxml2-dev libboost-all-dev`
 
-**Step 3:** From the page of ns3 (https://www.nsnam.org) download the latest version (3.41) from the date.
+:red_circle:	**Step 3:** From the page of ns3 (https://www.nsnam.org) download the latest version (3.41) from the date.
 
-**Step 4:** Copy the downloaded zip (software) into "Home" in Linux.
+:red_circle:	**Step 4:** Copy the downloaded zip (software) into "Home" in Linux.
 
-**Step 5:** Extract the downloaded zip, which gives a folder with the name:  ns-allionone-3.40/
+:red_circle:	**Step 5:** Extract the downloaded zip, which gives a folder with the name:  ns-allionone-3.40/
 
 
-**Step 6:** From a new terminal, access to the new folder that is in the home directory: *cd ns-allionone-3.40/*
+:red_circle:	**Step 6:** From a new terminal, access to the new folder that is in the home directory: *cd ns-allionone-3.40/*
 
-**Step 7:** Execute the following prompt: *./build.py --enable-examples --enable-tests
+:red_circle:	**Step 7:** Execute the following prompt: *./build.py --enable-examples --enable-tests
 
-:::success
-In order to check if everything is okay, we open a new terminal
-:::
 
-**Step 8:** Access to the directory cd  ns-allionone-3.40/ns-3.40
+ :green_square:	In order to check if everything is okay, we open a new terminal 
 
-**Step 9:** Execute ./ns3 run hello-simulator
+:red_circle:	**Step 8:** Access to the directory cd  ns-allionone-3.40/ns-3.40
+
+:red_circle:	**Step 9:** Execute ./ns3 run hello-simulator
  **Output**: Hello Simulator
         
-**Step 10:** ./ns3 run first.cc
+:red_circle:	**Step 10:** ./ns3 run first.cc
 
 
 ## **Part 2: Simulation**
@@ -83,20 +81,30 @@ Veriyfy the ideas learned through the simulator.
 ### Code :alien: 
 In order to understand more the simulations and also the assignments, two codes are going to be provided in order to open a discussion about them. 
 
-:bulb: *Referential Image*
+
 ![image](https://hackmd.io/_uploads/HynJSlfeR.png)
 
+:bulb: *Referential Image*
+
 ### **Code 1: Simulation with Hidden Nodes**
-
+<p align="justify" > 
 In order to increase efficiency, 802.11n networks employ a technique called MPDU aggregation, or MAC Protocol Data Unit aggregation, which combines several MAC frames into a single transmission unit. Because there are fewer frame headers and inter-frame intervals, throughput is increased and overhead is decreased.
-
+<p > 
+<p align="justify" > 
 In wireless networks, the RTS/CTS (Request to Send/Clear to Send) method is employed to lessen the chance of collisions and the hidden node issue. When enabled, a station asks the access point (AP) for permission to communicate data by sending an RTS frame. Permission is granted by the AP through a CTS frame in response. This lowers the possibility of accidents by guaranteeing that other stations in the sender's transmission range will postpone transmission.
+<p> 
+<p align="justify" > 
 
-* **RTS/CTS**
-  If enabled, before transmitting data, a station will send an RTS frame to the AP requesting permission to send. The AP may respond with a CTS frame granting permission. This helps to reduce collisions, especially in scenarios where hidden nodes might otherwise cause interference.
+ :diamond_shape_with_a_dot_inside:	 **RTS/CTS**
+<p align="justify" > 
+If enabled, before transmitting data, a station will send an RTS frame to the AP requesting permission to send. The AP may respond with a CTS frame granting permission. This helps to reduce collisions, especially in scenarios where hidden nodes might otherwise cause interference.
+<p> 
 
-* **Number of Aggregated MPDUs**
+:diamond_shape_with_a_dot_inside:	 **Number of Aggregated MPDUs**
+<p align="justify" > 
  MPDU aggregation allows multiple MAC frames to be combined into a single transmission unit. The user can specify how many MAC frames are aggregated together before transmission. This increases efficiency by reducing the overhead associated with transmitting individual frames.
+<p> 
+
 ```cpp=
 #include "ns3/boolean.h"
 #include "ns3/command-line.h"
@@ -278,15 +286,19 @@ main(int argc, char* argv[])
 ];
 ```
 **Output:**
+
 ![image](https://hackmd.io/_uploads/Hk3G6kGeC.png)
 
-**Assumptions in the Simulation**
+:large_blue_diamond:	**Assumptions in the Simulation**
+
 We can  assumes the presence of hidden nodes. This is evident from the setup where two stations are placed at a distance greater than the wireless range from each other. This arrangement creates a scenario where the stations are hidden from each other, leading to potential interference.
 
-**Transmission Range and Sensing Range**
+:large_blue_diamond:	**Transmission Range and Sensing Range**
+
 The transmission range is implicitly defined by the configuration of the wireless channel, which is set to a maximum range of 5 meters. This defines the range within which nodes can communicate directly. Talking about Sensing range, which typically refers to the range within which nodes can detect each other's transmissions, isn't in the  code.
 
-**Channel Model**
+:large_blue_diamond:	**Channel Model**
+
 The code does not explicitly model an error-free or error-prone channel. However, it configures parameters related to MPDU aggregation, RTS/CTS, payload size, etc., which indirectly affect the performance in the presence of channel errors. Additionally, it enables pcap tracing and ASCII trace, which can capture the details of packet transmissions and receptions, potentially including any channel errors.
 
 ### **Code 2: Simulation with 802.11**
@@ -495,43 +507,50 @@ main(int argc, char* argv[])
 ![code](https://hackmd.io/_uploads/Byx52pbe0.png)
 
 **Collection of Simulation Statistics**
-
+<p align="justify" > 
 Simulation statistics, such as throughput, are collected. Throughput is calculated based on the total packets received by the UDP server application (totalPacketsThrough), payload size, and simulation time. This calculation is performed after the simulation is executed using *Simulator::Run()*.
 If the throughput falls outside of the expected boundaries (configured using command-line arguments), an error message is logged, and the simulation exits. This is done to ensure that the obtained results meet the expected criteria.
+<p> 
 
-### Flowchart
+## Flowchart
 **Code 1**
+
 ![first](https://hackmd.io/_uploads/SkwFI0bgA.png)
 
+<p align="justify"> 
  It establishes a wireless network, performs a simulation, determines throughput, or not, and checks the results if desired. After setting up the network and WiFi, a simulation is run to gauge data speed. Next, it asks if the user wishes to confirm the findings, and if so, it compares the actual values with the expected ones. At last, the show comes to a close.
-
+</p>
 
 **Code 2**
 
 ![second](https://hackmd.io/_uploads/ByAFURWeC.png)
+
+<p align="justify" > 
 The primary phases of the code, such as configuring WiFi, network configuration, Internet stack installation, IP address assignment, UDP server and client setup, simulation execution, throughput calculation, and result verification, are depicted in this flowchart. In the event that verification is selected, the program terminates and the throughput is compared to predetermined limits.
 Statistics of the simulation (average delay, throughput, etc.)
+<p> 
 
 ### Parameters for the simulation
 **code 1:**
 
 ![image](https://hackmd.io/_uploads/SJfJtCbxC.png)
 
+<p align="justify" > 
 Initialize key configuration parameters directly within the code for a simulation. Parameters like payloadSize and simulationTime are defined to set the size of data packets and the duration of the simulation, respectively. 
-
+<p>
+ 
 **code 2:**
 
 ![image](https://hackmd.io/_uploads/HJ0nuAZeR.png)
+
+<p align="justify" > 
 Initializes configuration parameters directly within the code for a simulation. Parameters such as payloadSize, simulationTime, nMpdus, enableRts, and minExpectedThroughput are defined, allowing users to adjust settings like packet size, simulation duration, RTS/CTS enablement, and expected throughput boundaries according to their specific requirements. This approach offers flexibility in configuring simulations without relying solely on command-line arguments, enabling precise control over the simulation environment.
+</p>
 
-### Learning 
-
+## Learning 
+<p align="justify">
 I have found that NS3 simulator is an incredibly valuable tool for understanding and simulating wireless networks. One of the standout features for me is its flexibility and extensibility. I've been able to customize simulations according to specific scenarios and experiment with various network configurations easily. The availability of detailed documentation and extensive examples has been immensely helpful in grasping the concepts and getting started with simulations. Additionally, the active community surrounding ns-3 has been a great resource for asking questions, sharing insights, and learning from others' experiences. I appreciate how ns-3 allows me to visualize and analyze complex network behaviors in a controlled environment, providing valuable insights into network performance and behavior.
-
-
-
-The primary phases of the code, such as configuring WiFi, network configuration, Internet stack installation, IP address assignment, UDP server and client setup, simulation execution, throughput calculation, and result verification, are depicted in this flowchart. In the event that verification is selected, the program terminates and the throughput is compared to predetermined limits.
-
+ </p>
 
 ## REFERENCES
 1. [NS-3 Simulator](https://www.nsnam.org/docs/manual/html/events.html)

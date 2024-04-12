@@ -30,7 +30,7 @@
 - Submissions:
   - [ ] [Presentation](https://docs.google.com/presentation/d/1cE8tA-nfETkykqxWGILHKOPCjhzoT1MphHg8vQpbTYQ/edit?usp=sharing)
   - [ ] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215125-Paulo-Nicolas-Waimberg-Peña/Study_Notes/Assignment2_StudyNotes.md)
-  - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215125-Paulo-Nicolas-Waimberg-Peña/Study_Notes/Assignment1_StudyNotes.md#1-5-minute-presentation-tips)
+  - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215125-Paulo-Nicolas-Waimberg-Peña/Study_Notes/Assignment2_StudyNotes.md#flowchart-of-simulation)
   - [ ] [Numercial Results (should be identical as the paper)](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215125-Paulo-Nicolas-Waimberg-Peña/Study_Notes/Assignment1_StudyNotes.md#1-5-minute-presentation-tips)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 

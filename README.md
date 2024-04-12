@@ -28,7 +28,7 @@
 ### A2 (DL: 2024/04/09, 08.00 A.M.)
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
-  - [wifi Simulation Study Note](https://hackmd.io/@Desalegn/r1LU0MCJ0)
+  - [wifi Simulation Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/Study%20Note%20A2.md)
      -  [ ] [progress Note](https://docs.google.com/presentation/d/1TH8xMZELlaDTp8Ow3blm1vR8eehpLdTp/edit#slide=id.p1)
   - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/WifiSimulation.cc)
   - [ ] [Numercial Results (should be identical as the paper)](https://hackmd.io/@Desalegn/r1LU0MCJ0)

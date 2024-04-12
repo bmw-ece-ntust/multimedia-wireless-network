@@ -141,11 +141,11 @@ After the simulation run, we observe the mobility of the node by using ./NetAnim
 ![](./assets/load_anim.png)
 
 - start to play
-- 
+
 ![](./assets/play_anim.png)
 
 - open flow monitor to check the statistics
-- 
+
 ![](./assets/flow_monitor.png)
 
 

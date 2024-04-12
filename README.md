@@ -12,6 +12,7 @@
   - [2.2. Schedule](#22-schedule)
   - [2.3. Evaluation](#23-evaluation)
   - [2.4. Assignments](#24-assignments)
+    - [2.4.1 Requirements](#241-requirements)
     - [A1](#a1)
     - [A2](#a2)
     - [A3](#a3)
@@ -119,6 +120,7 @@ Ray -->
 - [Q&A](https://docs.google.com/spreadsheets/d/19QD7OPIZt-WaJJqOvvg3FQqFFKGrCpG3i3ix52Oy15s/edit?resourcekey#gid=1487959505)/Presentation: **15%**
     - Weekly: up to **15 pts** (1 pt/week)
 - [Assignments](#24-assignments): **30%**
+  - Late submission punishment: `-20% per day` of maximum score
 - Top 3 Students from Peer Review: (Up to) **15%**
 - Final Exam: **40%**. Materials:
   - QoS Fundamentals
@@ -127,11 +129,21 @@ Ray -->
 
 >[!NOTE] 
 > The final score of this course can be adjusted to meet the requirements from our department:
-> 研究所   GPA: 3.1 ~3.8 (Grades in percentage：77 ~ 85.67)
-> Extra work for score adjustment will be given **after the Final Score is released**.
+> - 研究所   GPA: 3.1 ~3.8 (Grades in percentage：77 ~ 85.67)
+> - Extra work for score adjustment will be given **after the Final Score is released**.
 
 
 ## 2.4. Assignments
+### 2.4.1 Requirements
+
+1. The study notes need to be in `.md` file format, and uploaded to your GitHub branch;
+2. We check your submission time based on the commit;
+3. We `don't accept any study note from external source outside this repository`;
+4. Only `Onedrive/Gdrive slide` hyperlink allowed to be attached for presentation purpose.
+
+- Any violation will causes to `-20% of maximum score per day`; which if there is `no correction until 5 days = 0 score`.
+- TIPS: Follow [this guide](#13-initial-todo) to make your work with GitHub faster.
+
 ### A1
 - $\color{red}DL: 3/5, 08.00 A.M.$
 - **Purpose**: Learn the background knowledge of interpersonal skills and apply it in the following assignments.

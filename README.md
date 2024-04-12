@@ -120,7 +120,7 @@ Ray -->
 - [Q&A](https://docs.google.com/spreadsheets/d/19QD7OPIZt-WaJJqOvvg3FQqFFKGrCpG3i3ix52Oy15s/edit?resourcekey#gid=1487959505)/Presentation: **15%**
     - Weekly: up to **15 pts** (1 pt/week)
 - [Assignments](#24-assignments): **30%**
-  - Late submission punishment: `-20% per day` of maximum score
+  - Late submission punishment: `-20% of maximum score per day`
 - Top 3 Students from Peer Review: (Up to) **15%**
 - Final Exam: **40%**. Materials:
   - QoS Fundamentals
@@ -141,8 +141,11 @@ Ray -->
 3. We `don't accept any study note from external source outside this repository`;
 4. Only `Onedrive/Gdrive slide` hyperlink allowed to be attached for presentation purpose.
 
-- Any violation will causes to `-20% of maximum score per day`; which if there is `no correction until 5 days = 0 score`.
-- TIPS: Follow [this guide](#13-initial-todo) to make your work with GitHub faster.
+> [!TIP]
+> Follow [this guide](#13-initial-todo) to make your work with GitHub faster.
+
+> [!CAUTION]
+> Any violation will causes to `-20% of maximum score per day`; which if there is `no correction until 5 days = 0 score`.
 
 ### A1
 - $\color{red}DL: 3/5, 08.00 A.M.$

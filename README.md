@@ -10,15 +10,6 @@
     - [A2 (DL: 2024/04/09, 08.00 A.M.)](#a2-dl-20240409-0800-am)
     - [A3 (DL: 2024/05/14, 08.00 A.M.)](#a3-dl-20240514-0800-am)
 
-## Introduction
-> [! WARNING]
-> You can remove the Introduction section in your personal branch
-
-1. Create a branch & name it: `[year]-[Student ID]-[Name]`. Example: `2020-d11202805-Ian Joseph Chandra`.
-2. Update this README.md to fill in your profile.
-3. Organize your study notes by creating folders.
-4. Create `.md` files for your study notes.
-
 ## 1. Profile
 1. Name:  Paulo Nicolas Waimberg Peña
 2. Student ID: F11215125
@@ -38,7 +29,7 @@
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
   - [ ] [Presentation](https://docs.google.com/presentation/d/1cE8tA-nfETkykqxWGILHKOPCjhzoT1MphHg8vQpbTYQ/edit?usp=sharing)
-  - [ ] [Study Note](https://hackmd.io/@PauloWg/SJvxo4-eA)
+  - [ ] [Study Note]([https://hackmd.io/@PauloWg/SJvxo4-eA](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215125-Paulo-Nicolas-Waimberg-Peña/Study_Notes/Assignment2_StudyNotes.md))
   - [ ] [Flowchart + source code for simulation and analysis](https://hackmd.io/@PauloWg/SJvxo4-eA#Flowchart-of-simulation)
   - [ ] [Numercial Results (should be identical as the paper)](https://hackmd.io/@PauloWg/SJvxo4-eA#Output)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)

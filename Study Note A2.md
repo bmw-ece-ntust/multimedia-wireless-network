@@ -35,7 +35,7 @@
     bool errorModel = true;  // set to false for an error-free channel
     ```
 
- - Command line argument Parsing
+ - **Command line argument Parsing**
      - The program parses command line arguments to enable packet capture **(pcap) tracing**. It determines whether or not to enable pcap tracing. If tracing is set to true, pcap tracing will be enabled, which means packet-level details will be logged for further analysis.
     ```python=1
     CommandLine cmd;
@@ -43,7 +43,7 @@
     cmd.Parse(argc, argv);
     ```
 
- - Node configuration
+ - **Node configuration**
      - **NodeContainer** objects are used to hold the nodes in the network. Two containers are created: one for **WiFi stations** (wifiStaNodes) and one for the **access poin**t (wifiApNode).
      ```python=1
     NodeContainer wifiStaNodes;
@@ -52,7 +52,7 @@
     wifiApNode.Create(1);
     ```
 
- - Wifi Configuration
+ - **Wifi Configuration**
      - **YansWifiChannelHelpe**r and **YansWifiPhyHelper** are used to configure the **WiFi channel** and **physical layer**.
      - **WifiHelper** is used to configure WiFi parameters like remote station manager.
      - **WifiMacHelper** is used to configure MAC layer parameters, such as SSID (Service Set Identifier) for both **stations** and **access point**.
@@ -64,7 +64,7 @@
     NetDeviceContainer staDevices = wifi.Install(phy, mac, wifiStaNodes);
     ```
 
-  - Mobility Configuration
+  - **Mobility Configuration**
      - **MobilityHelper** is used to configure the mobility of nodes.
      - The position allocator is used to set the positions of nodes.
      - Constant position mobility model is used, and mobility is installed for both stations and the access point.
@@ -75,14 +75,14 @@
     mobility.Install(wifiStaNodes);
     ```
 
- - Internet Stack Configuration
+ - **Internet Stack Configuration**
      - **InternetStackHelper** is used to install the internet stack on nodes.
       ```python=1
     InternetStackHelper stack;
     stack.Install(wifiApNode);
     stack.Install(wifiStaNodes);
       ```
- - IP address Assignment
+ - **IP address Assignment**
      - IP addresses are assigned to devices using Ipv4AddressHelper.
     ```python=1
    Ipv4AddressHelper address;
@@ -92,7 +92,7 @@
     Ipv4InterfaceContainer apNodeInterface;
     apNodeInterface = address.Assign(apDevices);
     ```
- - Application Configuration
+ - **Application Configuration**
      - UDP echo server and client applications are configured. 
      - Server is installed on the access point, and client is installed on stations.
    ```python=1
@@ -100,7 +100,7 @@
     ApplicationContainer clientApps = client.Install(wifiStaNodes);
    ```
 
- - Flow monitoring Configuration
+ - **Flow monitoring Configuration**
      - **FlowMonitorHelpe**r is used to monitor flows in the network.
      - Flow monitor is used to collect statistics like throughput and delay.
      - Statistics are collected for each flow and printed.
@@ -113,7 +113,7 @@
     Simulator::Stop(Seconds(10.0))
    ```
 
- - Open a CSV file for writing
+ - **Open a CSV file for writing**
     
      - At the end of simulation CSV file named “results_wifi.csv” is created to perform further Analysis. that contains the throughput and delay for each flow, as well as the average throughput and delay. Each row in the CSV file represents a flow, and the columns are “Flow”, “Source Address”, “Destination Address”, “Tx Bytes”, “Rx Bytes”, “Throughput (Mbps)”, and “Delay (s)”.
 ```python=1

@@ -29,10 +29,10 @@
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2-deadline-49-0800-am)
 - Submissions:
   - [x] [Slides](https://www.canva.com/design/DAGAjVzE2V8/U8j2yaqrbK_E2RRNBXkLug/edit?utm_content=DAGAjVzE2V8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-  - [x] [Study Note](https://hackmd.io/@scQT-8pWTJuIuHcmV3DivA/rJfIIdRk0)
-  - [x] [Flowchart](https://hackmd.io/@scQT-8pWTJuIuHcmV3DivA/rJfIIdRk0#Possible-Solution-RTSCTS-Mechanism)
-  - [x] [Sourcecode](https://hackmd.io/@scQT-8pWTJuIuHcmV3DivA/rJfIIdRk0#32-Simulation-Program)
-  - [x] [Numerical Results](https://hackmd.io/@scQT-8pWTJuIuHcmV3DivA/rJfIIdRk0#Simulation-Results)
+  - [x] [Study Note](A2/study_notes.md)
+  - [x] [Flowchart](A2/study_notes.md#Possible-Solution-RTSCTS-Mechanism)
+  - [x] [Sourcecode](A2/study_notes.md#32-Simulation-Program)
+  - [x] [Numerical Results](A2/study_notes.md#Simulation-Results)
   - [x] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)

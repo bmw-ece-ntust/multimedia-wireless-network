@@ -138,7 +138,7 @@ The hidden terminal problem will addressed in the simulation, so an extra effort
 The hidden terminal problem arises in wireless networks when two nodes,  Node A and Node C, are outside each other's communication range but can both communicate with a central node, Node B. 
 
 <p align="center">
-<img src="https://hackmd.io/_uploads/ByOzg0ZlR.png" width="500" height="500">
+<img src="https://hackmd.io/_uploads/B1iqE0ZlC.png" width="300" height="200">
 </p>
 
 This creates a situation where:
@@ -153,7 +153,7 @@ This simultaneous transmission from Node A and Node C collides at Node B, result
 The simulation explores how the Request To Send (RTS)/Clear To Send (CTS) mechanism can help mitigate the hidden terminal problem. 
 
 <p align="center">
-<img src="https://hackmd.io/_uploads/B1iqE0ZlC.png" width="300" height="200">
+<img src="https://hackmd.io/_uploads/ByOzg0ZlR.png" width="500" height="500">
 </p>
 
 Here's how it works:

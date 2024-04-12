@@ -31,7 +31,7 @@
   - [wifi Simulation Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/Study%20Note%20A2.md)
      -  [ ] [progress Note](https://docs.google.com/presentation/d/1TH8xMZELlaDTp8Ow3blm1vR8eehpLdTp/edit#slide=id.p1)
   - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/WifiSimulation.cc)
-  - [ ] [Numercial Results (should be identical as the paper)](https://hackmd.io/@Desalegn/r1LU0MCJ0)
+  - [ ] [Numercial Results ](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/Numerical_resultA2.md)
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)

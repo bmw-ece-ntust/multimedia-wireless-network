@@ -94,7 +94,8 @@ NetAnim serves as a visualization tool primarily utilized with the ns-3 network 
 
    **Network Topology Display:** NetAnim showcases the structural layout of the network simulation, encompassing nodes (such as routers, hosts, etc.), connections, and their attributes.
 
-    **Animation Effects:** Events like packet transmission, node movement, connection establishment, and disconnection are visualized through animation effects, enhancing the clarity and vividness of simulation outcomes.
+  **Animation Effects:** Events like packet transmission, node movement, connection establishment, and disconnection are
+    visualized through animation effects, enhancing the clarity and vividness of simulation outcomes.
 
    **Data Graph Display:** NetAnim can generate graphs illustrating various data and statistical metrics within the simulation, such as packet transmission rates, node throughput, and connection latency.
 
@@ -109,12 +110,9 @@ It is capable of animating simulations with PointToPoint links in ns-3.
 # NetAnim prerequisites
 sudo apt-get -y install mercurial
 sudo apt-get -y install qt5-default
-sudo apt install -y qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
-```
+sudo apt install -y qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools.
 
-## 2. Downloading NetAnim
-
-#Downloading NetAnim
+# Downloading NetAnim
 git clone http://code.nsnam.org/netanim
 
 **3. Building and Starting NetAnim**
@@ -133,7 +131,7 @@ make
 
 ### 3.1 Move the example model to  scratch directory
 
-cd ~/dieta/home/ns-3-allinone/ns-3.39/examples/wireless/   #You can use pwd to find the scratch path
+cd ~/dieta/download/ns-3-allinone/ns-3.39/examples/wireless/   #You can use pwd to find the scratch path
 cp wifi-ap.cc /home/dieta/ns-3-allinone/ns-3.38/scratch/   #Copy file to scratch directory
 cd ~/dieta/home/ns-3-allinone/ns-3.38/scratch/
 

@@ -74,7 +74,7 @@ $ ./build.py --enable-examples --enable-tests
 
 ### 2.7 Check the configure
 
-cd ~/ns-3-allinone/ns-3.39/
+cd ~/ns-3-allinone/ns-3.38/
 ./ns3 configure --build-profile=debug --enable-examples --enable-tests
 
 ![Screenshot from 2024-04-08 23-35-46](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/161825233/d623dc78-25b2-4d4f-b464-895f69db1906)
@@ -153,7 +153,7 @@ AnimationInterface anim ("WiFi-AP.xml");
 
 ### 3.3 Run the wifi-model 
 shell=./ns    
-cd ~/workspace/ns-3-allinone/ns-3.39/
+cd ~/dieta/home/ns-3-allinone/ns-3.38/
 ./ ns3 run scratch/wifi-ap.cc
 
 ![Screenshot from 2024-04-09 00-19-33](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/161825233/ef86a7e7-6e25-46dd-99f5-ade1cf6de46d)
@@ -165,7 +165,7 @@ cd ~/workspace/ns-3-allinone/ns-3.39/
 ### 4.2 Move the example model to  scratch directory
 cd ~/ns-3-allinone/ns-3.38/examples/wireless/   #You can use pwd to find the scratch path
 cp wifi-ap.cc /home/dieta/ns-3-allinone/ns-3.39/scratch/   #Copy file to scratch directory
-cd ~/dieta/home/ns-3-allinone/ns-3.39/scratch/
+cd ~/dieta/home/ns-3-allinone/ns-3.38/scratch/
 
 ### 4.3 Run wifi-80211e-txop.cc
  

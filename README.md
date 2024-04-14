@@ -30,8 +30,9 @@
 - Submissions:
   - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202255-Sylvia/A2.md)
   - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202255-Sylvia/simulation%20and%20analysis_A2.md)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
-  - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
+  - [x] [Numercial Results](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202255-Sylvia/simulation%20and%20analysis_A2.md#simulation-result-1)
+  - [x] [Peer Review](https://docs.google.com/forms/d/1dGFjS3iqx4DK0kf3TOiFs5Vrtr877-T7s027_m6GGSg)
+  
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)

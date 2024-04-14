@@ -574,7 +574,7 @@ main(int argc, char** argv)
 ```
 
 #### Simulation result:
-![image](https://hackmd.io/_uploads/HyAdPdbxA.png =60%x)
+![image](https://hackmd.io/_uploads/HyAdPdbxA.png)
 
 ### 1-3. Analysis
 1. **Comparison of results with and without RTS/CTS:**

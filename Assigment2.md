@@ -1,5 +1,8 @@
  # NS-3 Simulator -  Study Notes
 
+## TIMESTAMP
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/128239705/055dc482-1d89-4108-9860-c96da88f5622)
+
 ### :question: Purpose
 💡
 > The following Study Note has the goal in share my learnings about NS-3 Simulator and show some development made it.

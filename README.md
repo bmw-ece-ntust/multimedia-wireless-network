@@ -34,7 +34,7 @@
   - [x] [Study Note](./A2/README.md)
   - [x] [Flowchart + source code for simulation and analysis](./A2/README.md/#3-first-simulation)
   - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
-  - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
+  - [x] [Peer Review](https://docs.google.com/forms/d/e/1FAIpQLScaUYdenEXkkXOEsi6BPZD8oJ_Xt7XXLFpGC0aLzTpSFHdlOw)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)
 

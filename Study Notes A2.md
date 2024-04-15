@@ -4,8 +4,11 @@
 - [Installation process](#Install-process)
 - [Paper analysis](#Paper-analysis)
 - [Simulation](#Simulation)
+- [Submission date](#Submission-date)
 
-<submission_date>
+# Submission date
+<p align="center">
+<img src=/assets/proof.png>
 
 # Introduction
 ## Ns-3 definition

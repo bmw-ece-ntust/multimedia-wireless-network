@@ -60,8 +60,9 @@
 4. Download [Visual Studio Code](https://code.visualstudio.com/download) (for study notes writing).
   
   > [!TIP]
-  > 1. Read how to generate automatic [Table of Content (ToC)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents) using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension.
-  > 2. Turn off [VScode Word Wrap](https://code.visualstudio.com/docs/editor/codebasics#_how-do-i-turn-on-word-wrap) feature when you edit a table.
+  > - Automatic [Table of Content (ToC)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents) using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) VScode extension.
+  > - Automatic [Figure attachment](https://marketplace.visualstudio.com/items?itemName=hancel.markdown-image) extension for VScode.
+  > - Turn off [VScode Word Wrap](https://code.visualstudio.com/docs/editor/codebasics#_how-do-i-turn-on-word-wrap) feature when you edit a table.
 
 5. Create your own branch in this repository using this format: `[year]-[student ID]-[English Name]`.
     
@@ -202,20 +203,20 @@ Ray -->
       - Flowchart + source code for analysis: (**2 pt**)
       - Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)
-    - Peer Review Form: (**2 pt**)
+    - Peer Review Form: (**2 pt**): $\color{red}DL: 2024/04/15 - 21.00$
     - Top 3 Students: (**Up to 5 pt**):
       - Student 1 (5 pt): [Name]
       - Student 2 (3 pt): [Name]
       - Student 3 (1 pt): [Name]
 
 ### A3
-- $\color{red}DL: 5/14, 08.00 A.M.$
+- $\color{red}DL: 2024/05/13 - 23.59$
 - **Purpose**: Learn to identify the problem and verify the concepts using simulation and analytical results.
-- **Topics**: Joint Communication and Sensing with WiFi
+- **Topics**: IEEE 802.11e simmulation on NS-3
 - References: TBD.
 - Score (15%):
     - Study note: (**Up to 6 pt**):
-      - Topic & Plan Presentation - **$\color{red}DL: 2024/04/16$ (1pt)**
+      - Topic & Plan Presentation: **$\color{red}DL: 2024/04/15 - 23.59$ (1pt)**
         <details><summary>Slide Presentation format:</summary>  
 
           - Slide 0: Name
@@ -223,7 +224,7 @@ Ray -->
           - Slide 2: Briefly summarize the reference they have studied
           - Slide 3: List the pending issues and possible solutions
         </details>
-      - Midterm Progress Report Presentation - **$\color{red}DL: 2024/04/23$ (1pt)**
+      - Midterm Progress Report Presentation: **$\color{red}DL: 2024/04/22 - 23.59$ (1pt)**
       - Flowchart + source code for analysis: (**2 pt**)
       - Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)

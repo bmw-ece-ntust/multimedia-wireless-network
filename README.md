@@ -204,10 +204,14 @@ Ray -->
       - Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)
     - Peer Review Form: (**2 pt**): $\color{red}DL: 2024/04/15 - 21.00$
-    - Top 3 Students: (**Up to 5 pt**):
-      - Student 1 (5 pt): [Name]
-      - Student 2 (3 pt): [Name]
+    - [Top 3 Students](https://docs.google.com/spreadsheets/d/e/2PACX-1vTngcRvJTGL1bm4XyI2ih12_liBFdB1jmH7fCLavH0RTbAVJnEvBrjbC7QU7HT0xGoOat3McUizVofn/pubhtml?gid=1300157643&single=true): (**Up to 5 pt**):
+      - Student 1 (5 pt):
+        - F11215011 - Eugene Malkov	
+      - Student 2 (3 pt):
+        - D11215805 - Dawit Hadush Hailu
+        - M11202261	- Johnson
       - Student 3 (1 pt): [Name]
+        - M11202259 - Jerry
 
 ### A3
 - $\color{red}DL: 2024/05/13 - 23.59$

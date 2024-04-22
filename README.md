@@ -68,9 +68,10 @@
       - Student 3 (1 pt): [Name]
 
 
-### A3 (DL: 2024/05/14, 08.00 A.M.)
+### A3 (DL: 2024/05/13, 23.59 P.M.)
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)
 - Submissions:
+- [X] [MIDITERM REPORT](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A3%20MIDITERM%20REPORT.pptx)
   - [ ] [Study Note](path to another .md file for your assignment)
   - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
   - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)

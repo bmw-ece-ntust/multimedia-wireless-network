@@ -98,22 +98,22 @@ Ray -->
 ## 2.2. Schedule
 | Date (Recording)                                                | Topic/Slide                                                                                                                                       | Presentations       |
 |:----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| [**Week 0**: 2/20](https://youtu.be/dirtl2bJXoc)                | [Opening]()                                                                                                                                       |                     |
-| [**Week 1**: 2/27](https://youtu.be/rt6_7CFiscs)                | Part-I: Multimedia Applications - [slide](https://drive.google.com/file/d/1NZCWjhpVOj7gXR-qcndSmJ8gbmjClnZP/view?usp=drive_≈link)                 |                     |
-| [**Week 2**: 3/5](https://youtu.be/uZWEcLd9Tlc?feature=shared)  | Part-I: Multimedia Applications                                                                                                                   | [Assignment 1](#a1) |
-| [**Week 3**: 3/14](https://youtu.be/atdoOPE1iYM?feature=shared) | QoS Fundamentals                                                                                                                                  |                     |
-| [**Week 4**: 3/19](https://youtu.be/T90py6UT340)                | Part-II: Wireless Local Area Networks (WLANs) - [slides](https://drive.google.com/drive/folders/1K3ZKm85Y3VuWecf9OMLR66gYGD-9TG0Y?usp=drive_link) |                     |
-| [**Week 5**: 3/26](https://youtu.be/3Ft-MzTpxVU)                | Part-II: 802.11 MAC - [slide](https://drive.google.com/file/d/12vJCA0Mj001LoG-VQs35tfxgGfUqp-_H/view?usp=sharing)                                 |                     |
-| [**Week 6**: 4/2](https://youtu.be/eVkWhulv8UU)                 | Part-II: 802.11 MAC                                                                                                                               |                     |
-| **Week 7**: 4/9                                                 | Part-II: 802.11 MAC                                                                                                                               | [Assignment 2](#a2) |
-| [**Week 8**: 4/16](https://youtu.be/iEOsiWEgnMo)                                                | Part-II: 802.11e MAC enhancement - [slide](https://drive.google.com/file/d/1YYx_7SdiYcMDdvgaLSG0GQAB_zxo-Vln/view?usp=sharing)                    |                     |
-| **Week 9**: 4/23                                                | Part-II: 802.11e MAC enhancement                                                                                                                  |                     |
-| **Week 10**: 4/30                                               | Part-III: Wireless Metropolitan Area Network - [slide](https://drive.google.com/file/d/12ni6f2g58rbbRxEt3887siUWjhYuJbMP/view?usp=drive_link)     |                     |
-| **Week 11**: 5/7                                                | Part-III: Wireless Metropolitan Area Network                                                                                                      |                     |
-| **Week 12**: 5/14                                               | Part-IV: Wireless Personal Area Networks - [slide](https://drive.google.com/file/d/1gYPfODOiJr6_jl3AjPT2ANskpgUA1m8l/view?usp=sharing)            | [Assignment 3](#a3) |
-| **Week 13**: 5/21                                               | **Prof. Ma: 3GPP QoS Mechanism**                                                                                                                  |                     |
-| **Week 14**: 5/28                                               | Part-IV: Wireless Personal Area Networks                                                                                                          |                     |
-| **Week 15**: 6/4                                                | **Final Exam**                                                                                                                                    |                     |
+| [**Week 1**: 2/20](https://youtu.be/dirtl2bJXoc)                | [Opening]()                                                                                                                                       |                     |
+| [**Week 2**: 2/27](https://youtu.be/rt6_7CFiscs)                | Part-I: Multimedia Applications - [slide](https://drive.google.com/file/d/1NZCWjhpVOj7gXR-qcndSmJ8gbmjClnZP/view?usp=drive_≈link)                 |                     |
+| [**Week 3**: 3/5](https://youtu.be/uZWEcLd9Tlc?feature=shared)  | Part-I: Multimedia Applications                                                                                                                   | [Assignment 1](#a1) |
+| [**Week 4**: 3/14](https://youtu.be/atdoOPE1iYM?feature=shared) | QoS Fundamentals                                                                                                                                  |                     |
+| [**Week 5**: 3/19](https://youtu.be/T90py6UT340)                | Part-II: Wireless Local Area Networks (WLANs) - [slides](https://drive.google.com/drive/folders/1K3ZKm85Y3VuWecf9OMLR66gYGD-9TG0Y?usp=drive_link) |                     |
+| [**Week 6**: 3/26](https://youtu.be/3Ft-MzTpxVU)                | Part-II: 802.11 MAC - [slide](https://drive.google.com/file/d/12vJCA0Mj001LoG-VQs35tfxgGfUqp-_H/view?usp=sharing)                                 |                     |
+| [**Week 7**: 4/2](https://youtu.be/eVkWhulv8UU)                 | Part-II: 802.11 MAC                                                                                                                               |                     |
+| **Week 8**: 4/9                                                 | Part-II: 802.11 MAC                                                                                                                               | [Assignment 2](#a2) |
+| [**Week 9**: 4/16](https://youtu.be/iEOsiWEgnMo)                                                | Part-II: 802.11e MAC enhancement - [slide](https://drive.google.com/file/d/1YYx_7SdiYcMDdvgaLSG0GQAB_zxo-Vln/view?usp=sharing)                    |                     |
+| **Week 10**: 4/23                                                | Part-II: 802.11e MAC enhancement                                                                                                                  |                     |
+| **Week 11**: 4/30                                               | Part-III: Wireless Metropolitan Area Network - [slide](https://drive.google.com/file/d/12ni6f2g58rbbRxEt3887siUWjhYuJbMP/view?usp=drive_link)     |                     |
+| **Week 12**: 5/7                                                | Part-III: Wireless Metropolitan Area Network                                                                                                      |                     |
+| **Week 13**: 5/14                                               | Part-IV: Wireless Personal Area Networks - [slide](https://drive.google.com/file/d/1gYPfODOiJr6_jl3AjPT2ANskpgUA1m8l/view?usp=sharing)            | [Assignment 3](#a3) |
+| **Week 14**: 5/21                                               | **Prof. Ma: 3GPP QoS Mechanism**                                                                                                                  |                     |
+| **Week 15**: 5/28                                               | Part-IV: Wireless Personal Area Networks                                                                                                          |                     |
+| **Week 16**: 6/4                                                | **Final Exam**                                                                                                                                    |                     |
 | Juniper eLearning - I                                           | [Getting Started with Networking](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                                |                     |
 | Juniper eLearning - II                                          | [Getting Started with Wi-Fi](https://learningportal.juniper.net/juniper/user_transcript.aspx)                                                     |                     |
 
@@ -170,11 +170,13 @@ Ray -->
       > **Note**: After the deadline, the Google Form will be opened for 1 week.
     
     - [**Top 3 Students**](https://docs.google.com/spreadsheets/d/1m7cMXGDb8YXC7xM3XkL11q_UQTEIzLojoYQmL6zZi5k/edit?usp=sharing) (**Up to 5 pt**):
-      - Student 1 (**5 pt**): F11215120 - Emiliano Nazareno Rojas Marcelli
-      - Student 2 (3 pt): D11215805 - Dawit Hadush Hailu
+      - Student 1 (**5 pt**): 
+        - [F11215120 - Emiliano Nazareno Rojas Marcelli](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/9fb5147659db82f0379e842c42ae773c07b3c2c3/Assignment.md)
+      - Student 2 (3 pt): 
+        - [D11215805 - Dawit Hadush Hailu](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/ae1856739363fcccde92b88a3f1ee8eedf4a0b88/Study%20Note%201.md)
       - Student 3 (1 pt): 
-        - M11202215 - Joe
-        - M11202816 - RAVI SHANKAR PRASAD
+        - [M11202215 - Joe](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/708f02b461f09d38cfbaf4b1f9bdb429fdfa73eb/Assignment%201.md)
+        - [M11202816 - RAVI SHANKAR PRASAD](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/321bf308a6d17ed9b1f5068c6d4d522c126d3a51/Assignment1.md)
 
 ### A2
 - $\color{red}DL: 4/9, 08.00 A.M.$
@@ -206,11 +208,11 @@ Ray -->
     - Peer Review Form: (**2 pt**): $\color{red}DL: 2024/04/15 - 21.00$
     - [Top 3 Students](https://docs.google.com/spreadsheets/d/e/2PACX-1vTngcRvJTGL1bm4XyI2ih12_liBFdB1jmH7fCLavH0RTbAVJnEvBrjbC7QU7HT0xGoOat3McUizVofn/pubhtml?gid=1300157643&single=true): (**Up to 5 pt**):
       - Student 1 (5 pt):
-        - F11215011 - Eugene Malkov	
+        - [F11215011 - Eugene Malkov](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/dfeed62ba7408fdf59d0ab4d16828fab72ea0030/A2/README.md)
       - Student 2 (3 pt):
         - D11215805 - Dawit Hadush Hailu
         - M11202261	- Johnson
-      - Student 3 (1 pt): [Name]
+      - Student 3 (1 pt):
         - M11202259 - Jerry
 
 ### A3

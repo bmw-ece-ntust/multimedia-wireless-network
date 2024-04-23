@@ -216,7 +216,7 @@ Ray -->
         - [M11202259 - Jerry](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/83969807d66bfdf39a758af2929496dc437bc4c6/Assignment%202.md)
 
 ### A3
-> [!WARNING] Announcement!
+> [!WARNING]
 > Upload your study note to your Branch with file name: `assignment-3.md`, Thank you!
 
 - $\color{red}DL: 2024/05/13 - 23.59$

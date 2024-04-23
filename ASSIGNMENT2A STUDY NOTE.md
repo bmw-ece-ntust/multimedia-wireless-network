@@ -156,6 +156,15 @@ cd ~/dieta/home/ns-3-allinone/ns-3.38/
 
 ![Screenshot from 2024-04-09 00-19-33](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/161825233/ef86a7e7-6e25-46dd-99f5-ade1cf6de46d)
 
+## REFERENCE 
+Mr Joe study note
+## Acknoledgement
+with much Appreciation, i thanks Mr JOE FOR his great support.
+Much Appreciation TO Professor Ray and TA ian for more support.
+
+
+
+
 ## 4. Simulate the wifi-80211e-txop.cc(Pending task)
 
 ### 4.1 Network topology

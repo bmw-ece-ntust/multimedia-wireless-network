@@ -211,7 +211,7 @@ Ray -->
         - [F11215011 - Eugene Malkov](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/dfeed62ba7408fdf59d0ab4d16828fab72ea0030/A2/README.md)
       - Student 2 (3 pt):
         - [D11215805 - Dawit Hadush Hailu](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/acd597e464ada0ae026b6732c0ef2dc44c72614f/Study_Note%20_A2.md)
-        - M11202261	- Johnson
+        - [M11202261	- Johnson](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202261-Johnson/A2_study%20note.md.md)
       - Student 3 (1 pt):
         - [M11202259 - Jerry](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/83969807d66bfdf39a758af2929496dc437bc4c6/Assignment%202.md)
 

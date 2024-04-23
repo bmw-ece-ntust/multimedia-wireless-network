@@ -160,7 +160,7 @@ cd ~/dieta/home/ns-3-allinone/ns-3.38/
 Mr Joe study note
 ## Acknoledgement
 with much Appreciation, i thanks Mr JOE FOR his great support.
-Much Appreciation TO Professor Ray and TA ian for more support.
+Much Appreciation To Professor Ray and TA Ian for more support.
 
 
 

@@ -34,7 +34,7 @@
   - [X] [Flowchart code 2](https://camo.githubusercontent.com/e3a3c424ddb14c50e6cb83e68a700f91c469968b07efa2a6d402e728bf99d7ff/68747470733a2f2f6861636b6d642e696f2f5f75706c6f6164732f4279414655525765432e706e67)
   - [X] [source code for simulation and analysis](Assigment2.md) 
   - [X] [Numercial Results (should be identical as the paper)](Assigment2.md)
-  - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
+  - [X] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)

@@ -97,7 +97,7 @@ Ray -->
 
 ## 2.2. Schedule
 | Date (Recording)                                                | Topic/Slide                                                                                                                                       | Presentations       |
-|:----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| :-------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | [**Week 1**: 2/20](https://youtu.be/dirtl2bJXoc)                | [Opening]()                                                                                                                                       |                     |
 | [**Week 2**: 2/27](https://youtu.be/rt6_7CFiscs)                | Part-I: Multimedia Applications - [slide](https://drive.google.com/file/d/1NZCWjhpVOj7gXR-qcndSmJ8gbmjClnZP/view?usp=drive_≈link)                 |                     |
 | [**Week 3**: 3/5](https://youtu.be/uZWEcLd9Tlc?feature=shared)  | Part-I: Multimedia Applications                                                                                                                   | [Assignment 1](#a1) |
@@ -108,7 +108,7 @@ Ray -->
 | **Week 8**: 4/9                                                 | Part-II: 802.11 MAC                                                                                                                               | [Assignment 2](#a2) |
 | [**Week 9**: 4/16](https://youtu.be/iEOsiWEgnMo)                | Part-II: 802.11e MAC enhancement - [slide](https://drive.google.com/file/d/1YYx_7SdiYcMDdvgaLSG0GQAB_zxo-Vln/view?usp=sharing)                    |                     |
 | [**Week 10**: 4/23](https://youtu.be/VoEd_yzRwsI)               | Part-II: 802.11e MAC enhancement                                                                                                                  |                     |
-| **Week 11**: 4/30                                               | Part-III: Wireless Metropolitan Area Network - [slide](https://drive.google.com/file/d/1To3vaziNXQbCONccGkZPQN4mMkciza1R/view?usp=drive_link)     |                     |
+| [**Week 11**: 4/30](https://youtu.be/I0ib8aXBw7g)               | Part-III: Wireless Metropolitan Area Network - [slide](https://drive.google.com/file/d/1To3vaziNXQbCONccGkZPQN4mMkciza1R/view?usp=drive_link)     |                     |
 | **Week 12**: 5/7                                                | Part-III: Wireless Metropolitan Area Network                                                                                                      |                     |
 | **Week 13**: 5/14                                               | Part-IV: Wireless Personal Area Networks - [slide](https://drive.google.com/file/d/1gYPfODOiJr6_jl3AjPT2ANskpgUA1m8l/view?usp=sharing)            | [Assignment 3](#a3) |
 | **Week 14**: 5/21                                               | **Prof. Ma: 3GPP QoS Mechanism**                                                                                                                  |                     |

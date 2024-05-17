@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project, I use the ns-3 simulator to create a network that consists of an Access Point (AP) and three stations (STAs). The AP and the STAs are configured to operate using the IEEE 802.11 standard with Quality of Service (QoS) support, specifically utilizing the 802.11e TXOP (Transmission Opportunity) mechanism. Each station continuously transmits data packets to the AP, simulating a network environment where different types of traffic (such as voice, video, and best effort) compete for bandwidth.
+In this project, I use the ns-3 simulator to create a network that consists of an Access Point (AP) and three stations (STAs). The AP and the STAs are configured to operate using the IEEE 802.11 standard with Quality of Service (QoS) support, specifically utilizing the 802.11e TXOP (Transmission Opportunity) mechanism. Each station continuously transmits data packets to the AP, simulating a network environment where different types of traffic (voice, video, and best effort) compete for bandwidth.
 
 The goal of the simulation is to analyze the performance of the network under varying traffic loads and to measure the throughput achieved by each traffic category. 
 

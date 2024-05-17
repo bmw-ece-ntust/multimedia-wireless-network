@@ -26,16 +26,43 @@ The implementation can be divided into simulation set-up, network set-up, QoS pa
 For each traffic rate that the simulation iterates through, the results are printed to the console and saved in a CSV file for further analysis. The output includes the current traffic load and the throughput achieved for each Access Category (AC).
 
 ```c++
+        // Display Results in console
+        std::cout << "Current Traffic AC: " << currentTrafficAC << " Mbps" << std::endl;
+        std::cout << "Throughput AC_VI: " << throughput_S0 << " Mbps" << std::endl;
+        std::cout << "Throughput AC_VO: " << throughput_S1 << " Mbps" << std::endl;
+        std::cout << "Throughput AC_BE: " << throughput_S2  << " Mbps\n" << std::endl;
 
-        // Display results in console
-        std::cout << "Current Traffic: " << currentTrafficAC << " Mbps" << std::endl;
-        std::cout << "Throughput AC_VI: " << throughputA << " Mbps" << std::endl;
-        std::cout << "Throughput AC_VO: " << throughputB << " Mbps" << std::endl;
-        std::cout << "Throughput AC_BE: " << throughputC << " Mbps\n" << std::endl;
-
-        // Output to CSV file
-        outFileCSV << currentTrafficAC << "," << throughputA << "," << throughputB << "," << throughputC << std::endl;
+        // Output Results to CSV file
+        outFileCSV << currentTrafficAC << "," << throughput_S1  << "," << throughput_S0 << "," << throughput_S2 << std::endl;
 ```
 
+Example of CSV file generated:
+
+```
+| Current Traffic (Mbps) | Throughput AC_VO (Mbps) | Throughput AC_VI (Mbps) | Throughput AC_BE (Mbps) |
+|------------------------|-------------------------|-------------------------|-------------------------|
+| 1                      | 0.394496                | 0.388608                | 0.341504                |
+| 7                      | 2.58189                 | 2.53478                 | 2.75264                 |
+| 13                     | 5.00774                 | 5.26976                 | 4.12749                 |
+| 19                     | 7.37472                 | 7.52486                 | 7.38355                 |
+| 25                     | 8.79962                 | 8.54643                 | 9.1735                  |
+| 31                     | 11.0871                 | 8.20787                 | 7.67795                 |
+| 37                     | 14.4374                 | 5.93805                 | 6.54157                 |
+| 43                     | 16.7837                 | 5.19616                 | 4.784                   |
+| 49                     | 16.7219                 | 5.23149                 | 5.25504                 |
+| 55                     | 18.9682                 | 3.45626                 | 4.64858                 |
+| 61                     | 20.5844                 | 3.33555                 | 3.11181                 |
+| 67                     | 21.3734                 | 2.73792                 | 2.93517                 |
+| 73                     | 22.1772                 | 3.88608                 | 0.79488                 |
+| 79                     | 21.5295                 | 1.94304                 | 3.53574                 |
+| 85                     | 21.5059                 | 3.2855                  | 2.21683                 |
+
+
+```
+
+
+
 ## Analysis of Results
+
+
 

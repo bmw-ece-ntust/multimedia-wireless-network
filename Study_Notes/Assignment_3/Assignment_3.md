@@ -78,5 +78,8 @@ Example of CSV file generated:
 
 ## Analysis of Results
 
+As mentioned previously the files results of the simulation are saved into a csv file. To analyze this results, I use a simple python code that using the matplot library creates a graph showing how the Throughput of the AC types chages as the traffic increases.
+
+
 
 

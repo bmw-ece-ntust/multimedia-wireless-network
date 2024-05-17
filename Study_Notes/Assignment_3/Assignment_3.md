@@ -33,6 +33,10 @@ Network topology :
 
 ### QoS Parameters 
 
+I configure the QoS parameters of each AC utilizing a the values provided by the research paper.
+
+
+Values utlize in research paper:
 ![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/133529935/f3f01e75-8aca-427e-af0d-c0e3b2eac9d3)
 
 

@@ -21,6 +21,10 @@ The implementation can be divided into simulation set-up, network set-up, QoS pa
 
 ### QoS Parameters 
 
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/133529935/f3f01e75-8aca-427e-af0d-c0e3b2eac9d3)
+
+
+
 ### Output the Results
 
 For each traffic rate that the simulation iterates through, the results are printed to the console and saved in a CSV file for further analysis. The output includes the current traffic load and the throughput achieved for each Access Category (AC).

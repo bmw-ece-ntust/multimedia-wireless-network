@@ -17,6 +17,8 @@ The implementation can be divided into simulation set-up, network set-up, QoS pa
 
 ### Simulation Set-Up
 
+In the simulation setup, I initialize various parameters required for the simulation. These include setting the port number, payload size, traffic start and end times, and traffic increment values. Additionally, the csv output file is opened for logging the simulation results.
+
 ### Network Set-Up
 
 ```

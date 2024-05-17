@@ -26,13 +26,14 @@ The implementation can be divided into simulation set-up, network set-up, QoS pa
 For each traffic rate that the simulation iterates through, the results are printed to the console and saved in a CSV file for further analysis. The output includes the current traffic load and the throughput achieved for each Access Category (AC).
 
 ```c++
-        // Output and display
 
+        // Display results in console
         std::cout << "Current Traffic: " << currentTrafficAC << " Mbps" << std::endl;
         std::cout << "Throughput AC_VI: " << throughputA << " Mbps" << std::endl;
         std::cout << "Throughput AC_VO: " << throughputB << " Mbps" << std::endl;
         std::cout << "Throughput AC_BE: " << throughputC << " Mbps\n" << std::endl;
 
+        // Output to CSV file
         outFileCSV << currentTrafficAC << "," << throughputA << "," << throughputB << "," << throughputC << std::endl;
 ```
 

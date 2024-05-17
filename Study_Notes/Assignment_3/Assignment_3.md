@@ -19,6 +19,16 @@ The implementation can be divided into simulation set-up, network set-up, QoS pa
 
 ### Network Set-Up
 
+```
+Network topology :
+
+             AP
+   +---------+---------+
+   |         |          |        
+  STA A     STA B     STA C
+
+```
+
 ### QoS Parameters 
 
 ![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/133529935/f3f01e75-8aca-427e-af0d-c0e3b2eac9d3)

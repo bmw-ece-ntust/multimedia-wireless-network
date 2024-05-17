@@ -38,7 +38,6 @@ For each traffic rate that the simulation iterates through, the results are prin
 
 Example of CSV file generated:
 
-```
 | Current Traffic (Mbps) | Throughput AC_VO (Mbps) | Throughput AC_VI (Mbps) | Throughput AC_BE (Mbps) |
 |------------------------|-------------------------|-------------------------|-------------------------|
 | 1                      | 0.394496                | 0.388608                | 0.341504                |
@@ -58,7 +57,6 @@ Example of CSV file generated:
 | 85                     | 21.5059                 | 3.2855                  | 2.21683                 |
 
 
-```
 
 
 

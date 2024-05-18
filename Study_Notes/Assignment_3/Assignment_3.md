@@ -42,8 +42,7 @@ Values utlize in research paper:
 
 ### Output the Results
 
-For each traffic rate that the simulation iterates through, the results are printed to the console and saved in a CSV file. The output includes the current traffic load and the throughput achieved for each Access Category (AC).
-
+The simulation is run a total of 5 times and each time the results of the simulation are saved into a different csv file for further analysis. Also, on each simualation the results are printed on the console as they are generated.
 
 Example of CSV file generated:
 
@@ -64,12 +63,11 @@ Example of CSV file generated:
 
 
 
-
-
 # Analysis of Results
 
-As mentioned previously the files results of the simulation are saved into a csv file. To analyze this results, I use a simple python code that using the matplot library creates a graph showing how the Throughput of the AC types chages as the traffic increases.
-|
+As mentioned previously, the results of the simulations are saved into CSV files. To analyze these results, a Python script is utilized. First, the script calculates the average value of all the simulations. This average calculation is performed to provide a more representative view of the system's performance across multiple simulations. By averaging the results of multiple simulations, the script mitigates the impact of any or variability that may appear in individual simulation runs. This approach helps to smooth out fluctuations and provides a more stable representation of the network behavior.
+
+After calculating the average data, the script utilizes the Matplotlib library to create a graph showing how the throughput of the Access Category (AC) types changes as the traffic increases. The graph allows for a visual understanding of how the system's throughput responds to increasing traffic loads across different ACs. This analysis is crucial for evaluating the network's performance and understanding how different types of traffic are prioritized and handled under varying traffic conditions.
 
 ### Python Code for Creating the Graph
 
@@ -77,6 +75,7 @@ As mentioned previously the files results of the simulation are saved into a csv
 
 import csv
 import matplotlib.pyplot as plt
+import numpy as np
 
 def read_csv(filename):
     data = {'x': [], 'vi': [], 'vo': [], 'be': [], 'bk': []}
@@ -90,18 +89,36 @@ def read_csv(filename):
             data['bk'].append(float(row[4]))  # Throughput AC_BK
     return data
 
+def average_data(data_list):
+    # Find the minimum length among all datasets
+    min_length = min(len(data['x']) for data in data_list)
+    
+    # Initialize an empty dictionary to store the sum of each data point
+    sum_data = {'x': [0] * min_length, 'vi': [0] * min_length, 'vo': [0] * min_length, 'be': [0] * min_length, 'bk': [0] * min_length}
+    
+    # Iterate over each dataset and add up the corresponding data points
+    for data in data_list:
+        for key in sum_data:
+            sum_data[key] = [sum_data[key][i] + data[key][i] for i in range(min_length)]
+    
+    # Calculate the average by dividing each sum by the number of datasets
+    num_datasets = len(data_list)
+    avg_data = {key: [value / num_datasets for value in sum_data[key]] for key in sum_data}
+    
+    return avg_data
+
+
 def plot_graph(data):
     plt.figure(facecolor='black')
     ax = plt.gca()
     ax.set_facecolor('black')
     
-    plt.plot(data['x'], data['x'], label='Traffic', color='white')
     plt.plot(data['x'], data['vi'], label='AC_VI', color='blue')
     plt.plot(data['x'], data['vo'], label='AC_VO', color='green')
     plt.plot(data['x'], data['be'], label='AC_BE', color='red')
     plt.plot(data['x'], data['bk'], label='AC_BK', color='grey')
     
-    plt.title('Throughput per AC with increasing offered traffic per AC', color='white')
+    plt.title('Average Throughput per AC with increasing offered traffic per AC', color='white')
     
     plt.xlabel('Current Traffic AC', color='white')
     plt.ylabel('Throughput (Mbps)', color='white')
@@ -115,15 +132,19 @@ def plot_graph(data):
     plt.show()
 
 if __name__ == "__main__":
-    filename = "/home/f11215125/Desktop/ns-allinone-3.41/ns-3.41/my_output/simulation_output.csv"
-    data = read_csv(filename)
-    plot_graph(data)
-
-
+    # List of filenames for all simulation outputs
+    filenames = [f"/home/f11215125/Desktop/ns-allinone-3.41/ns-3.41/my_output/simulation_output_0{i}.csv" for i in range(1, 6)]
+    
+    # Read data from all CSV files
+    data_list = [read_csv(filename) for filename in filenames]
+    
+    # Compute the average data
+    avg_data = average_data(data_list)
+    
+    # Plot the average data
+    plot_graph(avg_data)
 
 ```
-
-The script reads the CSV file and plots the throughput for each AC category against the current traffic load.
 
 # Conclusion
 

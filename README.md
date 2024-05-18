@@ -40,8 +40,8 @@
 
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)
 - Submissions:
-  - [ ] [Midterm Progress Report Presentation](https://docs.google.com/presentation/d/1IUPaPh2_kq2WbKrTduEuxDULjzo9Igm9/edit?usp=sharing&ouid=113384380853943578817&rtpof=true&sd=true)
-  - [ ] [Study Note](path to another .md file for your assignment)
+  - [x] [Midterm Progress Report Presentation](https://docs.google.com/presentation/d/1IUPaPh2_kq2WbKrTduEuxDULjzo9Igm9/edit?usp=sharing&ouid=113384380853943578817&rtpof=true&sd=true)
+  - [x] [Study Note](./assignment-3.md)
   - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
   - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

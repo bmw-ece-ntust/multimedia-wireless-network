@@ -18,21 +18,30 @@
 
 using namespace ns3;
 
+Ptr<ExponentialRandomVariable>
+CreateExponentialRandomVariable(double mean)
+{
+    Ptr<ExponentialRandomVariable> rv = CreateObject<ExponentialRandomVariable>();
+    rv->SetAttribute("Mean", DoubleValue(mean));
+    return rv;
+}
+
+void Log(std::string message, std::ofstream &outputFile)
+{
+    NS_LOG_INFO(message);
+    outputFile << message << std::endl;
+}
+
 NS_LOG_COMPONENT_DEFINE("80211eTxop");
 
 int main(int argc, char *argv[])
 {
     // Open output file for recording characteristics
     std::ofstream outputFile("output_characteristics.txt");
-    if (!outputFile.is_open())
-    {
-        std::cerr << "Error: Could not open output file!" << std::endl;
-        return 1;
-    }
 
-    // Define offered traffic range and interval
+    // Define all neccessary variables
     uint16_t port = 5001;
-    uint32_t payloadSize = 1472; // bytes
+    uint32_t payloadSize = 1472;
     double offeredTrafficStart = 1.0;
     double offeredTrafficEnd = 120.0;
     double offeredTrafficStep = 3.0;
@@ -46,8 +55,8 @@ int main(int argc, char *argv[])
     for (double offeredTrafficAC = offeredTrafficStart; offeredTrafficAC <= offeredTrafficEnd;
          offeredTrafficAC += offeredTrafficStep)
     {
-        outputFile << "Offered Traffic (Mbps): " << offeredTrafficAC << std::endl;
-        NS_LOG_INFO("Offered Traffic (Mbps): " << offeredTrafficAC);
+        Log("Offered Traffic (Mbps): " + std::to_string(offeredTrafficAC), outputFile);
+
         // 1. Create nodes. 1 AP and 3 STAs
         NodeContainer wifiStaNodes;
         wifiStaNodes.Create(3);
@@ -59,21 +68,27 @@ int main(int argc, char *argv[])
         YansWifiPhyHelper phy;
         phy.SetPcapDataLinkType(WifiPhyHelper::DLT_IEEE802_11_RADIO);
         phy.SetChannel(channel.Create());
+        phy.Set("ChannelSettings", StringValue("{36, 20, BAND_5GHZ, 0}"));
 
+        // 3. Create wifi helper and mac
         WifiHelper wifi;
         wifi.SetStandard(WIFI_STANDARD_80211a);
-        wifi.SetRemoteStationManager("ns3::IdealWifiManager");
+        wifi.SetRemoteStationManager("ns3::ConstantRateWifiManager",
+                                     "DataMode",
+                                     StringValue("OfdmRate24Mbps"),
+                                     "ControlMode",
+                                     StringValue("OfdmRate6Mbps"));
         WifiMacHelper mac;
 
+        // 4. Install network devices
         NetDeviceContainer staDeviceA;
         NetDeviceContainer staDeviceB;
         NetDeviceContainer staDeviceC;
         NetDeviceContainer apDeviceA;
         Ssid ssid;
 
-        // Network
+        // 5. Set up the network devices
         ssid = Ssid("network");
-        phy.Set("ChannelSettings", StringValue("{36, 20, BAND_5GHZ, 0}"));
         mac.SetType("ns3::StaWifiMac", "QosSupported", BooleanValue(true), "Ssid", SsidValue(ssid));
         staDeviceA = wifi.Install(phy, mac, wifiStaNodes.Get(0));
         staDeviceB = wifi.Install(phy, mac, wifiStaNodes.Get(1));
@@ -156,39 +171,21 @@ int main(int argc, char *argv[])
         InetSocketAddress destC(staInterfaceC.GetAddress(0), port);
         destC.SetTos(0xa0); // AC_BE
 
-        Ptr<ExponentialRandomVariable> onTimeARv = CreateObject<ExponentialRandomVariable>();
-        onTimeARv->SetAttribute("Mean", DoubleValue(0.02));
-
-        Ptr<ExponentialRandomVariable> offTimeARv = CreateObject<ExponentialRandomVariable>();
-        offTimeARv->SetAttribute("Mean", DoubleValue(0.02));
-
-        Ptr<ExponentialRandomVariable> onTimeBRv = CreateObject<ExponentialRandomVariable>();
-        onTimeBRv->SetAttribute("Mean", DoubleValue(0.02));
-
-        Ptr<ExponentialRandomVariable> offTimeBRv = CreateObject<ExponentialRandomVariable>();
-        offTimeBRv->SetAttribute("Mean", DoubleValue(0.02));
-
-        Ptr<ExponentialRandomVariable> onTimeCRv = CreateObject<ExponentialRandomVariable>();
-        onTimeCRv->SetAttribute("Mean", DoubleValue(0.02));
-
-        Ptr<ExponentialRandomVariable> offTimeCRv = CreateObject<ExponentialRandomVariable>();
-        offTimeCRv->SetAttribute("Mean", DoubleValue(0.02));
-
         OnOffHelper clientA("ns3::UdpSocketFactory", destA);
-        clientA.SetAttribute("OnTime", PointerValue(onTimeARv));
-        clientA.SetAttribute("OffTime", PointerValue(offTimeARv));
+        clientA.SetAttribute("OnTime", PointerValue(CreateExponentialRandomVariable(0.02)));
+        clientA.SetAttribute("OffTime", PointerValue(CreateExponentialRandomVariable(0.02)));
         clientA.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
         clientA.SetAttribute("PacketSize", UintegerValue(payloadSize));
 
         OnOffHelper clientB("ns3::UdpSocketFactory", destB);
-        clientB.SetAttribute("OnTime", PointerValue(onTimeBRv));
-        clientB.SetAttribute("OffTime", PointerValue(offTimeBRv));
+        clientB.SetAttribute("OnTime", PointerValue(CreateExponentialRandomVariable(0.02)));
+        clientB.SetAttribute("OffTime", PointerValue(CreateExponentialRandomVariable(0.02)));
         clientB.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
         clientB.SetAttribute("PacketSize", UintegerValue(payloadSize));
 
         OnOffHelper clientC("ns3::UdpSocketFactory", destC);
-        clientC.SetAttribute("OnTime", PointerValue(onTimeCRv));
-        clientC.SetAttribute("OffTime", PointerValue(offTimeCRv));
+        clientC.SetAttribute("OnTime", PointerValue(CreateExponentialRandomVariable(0.02)));
+        clientC.SetAttribute("OffTime", PointerValue(CreateExponentialRandomVariable(0.02)));
         clientC.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
         clientC.SetAttribute("PacketSize", UintegerValue(payloadSize));
 
@@ -221,14 +218,10 @@ int main(int argc, char *argv[])
         double throughputB = (totalPacketsThroughB * payloadSize * 8.0) / (4 * 1000000.0);
         double throughputC = (totalPacketsThroughC * payloadSize * 8.0) / (4 * 1000000.0);
 
-        // Log and write output to file
-        NS_LOG_INFO("Throughput A (VI): " << throughputA << " Mbps");
-        outputFile << "Throughput A (VI): " << throughputA << " Mbps" << std::endl;
-        NS_LOG_INFO("Throughput B (VO): " << throughputB << " Mbps");
-        outputFile << "Throughput B (VO): " << throughputB << " Mbps" << std::endl;
-        NS_LOG_INFO("Throughput C: (BE)" << throughputC << " Mbps");
-        outputFile << "Throughput C: (BE)" << throughputC << " Mbps" << std::endl;
-        outputFile << std::endl; // Add an empty line between iterations
+        Log("Throughput A (VI): " + std::to_string(throughputA) + " Mbps", outputFile);
+        Log("Throughput B (VO): " + std::to_string(throughputB) + " Mbps", outputFile);
+        Log("Throughput C (BE): " + std::to_string(throughputC) + " Mbps", outputFile);
+        Log("", outputFile);
     }
 
     outputFile.close();

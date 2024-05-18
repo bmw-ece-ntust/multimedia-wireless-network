@@ -24,10 +24,10 @@ The network is composed of one Access Point (AP) and four stations (STAs). Each 
 ```
 Network topology :
 
-             AP
-   +---------+---------+
-   |         |          |        
-  STA A     STA B     STA C
+//             AP
+//   *---------*----------*----------*
+//   |         |          |          |        
+//  STA A     STA B     STA C     STA D
 
 ```
 

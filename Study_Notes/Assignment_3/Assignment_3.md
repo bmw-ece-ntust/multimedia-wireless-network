@@ -24,10 +24,10 @@ The network is composed of one Access Point (AP) and four stations (STAs). Each 
 ```
 Network topology :
 
-//             AP
-//   *---------*----------*----------*
-//   |         |          |          |        
-//  STA A     STA B     STA C     STA D
+             AP
+   *---------*----------*----------*
+   |         |          |          |        
+  STA A     STA B     STA C     STA D
 
 ```
 
@@ -145,6 +145,10 @@ if __name__ == "__main__":
     plot_graph(avg_data)
 
 ```
+
+# Flow-Chart
+
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/133529935/21e0953f-3ca3-4c9b-8235-736c495ad20d)
 
 # Conclusion
 

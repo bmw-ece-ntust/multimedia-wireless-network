@@ -33,12 +33,13 @@
   - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md)
   - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md#code-analysis)
   - [x] [Numerical Results](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%202%20-%20Study%20Notes.md#result)
-  - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
+  - [x] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
-### A3 (DL: 2024/05/14, 08.00 A.M.)
+### A3 (DL: 2024/05/21, 08.00 A.M.)
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)
 - Submissions:
-  - [ ] [Study Note](path to another .md file for your assignment)
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
+  - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%203%20-%20Study%20Notes.md)
+  - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215110-Victor-Hugo-Cano-Escobar/StudyNotes/Assignment%203%20-%20Study%20Notes.md#flow-chart)
+  - [x] [Numercial Results (should be identical as the paper)](https://drive.google.com/file/d/1Dug56JSsNoftG7CjwpODobU7zcUh2Rn3/view?usp=drive_link)
+  - [x] [Result Presentation](https://drive.google.com/file/d/1NrVvqoHapKjylrIFrFNyAp55mNT4lZ1k/view?usp=drive_link)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

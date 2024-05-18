@@ -39,5 +39,5 @@
 - Submissions:
   - [ ] [Study Note](Study_Notes/Assignment_3/Assignment_3.md)
   - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
+  - [ ] [Numercial Results](Study_Notes/Assignment_3/Assignment_3.md#Conclusion)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

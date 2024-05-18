@@ -137,10 +137,17 @@ if __name__ == "__main__":
 
 The script reads the CSV file and plots the throughput for each AC category against the current traffic load.
 
-
 # Conclusion
 
-// compare results to research paper
+## Research Paper Results
+
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/133529935/6ba56e0b-b42c-4cc9-bb04-a1912130eff2)
+
+
+## My Results
+
+si
+
 
 
 

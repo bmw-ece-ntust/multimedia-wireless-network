@@ -155,8 +155,12 @@ if __name__ == "__main__":
 
 ## My Results
 
-si
+![avg_simulation_output_graph](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/133529935/7bbf28d6-3ad9-4077-8cf7-a2119e4329e3)
 
+## Analysis
 
+The graph provided is the final graph I got after running the simulation and calculating the average values. As we can see, the general idea proposed by the reseach paper is obtained in these simulations. The AC_VO always has the most thoughput, followed by the AC_BI and AC_BE and finally the AC_BK is the Access Category decreases in throughput as soon as the traffic increases.
+
+This project helped me to better understnad the importance of QoS policies in managing network congestion. The prioritization of voice traffic (AC_VO) ensures high throughput even under increasing loads, this is important because our ears are very sensitive to delay. Video traffic (AC_VI) and Best Effort (AC_BE) benefits initially from QoS mechanisms but begins to degrade under heavier loads. And Background (AC_BK) traffic experience the greatest impact, with throughput dropping as the offered traffic increases.
 
 

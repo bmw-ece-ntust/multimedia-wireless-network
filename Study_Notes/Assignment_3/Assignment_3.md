@@ -47,13 +47,14 @@ For each traffic rate that the simulation iterates through, the results are prin
 
 ```c++
         // Display Results in console
-        std::cout << "Current Traffic AC: " << currentTrafficAC << " Mbps" << std::endl;
+        std::cout << "Current Traffic: " << currentTrafficAC << " Mbps" << std::endl;
         std::cout << "Throughput AC_VI: " << throughput_S0 << " Mbps" << std::endl;
         std::cout << "Throughput AC_VO: " << throughput_S1 << " Mbps" << std::endl;
-        std::cout << "Throughput AC_BE: " << throughput_S2  << " Mbps\n" << std::endl;
+        std::cout << "Throughput AC_BE: " << throughput_S2  << " Mbps" << std::endl;
+        std::cout << "Throughput AC_BK: " << throughput_S3  << " Mbps\n" << std::endl;
 
         // Output Results to CSV file
-        outFileCSV << currentTrafficAC << "," << throughput_S1  << "," << throughput_S0 << "," << throughput_S2 << std::endl;
+        outFileCSV << currentTrafficAC << "," << throughput_S1  << "," << throughput_S0 << "," << throughput_S2 << "," << throughput_S3 << std::endl;
 ```
 
 

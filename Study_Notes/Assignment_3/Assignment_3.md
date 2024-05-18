@@ -85,6 +85,57 @@ Example of CSV file generated:
 # Analysis of Results
 
 As mentioned previously the files results of the simulation are saved into a csv file. To analyze this results, I use a simple python code that using the matplot library creates a graph showing how the Throughput of the AC types chages as the traffic increases.
+|
+
+### Python Code for Creating the Graph
+
+```python
+
+import csv
+import matplotlib.pyplot as plt
+
+def read_csv(filename):
+    data = {'x': [], 'y': [], 'z': [], 'w': []}
+    with open(filename, 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            data['x'].append(float(row[0]))  # Current Traffic AC
+            data['y'].append(float(row[1]))  # Throughput AC_VI
+            data['z'].append(float(row[2]))  # Throughput AC_VO
+            data['w'].append(float(row[3]))  # Throughput AC_BE
+    return data
+
+def plot_graph(data):
+    plt.figure(facecolor='black')
+    ax = plt.gca()
+    ax.set_facecolor('black')
+    
+    plt.plot(data['x'], data['y'], label='AC_VI', color='blue')
+    plt.plot(data['x'], data['z'], label='AC_VO', color='green')
+    plt.plot(data['x'], data['w'], label='AC_BE', color='red')
+    
+    plt.title('Throughput per AC with increasing offered traffic per AC', color='white')
+    
+    plt.xlabel('Current Traffic AC', color='white')
+    plt.ylabel('Throughput (Mbps)', color='white')
+    
+    plt.legend()
+    plt.grid(True, color='gray')
+    
+    ax.tick_params(axis='x', colors='white')
+    ax.tick_params(axis='y', colors='white')
+    
+    plt.show()
+
+if __name__ == "__main__":
+    filename = "/home/f11215125/Desktop/ns-allinone-3.41/ns-3.41/my_output/simulation_output.csv"
+    data = read_csv(filename)
+    plot_graph(data)
+
+
+```
+
+The script reads the CSV file and plots the throughput for each AC category against the current traffic load.
 
 
 # Conclusion

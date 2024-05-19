@@ -89,7 +89,7 @@ A sharp decline in throughput is observed beyond this traffic load.
 
 The relationship between offered traffic and throughput for each access category is visualized in the following plot
 
-![](./ThroughputvsTraffic-1.JPG)
+![](assets/Throughput%20vs%20Traffic-1.JPG)
 
 
 ### 4.2 Discussion

@@ -47,7 +47,7 @@ The following assumptions are used for simulation
 
  we have used the network topology consisting of one access point (HC) and three stations (STAs) as shown in [1]. The HC served as the central node, while the STAs represented the client devices.
 
-![](./assets/topology-1.JPG)
+![](assets/topology.JPG)
 
 In this simulation, the HC transmits four distinct streams to each of the three stations, with each stream being assigned a specific priority level.
  

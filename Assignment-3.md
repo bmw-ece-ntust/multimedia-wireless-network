@@ -47,7 +47,7 @@ The following assumptions are used for simulation
 
  we have used the network topology consisting of one access point (HC) and three stations (STAs) as shown in [1]. The HC served as the central node, while the STAs represented the client devices.
 
-![alt text](topology-1.JPG)
+![](./assets/topology-1.JPG)
 
 In this simulation, the HC transmits four distinct streams to each of the three stations, with each stream being assigned a specific priority level.
  
@@ -89,7 +89,7 @@ A sharp decline in throughput is observed beyond this traffic load.
 
 The relationship between offered traffic and throughput for each access category is visualized in the following plot
 
-![alt text](<Throughput vs Traffic-1.JPG>)
+![](./ThroughputvsTraffic-1.JPG)
 
 
 ### 4.2 Discussion

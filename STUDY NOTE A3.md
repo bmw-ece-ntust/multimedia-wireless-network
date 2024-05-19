@@ -46,7 +46,7 @@
 •	Priority-based transmission resolves collisions.\
 •	Table 1 provides recommended default values for EDCA parameter sets.\
 •	HC can dynamically adjust parameter values based on network conditions.\
-## Figure 1. Throughput per AC with increasing offered traffic per AC for the illustrated scenario.\
+## Figure 1. Throughput per AC with increasing offered traffic per AC for the illustrated scenario.
 
 ![FIG1](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/161825233/51d93600-933b-4e07-9c35-ed76a265885f)
 

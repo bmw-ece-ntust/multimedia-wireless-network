@@ -64,22 +64,22 @@
 
 using namespace ns3;
 
-Ptr<ExponentialRandomVariable>
-CreateExponentialRandomVariableWithMean(double mean)
-{
-    Ptr<ExponentialRandomVariable> rv = CreateObject<ExponentialRandomVariable>();
-    rv->SetAttribute("Mean", DoubleValue(mean));
-    return rv;
-}
+Ptr<ExponentialRandomVariable> \
+CreateExponentialRandomVariableWithMean(double mean) \
+{ \
+    Ptr<ExponentialRandomVariable> rv = CreateObject<ExponentialRandomVariable>(); \
+    rv->SetAttribute("Mean", DoubleValue(mean)); \
+    return rv; \
+} \
 
-std::string
-arrayToString(double array[], int size)
+std::string \
+arrayToString(double array[], int size) \
 {
-    std::string result = "[";
-    if (size > 0)
+    std::string result = "["; \
+    if (size > 0) \
     {
-        result += std::to_string(array[0]);
-        for (int i = 1; i < size; ++i)
+        result += std::to_string(array[0]); \
+        for (int i = 1; i < size; ++i) \
         {
             result += ", " + std::to_string(array[i]);
         }

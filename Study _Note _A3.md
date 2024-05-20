@@ -53,7 +53,8 @@ Fig. 1 illustrates the parallel backoff entities and the EDCA parameter set defi
 </p>
 
 ![Amazon Rainforest](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/node.PNG)
-*The Amazon Rainforest contains a multitude of species.*
+
+{{< caption >}}The [Amazon Rainforest](https://en.wikipedia.org/wiki/Amazon_rainforest) contains a multitude of species.{{< /caption >}}
 
 The QoS support in EDCA is enabled by the inclusion of access categories (ACs) and several separate backoff entities. MSDUs are sent by parallel backoff entities in a single 802.11e station, where backoff entities are ranked based on AC-specific contention parameters known as EDCA parameter set. Every 802.11e station has four backoff entities because there are four ACs. The ACs are categorized based on their intended use, such as AC_VO for voice, AC_VI for video, AC_BE for best effort, and AC_BK for background.
 

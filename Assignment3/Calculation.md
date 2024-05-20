@@ -28,3 +28,10 @@ AC_VI (Video): Also performs well but slightly lower than AC_VO.
 AC_BE (Best Effort): Shows a significant drop in throughput as the number of stations increases.
 
 AC_BK (Background): Experiences the most significant drop, indicating the lowest priority
+
+
+
+
+
+
+![alt text](image-8.png)

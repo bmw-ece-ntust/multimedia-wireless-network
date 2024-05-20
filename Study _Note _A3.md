@@ -46,9 +46,9 @@ Here are the default EDCA parameters in ns-3:
 These default parameters are defined in the ns-3 source code and can be found in the file src/wifi/model/
 
 Fig. 1 illustrates the parallel backoff entities and the EDCA parameter set defines the priorities in medium access by setting individual interframe spaces, contention windows, and many other parameters per AC.
-
-![node](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/node.PNG) 
-
+<p align="center">
+  <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/node.PNG" /> 
+</p>
 Fig. 1: Legacy 802.11 station and 802.11e station with four ACs within one station
 
 The QoS support in EDCA is enabled by the inclusion of access categories (ACs) and several separate backoff entities. MSDUs are sent by parallel backoff entities in a single 802.11e station, where backoff entities are ranked based on AC-specific contention parameters known as EDCA parameter set. Every 802.11e station has four backoff entities because there are four ACs. The ACs are categorized based on their intended use, such as AC_VO for voice, AC_VI for video, AC_BE for best effort, and AC_BK for background.

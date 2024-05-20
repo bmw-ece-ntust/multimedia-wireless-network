@@ -5,8 +5,9 @@
 - [Key Features of IEEE 802.11e](#Key-Features-of-IEEE-802.11e)
     - [Enhanced Distributed Channel Access (EDCA)](#Enhanced-Distributed-Channel-Access-(EDCA))
     - [HCF Controlled Channel Access (HCCA)](#HCF-Controlled-Channel-Access-(HCCA))
+- [HCCA Operation](HCCA-Operation)
 - [Calculations:](#Calculations)
-    -[Analysis](#Analysis)
+ -[Analysis](#Analysis)
 - [Conclusion](#Conclusion)
 
 
@@ -20,7 +21,15 @@ IEEE 802.11e, ratified in 2005, is designed to enhance the original 802.11 MAC (
 
 # Key Features of IEEE 802.11e
 
-    1. ## Enhanced Distributed Channel Access (EDCA):
+# Understanding Hybrid Coordination Function (HCF)
+
+Quality of Service (QoS) is paramount for supporting a variety of applications, from VoIP calls and video conferencing to online gaming and multimedia streaming. The IEEE 802.11e standard introduces enhancements to the MAC layer of the 802.11 protocol to ensure better QoS. Central to these enhancements is the Hybrid Coordination Function (HCF), which combines two methods for medium access: Enhanced Distributed Channel Access (EDCA) and HCF Controlled Channel Access (HCCA). This article delves into the intricacies of HCF, with a particular focus on Controlled Medium Access through HCCA.
+
+HCF is a MAC protocol defined in IEEE 802.11e, designed to provide QoS features in WLANs. It operates within the context of a Basic Service Set (BSS) and introduces two mechanisms:
+
+
+
+## 1. Enhanced Distributed Channel Access (EDCA):
     Key parameters and characteristics of the Enhanced Distributed Channel Access (EDCA) mechanism in IEEE 802.11e:
 
     ![alt text](image-3.png)
@@ -33,11 +42,18 @@ IEEE 802.11e, ratified in 2005, is designed to enhance the original 802.11 MAC (
 
     
 
-   ##  2. HCF Controlled Channel Access (HCCA):
+ ##  2. HCF Controlled Channel Access (HCCA):
 
     HCCA provides a contention-free access method, enabling deterministic and predictable transmission opportunities. This is achieved through a central coordinator, typically the access point (AP), which allocates transmission opportunities (TXOPs) to stations based on their QoS requirements. HCCA allows for the reservation of medium time, ensuring that high-priority traffic receives the necessary bandwidth and minimal delays.
 
-    Key mechanisms of HCCA include:
+# HCCA Operation
+Traffic Specification (TSPEC): Each station negotiates its traffic requirements with the HC by sending a TSPEC. The TSPEC includes parameters such as data rate, delay, and burst size.
+
+Polling: The HC uses the information from TSPECs to create a polling schedule. It periodically polls stations, granting them TXOPs during which they can transmit their data without contention.
+
+Scheduling: The HC uses a scheduling algorithm to determine the order and duration of TXOPs. This ensures that high-priority traffic gets timely access to the medium.
+
+Key mechanisms of HCCA include:
 
     Controlled Access Periods (CAPs): Specific periods during which the AP can allocate TXOPs to stations, ensuring predictable service for time-sensitive applications.
     Traffic Specification (TSPEC): Defines the QoS parameters for a traffic stream, including data rate, delay bounds, and jitter requirements, allowing the AP to manage resources efficiently.

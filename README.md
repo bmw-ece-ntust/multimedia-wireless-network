@@ -41,5 +41,5 @@
 - Submissions:
   - [x] [Study Note](A3_studynote.md)
   - [x] [Flowchart + source code for simulation and analysis](A3_studynote.md#flowchart--code)
-  - [x] [Numercial Results (A3_studynote.md#result)
+  - [x] [Numercial Results] (A3_studynote.md#result)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

@@ -245,6 +245,15 @@ void SetupWifi(YansWifiPhyHelper &phy, WifiHelper &wifi, WifiMacHelper &mac, Nod
 }
 ```
 #### <code style="Cyan:name_color">Function to modify EDCA configuration</code>
+
+<p align="center">
+  <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/128239705/7177fa14-4a0a-4261-86cb-6071753dc53d" >
+</p> 
+
+<p align = "justify">
+Based on the following figure, referenced from the paper, the parameters were adjusted in order to achieve a similar result as the study did.  
+</p>
+ 
 ```
 void ModifyEdcaConfiguration(Ptr<NetDevice> dev) {
     Ptr<WifiNetDevice> wifi_dev = DynamicCast<WifiNetDevice>(dev);
@@ -433,18 +442,40 @@ void CollectThroughputData(uint32_t payloadSize, ApplicationContainer &serverApp
 ## Results
 The simulation will show the results at the terminal and at the same time create a csv file which can be used for analysis later. 
 
-
-
-
 ## Analysis 
-![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/128239705/c2738a54-2f1d-46dd-b2e4-37327a3e62ab)
 
 
-![graph](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/128239705/c6b61341-6934-47a1-b152-574938d8446d)
-Has instead of 3
+<p align="center">
+  <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/128239705/c6b61341-6934-47a1-b152-574938d8446d" >
+</p>  
+<p align="center">
+<strong>Figure 4. </strong> Average throughput per AC (access point) for each traffic type .
+</p>
 
+The following chart shwows how each traffic type vs the offered traffic per AC is increased. The x-axis of the chart represents the offered traffic per AC in Mbps, and the y-axis represents the throughput per AC in Mbps. Different lines represents different  different traffic types on the chart.
+- Red line is the throughput for Voice (VO) traffic.
+- Blue line represents the throughput for Video (VI) traffic.
+- Green line shows the throughput for Best Effort (BE) traffic. 
+- Black line is the  for Background (BK) traffic.
+
+It can be seen that, the throughput for all four traffic types increases as the offered traffic increases. However, at some point when the rate of the throughput increases some variations on the traffic types can be seen. This is beccause the EDCA mechanism. So it can be said:
+1. VO traffic has the highest priority, and it receives the most bandwidth even when the network is congested.
+2. VI traffic has the second highest priority, and it receives more bandwidth than BE and BK traffic.  
+3. BE traffic has a lower priority than VO and VI traffic, but it receives more bandwidth than BK traffic.
+4. BK traffic has the lowest priority, and it only receives bandwidth when the network is not congested.
+
+The following graph is extracted from the paper of study, which also show the results of applying a variation of throughput into the different stations.   
+<p align="center">
+  <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/128239705/c2738a54-2f1d-46dd-b2e4-37327a3e62ab" >
+</p>  
+<p align="center">
+<strong>Figure 5. </strong> Results from the same simulation obtained at the paper of study.
+</p>
 
 ## Conclusion and Challenges 
+
+It can be seen that the results obtained from this projects is kinda similar to the one obtained at the paper of study. some variations can be seen, maybe it would be because some other parameters variation. The goal in obtain a simulation which the behavior of the EDCA / AC can be seen was obtained successfully.
+
 
 ## References
 - Paper

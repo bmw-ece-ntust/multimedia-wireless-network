@@ -231,7 +231,7 @@ This is a simulation code that implements the paper [1] by configuring and exten
 ### Souce code for Throughput per AC Vs offered traffic (simulation 1)
 
  ``` c++
-       #include <ns3/config-store-module.h>
+#include <ns3/config-store-module.h>
 #include "ns3/core-module.h"
 #include "ns3/command-line.h"
 #include "ns3/config.h"
@@ -580,7 +580,7 @@ int main (int argc, char *argv[])
 ### Souce code for Throughput per AC Vs increasing number of stations (simulation 2)
 
  ``` c++
-       #include <ns3/config-store-module.h>
+#include <ns3/config-store-module.h>
 #include "ns3/core-module.h"
 #include "ns3/command-line.h"
 #include "ns3/config.h"
@@ -961,7 +961,7 @@ Generated files for each stream  flows:
 
 Sample output of each flow of the steam is shown below:
 
-For Voice:
+For Voice traffic:
 
 <div align="center">
 	
@@ -972,7 +972,7 @@ For Voice:
 | 9       |  7.69683        | 5.56178    |
 
 </div>
-For video: 
+For video traffic: 
 
 <div align="center">
 	

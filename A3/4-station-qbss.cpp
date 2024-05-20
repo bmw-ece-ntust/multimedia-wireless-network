@@ -19,17 +19,27 @@
 using namespace ns3;
 
 Ptr<ExponentialRandomVariable>
-CreateExponentialRandomVariable(double mean)
+CreateExponentialRandomVariableWithMean(double mean)
 {
     Ptr<ExponentialRandomVariable> rv = CreateObject<ExponentialRandomVariable>();
     rv->SetAttribute("Mean", DoubleValue(mean));
     return rv;
 }
 
-void Log(std::string message, std::ofstream &outputFile)
+std::string
+arrayToString(double array[], int size)
 {
-    NS_LOG_INFO(message);
-    outputFile << message << std::endl;
+    std::string result = "[";
+    if (size > 0)
+    {
+        result += std::to_string(array[0]);
+        for (int i = 1; i < size; ++i)
+        {
+            result += ", " + std::to_string(array[i]);
+        }
+    }
+    result += "]";
+    return result;
 }
 
 NS_LOG_COMPONENT_DEFINE("80211eTxop");
@@ -40,22 +50,31 @@ int main(int argc, char *argv[])
     std::ofstream outputFile("output_characteristics.txt");
 
     // Define all neccessary variables
-    uint16_t port = 5001;
+    uint16_t port_VI = 5001;
+    uint16_t port_VO = 5002;
+    uint16_t port_BE = 5003;
+    uint16_t port_BK = 5004;
     uint32_t payloadSize = 1472;
-    double offeredTrafficStart = 1.0;
+    double offeredTrafficStart = 0.0001;
     double offeredTrafficEnd = 120.0;
-    double offeredTrafficStep = 3.0;
+    double offeredTrafficStep = 1.0;
+    int simulationTimeEnds = 16;
+    double throughputVI[400];
+    double throughputVO[400];
+    double throughputBE[400];
+    double throughputBK[400];
 
     // Command-line options for repeatability
     CommandLine cmd;
     cmd.AddValue("offeredTrafficAC", "Offered traffic for AC(Mbps)", offeredTrafficStart);
     cmd.Parse(argc, argv);
 
+    int i = 0;
     // Loop through offeredTraffic values
-    for (double offeredTrafficAC = offeredTrafficStart; offeredTrafficAC <= offeredTrafficEnd;
-         offeredTrafficAC += offeredTrafficStep)
+    for (double offeredTrafficAC{offeredTrafficStart}; offeredTrafficAC <= offeredTrafficEnd;
+         offeredTrafficAC += offeredTrafficStep, i++)
     {
-        Log("Offered Traffic (Mbps): " + std::to_string(offeredTrafficAC), outputFile);
+        outputFile << "Offered Traffic (Mbps): " << offeredTrafficAC << std::endl;
 
         // 1. Create nodes. 1 AP and 3 STAs
         NodeContainer wifiStaNodes;
@@ -127,6 +146,12 @@ int main(int argc, char *argv[])
         edca->SetMinCw(7);
         edca->SetMaxCw(15);
 
+        wifi_mac->GetAttribute("BK_Txop", ptr);
+        edca = ptr.Get<QosTxop>();
+        edca->SetAifsn(7);
+        edca->SetMinCw(15);
+        edca->SetMaxCw(1023);
+
         MobilityHelper mobility;
         mobility.SetMobilityModel("ns3::ConstantPositionMobilityModel");
         mobility.Install(wifiStaNodes);
@@ -147,83 +172,315 @@ int main(int argc, char *argv[])
         Ipv4InterfaceContainer apInterfaceA;
         apInterfaceA = address.Assign(apDeviceA);
 
-        UdpServerHelper serverA(port);
-        ApplicationContainer serverAppA = serverA.Install(wifiStaNodes.Get(0));
-        serverAppA.Start(Seconds(0.0));
-        serverAppA.Stop(Seconds(4));
+        // server A
+        UdpServerHelper serverA_VI(port_VI);
+        ApplicationContainer serverAppAVI = serverA_VI.Install(wifiStaNodes.Get(0));
+        serverAppAVI.Start(Seconds(0.0));
+        serverAppAVI.Stop(Seconds(simulationTimeEnds));
 
-        UdpServerHelper serverB(port);
-        ApplicationContainer serverAppB = serverB.Install(wifiStaNodes.Get(1));
-        serverAppB.Start(Seconds(0.0));
-        serverAppB.Stop(Seconds(4));
+        UdpServerHelper serverA_VO(port_VO);
+        ApplicationContainer serverAppAVO = serverA_VO.Install(wifiStaNodes.Get(0));
+        serverAppAVO.Start(Seconds(0.0));
+        serverAppAVO.Stop(Seconds(simulationTimeEnds));
 
-        UdpServerHelper serverC(port);
-        ApplicationContainer serverAppC = serverC.Install(wifiStaNodes.Get(2));
-        serverAppC.Start(Seconds(0.0));
-        serverAppC.Stop(Seconds(4));
+        UdpServerHelper serverA_BE(port_BE);
+        ApplicationContainer serverAppABE = serverA_BE.Install(wifiStaNodes.Get(0));
+        serverAppABE.Start(Seconds(0.0));
+        serverAppABE.Stop(Seconds(simulationTimeEnds));
 
-        InetSocketAddress destA(staInterfaceA.GetAddress(0), port);
-        destA.SetTos(0xb8); // AC_VI
+        UdpServerHelper serverA_BK(port_BK);
+        ApplicationContainer serverAppABK = serverA_BK.Install(wifiStaNodes.Get(0));
+        serverAppABK.Start(Seconds(0.0));
+        serverAppABK.Stop(Seconds(simulationTimeEnds));
 
-        InetSocketAddress destB(staInterfaceB.GetAddress(0), port);
-        destB.SetTos(0xc0); // AC_VO
+        // server B
+        UdpServerHelper serverB_VI(port_VI);
+        ApplicationContainer serverAppBVI = serverB_VI.Install(wifiStaNodes.Get(1));
+        serverAppBVI.Start(Seconds(0.0));
+        serverAppBVI.Stop(Seconds(simulationTimeEnds));
 
-        InetSocketAddress destC(staInterfaceC.GetAddress(0), port);
-        destC.SetTos(0xa0); // AC_BE
+        UdpServerHelper serverB_VO(port_VO);
+        ApplicationContainer serverAppBVO = serverB_VO.Install(wifiStaNodes.Get(1));
+        serverAppBVO.Start(Seconds(0.0));
+        serverAppBVO.Stop(Seconds(simulationTimeEnds));
 
-        OnOffHelper clientA("ns3::UdpSocketFactory", destA);
-        clientA.SetAttribute("OnTime", PointerValue(CreateExponentialRandomVariable(0.02)));
-        clientA.SetAttribute("OffTime", PointerValue(CreateExponentialRandomVariable(0.02)));
-        clientA.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
-        clientA.SetAttribute("PacketSize", UintegerValue(payloadSize));
+        UdpServerHelper serverB_BE(port_BE);
+        ApplicationContainer serverAppBBE = serverB_BE.Install(wifiStaNodes.Get(1));
+        serverAppBBE.Start(Seconds(0.0));
+        serverAppBBE.Stop(Seconds(simulationTimeEnds));
 
-        OnOffHelper clientB("ns3::UdpSocketFactory", destB);
-        clientB.SetAttribute("OnTime", PointerValue(CreateExponentialRandomVariable(0.02)));
-        clientB.SetAttribute("OffTime", PointerValue(CreateExponentialRandomVariable(0.02)));
-        clientB.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
-        clientB.SetAttribute("PacketSize", UintegerValue(payloadSize));
+        UdpServerHelper serverB_BK(port_BK);
+        ApplicationContainer serverAppBBK = serverB_BK.Install(wifiStaNodes.Get(1));
+        serverAppBBK.Start(Seconds(0.0));
+        serverAppBBK.Stop(Seconds(simulationTimeEnds));
 
-        OnOffHelper clientC("ns3::UdpSocketFactory", destC);
-        clientC.SetAttribute("OnTime", PointerValue(CreateExponentialRandomVariable(0.02)));
-        clientC.SetAttribute("OffTime", PointerValue(CreateExponentialRandomVariable(0.02)));
-        clientC.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
-        clientC.SetAttribute("PacketSize", UintegerValue(payloadSize));
+        // server C
+        UdpServerHelper serverC_VI(port_VI);
+        ApplicationContainer serverAppCVI = serverC_VI.Install(wifiStaNodes.Get(2));
+        serverAppCVI.Start(Seconds(0.0));
+        serverAppCVI.Stop(Seconds(simulationTimeEnds));
 
-        ApplicationContainer clientAppA = clientA.Install(wifiApNodes.Get(0));
-        clientAppA.Start(Seconds(1.0));
-        clientAppA.Stop(Seconds(4));
+        UdpServerHelper serverC_VO(port_VO);
+        ApplicationContainer serverAppCVO = serverC_VO.Install(wifiStaNodes.Get(2));
+        serverAppCVO.Start(Seconds(0.0));
+        serverAppCVO.Stop(Seconds(simulationTimeEnds));
 
-        ApplicationContainer clientAppB = clientB.Install(wifiApNodes.Get(0));
-        clientAppB.Start(Seconds(1.0));
-        clientAppB.Stop(Seconds(4));
+        UdpServerHelper serverC_BE(port_BE);
+        ApplicationContainer serverAppCBE = serverC_BE.Install(wifiStaNodes.Get(2));
+        serverAppCBE.Start(Seconds(0.0));
+        serverAppCBE.Stop(Seconds(simulationTimeEnds));
 
-        ApplicationContainer clientAppC = clientC.Install(wifiApNodes.Get(0));
-        clientAppC.Start(Seconds(1.0));
-        clientAppC.Stop(Seconds(4));
+        UdpServerHelper serverC_BK(port_BK);
+        ApplicationContainer serverAppCBK = serverC_BK.Install(wifiStaNodes.Get(2));
+        serverAppCBK.Start(Seconds(0.0));
+        serverAppCBK.Stop(Seconds(simulationTimeEnds));
+
+        // Create clients
+
+        InetSocketAddress destA_VI(staInterfaceA.GetAddress(0), port_VI);
+        destA_VI.SetTos(0xb8); // AC_VI
+
+        InetSocketAddress destA_VO(staInterfaceA.GetAddress(0), port_VO);
+        destA_VO.SetTos(0xc0); // AC_VO
+
+        InetSocketAddress destA_BE(staInterfaceA.GetAddress(0), port_BE);
+        destA_BE.SetTos(0xa0); // AC_BE
+
+        InetSocketAddress destA_BK(staInterfaceA.GetAddress(0), port_BK);
+        destA_BK.SetTos(0x20); // AC_BK
+
+        InetSocketAddress destB_VI(staInterfaceB.GetAddress(0), port_VI);
+        destB_VI.SetTos(0xb8); // AC_VI
+
+        InetSocketAddress destB_VO(staInterfaceB.GetAddress(0), port_VO);
+        destB_VO.SetTos(0xc0); // AC_VO
+
+        InetSocketAddress destB_BE(staInterfaceB.GetAddress(0), port_BE);
+        destB_BE.SetTos(0xa0); // AC_BE
+
+        InetSocketAddress destB_BK(staInterfaceB.GetAddress(0), port_BK);
+        destB_BK.SetTos(0x20); // AC_BK
+
+        InetSocketAddress destC_VI(staInterfaceC.GetAddress(0), port_VI);
+        destC_VI.SetTos(0xb8); // AC_VI
+
+        InetSocketAddress destC_VO(staInterfaceC.GetAddress(0), port_VO);
+        destC_VO.SetTos(0xc0); // AC_VO
+
+        InetSocketAddress destC_BE(staInterfaceC.GetAddress(0), port_BE);
+        destC_BE.SetTos(0xa0); // AC_BE
+
+        InetSocketAddress destC_BK(staInterfaceC.GetAddress(0), port_BK);
+        destC_BK.SetTos(0x20); // AC_BK
+
+        OnOffHelper clientA_VI("ns3::UdpSocketFactory", destA_VI);
+        clientA_VI.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientA_VI.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientA_VI.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientA_VI.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientA_VO("ns3::UdpSocketFactory", destA_VO);
+        clientA_VO.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientA_VO.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientA_VO.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientA_VO.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientA_BE("ns3::UdpSocketFactory", destA_BE);
+        clientA_BE.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientA_BE.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientA_BE.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientA_BE.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientA_BK("ns3::UdpSocketFactory", destA_BK);
+        clientA_BK.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientA_BK.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientA_BK.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientA_BK.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientB_VI("ns3::UdpSocketFactory", destB_VI);
+        clientB_VI.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientB_VI.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientB_VI.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientB_VI.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientB_VO("ns3::UdpSocketFactory", destB_VO);
+        clientB_VO.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientB_VO.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientB_VO.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientB_VO.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientB_BE("ns3::UdpSocketFactory", destB_BE);
+        clientB_BE.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientB_BE.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientB_BE.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientB_BE.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientB_BK("ns3::UdpSocketFactory", destB_BK);
+        clientB_BK.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientB_BK.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientB_BK.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientB_BK.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientC_VI("ns3::UdpSocketFactory", destC_VI);
+        clientC_VI.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientC_VI.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientC_VI.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientC_VI.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientC_VO("ns3::UdpSocketFactory", destC_VO);
+        clientC_VO.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientC_VO.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientC_VO.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientC_VO.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientC_BE("ns3::UdpSocketFactory", destC_BE);
+        clientC_BE.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientC_BE.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientC_BE.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientC_BE.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        OnOffHelper clientC_BK("ns3::UdpSocketFactory", destC_BK);
+        clientC_BK.SetAttribute("OnTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientC_BK.SetAttribute("OffTime",
+                                PointerValue(CreateExponentialRandomVariableWithMean(0.02)));
+        clientC_BK.SetAttribute("DataRate", StringValue(std::to_string(offeredTrafficAC) + "Mbps"));
+        clientC_BK.SetAttribute("PacketSize", UintegerValue(payloadSize));
+
+        // Client A
+        ApplicationContainer clientAppA_VI = clientA_VI.Install(wifiApNodes.Get(0));
+        clientAppA_VI.Start(Seconds(1));
+        clientAppA_VI.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppA_VO = clientA_VO.Install(wifiApNodes.Get(0));
+        clientAppA_VO.Start(Seconds(1));
+        clientAppA_VO.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppA_BE = clientA_BE.Install(wifiApNodes.Get(0));
+        clientAppA_BE.Start(Seconds(1));
+        clientAppA_BE.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppA_BK = clientA_BK.Install(wifiApNodes.Get(0));
+        clientAppA_BK.Start(Seconds(1));
+        clientAppA_BK.Stop(Seconds(simulationTimeEnds));
+
+        // Client B
+        ApplicationContainer clientAppB_VI = clientB_VI.Install(wifiApNodes.Get(0));
+        clientAppB_VI.Start(Seconds(1));
+        clientAppB_VI.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppB_VO = clientB_VO.Install(wifiApNodes.Get(0));
+        clientAppB_VO.Start(Seconds(1));
+        clientAppB_VO.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppB_BE = clientB_BE.Install(wifiApNodes.Get(0));
+        clientAppB_BE.Start(Seconds(1));
+        clientAppB_BE.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppB_BK = clientB_BK.Install(wifiApNodes.Get(0));
+        clientAppB_BK.Start(Seconds(1));
+        clientAppB_BK.Stop(Seconds(simulationTimeEnds));
+
+        // Client C
+        ApplicationContainer clientAppC_VI = clientC_VI.Install(wifiApNodes.Get(0));
+        clientAppC_VI.Start(Seconds(1));
+        clientAppC_VI.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppC_VO = clientC_VO.Install(wifiApNodes.Get(0));
+        clientAppC_VO.Start(Seconds(1));
+        clientAppC_VO.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppC_BE = clientC_BE.Install(wifiApNodes.Get(0));
+        clientAppC_BE.Start(Seconds(1));
+        clientAppC_BE.Stop(Seconds(simulationTimeEnds));
+
+        ApplicationContainer clientAppC_BK = clientC_BK.Install(wifiApNodes.Get(0));
+        clientAppC_BK.Start(Seconds(1));
+        clientAppC_BK.Stop(Seconds(simulationTimeEnds));
 
         // Run the simulation
         Simulator::Stop(Seconds(4.0));
         Simulator::Run();
 
-        uint totalPacketsThroughA =
-            DynamicCast<UdpServer>(serverAppA.Get(0))->GetReceived(); // AC_VI. Sta 0
-        uint totalPacketsThroughB =
-            DynamicCast<UdpServer>(serverAppB.Get(0))->GetReceived(); // AC_VO. Sta 1
-        uint totalPacketsThroughC =
-            DynamicCast<UdpServer>(serverAppC.Get(0))->GetReceived(); // AC_BE. Sta 2
+        uint totalPacketsThroughA_VI = DynamicCast<UdpServer>(serverAppAVI.Get(0))->GetReceived();
+        uint totalPacketsThroughA_VO = DynamicCast<UdpServer>(serverAppAVO.Get(0))->GetReceived();
+        uint totalPacketsThroughA_BE = DynamicCast<UdpServer>(serverAppABE.Get(0))->GetReceived();
+        uint totalPacketsThroughA_BK = DynamicCast<UdpServer>(serverAppABK.Get(0))->GetReceived();
+
+        uint totalPacketsThroughB_VI = DynamicCast<UdpServer>(serverAppBVI.Get(0))->GetReceived();
+        uint totalPacketsThroughB_VO = DynamicCast<UdpServer>(serverAppBVO.Get(0))->GetReceived();
+        uint totalPacketsThroughB_BE = DynamicCast<UdpServer>(serverAppBBE.Get(0))->GetReceived();
+        uint totalPacketsThroughB_BK = DynamicCast<UdpServer>(serverAppBBK.Get(0))->GetReceived();
+
+        uint totalPacketsThroughC_VI = DynamicCast<UdpServer>(serverAppCVI.Get(0))->GetReceived();
+        uint totalPacketsThroughC_VO = DynamicCast<UdpServer>(serverAppCVO.Get(0))->GetReceived();
+        uint totalPacketsThroughC_BE = DynamicCast<UdpServer>(serverAppCBE.Get(0))->GetReceived();
+        uint totalPacketsThroughC_BK = DynamicCast<UdpServer>(serverAppCBK.Get(0))->GetReceived();
 
         Simulator::Destroy();
 
-        double throughputA = (totalPacketsThroughA * payloadSize * 8.0) / (4 * 1000000.0);
-        double throughputB = (totalPacketsThroughB * payloadSize * 8.0) / (4 * 1000000.0);
-        double throughputC = (totalPacketsThroughC * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputA_VI = (totalPacketsThroughA_VI * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputA_VO = (totalPacketsThroughA_VO * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputA_BE = (totalPacketsThroughA_BE * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputA_BK = (totalPacketsThroughA_BK * payloadSize * 8.0) / (4 * 1000000.0);
 
-        Log("Throughput A (VI): " + std::to_string(throughputA) + " Mbps", outputFile);
-        Log("Throughput B (VO): " + std::to_string(throughputB) + " Mbps", outputFile);
-        Log("Throughput C (BE): " + std::to_string(throughputC) + " Mbps", outputFile);
-        Log("", outputFile);
+        double throughputB_VI = (totalPacketsThroughB_VI * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputB_VO = (totalPacketsThroughB_VO * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputB_BE = (totalPacketsThroughB_BE * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputB_BK = (totalPacketsThroughB_BK * payloadSize * 8.0) / (4 * 1000000.0);
+
+        double throughputC_VI = (totalPacketsThroughC_VI * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputC_VO = (totalPacketsThroughC_VO * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputC_BE = (totalPacketsThroughC_BE * payloadSize * 8.0) / (4 * 1000000.0);
+        double throughputC_BK = (totalPacketsThroughC_BK * payloadSize * 8.0) / (4 * 1000000.0);
+
+        throughputVI[i] = (throughputA_VI + throughputB_VI + throughputC_VI) / 3;
+        throughputVO[i] = (throughputA_VO + throughputB_VO + throughputC_VO) / 3;
+        throughputBE[i] = (throughputA_BE + throughputB_BE + throughputC_BE) / 3;
+        throughputBK[i] = (throughputA_BK + throughputB_BK + throughputC_BK) / 3;
+
+        outputFile << "Throughput A (VI): " << throughputA_VI << " Mbps" << std::endl;
+        outputFile << "Throughput A (VO): " << throughputA_VO << " Mbps" << std::endl;
+        outputFile << "Throughput A (BE): " << throughputA_BE << " Mbps" << std::endl;
+        outputFile << "Throughput A (BK): " << throughputA_BK << " Mbps" << std::endl;
+
+        outputFile << "Throughput B (VI): " << throughputB_VI << " Mbps" << std::endl;
+        outputFile << "Throughput B (VO): " << throughputB_VO << " Mbps" << std::endl;
+        outputFile << "Throughput B (BE): " << throughputB_BE << " Mbps" << std::endl;
+        outputFile << "Throughput B (BK): " << throughputB_BK << " Mbps" << std::endl;
+
+        outputFile << "Throughput C (VI): " << throughputC_VI << " Mbps" << std::endl;
+        outputFile << "Throughput C (VO): " << throughputC_VO << " Mbps" << std::endl;
+        outputFile << "Throughput C (BE): " << throughputC_BE << " Mbps" << std::endl;
+        outputFile << "Throughput C (BK): " << throughputC_BK << " Mbps" << std::endl;
     }
 
+    outputFile << "Throughput_VI = " << arrayToString(throughputVI, i) << std::endl;
+    outputFile << "Throughput_VO = " << arrayToString(throughputVO, i) << std::endl;
+    outputFile << "Throughput_BE = " << arrayToString(throughputBE, i) << std::endl;
+    outputFile << "Throughput_BK = " << arrayToString(throughputBK, i) << std::endl;
     outputFile.close();
     return 0;
 }

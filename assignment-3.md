@@ -231,6 +231,12 @@ for (double offeredTrafficAC{offeredTrafficStart}; offeredTrafficAC <= offeredTr
 Simulator::Destroy();
 ```
 
+**Code FlowChart:**
+
+<p  align="center">
+  <img src="./assets/Screenshot_9.png" alt="Code FlowChart" width="250"/>
+</p>
+
 Full code for the network configuration, traffic setup, and data collection can be found in the [simulation code](./A3/4-station-qbss.cpp).
 
 ## 5. Results

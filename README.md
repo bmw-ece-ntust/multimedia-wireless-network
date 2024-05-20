@@ -42,6 +42,6 @@
 - Submissions:
   - [x] [Midterm Progress Report Presentation](https://docs.google.com/presentation/d/1IUPaPh2_kq2WbKrTduEuxDULjzo9Igm9/edit?usp=sharing&ouid=113384380853943578817&rtpof=true&sd=true)
   - [x] [Study Note](./assignment-3.md)
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
+  - [x] [Flowchart + source code for simulation and analysis](./assignment-3.md#4-simulation-code)
+  - [x] [Numercial Results (should be identical as the paper)](./assignment-3.md#5-results)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

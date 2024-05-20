@@ -33,7 +33,7 @@
 •	CWmax limits the maximum size of the contention window.\
 •	Retry counters limit the number of retransmissions.\
 •	Maximum MSDU lifetime per AC ensures timely frame transmission.\
-•	TXOPlimit defines the maximum duration of an EDCA-TXOP.\
+•	TXOPlimit defines the maximum duration of an EDCA-TXOP.
 
 ![ADCA](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/161825233/83ec3142-0341-4dbe-afe3-2e08e0efac57)
 ## Backoff Entity Management:
@@ -41,7 +41,7 @@
 •	Virtual collisions occur when multiple backoff entities contend simultaneously.\
 •	Priority-based transmission resolves collisions.\
 •	Table 1 provides recommended default values for EDCA parameter sets.\
-•	HC can dynamically adjust parameter values based on network conditions.\
+•	HC can dynamically adjust parameter values based on network conditions.
 ## code for ns3 
 #### Code
 #include "ns3/applications-module.h" \
@@ -70,7 +70,7 @@ CreateExponentialRandomVariableWithMean(double mean) \
     Ptr<ExponentialRandomVariable> rv = CreateObject<ExponentialRandomVariable>(); \
     rv->SetAttribute("Mean", DoubleValue(mean)); \
     return rv; \
-} \
+} 
 
 std::string \
 arrayToString(double array[], int size) \
@@ -80,18 +80,18 @@ arrayToString(double array[], int size) \
     {
         result += std::to_string(array[0]); \
         for (int i = 1; i < size; ++i) \
-        {
-            result += ", " + std::to_string(array[i]);
-        }
-    }
-    result += "]";
-    return result;
-}
+        { \
+            result += ", " + std::to_string(array[i]); \
+        } \
+    } \
+    result += "]"; \
+    return result; \
+} 
 
-NS_LOG_COMPONENT_DEFINE("80211eTxop");
+NS_LOG_COMPONENT_DEFINE("80211eTxop"); 
 
 int
-main(int argc, char* argv[])
+main(int argc, char* argv[]) \
 {
     // Open output file for recording characteristics
     std::ofstream outputFile("outputgraph1.txt");

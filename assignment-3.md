@@ -86,7 +86,8 @@ Despite some detailed discrepancies, the simulation broadly reflects the through
 ---
 # Code explanation
 ## Flow chart
-![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/809e6398-ee2e-4f38-b1b2-a69561d2c3d9)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/70cd7f19-a961-4e0a-ac1d-dc93573debb4)
+
 ## code step by step
 
 ---

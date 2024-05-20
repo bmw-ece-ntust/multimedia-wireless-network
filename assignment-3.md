@@ -81,12 +81,16 @@ By comparing with [Analysis of IEEE 802.11e for QoS support in wireless LANs](ht
 
 ![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/1b6be168-e817-4c45-bf02-62b2f8cf2e33)![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/45db65c3-ca3a-4d5a-9c2f-f91f078f33b6)
 
-
-
 Despite some detailed discrepancies, the simulation broadly reflects the throughput trends of different ACs described in the paper, validating the EDCA mechanism's capability to manage various traffic types. To further improve simulation accuracy, should adjust the simulation parameters to more closely match the scenario described in the paper.
 
+---
+# Code explanation
+## Flow chart
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/809e6398-ee2e-4f38-b1b2-a69561d2c3d9)
+## code step by step
 
 ---
+
 
 # Study note
 reference: 

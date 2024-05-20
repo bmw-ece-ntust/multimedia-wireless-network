@@ -22,25 +22,29 @@ build_example(
                     ${libapplications}
 )
 ```
-![image](https://hackmd.io/_uploads/B1xWSaOQR.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/67dceaa3-53c1-47f6-a110-bb8984f3b8e7)
+
 
 ### 4. Compile.
 ```bash=
 ./ns3 build
 ```
-![image](https://hackmd.io/_uploads/SkAVB6dQ0.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/94882339-4321-4c55-8bac-1797d2ae3cb5)
+
 
 ```bash=
 ./ns3 run examples/wireless/wifi-txop-4QBSS.cc
 ```
-![image](https://hackmd.io/_uploads/Bk2HI6dmR.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/29f041b4-2aca-4495-93cc-5c0aade61f10)
+
 
 ### 5. Upload the execution result output_file.txt to Google Drive and use [colab](https://colab.research.google.com/drive/13YoeMkiFhquJEpHV5tZKtOT7awAD9tll?usp=sharing) to plot the simulation graph.
 
-![image](https://hackmd.io/_uploads/HJLYS6dQC.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/1d4a470d-a770-419b-8dd3-b8ba6747821a)
    
    - [Python code](https://colab.research.google.com/drive/13YoeMkiFhquJEpHV5tZKtOT7awAD9tll?usp=sharing)
-![image](https://hackmd.io/_uploads/S1AoSa_70.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/19ca486a-f7bf-41cc-9e4f-f8e81edf304e)
+
 
 ## Assumption 
 - IEEE 802.11e MAC + IEEE 802.11a PHY
@@ -58,7 +62,8 @@ build_example(
     - AC_BE: 0x00
     - AC_BK: 0x20
     
-![image](https://hackmd.io/_uploads/rydEG2OQ0.png =80%x)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/76e4824c-7e38-40ea-b123-03b514d811a0)
+
 
 
 # Study note
@@ -85,8 +90,8 @@ reference:
   - Unpredictable beacon delays and polling station transmission times
   - Lack of control over parameters affecting QoS
 
-![image](https://hackmd.io/_uploads/HkHz9huX0.png)
-![image](https://hackmd.io/_uploads/Sy0w9nOmC.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/c169008e-ca96-4f65-b93d-0dc25610bae3)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/65ca1700-9806-4c43-9249-9931cbcd9b2c)
 
 ## **LIMITED QOS SUPPORT APPLYING THE POINT COORDINATION FUNCTION**
 - The legacy 802.11 used PCF to provide QoS support for time-sensitive services.
@@ -95,7 +100,7 @@ reference:
   - Unpredictable beacon delays leading to uncertain CFP start times.
   - Inability to control the transmission time of polled stations, affecting QoS.
 
-![image](https://hackmd.io/_uploads/Syoc5ndQC.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/a938440a-d5f8-4571-a481-91011794ca84)
 
 ---
 ## **QOS SUPPORT MECHANISMS OF 802.11E**
@@ -117,9 +122,8 @@ reference:
 - Each AC uses different EDCA parameter sets (e.g., AIFS, CWmin, CWmax) to contend for medium access.
 - If multiple backoff entities within the same station are ready to transmit simultaneously, a virtual collision occurs, and the higher priority AC is granted access.
 
-![image](https://hackmd.io/_uploads/rJpMa3dQ0.png)
-
-![image](https://hackmd.io/_uploads/rktBTnuQ0.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/dcf30eda-f3ea-44f1-a0ba-34e629e8681e)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/a951f197-af7c-4ab3-bb55-3520f38b9da7)
 
 
 ## **HYBRID COORDINATION FUNCTION, CONTROLLED MEDIUM ACCESS**
@@ -128,10 +132,8 @@ reference:
 - During CP, stations can obtain a TXOP by EDCA rules or by receiving a QoS CF-Poll from the HC.
 - During CFP, only stations explicitly polled by the HC are allowed to transmit.
 
-![image](https://hackmd.io/_uploads/H10t6nu7C.png)
-
-![image](https://hackmd.io/_uploads/H1leRnum0.png)
-
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/de09bee1-9205-48c8-9a7d-5bbd471ef843)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/ba8c25de-b4fa-44f4-ab31-ea4a7e15b679)
 
 ### **IMPROVED EFFICIENCY**
 - Block Acknowledgment (Block Ack) allows multiple MPDUs to be transmitted consecutively within a single TXOP and acknowledged only once.
@@ -145,7 +147,8 @@ reference:
 - It's observed that as the offered traffic increases, higher priority ACs limit the achievable throughput of lower priority ACs.
 - This is because higher priority ACs use smaller AIFSN, CWmin, and CWmax values.
 
-![image](https://hackmd.io/_uploads/H1LIgaOQA.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/0a0ae772-6226-4cc3-ab1b-b0bbbea8fd14)
+
 
 
 ## **ACHIEVABLE EDCA THROUGHPUT WITH INCREASING NUMBER OF STATIONS:**
@@ -153,7 +156,8 @@ reference:
 - It's noted that with default EDCA parameter settings, the throughput significantly decreases as the number of stations increases.
 - This is due to the increased collision probability, especially for AC_VO with smaller CWmin and CWmax values.
 
-![image](https://hackmd.io/_uploads/ByEueaO7R.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/9eb25852-8c70-4352-9eb2-9925ce9abd59)
+
 
 
 ## **QOS GUARANTEES WITH PRIORITIZED ACCESS OF HC:**
@@ -161,7 +165,7 @@ reference:
 - Within a single QBSS, HCCA's high priority transmissions can maintain below a certain latency threshold.
 - However, in overlapping QBSS environments, the transmission latency and throughput of HCCA are affected due to the lack of coordination among HCs.
 
-![image](https://hackmd.io/_uploads/S1DtgT_mC.png)
+![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/f96fe571-b4a9-4d96-8deb-8b49d0aec83f)
 
 Through simulations, it's observed that EDCA can meet various priority demands with fewer stations but requires parameter adjustments as the number of stations increases. HCCA can ensure the latency quality of high priority transmissions, but the issue of overlapping QBSSs remains unresolved.
 

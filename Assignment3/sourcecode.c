@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
   CommandLine cmd;
   cmd.AddValue("nStations", "Number of stations", nStations);
   cmd.Parse(argc, argv);
-
+  
   NodeContainer wifiStaNodes;
   wifiStaNodes.Create(nStations);
   NodeContainer wifiApNode;
@@ -114,3 +114,21 @@ int main(int argc, char *argv[])
   Simulator::Destroy();
   return 0;
 }
+
+
+// Explanation of the Script:
+// 1- Setting Up Nodes: Creates nStations number of station nodes and one access point node.
+
+// 2- Configuring Wi-Fi: Uses YansWifiChannelHelper and YansWifiPhyHelper for the physical layer setup. Configures the Wi-Fi standard to 802.11g.
+
+//3- Setting Up EDCA: Configures the EDCA parameters (CWmin, CWmax, AIFS) for different access categories using the SetupEdca function.
+
+//4- Mobility Model: Sets up a grid position allocator to position the nodes in a grid layout.
+
+//5- Network Stack and IP Addressing: Installs the Internet stack and assigns IP addresses.
+
+//6- Applications: Sets up UDP server and client applications on each station node to generate traffic.
+
+//7- Flow Monitoring: Uses FlowMonitorHelper to monitor and report flow statistics, including throughput.
+
+// 8- Simulation Execution: Runs the simulation for 10 seconds and outputs the throughput for each flow. 

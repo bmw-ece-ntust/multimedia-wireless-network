@@ -945,50 +945,65 @@ Generated files for throughput per AC:
 </div>
 
 Generated files for each stream  flows: 
+
 <div align="center">
+	
 | Simulation code 1       | Simulation code 2                | 
 | ------------------------| -------------------------------  | 
 |Flows_Results_BE_edca.txt|Station_Flows_Results_BE_edca.txt | 
 |Flows_Results_BK_edca.txt|Station_Flows_Results_BK_edca.txt | 
 |Flows_Results_VI_edca.txt|Station_Flows_Results_VI_edca.txt | 
 |Flows_Results_VO_edca.txt|Station_Flows_Results_VO_edca.txt | 
+
 </div>
 
 Sample output of each flow of the steam is shown below:
 
 For Voice:
+
 <div align="center">
+	
 | Flow_ID | TxOffered(Mbps) | T_put(Mbps |
 | --------| --------------- | ---------- |
 | 2       |  6.68072        | 5.03958    |
 | 8       |  4.76601        | 3.28594    |
 | 9       |  7.69683        | 5.56178    |
+
 </div>
 For video: 
+
 <div align="center">
+	
 | Flow_ID | TxOffered(Mbps) | T_put(Mbps |
 | --------| --------------- | ---------- |
 | 6       | 9.71759         | 2.17772    |
 | 11      | 10.5491         | 0.763069   |
-| 12      | 10.5494         | 0.78951   |
+| 12      | 10.5494         | 0.78951    |
+
 </div>
 
-For  best effort traffic: 
+For  best effort traffic:
+
 <div align="center">
+	
 | Flow_ID | TxOffered(Mbps) | T_put(Mbps |
 | --------| --------------- | ---------- |
 | 1      |  6.40435        | 0.434658  |
 | 4       |  8.0631        | 0.0722995   |
 | 7       |  4.8972       | 0.016283   |
+
 </div>
 
 For background traffic:
+
 <div align="center">
+	
 | Flow_ID | TxOffered(Mbps) | T_put(Mbps |
 | --------| --------------- | ---------- |
 | 3      |  4.58235        | 0   |
 | 5       |  5.85374        | 0    |
 | 10       |  6.36072       | 0    |
+
 </div>
 
 The obtained 12 streams for simulation 1 is shown below: 

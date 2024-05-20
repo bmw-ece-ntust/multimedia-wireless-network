@@ -63,7 +63,9 @@ build_example(
     - AC_BE: 0x00
     - AC_BK: 0x20
     
-![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/76e4824c-7e38-40ea-b123-03b514d811a0)
+<div align="center">
+	<img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/1b6be168-e817-4c45-bf02-62b2f8cf2e33" alt="Editor" width="600">
+</div>
 
 ### Comparison and Analysis of Results:
 By comparing with [Analysis of IEEE 802.11e for QoS support in wireless LANs](https://ieeexplore.ieee.org/document/1265851), can identify some similarities and differences:
@@ -78,8 +80,12 @@ By comparing with [Analysis of IEEE 802.11e for QoS support in wireless LANs](ht
 - In the simulation results, the throughput of AC_VO is higher than that of AC_VI, while the opposite is observed in the paper.
 - The throughput of AC_BK shows some recovery at higher offered traffic levels, whereas it continuously declines in the paper.
 - The absolute values of throughput differ, which may be due to different simulation parameter settings.
-
-![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/1b6be168-e817-4c45-bf02-62b2f8cf2e33)![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/45db65c3-ca3a-4d5a-9c2f-f91f078f33b6)
+<div align="center">
+	<img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/1b6be168-e817-4c45-bf02-62b2f8cf2e33" alt="Editor" width="500">
+</div>
+<div align="center">
+	<img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/45db65c3-ca3a-4d5a-9c2f-f91f078f33b6" alt="Editor" width="500">
+</div>
 
 Despite some detailed discrepancies, the simulation broadly reflects the throughput trends of different ACs described in the paper, validating the EDCA mechanism's capability to manage various traffic types. To further improve simulation accuracy, should adjust the simulation parameters to more closely match the scenario described in the paper.
 

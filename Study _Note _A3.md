@@ -34,16 +34,16 @@ Enhanced Distributed Channel Access (EDCA), IEEE 802.11e, offers a method for pr
 
 Here are the default EDCA parameters in ns-3:
 
+.center[ 
 
-<div align="center">
 | AC_BK (Background) |AC_BE (Best Effort)| AC_VI (Video) |AC_VO (Voice) |
 | -------------------| ----------------- | ------------- |------------- |
 | CWmin: 15          |CWmin: 15          | CWmin: 7      |CWmin: 3      |
 | CWmax: 1023        |CWmax: 1023        | CWmax: 15     |CWmax: 7      |
 | AIFSN: 7           |AIFSN: 3           | AIFSN: 2      |AIFSN: 2      |
 | TXOP limit: 0      |TXOP limit: 0      | TXOP limit:3008 microsec| TXOP limit: 1504 microsec|
-	
-</div>
+]	
+
 
 These default parameters are defined in the ns-3 source code and can be found in the file src/wifi/model/
 

@@ -7,7 +7,7 @@
 - <a href="#Introduction">Introduction </a>
 - <a href="#Simulation">Simulation </a>
   - <a href="#Topology">Topology </a>
-  - <a href="#Flowchart">Flow chart </a>
+  - <a href="#Flowchart">Flowchart </a>
   -  <a href="#Code">Code</a>
 - <a href="#Results">Results</a>
 -  <a href="#Conclusion">Conclusion and Challenges</a>
@@ -73,7 +73,7 @@ Topology
 - Each Stations represents an Access Category (Voice, Video, BE = Best Effort, BK = Background)
 
 <h3 align="center" id="Flowchart">
-Flow chart
+Flowchart
 </h3>
 <p align="center">
   <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/128239705/24e76c02-b001-4f63-8aba-6ea737337b04" >

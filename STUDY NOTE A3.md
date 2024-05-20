@@ -43,23 +43,24 @@
 •	Table 1 provides recommended default values for EDCA parameter sets.\
 •	HC can dynamically adjust parameter values based on network conditions.\
 ## code for ns3 
-#include "ns3/applications-module.h"
-#include "ns3/command-line.h"
-#include "ns3/internet-stack-helper.h"
-#include "ns3/ipv4-address-helper.h"
-#include "ns3/log.h"
-#include "ns3/mobility-helper.h"
-#include "ns3/on-off-helper.h"
-#include "ns3/pointer.h"
-#include "ns3/qos-txop.h"
-#include "ns3/ssid.h"
-#include "ns3/string.h"
-#include "ns3/udp-client-server-helper.h"
-#include "ns3/udp-server.h"
-#include "ns3/wifi-mac.h"
-#include "ns3/wifi-net-device.h"
-#include "ns3/yans-wifi-channel.h"
-#include "ns3/yans-wifi-helper.h"
+#### Code
+#include "ns3/applications-module.h" \
+#include "ns3/command-line.h" \
+#include "ns3/internet-stack-helper.h"\
+#include "ns3/ipv4-address-helper.h"\
+#include "ns3/log.h" \
+#include "ns3/mobility-helper.h" \
+#include "ns3/on-off-helper.h" \
+#include "ns3/pointer.h" \
+#include "ns3/qos-txop.h" \
+#include "ns3/ssid.h" \
+#include "ns3/string.h" \
+#include "ns3/udp-client-server-helper.h" \
+#include "ns3/udp-server.h" \
+#include "ns3/wifi-mac.h" \
+#include "ns3/wifi-net-device.h" \
+#include "ns3/yans-wifi-channel.h" \
+#include "ns3/yans-wifi-helper.h" 
 
 using namespace ns3;
 
@@ -592,7 +593,7 @@ AC_BK = [0.000000, 0.991147, 0.010795, 0.006869, 0.001963, 0.000000, 0.000000, 0
 ## THE GRAPH PLOTED FROM ABOVE CODE
 ![PAPER DUPLICATE TRIAL](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/161825233/ab1bc8b2-3834-4935-95c4-d43d744b1e90)
 
-## ACCORDING TO THE DATA FROM PAPER THE CORRECT DUPLICATE VALUE AND GRAPH CAN BE AS BELLOW:
+## ACCORDING TO THE DATA FROM PAPER THE APPROXIMATED DUPLICATE VALUE AND GRAPH CAN BE AS BELLOW:
 offered_traffic = [0,3,6,9,12,15,18,21,24,27,30]\
  Throughput A (VI) (Mbps)
 throughput_A = [0, 1.7, 3, 3.9, 4.8, 5.5, 6.2, 6, 5.5, 2, 1.7,1.7, 1.7]
@@ -604,7 +605,7 @@ Throughput C (BE) (Mbps)
 throughput_C = [0, 1.7, 3, 3.9, 4.8, 1.7,1,0.5,0.1, 0.08, 0.08, 0.08,0.08]
 Throughput D (BK) (Mbps)
 throughput_D = [0, 1.7, 3, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.2, 0.08, 0.08, 0.08]
-## APROPRIATE GRAPH CAN BE:
+## APROPRIATE APPROXIMATED GRAPH CAN BE:
 ![plot approx](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/161825233/d74bf12d-9188-40dc-91c1-79d83ecff07a)
 
 ## Figure 2. Throughput per AC with increasing number of stations, and constant offered traffic per station for the illustrated scenario.
@@ -622,5 +623,6 @@ and reliability through empirical data analysis and adherence to standardized pa
 ## References:
 [1]. https://www.nsnam.org/docs/release/3.41/tutorial/html/building-topologies.html. \
 [2]. https://www.nsnam.org/docs/release/3.41/tutorial/html/index.html. \
-[3]. S. Mangold, Sunghyun Choi, G. R. Hiertz, O. Klein and B. Walke, "Analysis of IEEE 802.11e for QoS support in wireless LANs,"\
+[3] classmate Evgene malkov ns3 simulator on site support
+[4]. S. Mangold, Sunghyun Choi, G. R. Hiertz, O. Klein and B. Walke, "Analysis of IEEE 802.11e for QoS support in wireless LANs,"\
 in IEEE Wireless Communications, vol. 10, no. 6, pp. 40-50, Dec. 2003, doi: 10.1109/MWC.2003.1265851.

@@ -1,0 +1,4 @@
+Flow_ID, TxOffered(Mbps), T_put(Mbps)
+3, 4.58235, 0, 
+5, 5.85374, 0, 
+10, 6.36072, 0, 

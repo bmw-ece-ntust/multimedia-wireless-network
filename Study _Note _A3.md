@@ -61,6 +61,8 @@ The QoS support in EDCA is enabled by the inclusion of access categories (ACs) a
 * MSDUs of 512 byte with the negatively-exponentially distributed inter-arrival times.
 * 1 station transmits to 3 stations, one stream per AC.
 * Default EDCA parameters are used.
+* Control frames are transmitted at 6Mbps.
+* Data frames are transmitted at 54 Mbps.
 * Neither RTS/CTS nor fragmentation is used.
 * Beacon frames are not generated.
 

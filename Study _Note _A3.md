@@ -11,7 +11,7 @@
 	- [Steps of the simulation](#Steps-of-the-Simulation)
  	- [Simulation code](#Simulation-code)
   		- [Souce code for Throughput per AC Vs offered traffic (simulation 1)](#Souce-code-for-Throughput-per-AC-Vs-offered-traffic-(simulation-1))
-    		- [Souce code for Throughput per AC Vs increasing number of stations (simulation 2)](#Souce-code-for-Throughput-per-AC-Vs-increasing-number-of-stations-(simulation-2))
+		- [Souce code for Throughput per AC Vs increasing number of stations (simulation 2)](#Souce-code-for-Throughput-per-AC-Vs-increasing-number-of-stations-(simulation-2))
   	- [Simulation outputs](#Simulation-outputs)
 - [Part III: Results and Discussions](#Part-III-Results-and-Discussions)
 	- [Comprasion of the results with the paper](#Comprasion-of-the-results-with-the-paper)

@@ -66,11 +66,13 @@ The QoS support in EDCA is enabled by the inclusion of access categories (ACs) a
 
 ## Network topology 
 The network topology implemented to simulate the IEEE 802.11e Wi-Fi networks  are shown below, consisting of one access point and 3 stations as in Fig 2 (for simulation 1) or N stations as in Fig 3 (for simulation 2).
-
+<div align="center">
 
 |Fig 2: Network topology for simulation 1 | Fig 3: Network topology for simulation 2 | 
 | -------- | -------- |
 | ![topo](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/topo.PNG)      |   ![top2](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/top2.PNG)     | 
+
+</div>
 
 ## Steps of the Simulation 
 1. Set Up the Network: Create a network topology, set the standard, set type and Install the Wi-Fi stack on all nodes using the WifiHelper.

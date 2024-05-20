@@ -67,6 +67,9 @@ build_example(
 	<img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/1b6be168-e817-4c45-bf02-62b2f8cf2e33" alt="Editor" width="600">
 </div>
 
+**Why didn't you simulate the figures from the paper, Fig. 9 and Fig. 10?**
+> Because in the current ns-3 environment, I have not yet found a way to enable a single STA to have multiple TXOPs.
+
 ### Comparison and Analysis of Results:
 By comparing with [Analysis of IEEE 802.11e for QoS support in wireless LANs](https://ieeexplore.ieee.org/document/1265851), can identify some similarities and differences:
 

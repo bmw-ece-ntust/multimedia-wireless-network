@@ -67,11 +67,11 @@ The QoS support in EDCA is enabled by the inclusion of access categories (ACs) a
 ## Network topology 
 The network topology implemented to simulate the IEEE 802.11e Wi-Fi networks  are shown below, consisting of one access point and 3 stations as in Fig 2 (for simulation 1) or N stations as in Fig 3 (for simulation 2).
 
-<div align="center">
+
 |Fig 2: Network topology for simulation 1 | Fig 3: Network topology for simulation 2 | 
 | -------- | -------- |
 | ![topo](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/topo.PNG)      |   ![top2](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/top2.PNG)     | 
-</div>
+
 ## Steps of the Simulation 
 1. Set Up the Network: Create a network topology, set the standard, set type and Install the Wi-Fi stack on all nodes using the WifiHelper.
    
@@ -930,13 +930,16 @@ The simulation code output contains files for throughput and result for each flo
 
 
 Generated files for throughput per AC:
+
 <div align="center">
+	
 |In Simulation code 1       | In Simulation code 2               | 
 | ------------------------| ------------------------------  | 
 | Throughput_per_AC_BE.txt|Station_Throughput_per_AC_BE.txt | 
 | Throughput_per_AC_BK.txt|Station_Throughput_per_AC_BK.txt | 
 | Throughput_per_AC_VI.txt|Station_Throughput_per_AC_VI.txt | 
 | Throughput_per_AC_VO.txt|Station_Throughput_per_AC_VO.txt | 
+
 </div>
 
 Generated files for each stream  flows: 
@@ -1003,25 +1006,29 @@ The results obtained in this experiment, achievable (saturation) throughput, dep
 
 Fig. 4/5 shows the measured throughput per AC. It can be seen that as the amount of offered traffic increases, ACs with higher priority limit the throughput of ACs with lower priority due to their smaller AIFSN, CWmin, and CWmax values.
 
-![sm1](https://hackmd.io/_uploads/HJ2AuLwXA.png)
- 
-Fig 4: Throughput per AC with increasing offered traffic per AC for the illustrated scenario(My simulation) 
+<p align="center">
+  <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/sm1.png" /> 
+</p>
+<p align="center">Fig 4: Throughput per AC with increasing offered traffic per AC for the illustrated scenario(My simulation) . </p>
 
-  ![res1](https://hackmd.io/_uploads/HyKzRZvX0.png)
- Fig 5: Throughput per AC with increasing offered traffic per AC for the illustrated scenario (Reference paper)
+<p align="center">
+  <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/res1.PNG" /> 
+</p>
+<p align="center">Fig 5: Throughput per AC with increasing offered traffic per AC for the illustrated scenario (Reference paper). </p>
 
 ### Throughput-Number of station per AC
 
 In order to study how well 802.11e performs in areas with high demand, where there are many devices connected to an access point, we raise the number of competing stations to 16, as shown in Figure 6 and 7. Every station provides equal traffic. Figure 6/7 shows the throughput measured per AC, is similar with the previous figure. It is noticeable that when the number of stations increases, the throughput decreases significantly with the default values of the EDCA parameter set. This is due to the increased chances of collisions, especially in AC_VO, when CWmin and CWmax are low values.
 
- ![sm2](https://hackmd.io/_uploads/rkwuYUD7R.png) 
+<p align="center">
+  <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/sm2.png" /> 
+</p>
+<p align="center">Fig 6:Throughput per AC with increasing number of stations, and constant offered traffic per station (my simulation). </p>
 
-
-Fig 6:Throughput per AC with increasing number of stations, and constant offered traffic per station (my simulation)
-
- ![res2](https://hackmd.io/_uploads/H1RFtLP7C.png)
- 
-Fig 7: Throughput per AC with increasing number of stations, and constant offered traffic per station (Reference paper)
+<p align="center">
+  <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/res2.PNG" /> 
+</p>
+<p align="center">Fig 7: Throughput per AC with increasing number of stations, and constant offered traffic per station (Reference paper). </p>
 
 # References:
 1. [Analysis of IEEE 802.11e for QoS support in wireless LANs](https://ieeexplore.ieee.org/document/1265851)

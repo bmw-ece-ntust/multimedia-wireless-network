@@ -1,10 +1,10 @@
 # <center> QoS in WLAN using IEEE 802.11e </center>
 
 - [Introduction](#introduction)
-- [Overview of IEEE 802.11e](#Overview-of-IEEE-802.11e)
-- [Key Features of IEEE 802.11e](#Key-Features-of-IEEE-802.11e)
-    - [Enhanced Distributed Channel Access (EDCA)](#Enhanced-Distributed-Channel-Access-(EDCA))
-    - [HCF Controlled Channel Access (HCCA)](#HCF-Controlled-Channel-Access-(HCCA))
+- [`Overview of IEEE 802.11e`](#Overview of IEEE 802.11e)
+- [`Key Features of IEEE 802.11e`](#Key Features of IEEE 802.11e)
+    - [Enhanced Distributed Channel Access (EDCA)](#Enhanced Distributed Channel Access (EDCA))
+    - [HCF Controlled Channel Access (HCCA)](#HCF Controlled Channel Access (HCCA))
 - 
 - [Conclusion](#Conclusion)
 

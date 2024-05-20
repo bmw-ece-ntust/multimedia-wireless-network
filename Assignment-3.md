@@ -70,6 +70,7 @@ Standard: IEEE 802.11a
 ### 4.1 Throughput Trends
 
 In this simulation, the HC transmits four distinct streams to each of the three stations, with each stream being assigned a specific priority level. The author's illustrated the relationship between offered traffic and throughput for each access category as follows.
+![](./assets/Hc%20to%203sta.jpeg)
 - **AC_VO (Voice):**
     Throughput increases linearly up to 12 Mb/s of offered traffic, reaching a maximum of 14 Mb/s. Beyond  14 Mb/s, the throughput stabilizes at 15 Mb/s, indicating the saturation point for voice traffic.
 

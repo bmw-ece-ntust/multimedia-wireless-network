@@ -8,8 +8,8 @@
     * [**Scenario I:**](#scenario-i)
     * [**Scenario II**](#scenario-ii)
 * [Experiments Result](#experiments-result)
-        * [Scenario I](#scenario-i)
-        * [Scenario II](#scenario-ii)
+    * [Scenario I](#scenario-i)
+    * [Scenario II](#scenario-ii)
 * [Appendix](#appendix)
     * [Python Plotter](#python-plotter)
     * [Source Code](#source-code)
@@ -71,7 +71,7 @@ The experiments aim to investigate:
 | ![Result-01](../assets/A3_paper_result_01.png) | ![Result-02](../assets/A3_paper_result_02.png) | ![Result-03](../assets/A3_paper_result_03.png) |
 |               :white_check_mark:               |               :white_check_mark:               |                   :warning:                    |
 
-#### Scenario I
+### Scenario I
 
 
 
@@ -120,7 +120,7 @@ The experiments aim to investigate:
 
 
 
-#### Scenario II
+### Scenario II
 
 | STA NUM | VI       | VO       | BE       | BK        |
 | ------- | -------- | -------- | -------- | --------- |

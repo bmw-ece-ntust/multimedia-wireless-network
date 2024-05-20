@@ -30,14 +30,14 @@
 - Submissions:
   - [x] [Study Plan.pptx](https://docs.google.com/presentation/d/1pDwSP7sGy2zcm25_LvQ6fQEO5nHraAf8FO9Pp_gSxJM/edit?usp=sharing)
   - [x] [Study Note]([path to another .md file for your assignment](https://hackmd.io/6SLCcUdyS1WwPz1GonJEsw?view#Studying-note))
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
+  - [x] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
   - [x] [Numercial Results ([should be identical as the paper)](path to specific section in your study note](https://hackmd.io/6SLCcUdyS1WwPz1GonJEsw?view#Simulation-result))
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
 
 ### A3 (DL: 2024/05/14, 08.00 A.M.)
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)
 - Submissions:
-  - [ ] [Study Note](https://hackmd.io/s2mEey4hQcK_RGHD1ydf9A?view#Studying-note)
-  - [ ] [Flowchart + source code for simulation and analysis](https://hackmd.io/s2mEey4hQcK_RGHD1ydf9A?view#Flow-chart)
-  - [ ] [Numercial Results (should be identical as the paper)](https://hackmd.io/s2mEey4hQcK_RGHD1ydf9A?view#Numercial-Results)
+  - [x] [Study Note](https://hackmd.io/s2mEey4hQcK_RGHD1ydf9A?view#Studying-note)
+  - [x] [Flowchart + source code for simulation and analysis](https://hackmd.io/s2mEey4hQcK_RGHD1ydf9A?view#Flow-chart)
+  - [x] [Numercial Results (should be identical as the paper)](https://hackmd.io/s2mEey4hQcK_RGHD1ydf9A?view#Numercial-Results)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

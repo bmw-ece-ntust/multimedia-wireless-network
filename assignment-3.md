@@ -3,17 +3,17 @@
 - **ID:** F11215120
 
 ## Outline
-- Objective
-- Introduction
-- Simulation
-  - Topology
-  - Flow chart
-  - Code
-  - Output  
-- Results
-- Analysis
-- Conclusion and Challenges 
-- References
+- <a href="Objective">Objective</a> 
+- <a href="Objective">Introduction </a>
+- <a href="Objective">Simulation </a>
+  - <a href="Objective">Topology </a>
+  - <a href="Objective">Flow chart </a>
+  -  <a href="Objective">Code</a>
+  - <a href="Objective">Output </a>
+- <a href="Objective">Results </a>
+- <a href="Objective">Analysis </a>
+-  <a href="Objective">Conclusion and Challenges</a>
+- <a href="Objective">References</a>
 ---
 
 <h2 align="center">
@@ -474,13 +474,13 @@ The following graph is extracted from the paper of study, which also show the re
 
 ## Conclusion and Challenges 
 
-It can be seen that the results obtained from this projects is kinda similar to the one obtained at the paper of study. some variations can be seen, maybe it would be because some other parameters variation. The goal in obtain a simulation which the behavior of the EDCA / AC can be seen was obtained successfully.
+The results obtained from this project are quite similar to those presented in the study's paper. Some variations are observed, which may be attributed to differences in parameter settings. The primary goal of achieving a simulation that accurately reflects the behavior of EDCA/AC was successfully accomplished.
+Some of the encountered challenges were understanding the idea in simulate the results from the paper of study and also obtain some information related to NS-3. 
 
 
 ## References
-- Paper
-- Code
-- Documentation
+- [Analysis of IEEE 802.11e for QoS support in wireless LANs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1265851)
+- [Documentation NS-3](https://www.nsnam.org/documentation/)
 
 
 

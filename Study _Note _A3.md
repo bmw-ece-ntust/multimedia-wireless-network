@@ -47,7 +47,7 @@ These default parameters are defined in the ns-3 source code and can be found in
 
 Fig. 1 illustrates the parallel backoff entities and the EDCA parameter set defines the priorities in medium access by setting individual interframe spaces, contention windows, and many other parameters per AC.
 
-![node](https://hackmd.io/_uploads/HyWig-DQC.png) 
+![node](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/node.PNG) 
 
 Fig. 1: Legacy 802.11 station and 802.11e station with four ACs within one station
 

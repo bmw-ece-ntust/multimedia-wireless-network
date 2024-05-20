@@ -11,7 +11,7 @@
 cd Downloads/ns-allinone-3.40/ns-3.40/examples/wireless
 ```
 
-### 2. Create the file wifi-txop-4QBSS.cc.
+### 2. Create the file wifi-txop-4QBSS.cc
    - [Full code](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202255-Sylvia/wifi-txop-4QBSS.cc)
 
 ### 3. Open CMakeList.txt and add the following line to build_example.
@@ -39,7 +39,7 @@ build_example(
 ![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/29f041b4-2aca-4495-93cc-5c0aade61f10)
 
 
-### 5. Upload the execution result output_file.txt to Google Drive and use [colab](https://colab.research.google.com/drive/13YoeMkiFhquJEpHV5tZKtOT7awAD9tll?usp=sharing) to plot the simulation graph.
+### 5. Upload the execution result <font color = "blue" >output_file.txt</font> to Google Drive and use [colab](https://colab.research.google.com/drive/13YoeMkiFhquJEpHV5tZKtOT7awAD9tll?usp=sharing) to plot the simulation graph.
 
 ![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/1d4a470d-a770-419b-8dd3-b8ba6747821a)
    
@@ -57,7 +57,7 @@ build_example(
     | CWmax: | 7 | 15 | 1023 | 1023 | 
 
 ## result
-- CAs
+- CAs: [34.2.1.5.1. Selection of the Access Category (AC)](https://www.nsnam.org/docs/models/html/wifi-user.html#selection-of-the-access-category-ac)
     - AC_VI: 0xa0
     - AC_VO: 0xc0
     - AC_BE: 0x00

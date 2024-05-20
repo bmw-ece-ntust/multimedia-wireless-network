@@ -27,7 +27,6 @@
 Enhanced Distributed Channel Access (EDCA), IEEE 802.11e, offers a method for prioritizing various types of traffic according to their quality of service (QoS) needs. The default EDCA settings in ns-3 are the following:
  </div>
  
- 
 *  Four access categories exist: AC_BK (Background), AC_BE (Best Effort), AC_VI (Video), and AC_VO (Voice).
 *  Every AC is equipped with specific contention parameters such as CWmin, CWmax, AIFSN, and TXOP limit.
 *  The parameters' default settings are usually determined by the specifications in the IEEE 802.11 standard.
@@ -51,7 +50,7 @@ Fig. 1 illustrates the parallel backoff entities and the EDCA parameter set defi
 <p align="center">
   <img src="https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/node.PNG" /> 
 </p>
-	<p align="center">	Fig. 1: Legacy 802.11 station and 802.11e station with four ACs within one station. </p>
+<p align="center">	Fig. 1: Legacy 802.11 station and 802.11e station with four ACs within one station. </p>
  
 The QoS support in EDCA is enabled by the inclusion of access categories (ACs) and several separate backoff entities. MSDUs are sent by parallel backoff entities in a single 802.11e station, where backoff entities are ranked based on AC-specific contention parameters known as EDCA parameter set. Every 802.11e station has four backoff entities because there are four ACs. The ACs are categorized based on their intended use, such as AC_VO for voice, AC_VI for video, AC_BE for best effort, and AC_BK for background.
 
@@ -71,11 +70,11 @@ The network topology implemented to simulate the IEEE 802.11e Wi-Fi networks  ar
 
 |Fig 2: Network topology for simulation 1 | Fig 3: Network topology for simulation 2 | 
 | -------- | -------- |
-| ![topo](https://hackmd.io/_uploads/H1hQt1P7C.png)      |   ![top2](https://hackmd.io/_uploads/S1VVKJw70.png)     | 
-
+| ![topo](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/topo.PNG)      |   ![top2](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/top2.PNG)     | 
 
 ## Steps of the Simulation 
 1. Set Up the Network: Create a network topology, set the standard, set type and Install the Wi-Fi stack on all nodes using the WifiHelper.
+   
 ``` c++
 	NodeContainer wifiStaNodes;
 	wifiStaNodes.Create (nWifi);
@@ -931,65 +930,68 @@ The simulation code output contains files for throughput and result for each flo
 
 
 Generated files for throughput per AC:
-
+<div align="center">
 |In Simulation code 1       | In Simulation code 2               | 
 | ------------------------| ------------------------------  | 
 | Throughput_per_AC_BE.txt|Station_Throughput_per_AC_BE.txt | 
 | Throughput_per_AC_BK.txt|Station_Throughput_per_AC_BK.txt | 
 | Throughput_per_AC_VI.txt|Station_Throughput_per_AC_VI.txt | 
 | Throughput_per_AC_VO.txt|Station_Throughput_per_AC_VO.txt | 
+</div>
 
 Generated files for each stream  flows: 
-
+<div align="center">
 | Simulation code 1       | Simulation code 2                | 
 | ------------------------| -------------------------------  | 
 |Flows_Results_BE_edca.txt|Station_Flows_Results_BE_edca.txt | 
 |Flows_Results_BK_edca.txt|Station_Flows_Results_BK_edca.txt | 
 |Flows_Results_VI_edca.txt|Station_Flows_Results_VI_edca.txt | 
 |Flows_Results_VO_edca.txt|Station_Flows_Results_VO_edca.txt | 
+</div>
 
 Sample output of each flow of the steam is shown below:
 
 For Voice:
-
+<div align="center">
 | Flow_ID | TxOffered(Mbps) | T_put(Mbps |
 | --------| --------------- | ---------- |
 | 2       |  6.68072        | 5.03958    |
 | 8       |  4.76601        | 3.28594    |
 | 9       |  7.69683        | 5.56178    |
-
+</div>
 For video: 
-
+<div align="center">
 | Flow_ID | TxOffered(Mbps) | T_put(Mbps |
 | --------| --------------- | ---------- |
 | 6       | 9.71759         | 2.17772    |
 | 11      | 10.5491         | 0.763069   |
 | 12      | 10.5494         | 0.78951   |
+</div>
 
 For  best effort traffic: 
-
+<div align="center">
 | Flow_ID | TxOffered(Mbps) | T_put(Mbps |
 | --------| --------------- | ---------- |
 | 1      |  6.40435        | 0.434658  |
 | 4       |  8.0631        | 0.0722995   |
 | 7       |  4.8972       | 0.016283   |
+</div>
 
 For background traffic:
-
+<div align="center">
 | Flow_ID | TxOffered(Mbps) | T_put(Mbps |
 | --------| --------------- | ---------- |
 | 3      |  4.58235        | 0   |
 | 5       |  5.85374        | 0    |
 | 10       |  6.36072       | 0    |
-
+</div>
 
 The obtained 12 streams for simulation 1 is shown below: 
 
 #### 12 streams for simulation 1
 
-![s1](https://hackmd.io/_uploads/HkQ4k4DQ0.png)
-![s2](https://hackmd.io/_uploads/ryh41EDXA.png)
-
+![s1](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/s1.PNG)
+![s2](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215805-Dawit-Hadush-Hailu/Resources%20for%20Assignment%203/s2.PNG)
 
 # Part III: Results and Discussions
 

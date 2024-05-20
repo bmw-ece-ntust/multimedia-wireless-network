@@ -12,10 +12,9 @@ The simulation sets up one Access Point (AP) and four Stations (STAs), each repr
 
 ## 2. Flow Chart
 
-<center>
-    
-![ttt.drawio](https://hackmd.io/_uploads/SkN63TuQ0.png)
-</center>
+<p align="center">
+  <img src="https://hackmd.io/_uploads/SkN63TuQ0.png" alt="ttt.drawio">
+</p>
 
 This flowchart details the major steps in the program, including setting simulation parameters, setting up the WiFi network, configuring application traffic, running and collecting simulation results, calculating throughput, and outputting results. 
 

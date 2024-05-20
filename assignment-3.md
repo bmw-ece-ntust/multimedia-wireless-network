@@ -1,9 +1,15 @@
-
-:::warning
 **Table of Content**
-[TOC]
-:::
-- reference: [hacdMD note](https://hackmd.io/@SylviaCh/SJSAewm7A)
+- [Simulation](#simulation)
+  - [Run code](#run-code)
+  - [Assumption](#assumption)
+  - [Simulation result](#simulation-result)
+- [Code explanation](#code-explanation)
+  - [Flow chart](#flow-chart)
+  -  [code step by step](#code-step-by-step) 
+- [Study note](#study-note)
+  
+> reference: [hacdMD note](https://hackmd.io/@SylviaCh/SJSAewm7A)
+
 # Simulation
 ## Run code
 ### 1. Navigate to the folder ns-allinone-3.40/ns-3.40/examples/wireless.
@@ -56,7 +62,7 @@ build_example(
     | CWmin: | 3 | 7 | 15 | 15 | 
     | CWmax: | 7 | 15 | 1023 | 1023 | 
 
-## result
+## Simulation result
 - CAs: [34.2.1.5.1. Selection of the Access Category (AC)](https://www.nsnam.org/docs/models/html/wifi-user.html#selection-of-the-access-category-ac)
     - AC_VI: 0xa0
     - AC_VO: 0xc0

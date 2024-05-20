@@ -10,7 +10,7 @@
 •	Evaluate the performance of the 802.11e MAC for the 802.11a PHY at 5GHz (up to 54 Mb/s).\
 •	Methodology: Event-driven stochastic simulations.\
 •	Focus: Delay results of MSDU delivery using empirical complementary cumulative distribution functions (CDFs).\
-•	Analysis: Utilization of the discrete Limited-Relative-Error (LRE) algorithm for measuring local correlations.\
+•	Analysis: Utilization of the discrete Limited-Relative-Error (LRE) algorithm for measuring local correlations.
 #### Simulation Environment:
 •	Radio Channel Error Model: Ensures realistic transmission conditions.\
 •	Radio Channel Error Model: Ensures realistic transmission conditions.\
@@ -22,7 +22,7 @@
 •	EDCA Parameters: Utilize values from Table 1 (AIFSN, CWmin, CWmax).\
 •	RTS/CTS and Fragmentation: Not used.\
 •	EDCA-TXOPs: Allow one data frame transmission after contention.\
-•	Beacon Frames: Not generated.\
+•	Beacon Frames: Not generated.
 #### Network Configuration:
 •	Three nodes and one access point (AP).\
 •	Configuration based on EDCA parameter sets for each AC.\

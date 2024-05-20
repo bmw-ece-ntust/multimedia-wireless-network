@@ -7,7 +7,7 @@
     - [HCF Controlled Channel Access (HCCA)](#HCF-Controlled-Channel-Access-(HCCA))
 - [HCCA Operation](HCCA-Operation)
 - [Calculations:](#Calculations)
- -[Analysis](#Analysis)
+- [Analysis](#Analysis)
 - [Conclusion](#Conclusion)
 
 

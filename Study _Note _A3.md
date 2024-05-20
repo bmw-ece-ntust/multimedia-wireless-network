@@ -244,7 +244,7 @@ The network topology implemented to simulate the IEEE 802.11e Wi-Fi networks  ar
     
 ## Simulation code
 
-This is a simulation code that implements the paper [1] by configuring and extending IEEE 802.11a PHY standard to support QoS (IEEE 802.11e MAC) in Wi-Fi networks. It outputs the Throughput per AC as a function of offered traffic per AC.The second simulation code also outputs the Throughput per AC as a function of increasing number of stations. 
+This is a simulation code that implements the paper [Paper](https://ieeexplore.ieee.org/document/1265851) by configuring and extending IEEE 802.11a PHY standard to support QoS (IEEE 802.11e MAC) in Wi-Fi networks. It outputs the Throughput per AC as a function of offered traffic per AC.The second simulation code also outputs the Throughput per AC as a function of increasing number of stations. 
 
 ### Souce code for Throughput per AC Vs offered traffic (simulation 1)
 
@@ -1068,7 +1068,7 @@ In order to study how well 802.11e performs in areas with high demand, where the
 <p align="center">Fig 7: Throughput per AC with increasing number of stations, and constant offered traffic per station (Reference paper). </p>
 
 # References:
-1. [Analysis of IEEE 802.11e for QoS support in wireless LANs](https://ieeexplore.ieee.org/document/1265851)
+1. [Paper](https://ieeexplore.ieee.org/document/1265851)
 2. ns-3([[1]](https://www.nsnam.org/),[[2]](https://www.nsnam.org/documentation/))
 3. [NS-3 Events and Simulator]( https://www.nsnam.org/docs/manual/html/events.html)
 4. [NS-3 Wifi Models](https://www.nsnam.org/docs/release/3.8/doxygen/group___wifi.html)

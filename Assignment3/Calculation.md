@@ -30,6 +30,8 @@ AC_BE (Best Effort): Shows a significant drop in throughput as the number of sta
 AC_BK (Background): Experiences the most significant drop, indicating the lowest priority
 
 
+![alt text](image-10.png)
+
 Data Into consideration for ploting
 
 double traffic_load[] = {0, 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31};

@@ -1,12 +1,37 @@
-## Project Notes
+# A3 Study Notes
 
 
+<!-- vim-markdown-toc Redcarpet -->
 
+* [Introduction](#introduction)
+* [Experiment Setup](#experiment-setup)
+    * [**Scenario I:**](#scenario-i)
+    * [**Scenario II**](#scenario-ii)
+* [Experiments Result](#experiments-result)
+        * [Scenario I](#scenario-i)
+        * [Scenario II](#scenario-ii)
+* [Appendix](#appendix)
+    * [Python Plotter](#python-plotter)
+    * [Source Code](#source-code)
 
+<!-- vim-markdown-toc -->
 
-### Experiment Setup
+## Introduction
 
-![](/home/nnag/Pictures/fc-00.png)
+This project utilizes ns-3, a discrete-event network simulator for Internet systems, to evaluate the performance of various wireless scenarios. ns-3 provides a comprehensive set of models for simulating different aspects of network communication, including the physical layer, network layer, and application layer.
+
+One crucial aspect of network communication is Quality of Service (QoS), which refers to the ability of a network to provide different levels of service to different types of traffic. The 802.11e amendment to the IEEE 802.11 standard introduced QoS mechanisms for wireless local area networks (WLANs), enabling prioritization and differentiated treatment of traffic based on their access categories (ACs).
+
+The 802.11e standard defines four ACs for prioritizing traffic:
+
+- Voice (AC_VO): High-priority traffic for voice applications, such as VoIP.
+- Video (AC_VI): High-priority traffic for video applications, such as video conferencing.
+- Best Effort (AC_BE): Standard priority traffic for general data applications, such as web browsing.
+- Background (AC_BK): Low-priority traffic for background applications, such as file transfers.
+
+## Experiment Setup
+
+![Spec](/home/nnag/Pictures/fc-00.png)
 
 - We set the AIFSN, MinCW and MaxCW according to the paper's recommendation.
 
@@ -16,28 +41,29 @@
 
   ![image-20240520232446996](../assets/image-20240520232446996.png)
 
-
-
-
-
-**Scenario I:**
+### **Scenario I:**
 
 ![](../assets/case-00-topology.png)
 
-- *Scenario I*, Each station generates the same mixture of offered traffic of four data streams, which we label according to the known ACs
-- On each iteration the offered traffic will be increased according to the iteration number
+1. Each station generates the same mixture of offered traffic consisting of four data streams, labeled according to the known Access Categories (ACs).
+2. The offered traffic from each station is a mixture of the four ACs: Voice (AC_VO), Video (AC_VI), Best Effort (AC_BE), and Background (AC_BK).
+3. On each iteration, the offered traffic from each station is increased according to the iteration number, while keeping the proportions of the four ACs constant.
+4.On each iteration the offered traffic will be increased according to the iteration number
 
-
-
-**Scenario II**
+### **Scenario II**
 
 ![](../assets/case-01-topology.png)
 
-- Each station generates the same mixture of offered traffic of four data streams, which we label according to the known ACs
-- On each iteration the station number will be increased 
+1. Initially, a fixed number of stations generate a constant offered traffic, with each station's traffic being a mixture of the four ACs.
+2. With each iteration, the number of stations is increased, while the offered traffic per station remains constant.
+3. This scenario evaluates the throughput per AC as the number of stations (and consequently, the overall network load) increases.
 
-### Experiments Result
+## Experiments Result
 
+The experiments aim to investigate:
+
+1. Scenario I: The impact of increasing offered traffic on the throughput and performance of the different ACs within a fixed number of stations.
+2. Scenario II: The effect of increasing the number of stations (and network load) on the throughput and performance of the different ACs, while keeping the offered traffic per station constant.
 
 
 |                  *Scenario 1*                  |                ***Scenario 2***                |                   Scenario 3                   |
@@ -260,8 +286,6 @@ plot1()
 plot2()
 
 ```
-
-
 
 ### Source Code
 

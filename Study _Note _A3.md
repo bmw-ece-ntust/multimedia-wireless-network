@@ -318,7 +318,7 @@ int main (int argc, char *argv[])
 	wifi.SetStandard (WIFI_STANDARD_80211a); // 802.11a standard used
 	
 	wifi.SetRemoteStationManager("ns3::ConstantRateWifiManager",
-                                 "DataMode", StringValue("OfdmRate24Mbps"),
+                                 "DataMode", StringValue("OfdmRate54Mbps"),
                                  "ControlMode", StringValue("OfdmRate6Mbps"),"RtsCtsThreshold",
 							 UintegerValue(useRts ? 0 : 999999));
 	Ssid ssid = Ssid ("ns3-80211a");

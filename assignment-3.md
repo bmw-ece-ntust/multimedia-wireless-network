@@ -3,6 +3,7 @@
 **Table of Content**
 [TOC]
 :::
+- reference: [hacdMD note](https://hackmd.io/@SylviaCh/SJSAewm7A)
 # Simulation
 ## Run code
 ### 1. Navigate to the folder ns-allinone-3.40/ns-3.40/examples/wireless.
@@ -64,7 +65,7 @@ build_example(
     
 ![image](https://github.com/bmw-ece-ntust/multimedia-wireless-network/assets/80584940/76e4824c-7e38-40ea-b123-03b514d811a0)
 
-
+---
 
 # Study note
 reference: 

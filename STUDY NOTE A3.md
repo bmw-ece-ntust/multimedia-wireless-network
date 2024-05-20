@@ -93,7 +93,7 @@ NS_LOG_COMPONENT_DEFINE("80211eTxop");
 int
 main(int argc, char* argv[]) \
 {
-    // Open output file for recording characteristics
+    // Open output file for recording characteristics \
     std::ofstream outputFile("outputgraph1.txt");
 
     // Define all necessary variables

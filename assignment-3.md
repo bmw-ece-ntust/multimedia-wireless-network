@@ -8,7 +8,7 @@
   -  [code step by step](#code-step-by-step) 
 - [Study note](#study-note)
   
-> reference: [hacdMD note](https://hackmd.io/@SylviaCh/SJSAewm7A)
+> reference: [hacdMD A3 note](https://hackmd.io/@SylviaCh/SJSAewm7A)
 
 # Simulation
 ## Run code

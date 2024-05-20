@@ -72,7 +72,7 @@
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)
 - Submissions:
 - [X] [MIDITERM REPORT](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/ANTOINE%20PRESENTATION%20MULTIMEDIA%20A3%20MIDITERM%20REPORT.pptx)
-  - [ ] [Study Note](path to another .md file for your assignment)
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
+  - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/STUDY%20NOTE%20A3.md)
+  - [X] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/STUDY%20NOTE%20A3.md)
+  - [X] [Numercial Results (should be identical as the paper)](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/STUDY%20NOTE%20A3.md)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

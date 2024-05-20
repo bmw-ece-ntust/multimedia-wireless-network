@@ -30,14 +30,12 @@
   - [x] [Study Note](reports/A2-Presentation.pdf)
   - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202819-Yosafat-Marselino-Agus/notes/A2-Study_notes.md#1-prerequsites)
   - [x] [802.11 Simulation Report](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202819-Yosafat-Marselino-Agus/notes/A2-Study_notes.md#ns3-wifi-80211a-simulation)
-  - [ ] [802.11e Simulation Report](https://hackmd.io/@ninoagus/Sy0jsN_kR#NS3-WiFi-80211a-Simulation)
 
   - [ ] [Peer Review](https://forms.gle/njd22Apu7ZGTbKzJ7)
-
 ### A3 (DL: 2024/05/14, 08.00 A.M.)
 - [Assignement Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3-deadline-514-0800-am)
 - Submissions:
-  - [ ] [Study Note](path to another .md file for your assignment)
-  - [ ] [Flowchart + source code for simulation and analysis](path to specific section in your study note)
-  - [ ] [Numercial Results (should be identical as the paper)](path to specific section in your study note)
+  - [x] [Study Note](notes/A3-Study_notes.md)
+  - [x] [Flowchart](notes/A3-Study_notes.md)
+  - [x] [Numerical Reusult](notes/A3-Study_notes.md)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

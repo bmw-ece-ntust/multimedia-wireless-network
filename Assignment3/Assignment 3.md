@@ -5,7 +5,7 @@
 - [Key Features of IEEE 802.11e](#Key-Features-of-IEEE-802.11e)
     - [Enhanced Distributed Channel Access (EDCA)](#Enhanced-Distributed-Channel-Access-(EDCA))
     - [HCF Controlled Channel Access (HCCA)](#HCF-Controlled-Channel-Access-(HCCA))
-- [Calculations](#calculations)
+- [Calculations:](#Calculations)
     -[Analysis](#Analysis)
 - [Conclusion](#Conclusion)
 
@@ -123,7 +123,7 @@ QoS Policies: Configure appropriate QoS policies and traffic prioritization rule
 Regular Monitoring: Continuously monitor network performance and QoS metrics to identify and address any issues that may arise.
 
 
-# Calculations
+# Calculations:
 
     Assumptions and Setup
     Wi-Fi Standard: 802.11e (using 802.11g for simplicity)

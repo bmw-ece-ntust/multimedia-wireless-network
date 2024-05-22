@@ -38,11 +38,11 @@ Throughput results per AC with increasing offered traffic per AC is shown below
 
 - our result
 
-![](./assets/Throughput%20vs%20Traffic.JPG)
+![](Throughput%20vs%20Traffic.JPG)
 
 - article result
   
-![](./assets/Hc%20to%203sta.JPG)
+![](Hc%20to%203sta.JPG)
 
 Throughput result for each AC as the number of stations increases are illustrated below
 

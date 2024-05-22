@@ -38,19 +38,21 @@ Throughput results per AC with increasing offered traffic per AC is shown below
 
 - our result
 
-![alt text](<Throughput vs Traffic-1.JPG>)
+![](./assets/Throughput%20vs%20Traffic.JPG)
 
-- Literature/article result
-
+- article result
+  
+![](./assets/Hc%20to%203sta.JPG)
 
 Throughput result for each AC as the number of stations increases are illustrated below
 
  - our result
 
-![alt text](<Throughput vs Traffic-1.JPG>)
+![](./assets/Increased%20Sta%20plot.JPG)
 
 - Literature/article result
-  ![alt text](<Increased Sta plot-1.JPG>)
+  
+![](./assets/increase%20sta.JPG)
 
 This, implies that there is a deviation between our simulation results and the findings in the article. This can be due to 
 

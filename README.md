@@ -41,5 +41,5 @@
     - [x] [progress report](https://docs.google.com/presentation/d/1pjzNLU0nWbQ0CEleaZlnhT6ohxdhze9C/edit#slide=id.p1)
     - [x] [Mid-term progress report](https://docs.google.com/presentation/d/1PDqU6CTMcgTw0-xedrOPRzVcWLn70OhG/edit#slide=id.p1)
   - [ ] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/assets/qoss.cc)
-  - [ ] [Numercial Results (should be identical as the paper)](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/assets/qoss.cc)
+  - [ ] [Numercial Results (should be identical as the paper)](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11215806-Desalegn-Aweke-Wako/assets/Result.md)
   - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

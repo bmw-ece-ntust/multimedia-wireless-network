@@ -153,7 +153,7 @@ In this simulation, the HC transmits four distinct streams to each of the three 
 A sharp decline in throughput is observed beyond this traffic load. 
 
 The relationship between offered traffic and throughput for each access category is visualized in the following figure
-![alt text](<Throughput vs Traffic-1.JPG>)
+![](./assets/Throughput%20vs%20Traffic.JPG)
 
 AC_VO (voice) has the highest throughput initially but drops significantly with more stations.
 AC_BK (background) has the lowest throughput but remains relatively stable.
@@ -161,7 +161,7 @@ AC_BK (background) has the lowest throughput but remains relatively stable.
 ### 4.2 Throughput as the number of stations increases
 
 The throughput trends for each AC as the number of stations increases are illustrated below
-  ![alt text](<Increased Sta plot-1.JPG>)
+  ![](./assets/Increased%20Sta%20plot.JPG)
 
   -  As the number of stations increases, the throughput decreases for all ACs.
   - The results suggests that the network prioritizes voice and video transmissions over best effort and background traffic. 

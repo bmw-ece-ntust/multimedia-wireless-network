@@ -48,11 +48,11 @@ Throughput result for each AC as the number of stations increases are illustrate
 
  - our result
 
-![](./assets/Increased%20Sta%20plot.JPG)
+![](Increased%20Sta%20plot.JPG)
 
 - Literature/article result
   
-![](./assets/increase%20sta.JPG)
+![](increase%20sta.JPG)
 
 This, implies that there is a deviation between our simulation results and the findings in the article. This can be due to 
 

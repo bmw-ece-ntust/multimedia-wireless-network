@@ -75,4 +75,4 @@
   - [x] [Study Note](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/STUDY%20NOTE%20A3.md)
   - [X] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/STUDY%20NOTE%20A3.md)
   - [X] [Numercial Results (should be identical as the paper)](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-D11202811-Hitayezu-Antoine/STUDY%20NOTE%20A3.md)
-  - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)
+  - [X] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)

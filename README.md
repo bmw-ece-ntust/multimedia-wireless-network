@@ -43,5 +43,5 @@
   - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215120-Emiliano-Nazareno-Rojas-Marcelli/assignment-3.md#flowchart)
   - [x] [Numercial Results (should be identical as the paper)](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-F11215120-Emiliano-Nazareno-Rojas-Marcelli/assignment-3.md#results)
   - [x] [Presentation](https://drive.google.com/drive/folders/18J36ojvqBtWKyfJCZzwLMPBA9oI6LlCq?usp=sharing)
-  - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)
+  - [x] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)
 

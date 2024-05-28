@@ -42,4 +42,4 @@
     - [x] [Topic & Plan Presentation](https://docs.google.com/presentation/d/1GafTfIGQ3W1LNmZncNXbkeXCsomVbeurjPtHcrA_E1A/edit?usp=sharing)  
   - [x] [Flowchart + source code for simulation and analysis](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202255-Sylvia/assignment-3.md#code-explanation)
   - [x] [Numercial Results](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/2024-M11202255-Sylvia/assignment-3.md#simulation-result)
-  - [ ] [Peer Review](https://forms.gle/yVtjYqxZyRgcjbeE8)
+  - [x] [Peer Review](https://docs.google.com/forms/d/1INLESJ2arPcu4PfRNvf19cyhkHA9xvJrWLN3j5TH1Xc/)

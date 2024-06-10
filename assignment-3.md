@@ -65,7 +65,7 @@
     
     My results:
     
-    ![image](reference)
+    ![image](result.png)
     
     Paper results:
     

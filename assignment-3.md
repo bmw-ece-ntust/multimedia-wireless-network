@@ -36,16 +36,16 @@ This NS-3 simulation code sets up a wireless network with three stations (STAs) 
 
 Key steps include:
 
-**Node Creation:** Create nodes for three STAs and one AP.
-**Channel and PHY Setup:** Configure the physical layer and channel settings.
-**WiFi and MAC Configuration:** Set up WiFi standards, QoS, and MAC parameters.
-**Network Device Installation:** Install WiFi devices on STAs and AP.
-**EDCA Configuration:** Set TXOP limits and other parameters for different ACs.
-**Mobility and Stack Installation:** Set node mobility and install the internet stack.
-**Address Assignment:** Assign IP addresses to devices.
-**Server and Client Setup:** Configure UDP servers and OnOff clients for each AC.
-**Simulation Execution:** Run the simulation for different traffic loads.
-**Throughput Calculation:** Calculate and log throughput for each AC from all stations.
+- **Node Creation:** Create nodes for three STAs and one AP.
+- **Channel and PHY Setup:** Configure the physical layer and channel settings.
+- **WiFi and MAC Configuration:** Set up WiFi standards, QoS, and MAC parameters.
+- **Network Device Installation:** Install WiFi devices on STAs and AP.
+- **EDCA Configuration:** Set TXOP limits and other parameters for different ACs.
+- **Mobility and Stack Installation:** Set node mobility and install the internet stack.
+- **Address Assignment:** Assign IP addresses to devices.
+- **Server and Client Setup:** Configure UDP servers and OnOff clients for each AC.
+- **Simulation Execution:** Run the simulation for different traffic loads.
+- **Throughput Calculation:** Calculate and log throughput for each AC from all stations.
 The throughput results are saved to an output file for analysis.
 <details><summary>Click to expand/collapse</summary>
     

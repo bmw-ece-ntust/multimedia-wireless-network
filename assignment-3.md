@@ -1,4 +1,4 @@
-# Assignment 3: IEEE 802.11e simmulation on NS-3
+
 1. **Objective**
     
     - Briefly state the purpose of the assignment.
@@ -14,7 +14,7 @@ This project is based on the study "Analysis of IEEE 802.11e for QoS Support in 
 
 One of the main enhancements introduced by IEEE 802.11e is the prioritization of data packets based on their type, known as Enhanced Distributed Channel Access (EDCA). This mechanism categorizes traffic into different Access Categories (AC) - Voice, Video, Best Effort, and Background - each with a distinct priority level based on its importance and urgency, as illustrated in the following diagram:
 
-![image](order.png)
+![[order.png]]
 
 The goal of this project is to evaluate the effectiveness of these QoS mechanisms in real-world scenarios, including network congestion, interference, and varying traffic loads. Key performance metrics such as throughput, delay, jitter, and packet loss are considered, but for simplicity, this project focuses on throughput. The simulation involves four stations connected to an Access Point, each representing a different Access Category (Voice, Video, Best Effort, and Background).
 
@@ -28,7 +28,7 @@ By following this approach, the project aims to verify the improvements brought 
         - During the simulation configuration, I establish various necessary parameters. These encompass specifying the port number, payload size, start and end times for traffic, and increment values for traffic. Furthermore, the CSV output file is opened to log the simulation results
     - **Flowchart**
         - Include a simple flowchart illustrating the process.
-        - ![image](flowchart.png)
+        - ![[flowchart.png]]
     - **Code**
 
 
@@ -36,16 +36,16 @@ This NS-3 simulation code sets up a wireless network with three stations (STAs) 
 
 Key steps include:
 
-- **Node Creation:** Create nodes for three STAs and one AP.
-- **Channel and PHY Setup:** Configure the physical layer and channel settings.
-- **WiFi and MAC Configuration:** Set up WiFi standards, QoS, and MAC parameters.
-- **Network Device Installation:** Install WiFi devices on STAs and AP.
-- **EDCA Configuration:** Set TXOP limits and other parameters for different ACs.
-- **Mobility and Stack Installation:** Set node mobility and install the internet stack.
-- **Address Assignment:** Assign IP addresses to devices.
-- **Server and Client Setup:** Configure UDP servers and OnOff clients for each AC.
-- **Simulation Execution:** Run the simulation for different traffic loads.
-- **Throughput Calculation:** Calculate and log throughput for each AC from all stations.
+**Node Creation:** Create nodes for three STAs and one AP.
+**Channel and PHY Setup:** Configure the physical layer and channel settings.
+**WiFi and MAC Configuration:** Set up WiFi standards, QoS, and MAC parameters.
+**Network Device Installation:** Install WiFi devices on STAs and AP.
+**EDCA Configuration:** Set TXOP limits and other parameters for different ACs.
+**Mobility and Stack Installation:** Set node mobility and install the internet stack.
+**Address Assignment:** Assign IP addresses to devices.
+**Server and Client Setup:** Configure UDP servers and OnOff clients for each AC.
+**Simulation Execution:** Run the simulation for different traffic loads.
+**Throughput Calculation:** Calculate and log throughput for each AC from all stations.
 The throughput results are saved to an output file for analysis.
 <details><summary>Click to expand/collapse</summary>
     
@@ -542,6 +542,12 @@ int main(int argc, char *argv[])
 
 
 4. **Results and Analysis**
+    
+    My results:
+    ![image][reference]
+    
+    Paper results:
+    ![image][paper.png]
     
     - Display the results and provide a brief analysis of what they indicate.
 5. **Conclusion**

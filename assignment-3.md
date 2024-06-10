@@ -1,36 +1,29 @@
 
-# Assignment 3: IEEE 802.11e simmulation on NS-3
-
 1. **Objective**
     
-    - Briefly state the purpose of the assignment.
-
-    Develop a network simulation to assess the performance of IEEE 802.11e using the NS-3 simulator, and compare the obtained results with those presented in the IEEE 802.11e research paper.
+    The assignment aims to create a network simulation to evaluate the performance of IEEE 802.11e using the NS-3 simulator. The results obtained from the simulation will be compared to those presented in the original IEEE 802.11e research paper to validate and analyze the findings.
 
 
 2. **Introduction**
     
-    - Provide a concise overview of the topic and its significance.
+    This project revolves around the study titled "Analysis of IEEE 802.11e for QoS Support in Wireless LANs." The primary goal is to assess the performance of the IEEE 802.11e protocol and compare it to its predecessor, IEEE 802.11. The IEEE 802.11e protocol enhances the MAC sublayer by integrating Quality of Service (QoS) functionalities into Wi-Fi networks.
 
-    This project is based on the study "Analysis of IEEE 802.11e for QoS Support in Wireless LANs," which aims to evaluate the performance of the IEEE 802.11e protocol compared to its predecessor, IEEE 802.11. The IEEE 802.11e protocol enhances the MAC sublayer by incorporating Quality of Service (QoS) functionalities into Wi-Fi networks.
-
-    One of the main enhancements introduced by IEEE 802.11e is the prioritization of data packets based on their type, known as Enhanced Distributed Channel Access (EDCA). This mechanism categorizes traffic into different Access Categories (AC) - Voice, Video, Best Effort, and Background - each with a distinct priority level based on its importance and urgency, as illustrated in the following diagram:
+    One of the key improvements introduced by IEEE 802.11e is the prioritization of data packets according to their type, known as Enhanced Distributed Channel Access (EDCA). This mechanism classifies traffic into different Access Categories (AC) - Voice, Video, Best Effort, and Background. Each category is assigned a specific priority level based on its significance and urgency, ensuring efficient data handling and better network performance.
 
     ![image](order.png)
 
 
-    The goal of this project is to evaluate the effectiveness of these QoS mechanisms in real-world scenarios, including network congestion, interference, and varying traffic loads. Key performance metrics such as throughput, delay, jitter, and packet loss are considered, but for simplicity, this project focuses on throughput. The simulation involves four stations connected to an Access Point, each representing a different Access Category (Voice, Video, Best Effort, and Background).
+    The goal of this project is to assess the effectiveness of these QoS mechanisms in real-world scenarios, such as network congestion, interference, and varying traffic loads. While various performance metrics like throughput, delay, jitter, and packet loss are crucial, this project specifically focuses on throughput. The simulation setup includes four stations connected to an Access Point, each station representing a different Access Category: Voice, Video, Best Effort, and Background.
 
-    By following this approach, the project aims to verify the improvements brought by IEEE 802.11e in practical settings, comparing the results with those presented in the reference paper.
+    Through this approach, the project aims to validate the improvements introduced by IEEE 802.11e in practical settings, comparing the results with those documented in the reference paper.
 
 3. **Simulation/Implementation**
     
     - **Configuration**
-        - Describe the simulation or network setup briefly.
     
-        - During the simulation configuration, I establish various necessary parameters. These encompass specifying the port number, payload size, start and end times for traffic, and increment values for traffic. Furthermore, the CSV output file is opened to log the simulation results
+        - During the simulation configuration, I set up various essential parameters. These include specifying the port number, payload size, start and end times for traffic, and increment values for traffic. Additionally, I open the CSV output file to log the simulation results, ensuring all data is accurately recorded for analysis.
+        
     - **Flowchart**
-        - Include a simple flowchart illustrating the process.
 
         ![image](flowchart.png)
 
@@ -51,7 +44,7 @@
     **Server and Client Setup:** Configure UDP servers and OnOff clients for each AC.
     **Simulation Execution:** Run the simulation for different traffic loads.
     **Throughput Calculation:** Calculate and log throughput for each AC from all stations.
-The throughput results are saved to an output file for analysis.
+    The throughput results are saved to an output file for analysis.
 <details><summary>Click to expand/collapse</summary>
     
 ```cpp
@@ -552,9 +545,11 @@ int main(int argc, char *argv[])
     
     
     My results:
+    
     ![image](reference)
     
     Paper results:
+    
     ![image](paper.png)
     
     
@@ -586,3 +581,5 @@ int main(int argc, char *argv[])
 - [Documentation NS-3](https://www.nsnam.org/documentation/)
 - [NS-3 Installation Guide PDF](https://www.nsnam.org/docs/installation/ns-3-installation.pdf)
 - [Udemy Course: Getting Started with NS-3](https://www.udemy.com/course/getting-started-with-network-simulator-3/?couponCode=ST8MT40924)
+
+

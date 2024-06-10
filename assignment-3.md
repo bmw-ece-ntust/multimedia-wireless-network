@@ -1,4 +1,6 @@
 
+# Assignment 3: IEEE 802.11e simmulation on NS-3
+
 1. **Objective**
     
     - Briefly state the purpose of the assignment.
@@ -545,14 +547,34 @@ int main(int argc, char *argv[])
 
 4. **Results and Analysis**
     
+    - Display the results and provide a brief analysis of what they indicate.
+    
+    
     My results:
     ![image](reference)
     
     Paper results:
     ![image](paper.png)
     
-    - Display the results and provide a brief analysis of what they indicate.
+    
+    We notice that the overall pattern is quite similar, though not identical. This discrepancy may be due to variations in the randomized results or minor differences in the code, likely stemming from my limited experience with the ns3 environment.
+
+As anticipated, the Voice Access Category receives the highest priority and remains unaffected even at higher traffic levels.
+
+The Video Access Category also has a high priority but begins to experience limitations as traffic increases.
+
+The Best Effort Access Category is the next to decline when traffic increases further. However, it closely resembles the Voice Access Category, indicating only a slight inaccuracy.
+
+The Background Access Category is the first to be restricted, giving higher priority to the other categories.
+    
 5. **Conclusion**
+
+I gained significant insights into how QoS in 802.11e effectively enhances the user experience in network connections.
+
+Additionally, I learned extensively about NS3 and its use with C++ to simulate networks, enabling quick and efficient creation of prototypes and test environments.
+
+This experiment was valuable for both understanding the subject matter and analyzing the paper to extract key details.
+    
     
     - Summarize the key findings and any challenges encountered.
 6. **References**

@@ -1,6 +1,6 @@
 
 # Assignment 3: IEEE 802.11e simmulation on NS-3
-# Assignment 3: IEEE 802.11e simmulation on NS-3
+
 1. **Objective**
     
     The assignment aims to create a network simulation to evaluate the performance of IEEE 802.11e using the NS-3 simulator. The results obtained from the simulation will be compared to those presented in the original IEEE 802.11e research paper to validate and analyze the findings.
@@ -78,9 +78,18 @@
     
     
     
-6. **References**
+5. **References**
 
 - [Analysis of IEEE 802.11e for QoS support in wireless LANs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1265851)
 - [Documentation NS-3](https://www.nsnam.org/documentation/)
 - [NS-3 Installation Guide PDF](https://www.nsnam.org/docs/installation/ns-3-installation.pdf)
 - [Udemy Course: Getting Started with NS-3](https://www.udemy.com/course/getting-started-with-network-simulator-3/?couponCode=ST8MT40924)
+
+6. **Credits**
+   
+   Special thanks to:
+   - Professor
+   - TA
+   - Classmates
+     
+This assignment wouldn't be possible without you all. The most important lesson I learned in this course is: to learn from the others! Quite important lesson, thank you all.

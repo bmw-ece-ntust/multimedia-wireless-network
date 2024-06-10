@@ -14,7 +14,7 @@ This project is based on the study "Analysis of IEEE 802.11e for QoS Support in 
 
 One of the main enhancements introduced by IEEE 802.11e is the prioritization of data packets based on their type, known as Enhanced Distributed Channel Access (EDCA). This mechanism categorizes traffic into different Access Categories (AC) - Voice, Video, Best Effort, and Background - each with a distinct priority level based on its importance and urgency, as illustrated in the following diagram:
 
-![[order.png]]
+![image](order.png)
 
 The goal of this project is to evaluate the effectiveness of these QoS mechanisms in real-world scenarios, including network congestion, interference, and varying traffic loads. Key performance metrics such as throughput, delay, jitter, and packet loss are considered, but for simplicity, this project focuses on throughput. The simulation involves four stations connected to an Access Point, each representing a different Access Category (Voice, Video, Best Effort, and Background).
 
@@ -28,7 +28,9 @@ By following this approach, the project aims to verify the improvements brought 
         - During the simulation configuration, I establish various necessary parameters. These encompass specifying the port number, payload size, start and end times for traffic, and increment values for traffic. Furthermore, the CSV output file is opened to log the simulation results
     - **Flowchart**
         - Include a simple flowchart illustrating the process.
-        - ![[flowchart.png]]
+
+![image](flowchart.png)
+
     - **Code**
 
 
@@ -544,10 +546,10 @@ int main(int argc, char *argv[])
 4. **Results and Analysis**
     
     My results:
-    ![image][reference]
+    ![image](reference)
     
     Paper results:
-    ![image][paper.png]
+    ![image](paper.png)
     
     - Display the results and provide a brief analysis of what they indicate.
 5. **Conclusion**

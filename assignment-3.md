@@ -580,5 +580,9 @@ int main(int argc, char *argv[])
     
     
 6. **References**
-    
     - List any sources or references used.
+
+- [Analysis of IEEE 802.11e for QoS support in wireless LANs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1265851)
+- [Documentation NS-3](https://www.nsnam.org/documentation/)
+- [NS-3 Installation Guide PDF](https://www.nsnam.org/docs/installation/ns-3-installation.pdf)
+- [Udemy Course: Getting Started with NS-3](https://www.udemy.com/course/getting-started-with-network-simulator-3/?couponCode=ST8MT40924)

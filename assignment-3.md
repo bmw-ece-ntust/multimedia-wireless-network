@@ -5,22 +5,23 @@
     
     - Briefly state the purpose of the assignment.
 
-Develop a network simulation to assess the performance of IEEE 802.11e using the NS-3 simulator, and compare the obtained results with those presented in the IEEE 802.11e research paper.
+    Develop a network simulation to assess the performance of IEEE 802.11e using the NS-3 simulator, and compare the obtained results with those presented in the IEEE 802.11e research paper.
 
 
 2. **Introduction**
     
     - Provide a concise overview of the topic and its significance.
 
-This project is based on the study "Analysis of IEEE 802.11e for QoS Support in Wireless LANs," which aims to evaluate the performance of the IEEE 802.11e protocol compared to its predecessor, IEEE 802.11. The IEEE 802.11e protocol enhances the MAC sublayer by incorporating Quality of Service (QoS) functionalities into Wi-Fi networks.
+    This project is based on the study "Analysis of IEEE 802.11e for QoS Support in Wireless LANs," which aims to evaluate the performance of the IEEE 802.11e protocol compared to its predecessor, IEEE 802.11. The IEEE 802.11e protocol enhances the MAC sublayer by incorporating Quality of Service (QoS) functionalities into Wi-Fi networks.
 
-One of the main enhancements introduced by IEEE 802.11e is the prioritization of data packets based on their type, known as Enhanced Distributed Channel Access (EDCA). This mechanism categorizes traffic into different Access Categories (AC) - Voice, Video, Best Effort, and Background - each with a distinct priority level based on its importance and urgency, as illustrated in the following diagram:
+    One of the main enhancements introduced by IEEE 802.11e is the prioritization of data packets based on their type, known as Enhanced Distributed Channel Access (EDCA). This mechanism categorizes traffic into different Access Categories (AC) - Voice, Video, Best Effort, and Background - each with a distinct priority level based on its importance and urgency, as illustrated in the following diagram:
 
-![image](order.png)
+    ![image](order.png)
 
-The goal of this project is to evaluate the effectiveness of these QoS mechanisms in real-world scenarios, including network congestion, interference, and varying traffic loads. Key performance metrics such as throughput, delay, jitter, and packet loss are considered, but for simplicity, this project focuses on throughput. The simulation involves four stations connected to an Access Point, each representing a different Access Category (Voice, Video, Best Effort, and Background).
 
-By following this approach, the project aims to verify the improvements brought by IEEE 802.11e in practical settings, comparing the results with those presented in the reference paper.
+    The goal of this project is to evaluate the effectiveness of these QoS mechanisms in real-world scenarios, including network congestion, interference, and varying traffic loads. Key performance metrics such as throughput, delay, jitter, and packet loss are considered, but for simplicity, this project focuses on throughput. The simulation involves four stations connected to an Access Point, each representing a different Access Category (Voice, Video, Best Effort, and Background).
+
+    By following this approach, the project aims to verify the improvements brought by IEEE 802.11e in practical settings, comparing the results with those presented in the reference paper.
 
 3. **Simulation/Implementation**
     
@@ -31,25 +32,25 @@ By following this approach, the project aims to verify the improvements brought 
     - **Flowchart**
         - Include a simple flowchart illustrating the process.
 
-![image](flowchart.png)
+        ![image](flowchart.png)
 
     - **Code**
 
 
-This NS-3 simulation code sets up a wireless network with three stations (STAs) and one access point (AP) using the IEEE 802.11e standard. The main purpose is to measure throughput across different Access Categories (ACs) - Video (VI), Voice (VO), Best Effort (BE), and Background (BK) - under varying offered traffic loads.
+    This NS-3 simulation code sets up a wireless network with three stations (STAs) and one access point (AP) using the IEEE 802.11e standard. The main purpose is to measure throughput across different Access Categories (ACs) - Video (VI), Voice (VO), Best Effort (BE), and Background (BK) - under varying offered traffic loads.
 
-Key steps include:
+    Key steps include:
 
-**Node Creation:** Create nodes for three STAs and one AP.
-**Channel and PHY Setup:** Configure the physical layer and channel settings.
-**WiFi and MAC Configuration:** Set up WiFi standards, QoS, and MAC parameters.
-**Network Device Installation:** Install WiFi devices on STAs and AP.
-**EDCA Configuration:** Set TXOP limits and other parameters for different ACs.
-**Mobility and Stack Installation:** Set node mobility and install the internet stack.
-**Address Assignment:** Assign IP addresses to devices.
-**Server and Client Setup:** Configure UDP servers and OnOff clients for each AC.
-**Simulation Execution:** Run the simulation for different traffic loads.
-**Throughput Calculation:** Calculate and log throughput for each AC from all stations.
+    **Node Creation:** Create nodes for three STAs and one AP.
+    **Channel and PHY Setup:** Configure the physical layer and channel settings.
+    **WiFi and MAC Configuration:** Set up WiFi standards, QoS, and MAC parameters.
+    **Network Device Installation:** Install WiFi devices on STAs and AP.
+    **EDCA Configuration:** Set TXOP limits and other parameters for different ACs.
+    **Mobility and Stack Installation:** Set node mobility and install the internet stack.
+    **Address Assignment:** Assign IP addresses to devices.
+    **Server and Client Setup:** Configure UDP servers and OnOff clients for each AC.
+    **Simulation Execution:** Run the simulation for different traffic loads.
+    **Throughput Calculation:** Calculate and log throughput for each AC from all stations.
 The throughput results are saved to an output file for analysis.
 <details><summary>Click to expand/collapse</summary>
     
@@ -559,24 +560,25 @@ int main(int argc, char *argv[])
     
     We notice that the overall pattern is quite similar, though not identical. This discrepancy may be due to variations in the randomized results or minor differences in the code, likely stemming from my limited experience with the ns3 environment.
 
-As anticipated, the Voice Access Category receives the highest priority and remains unaffected even at higher traffic levels.
+    As anticipated, the Voice Access Category receives the highest priority and remains unaffected even at higher traffic levels.
 
-The Video Access Category also has a high priority but begins to experience limitations as traffic increases.
+    The Video Access Category also has a high priority but begins to experience limitations as traffic increases.
 
-The Best Effort Access Category is the next to decline when traffic increases further. However, it closely resembles the Voice Access Category, indicating only a slight inaccuracy.
+    The Best Effort Access Category is the next to decline when traffic increases further. However, it closely resembles the Voice Access Category, indicating only a slight inaccuracy.
 
-The Background Access Category is the first to be restricted, giving higher priority to the other categories.
+    The Background Access Category is the first to be restricted, giving higher priority to the other categories.
     
 5. **Conclusion**
-
-I gained significant insights into how QoS in 802.11e effectively enhances the user experience in network connections.
-
-Additionally, I learned extensively about NS3 and its use with C++ to simulate networks, enabling quick and efficient creation of prototypes and test environments.
-
-This experiment was valuable for both understanding the subject matter and analyzing the paper to extract key details.
+    - Summarize the key findings and any challenges encountered
     
     
-    - Summarize the key findings and any challenges encountered.
+    I gained significant insights into how QoS in 802.11e effectively enhances the user experience in network connections.
+
+    Additionally, I learned extensively about NS3 and its use with C++ to simulate networks, enabling quick and efficient creation of prototypes and test environments.
+
+    This experiment was valuable for both understanding the subject matter and analyzing the paper to extract key details.
+    
+    
 6. **References**
     
     - List any sources or references used.

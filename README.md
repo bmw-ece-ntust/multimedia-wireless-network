@@ -239,9 +239,9 @@ Ray -->
     - Oral presentation: (**2 pt**)
     - Peer Review Form: (**2 pt**)
     - Top 3 Students: (**Up to 5 pt**):
-      - Student 1 (5 pt): [Name]
-      - Student 2 (3 pt): [Name]
-      - Student 3 (1 pt): [Name]
+      - Student 1 (5 pt): [F11215011 - Eugene Malkov]
+      - Student 2 (3 pt): [F11215120 - Emiliano Nazareno Rojas Marcelli]
+      - Student 3 (1 pt): [F11215110 - Victor Cano] and [D11215805 - Dawit Hadush Hailu]
 
 <!-- # 3. Paper Studies
 

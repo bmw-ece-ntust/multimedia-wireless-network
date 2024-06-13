@@ -238,10 +238,14 @@ Ray -->
       - Numercial Results (should be identical as the paper): (**2 pt**)
     - Oral presentation: (**2 pt**)
     - Peer Review Form: (**2 pt**)
-    - Top 3 Students: (**Up to 5 pt**):
-      - Student 1 (5 pt): [Name]
-      - Student 2 (3 pt): [Name]
-      - Student 3 (1 pt): [Name]
+    - [Top 3 Students](https://docs.google.com/spreadsheets/d/e/2PACX-1vTngcRvJTGL1bm4XyI2ih12_liBFdB1jmH7fCLavH0RTbAVJnEvBrjbC7QU7HT0xGoOat3McUizVofn/pubhtml?gid=1921298156&single=true): (**Up to 5 pt**):
+      - Student 1 (5 pt): 
+        - [F11215011 - Eugene Malkov](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/a53b61e61833adbf4705914a15d64ed8ac0a94f3/assignment-3.md)
+      - Student 2 (3 pt):
+        - [F11215120 - Emiliano Nazareno Rojas Marcelli](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/95137e28e3f7b87e9fd86ee2e950cb9f759caf7d/assignment-3.md)
+      - Student 3 (1 pt):
+        - [D11215805 - Dawit Hadush Hailu](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/a8dfe62f6b7ee4634d831202800c37f21c2ccaf8/Study%20_Note%20_A3.md)
+        - [F11215110 - Victor Cano](https://github.com/bmw-ece-ntust/multimedia-wireless-network/blob/3d9359e4942562afc6bfb8d299a6514daa06c594/StudyNotes/Assignment%203%20-%20Study%20Notes.md)
 
 <!-- # 3. Paper Studies
 

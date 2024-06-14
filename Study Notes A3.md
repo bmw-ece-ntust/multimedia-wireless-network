@@ -1,13 +1,16 @@
-# <center> Assignment 3 </center>
+# Assigment 3 - IEEE 802.11e simmulation on NS-3
+- **Name:** Cecilia Ruiz Diaz
+- **ID:** B10902106
 
 1. [Purpose](#Purpose)
 2. [Paper analysis](#Paper-analysis)
 3. [Simulation](#Simulation)
+   -[Network Topology](#Network-Topology
 
 #  Purpose
 Learn to identify the problem and verify the concepts using simulation and analytical results.
 
-#Paper Analysis
+# Paper Analysis
 The study examines the IEEE 802.11e standard, which improves the traditional 802.11 MAC protocol to enable quality of service (QoS) in wireless LANs. 
 The primary drawbacks of QoS support in legacy 802.11 are examined, including a lack of service distinction and unexpected delays.
 The foundation of 802.11e is the Hybrid Coordination Function (HCF), which defines two modes of operation.
@@ -19,13 +22,15 @@ Key EDCA features like as virtual collisions, TXOP continuations, and AC-specifi
 The research assesses 802.11e's performance using simulations for a variety of situations, including isolated QBSSs, increasing the number of contesting stations, prioritized HC access, and overlapping QBSSs. The results reveal that EDCA offers varied throughputs, but HCCA can limit delays for the highest priority traffic. However, the lack of coordination across overlapping QBSSs is identified as an outstanding issue.
 Other advancements, such as block acknowledgments for efficiency and the Direct Link Protocol for direct station-to-station transfers, are briefly discussed.
 
-#Simulation
+# Simulation
 
 My decision to work with C++ for ns-3 simulations rather than Python was purposeful, motivated by my prior experience with C++. This option enables me to use my knowledge and expertise with C++'s grammar, structure, and performance characteristics to the ns-3 framework. 
 
+## Network Topology
+
 The network topology is detailed below
 <p align="center">
-<img src=/assets/assigment 3 (2).jpg>
+<img src=/assets/assigment-3-1.jpg>
 
 Example of CSV file generated:
 

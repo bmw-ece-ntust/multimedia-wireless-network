@@ -202,7 +202,7 @@ My code use the following process to set it
             serverApp[j].Stop(Seconds(10.0)); 
         }
 
-        // Initialize the InetSocketAddress array with valid IPv4 addresses and ports
+
         InetSocketAddress dest[4] = {
             InetSocketAddress(staInterface[0].GetAddress(0), port), 
             InetSocketAddress(staInterface[1].GetAddress(0), port), 
@@ -210,7 +210,7 @@ My code use the following process to set it
             InetSocketAddress(staInterface[3].GetAddress(0), port)  
         };
 
-        // Creating the client applications and setting the TOS
+
         ApplicationContainer clientApp[4];
         for (int j = 0; j < 4; j++) {
             OnOffHelper client("ns3::UdpSocketFactory", dest[j]);

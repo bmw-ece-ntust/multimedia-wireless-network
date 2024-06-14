@@ -288,3 +288,4 @@ Result of the CSV file created:
 | 28                     | 2.82667                 | 2.84133                 | 2.824                   | 1.30267                 |
 | 31                     | 2.44133                 | 2.46267                 | 2.476                   | 2.44933                 |
 
+Even though I created a CSV file, I was unable to plot it due to my lack of familiarity with Python. Upon comparing my CSV file with those of other classmates, I noticed several mistakes in mine.
